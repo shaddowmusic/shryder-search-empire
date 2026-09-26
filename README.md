@@ -1,10 +1,12 @@
-# SHRYDER Search Empire — BUILD #001
+# SHRYDER Search Empire
 
-Static, GitHub Pages-compatible source for the first SHRYDER-owned search asset.
+Static, GitHub Pages-compatible source for SHRYDER-owned search and listening assets.
 
-## Primary route
+## Live routes
 
 `/bitcoin-music/bitcoin-focus-music-late-night-trading/`
+
+`/crypto-music/crypto-trading-music/`
 
 ## Verified live media
 
@@ -13,6 +15,14 @@ Static, GitHub Pages-compatible source for the first SHRYDER-owned search asset.
 - Runtime: `1:03:03` (`PT1H3M3S`)
 - Channel: `Shaddowmusic`
 - Chapters: 17, copied from the live description on 26 September 2026
+
+BUILD #002:
+
+- YouTube: https://www.youtube.com/watch?v=WGp1xire3sc
+- Title: `80+ Minutes of Deep Electronic Music for Crypto Traders`
+- Runtime displayed by the player: `1:22:11`
+- Channel: `Shaddowmusic`
+- Chapters: 20, copied from the live description on 26 September 2026
 
 ## Deployment
 
