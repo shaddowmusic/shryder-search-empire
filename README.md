@@ -8,6 +8,8 @@ Static, GitHub Pages-compatible source for SHRYDER-owned search and listening as
 
 `/crypto-music/crypto-trading-music/`
 
+`/focus-music/focus-music-for-work-trading/`
+
 ## Verified live media
 
 - YouTube: https://www.youtube.com/watch?v=xzPycg1Q6gw
@@ -23,6 +25,14 @@ BUILD #002:
 - Runtime displayed by the player: `1:22:11`
 - Channel: `Shaddowmusic`
 - Chapters: 20, copied from the live description on 26 September 2026
+
+BUILD #003:
+
+- YouTube: https://www.youtube.com/watch?v=g4mXXUefOMw
+- Title: `Focus Music for Work & Trading | 1 Hour of Deep Electronic Music`
+- Runtime displayed by the player: `1:04:21`
+- Channel: `Shaddowmusic`
+- Chapters: 22, copied from the live description on 28 September 2026
 
 ## Deployment
 
