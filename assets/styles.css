@@ -123,6 +123,12 @@ footer .shell { display: flex; justify-content: space-between; gap: 1rem; flex-w
 .route-step p { margin: 0; color: var(--muted); }
 .checklist { columns: 2; column-gap: 2.5rem; margin: 1.4rem 0 0; padding-left: 1.2rem; color: #c9c6be; }
 .checklist li { break-inside: avoid; margin-bottom: .65rem; }
+.verified { display: inline-flex; align-items: center; gap: .4rem; margin-bottom: .5rem; color: #8fd9b6; font-size: .76rem; font-weight: 850; letter-spacing: .12em; text-transform: uppercase; }
+.verified::before { content: "✓"; display: inline-grid; place-items: center; width: 1.25rem; height: 1.25rem; border: 1px solid currentColor; border-radius: 50%; }
+.schedule-card { padding: clamp(1.4rem, 4vw, 2.2rem); border: 1px solid var(--line); background: linear-gradient(140deg, rgba(247,147,26,.12), rgba(0,184,217,.08)); }
+.schedule-card h3 { margin: .4rem 0 .8rem; font-size: clamp(1.65rem, 3vw, 2.35rem); }
+.schedule-line { display: flex; flex-wrap: wrap; gap: .55rem 1rem; margin: 1rem 0 0; color: #d9d5cb; }
+.schedule-line strong { color: var(--gold); }
 @media (max-width: 760px) {
   .nav { display: none; }
   .grid { grid-template-columns: 1fr; }
