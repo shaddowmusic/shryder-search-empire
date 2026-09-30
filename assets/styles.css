@@ -85,6 +85,29 @@ footer .shell { display: flex; justify-content: space-between; gap: 1rem; flex-w
 .experience-card { display: block; margin-top: 2rem; padding: 1.4rem; border: 1px solid var(--line); background: var(--panel); text-decoration: none; }
 .experience-grid .experience-card { margin-top: 0; }
 .experience-card:hover { border-color: var(--gold); }
+.city-hero h1 { max-width: 14ch; }
+.city-hero { position: relative; overflow: hidden; }
+.city-hero::after {
+  content: "PATTAYA";
+  position: absolute;
+  right: 0;
+  bottom: .1rem;
+  z-index: -1;
+  color: rgba(255,255,255,.025);
+  font: 900 clamp(4rem, 14vw, 11rem)/.8 Inter, ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: -.06em;
+}
+.sound-section { background: linear-gradient(135deg, rgba(0,184,217,.09), rgba(247,147,26,.1)); }
+.sound-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(240px, 390px); gap: clamp(2rem, 7vw, 6rem); align-items: center; }
+.short-card { width: min(100%, 330px); justify-self: center; aspect-ratio: 9 / 16; border: 1px solid var(--line); background: #000; box-shadow: 0 30px 80px rgba(0,0,0,.5); }
+.short-card iframe { width: 100%; height: 100%; border: 0; display: block; }
+.guide-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: .8rem; margin-top: 2rem; }
+.guide-card, .territory-card { padding: 1.3rem; border: 1px solid rgba(255,255,255,.09); background: var(--panel); }
+.guide-card h3, .territory-card h3 { margin: .7rem 0; }
+.guide-card p, .territory-card p { margin-bottom: 0; color: var(--muted); }
+.card-number { color: var(--gold); font-size: .78rem; font-weight: 850; letter-spacing: .15em; }
+.territory-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-top: 2rem; }
+.territory-card .eyebrow { margin-bottom: .6rem; }
 @media (max-width: 760px) {
   .nav { display: none; }
   .grid { grid-template-columns: 1fr; }
@@ -92,6 +115,11 @@ footer .shell { display: flex; justify-content: space-between; gap: 1rem; flex-w
   .experience-grid { grid-template-columns: 1fr; }
   .video-meta { align-items: flex-start; flex-direction: column; }
   .actions .button { width: 100%; }
+  .sound-grid { grid-template-columns: 1fr; }
+  .guide-grid, .territory-grid { grid-template-columns: 1fr; }
+}
+@media (min-width: 761px) and (max-width: 1080px) {
+  .guide-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
