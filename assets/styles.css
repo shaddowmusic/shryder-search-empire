@@ -108,6 +108,21 @@ footer .shell { display: flex; justify-content: space-between; gap: 1rem; flex-w
 .card-number { color: var(--gold); font-size: .78rem; font-weight: 850; letter-spacing: .15em; }
 .territory-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-top: 2rem; }
 .territory-card .eyebrow { margin-bottom: .6rem; }
+.territory-link { display: block; color: inherit; text-decoration: none; }
+.territory-link:hover, .territory-link:focus-visible { border-color: var(--gold); }
+.zone-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 2rem; }
+.zone-card { padding: 1.4rem; border: 1px solid rgba(255,255,255,.09); background: var(--panel); }
+.zone-card h3 { margin: .45rem 0 .8rem; }
+.zone-card p { color: var(--muted); }
+.zone-card ul { margin: .8rem 0 0; padding-left: 1.2rem; color: #c9c6be; }
+.zone-card li + li { margin-top: .35rem; }
+.route { counter-reset: route; display: grid; gap: .8rem; margin-top: 1.5rem; max-width: 820px; }
+.route-step { position: relative; padding: 1.1rem 1.2rem 1.1rem 4rem; border: 1px solid rgba(255,255,255,.09); background: var(--panel); }
+.route-step::before { counter-increment: route; content: counter(route, decimal-leading-zero); position: absolute; left: 1.2rem; top: 1.05rem; color: var(--gold); font-weight: 850; letter-spacing: .08em; }
+.route-step h3 { margin: 0 0 .35rem; }
+.route-step p { margin: 0; color: var(--muted); }
+.checklist { columns: 2; column-gap: 2.5rem; margin: 1.4rem 0 0; padding-left: 1.2rem; color: #c9c6be; }
+.checklist li { break-inside: avoid; margin-bottom: .65rem; }
 @media (max-width: 760px) {
   .nav { display: none; }
   .grid { grid-template-columns: 1fr; }
@@ -116,7 +131,8 @@ footer .shell { display: flex; justify-content: space-between; gap: 1rem; flex-w
   .video-meta { align-items: flex-start; flex-direction: column; }
   .actions .button { width: 100%; }
   .sound-grid { grid-template-columns: 1fr; }
-  .guide-grid, .territory-grid { grid-template-columns: 1fr; }
+  .guide-grid, .territory-grid, .zone-grid { grid-template-columns: 1fr; }
+  .checklist { columns: 1; }
 }
 @media (min-width: 761px) and (max-width: 1080px) {
   .guide-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
