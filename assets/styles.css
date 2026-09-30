@@ -129,6 +129,11 @@ footer .shell { display: flex; justify-content: space-between; gap: 1rem; flex-w
 .schedule-card h3 { margin: .4rem 0 .8rem; font-size: clamp(1.65rem, 3vw, 2.35rem); }
 .schedule-line { display: flex; flex-wrap: wrap; gap: .55rem 1rem; margin: 1rem 0 0; color: #d9d5cb; }
 .schedule-line strong { color: var(--gold); }
+.type-pill { display: inline-flex; margin: 0 0 .65rem; padding: .3rem .55rem; border: 1px solid rgba(255,255,255,.15); color: var(--gold); font-size: .72rem; font-weight: 850; letter-spacing: .11em; text-transform: uppercase; }
+.facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .75rem; margin: 1.5rem 0 0; }
+.fact { padding: 1rem; border-left: 2px solid var(--gold); background: rgba(255,255,255,.035); }
+.fact strong { display: block; margin-bottom: .25rem; color: var(--ink); }
+.fact span { color: var(--muted); font-size: .92rem; }
 @media (max-width: 760px) {
   .nav { display: none; }
   .grid { grid-template-columns: 1fr; }
@@ -139,6 +144,7 @@ footer .shell { display: flex; justify-content: space-between; gap: 1rem; flex-w
   .sound-grid { grid-template-columns: 1fr; }
   .guide-grid, .territory-grid, .zone-grid { grid-template-columns: 1fr; }
   .checklist { columns: 1; }
+  .facts { grid-template-columns: 1fr; }
 }
 @media (min-width: 761px) and (max-width: 1080px) {
   .guide-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
