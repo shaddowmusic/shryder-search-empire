@@ -58,13 +58,31 @@
         "evidence": "Current web search surfaced official luxury hotels and public discussions comparing luxury properties and beach access. Qualitative intent only; no search volume claimed.",
         "distinctiveness": "Named-property comparison and booking-product checks; existing where-to-stay page compares districts."
       },
-      "commit_sha": null,
-      "status": "deployment_pending",
+      "commit_sha": "2a064fdbecc144c0b9524ba3802f9d6d5682172a",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py",
         "editorial": "Full HTML and operator facts reviewed; no rates, performance schedules, firsthand reviews or investment claims.",
-        "responsive": "Existing responsive CSS retained; scoped scrollable comparison table. Visual preview pending.",
-        "music": "Availability and official channel observed in browser; no invented Spotify link."
+        "responsive": "Full HTML and responsive CSS reviewed; mobile uses stacked grids and locally scrollable table. Live desktop hero visually reviewed with no document overflow. No emulated mobile screenshot.",
+        "music": "Availability and official channel observed in browser; no invented Spotify link.",
+        "visual_preview": "Live desktop screenshot reviewed after successful Pages deployment; local prepublication preview unavailable."
+      },
+      "deployment": {
+        "workflow_run_id": 36801871823,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/36801871823",
+        "status": "completed",
+        "initial_public_check": "404 while Pages deployment was still in progress",
+        "conclusion": "success",
+        "verified_at": "2026-10-01T01:37:20.038728+00:00",
+        "public_checks": {
+          "title": "Pattaya Luxury Hotels: Compare 4 Distinct Stays | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/pattaya/luxury-hotels/",
+          "property_marker": true,
+          "comparison_rows": 4,
+          "music_embed": "https://www.youtube-nocookie.com/embed/CtLJ4Yh27bI?rel=0",
+          "embed_player": "Loaded title and Shaddowmusic artist channel in public-page iframe",
+          "direct_telegram_ctas": 2
+        }
       }
     }
   ]
