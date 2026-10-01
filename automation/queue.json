@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "updated": "2026-10-01",
+  "properties": [
+    {
+      "path": "cities/pattaya/beach-clubs/index.html",
+      "status": "published",
+      "seeded_from": "repository main, 2026-10-01"
+    },
+    {
+      "path": "cities/pattaya/bira-circuit/index.html",
+      "status": "published",
+      "seeded_from": "repository main, 2026-10-01"
+    },
+    {
+      "path": "cities/pattaya/car-shows-meets/index.html",
+      "status": "published",
+      "seeded_from": "repository main, 2026-10-01"
+    },
+    {
+      "path": "cities/pattaya/index.html",
+      "status": "published",
+      "seeded_from": "repository main, 2026-10-01"
+    },
+    {
+      "path": "cities/pattaya/live-music-jazz/index.html",
+      "status": "published",
+      "seeded_from": "repository main, 2026-10-01"
+    },
+    {
+      "path": "cities/pattaya/nightlife/index.html",
+      "status": "published",
+      "seeded_from": "repository main, 2026-10-01"
+    },
+    {
+      "path": "cities/pattaya/rooftop-bars/index.html",
+      "status": "published",
+      "seeded_from": "repository main, 2026-10-01"
+    },
+    {
+      "path": "cities/pattaya/things-to-do/index.html",
+      "status": "published",
+      "seeded_from": "repository main, 2026-10-01"
+    },
+    {
+      "path": "cities/pattaya/walking-street/index.html",
+      "status": "published",
+      "seeded_from": "repository main, 2026-10-01"
+    },
+    {
+      "path": "cities/pattaya/where-to-stay/index.html",
+      "status": "published",
+      "seeded_from": "repository main, 2026-10-01"
+    },
+    {
+      "property_number": 11,
+      "path": "cities/pattaya/luxury-hotels/index.html",
+      "city": "Pattaya",
+      "target_query": "pattaya luxury hotels",
+      "status": "queued"
+    },
+    {
+      "property_number": 12,
+      "path": "cities/pattaya/restaurants-sea-view/index.html",
+      "city": "Pattaya",
+      "target_query": "pattaya restaurants with a view",
+      "status": "queued"
+    },
+    {
+      "property_number": 13,
+      "path": "cities/pattaya/jomtien-nightlife/index.html",
+      "city": "Pattaya",
+      "target_query": "jomtien nightlife",
+      "status": "queued"
+    },
+    {
+      "property_number": 14,
+      "path": "cities/pattaya/koh-larn-day-trip/index.html",
+      "city": "Pattaya",
+      "target_query": "koh larn day trip from pattaya",
+      "status": "queued"
+    },
+    {
+      "property_number": 15,
+      "path": "cities/pattaya/events/index.html",
+      "city": "Pattaya",
+      "target_query": "pattaya events",
+      "status": "queued"
+    },
+    {
+      "property_number": 16,
+      "path": "cities/pattaya/night-markets/index.html",
+      "city": "Pattaya",
+      "target_query": "pattaya night markets",
+      "status": "queued"
+    },
+    {
+      "property_number": 17,
+      "path": "cities/pattaya/pattaya-music/index.html",
+      "city": "Pattaya",
+      "target_query": "pattaya shaddow",
+      "status": "queued"
+    },
+    {
+      "property_number": 18,
+      "path": "cities/pattaya/jdm-car-culture/index.html",
+      "city": "Pattaya",
+      "target_query": "pattaya jdm car culture",
+      "status": "conditional",
+      "gate": "Publish only with original coverage, real organizer references and distinct query evidence; otherwise defer and begin Bangkok."
+    }
+  ],
+  "next_cities": [
+    "Bangkok",
+    "Tokyo",
+    "Seoul",
+    "Dubai",
+    "Lisbon",
+    "Rio de Janeiro",
+    "Miami",
+    "Ibiza"
+  ],
+  "city_selection": "Finish evidence-qualified Pattaya queue, then Bangkok. Research distinct city intent before extending other lifestyle cities; never merely replace city names."
+}

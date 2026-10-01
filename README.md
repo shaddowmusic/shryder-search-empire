@@ -47,3 +47,9 @@ Outbound links carry source/campaign parameters where the destination supports t
 ## Local preview
 
 Serve this folder with any static HTTP server. No build step or runtime dependency is required.
+
+## Autonomous city-property production
+
+The SHRYDER Digital Real Estate Factory is governed by [automation/FACTORY.md](automation/FACTORY.md). Its durable queue and execution log are in `automation/queue.json` and `automation/runs.json`. One Work automation performs research, validation and authorized publication through the connected GitHub app; existing GitHub Pages publishes main. No paid generation API or extra hosting is configured.
+
+Run `python3 scripts/validate_factory.py` in a complete checkout before committing city guides. Editorial research and public deployment verification are additional required checks.
