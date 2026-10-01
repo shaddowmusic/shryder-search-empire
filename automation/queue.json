@@ -57,7 +57,7 @@
       "path": "cities/pattaya/luxury-hotels/index.html",
       "city": "Pattaya",
       "target_query": "pattaya luxury hotels",
-      "status": "queued"
+      "status": "deployment_pending"
     },
     {
       "property_number": 12,

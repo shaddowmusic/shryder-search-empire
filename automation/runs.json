@@ -1,4 +1,71 @@
 {
   "version": 1,
-  "runs": []
+  "runs": [
+    {
+      "date_bangkok": "2026-10-01",
+      "city": "Pattaya",
+      "property_number": 11,
+      "target_query": "pattaya luxury hotels",
+      "path": "cities/pattaya/luxury-hotels/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/pattaya/luxury-hotels/",
+      "research_sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/bkkhphi-hilton-pattaya/",
+          "checked_at": "2026-10-01",
+          "supported_facts": [
+            "Central Pattaya shopping-center location",
+            "16th-floor infinity pool",
+            "Spa and rooftop bar"
+          ]
+        },
+        {
+          "url": "https://www.pattaya.intercontinental.com/",
+          "checked_at": "2026-10-01",
+          "supported_facts": [
+            "Phra Tamnak headland setting",
+            "Private sandy beach",
+            "Three lagoon-style pools and Amburaya Spa"
+          ]
+        },
+        {
+          "url": "https://www.royalcliff.com/royal-cliff-beach-terrace/",
+          "checked_at": "2026-10-01",
+          "supported_facts": [
+            "Low-rise cliffside beachfront property",
+            "Honeymoon Deluxe and two-bedroom Family Suite room categories"
+          ]
+        },
+        {
+          "url": "https://capedarapattaya.com/",
+          "checked_at": "2026-10-01",
+          "supported_facts": [
+            "North Pattaya bay at Naklua Soi 20",
+            "Dara Beach setting",
+            "Dara Private Pool Suite and family suite categories"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CtLJ4Yh27bI",
+          "checked_at": "2026-10-01",
+          "supported_facts": [
+            "Browser displayed Pattaya \u2014 Every kingdom needs its own sound. | Shaddow #Shorts",
+            "Official Shaddowmusic artist channel UC4gbhhNd40V3hykvWyGR3Mw",
+            "24-second player available"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Current web search surfaced official luxury hotels and public discussions comparing luxury properties and beach access. Qualitative intent only; no search volume claimed.",
+        "distinctiveness": "Named-property comparison and booking-product checks; existing where-to-stay page compares districts."
+      },
+      "commit_sha": null,
+      "status": "deployment_pending",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py",
+        "editorial": "Full HTML and operator facts reviewed; no rates, performance schedules, firsthand reviews or investment claims.",
+        "responsive": "Existing responsive CSS retained; scoped scrollable comparison table. Visual preview pending.",
+        "music": "Availability and official channel observed in browser; no invented Spotify link."
+      }
+    }
+  ]
 }
