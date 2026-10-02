@@ -123,14 +123,30 @@
         "evidence": "Current search results surfaced an exact restaurants-with-a-view result set and official operator pages for high-floor, beachside, ocean-view and rooftop dining. Qualitative intent only; no search volume claimed.",
         "distinctiveness": "Compares full restaurants by view type, meal format and area; the existing rooftop-bars guide focuses primarily on elevated drinks, rooftops and sunset planning."
       },
-      "commit_sha": null,
-      "status": "validated",
+      "commit_sha": "b901c2cb5306c86ef3f7d8c011c753095c6d1b38",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py",
         "editorial": "Full candidate HTML reviewed against operator facts; no rankings, prices, live hours, firsthand meals or partnership claims.",
         "responsive": "Full candidate HTML and responsive CSS reviewed; mobile uses stacked grids and a locally scrollable comparison table.",
         "music": "Established Pattaya embed retained; YouTube embed endpoint returned HTTP 200 on 2 October 2026.",
-        "visual_preview": "Local browser renderer unavailable; full HTML and established responsive CSS reviewed before publication. Live visual check required after deployment."
+        "visual_preview": "Live desktop page visually reviewed after deployment; hero, navigation, typography and CTAs rendered without visible overflow. Responsive CSS uses established mobile stacking and table scrolling."
+      },
+      "deployment": {
+        "workflow_run_id": 36953809024,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/36953809024",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-10-02T02:03:30Z",
+        "public_checks": {
+          "http_status": 200,
+          "title": "Pattaya Restaurants With a View: 4 Distinct Settings | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/pattaya/restaurants-sea-view/",
+          "property_marker": true,
+          "comparison_rows": 4,
+          "music_embed": "https://www.youtube-nocookie.com/embed/CtLJ4Yh27bI?rel=0",
+          "direct_telegram_ctas": 2
+        }
       }
     }
   ]

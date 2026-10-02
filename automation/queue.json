@@ -64,7 +64,7 @@
       "path": "cities/pattaya/restaurants-sea-view/index.html",
       "city": "Pattaya",
       "target_query": "pattaya restaurants with a view",
-      "status": "validated"
+      "status": "deployed"
     },
     {
       "property_number": 13,
