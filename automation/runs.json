@@ -84,6 +84,54 @@
           "direct_telegram_ctas": 2
         }
       }
+    },
+    {
+      "date_bangkok": "2026-10-02",
+      "city": "Pattaya",
+      "property_number": 12,
+      "target_query": "pattaya restaurants with a view",
+      "path": "cities/pattaya/restaurants-sea-view/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/pattaya/restaurants-sea-view/",
+      "research_sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/bkkhphi-hilton-pattaya/dining/",
+          "checked_at": "2026-10-02",
+          "supported_facts": ["Edge is on Level 14", "Panoramic Pattaya Bay views", "Indoor and outdoor seating", "Themed buffet, brunch and seafood dinner formats"]
+        },
+        {
+          "url": "https://www.royalcliff.com/restaurant/breezeo/",
+          "checked_at": "2026-10-02",
+          "supported_facts": ["Beachside dining with beachfront views", "Thai and international dishes", "Seafood barbecue, prime cuts and cocktails", "Located at Royal Cliff Beach Hotel and Royal Cliff Beach Terrace"]
+        },
+        {
+          "url": "https://www.marriott.com/en-us/hotels/pyxbr-renaissance-pattaya-resort-and-spa/dining/",
+          "checked_at": "2026-10-02",
+          "supported_facts": ["Pebbles Bar and Grill is an ocean-view venue", "Flame-grilled dishes and crafted cocktails", "Renaissance Pattaya Resort and Spa location"]
+        },
+        {
+          "url": "https://mgallery.accor.com/en/hotels/A0E9/R002.restaurant.html",
+          "checked_at": "2026-10-02",
+          "supported_facts": ["I Sea Sky is a rooftop venue", "Light meals, tapas and cocktails", "Sunken seating and water features", "Na Jomtien address"]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CtLJ4Yh27bI",
+          "checked_at": "2026-10-02",
+          "supported_facts": ["Existing verified Pattaya song module retained from the established Pattaya page architecture"]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Current search results surfaced an exact restaurants-with-a-view result set and official operator pages for high-floor, beachside, ocean-view and rooftop dining. Qualitative intent only; no search volume claimed.",
+        "distinctiveness": "Compares full restaurants by view type, meal format and area; the existing rooftop-bars guide focuses primarily on elevated drinks, rooftops and sunset planning."
+      },
+      "commit_sha": null,
+      "status": "validated",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py",
+        "editorial": "Full candidate HTML reviewed against operator facts; no rankings, prices, live hours, firsthand meals or partnership claims.",
+        "responsive": "Full candidate HTML and responsive CSS reviewed; mobile uses stacked grids and a locally scrollable comparison table.",
+        "music": "Established Pattaya embed retained; YouTube embed endpoint returned HTTP 200 on 2 October 2026.",
+        "visual_preview": "Local browser renderer unavailable; full HTML and established responsive CSS reviewed before publication. Live visual check required after deployment."
+      }
     }
   ]
 }
