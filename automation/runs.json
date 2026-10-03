@@ -197,14 +197,30 @@
         "evidence": "Current results for the exact topic surfaced Jomtien-focused venue and destination pages across beach-road dining, sports, live music, cabaret and rooftop nightlife. Qualitative intent only; no search volume claimed.",
         "distinctiveness": "Explains Jomtien's distributed nightlife zones and route planning; the existing Pattaya nightlife guide compares the city's broader nightlife districts."
       },
-      "commit_sha": null,
-      "status": "deployment_pending",
+      "commit_sha": "2c9aecde3225606972890e7452ee5daacff453fb",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py",
         "editorial": "Official venue, operator, destination and government sources reviewed. No rankings, prices, firsthand reviews or partnership claims.",
         "responsive": "Candidate uses established responsive CSS, stacked mobile grids and a locally scrollable comparison table.",
         "music": "YouTube oEmbed returned HTTP 200 on 3 October 2026 and identified the official Shaddowmusic upload.",
-        "visual_preview": "No local browser renderer was available; full candidate HTML and responsive CSS reviewed before commit. Live visual review required after deployment."
+        "visual_preview": "Live desktop page visually reviewed after deployment; hero, navigation, typography, CTAs and first content transition rendered without visible overflow. Responsive CSS uses established mobile stacking and local table scrolling."
+      },
+      "deployment": {
+        "workflow_run_id": 37086703314,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/37086703314",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-10-03T01:38:27Z",
+        "public_checks": {
+          "http_status": 200,
+          "title": "Jomtien Nightlife: 4 Ways to Plan a Night | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/pattaya/jomtien-nightlife/",
+          "property_marker": true,
+          "comparison_rows": 4,
+          "music_embed": "https://www.youtube-nocookie.com/embed/CtLJ4Yh27bI?rel=0",
+          "direct_telegram_ctas": 2
+        }
       }
     }
   ]

@@ -71,7 +71,7 @@
       "path": "cities/pattaya/jomtien-nightlife/index.html",
       "city": "Pattaya",
       "target_query": "jomtien nightlife",
-      "status": "deployment_pending"
+      "status": "deployed"
     },
     {
       "property_number": 14,
