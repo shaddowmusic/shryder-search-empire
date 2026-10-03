@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-02",
+  "updated": "2026-10-03",
   "properties": [
     {
       "path": "cities/pattaya/beach-clubs/index.html",
@@ -71,7 +71,7 @@
       "path": "cities/pattaya/jomtien-nightlife/index.html",
       "city": "Pattaya",
       "target_query": "jomtien nightlife",
-      "status": "queued"
+      "status": "deployment_pending"
     },
     {
       "property_number": 14,

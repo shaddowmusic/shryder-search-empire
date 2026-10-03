@@ -148,6 +148,64 @@
           "direct_telegram_ctas": 2
         }
       }
+    },
+    {
+      "date_bangkok": "2026-10-03",
+      "city": "Pattaya",
+      "property_number": 13,
+      "target_query": "jomtien nightlife",
+      "path": "cities/pattaya/jomtien-nightlife/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/pattaya/jomtien-nightlife/",
+      "research_sources": [
+        {
+          "url": "https://akvavitjomtien.com/",
+          "checked_at": "2026-10-03",
+          "supported_facts": ["Grill and bar", "Jomtien Beach Road at Soi 3"]
+        },
+        {
+          "url": "https://www.hemingwaysjomtien.com/",
+          "checked_at": "2026-10-03",
+          "supported_facts": ["Jomtien sports bar and restaurant", "Live sports on demand", "Air-conditioned venue"]
+        },
+        {
+          "url": "https://www.legends-sportsbar.com/",
+          "checked_at": "2026-10-03",
+          "supported_facts": ["Thappraya Road Jomtien location", "Live sports and pool", "Venue advertises recurring live music; visitors told to verify current program"]
+        },
+        {
+          "url": "https://jomtiencomplex.com/",
+          "checked_at": "2026-10-03",
+          "supported_facts": ["Directory covers bars, cabaret, restaurants and hotels", "LGBTQ+ destination near Jomtien Beach", "Main Pattaya–Jomtien baht-bus route described by directory"]
+        },
+        {
+          "url": "https://www.thailandtourismdirectory.go.th/en/restaurants/84440",
+          "checked_at": "2026-10-03",
+          "supported_facts": ["Government tourism listing identifies D Varee Inspiration Bar", "38th-floor location at D Varee Jomtien Beach"]
+        },
+        {
+          "url": "https://www.djbpattaya.com/th/dining",
+          "checked_at": "2026-10-03",
+          "supported_facts": ["Official D Varee dining page", "Hotel address at Jomtien Beach Road Soi 13–14"]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CtLJ4Yh27bI",
+          "checked_at": "2026-10-03",
+          "supported_facts": ["YouTube oEmbed returned HTTP 200", "Title identifies Pattaya by Shaddow", "Author is Shaddowmusic"]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Current results for the exact topic surfaced Jomtien-focused venue and destination pages across beach-road dining, sports, live music, cabaret and rooftop nightlife. Qualitative intent only; no search volume claimed.",
+        "distinctiveness": "Explains Jomtien's distributed nightlife zones and route planning; the existing Pattaya nightlife guide compares the city's broader nightlife districts."
+      },
+      "commit_sha": null,
+      "status": "deployment_pending",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py",
+        "editorial": "Official venue, operator, destination and government sources reviewed. No rankings, prices, firsthand reviews or partnership claims.",
+        "responsive": "Candidate uses established responsive CSS, stacked mobile grids and a locally scrollable comparison table.",
+        "music": "YouTube oEmbed returned HTTP 200 on 3 October 2026 and identified the official Shaddowmusic upload.",
+        "visual_preview": "No local browser renderer was available; full candidate HTML and responsive CSS reviewed before commit. Live visual review required after deployment."
+      }
     }
   ]
 }
