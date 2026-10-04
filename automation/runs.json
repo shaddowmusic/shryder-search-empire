@@ -2,6 +2,70 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-10-04",
+      "city": "Pattaya",
+      "property_number": 14,
+      "target_query": "koh larn day trip from pattaya",
+      "path": "cities/pattaya/koh-larn-day-trip/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/pattaya/koh-larn-day-trip/",
+      "research_sources": [
+        {
+          "url": "https://www.tourismthailand.org/Destinations/Provinces/Pattaya/469",
+          "checked_at": "2026-10-04",
+          "supported_facts": [
+            "Tourism Authority of Thailand presents Koh Larn as a one-day trip from Pattaya",
+            "Minibuses and motorcycle taxis operate on the island",
+            "Motorcycle rental is available, without implying it is suitable for every visitor"
+          ]
+        },
+        {
+          "url": "https://www.pattaya.go.th/document/standard/capter02/47.pdf",
+          "checked_at": "2026-10-04",
+          "supported_facts": [
+            "Pattaya City identifies South Pattaya at Bali Hai as its passenger-boat pier",
+            "Document includes a Pattaya–Koh Larn route toward Na Baan"
+          ]
+        },
+        {
+          "url": "https://thailandtourismdirectory.go.th/en/attraction/1689",
+          "checked_at": "2026-10-04",
+          "supported_facts": ["Government tourism listing for Tawaen Beach on Koh Larn"]
+        },
+        {
+          "url": "https://www.thailandtourismdirectory.go.th/attraction/21500",
+          "checked_at": "2026-10-04",
+          "supported_facts": [
+            "Tien Beach is described as quieter than nearby Samae",
+            "A footbridge leads to the beach",
+            "Songthaew and motorcycle-taxi service is described near the entrance"
+          ]
+        },
+        {
+          "url": "https://www.thailandtourismdirectory.go.th/th/attraction/1694",
+          "checked_at": "2026-10-04",
+          "supported_facts": ["Samae is described as a relatively long beach visible from an island viewpoint"]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CtLJ4Yh27bI",
+          "checked_at": "2026-10-04",
+          "supported_facts": ["Established Pattaya song module retained; availability rechecked before publication"]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Current search results showed route-planning intent around a Koh Larn day trip from Pattaya, while official destination sources support the day-trip format, island transport and distinct beach choices. Qualitative intent only; no search volume claimed.",
+        "distinctiveness": "A route-first island guide focused on crossing, beach choice and return planning; existing Pattaya guides do not answer island-day logistics."
+      },
+      "commit_sha": null,
+      "status": "deployment_pending",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py",
+        "editorial": "Official tourism and city sources reviewed; no live timetable, fare, weather, firsthand review or operator partnership claimed.",
+        "responsive": "Candidate uses established responsive CSS, stacked grids and a locally scrollable comparison table.",
+        "music": "YouTube oEmbed returned HTTP 200 on 4 October 2026 and identified the existing official Pattaya upload.",
+        "visual_preview": "Full candidate HTML and responsive CSS reviewed. Local browser preview was attempted but the browser client blocked the loopback address; live visual review remains required after deployment."
+      }
+    },
+    {
       "date_bangkok": "2026-10-01",
       "city": "Pattaya",
       "property_number": 11,

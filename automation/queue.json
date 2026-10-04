@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-03",
+  "updated": "2026-10-04",
   "properties": [
     {
       "path": "cities/pattaya/beach-clubs/index.html",
@@ -78,7 +78,7 @@
       "path": "cities/pattaya/koh-larn-day-trip/index.html",
       "city": "Pattaya",
       "target_query": "koh larn day trip from pattaya",
-      "status": "queued"
+      "status": "deployment_pending"
     },
     {
       "property_number": 15,
