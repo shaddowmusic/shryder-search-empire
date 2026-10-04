@@ -78,7 +78,7 @@
       "path": "cities/pattaya/koh-larn-day-trip/index.html",
       "city": "Pattaya",
       "target_query": "koh larn day trip from pattaya",
-      "status": "deployment_pending"
+      "status": "deployed"
     },
     {
       "property_number": 15,

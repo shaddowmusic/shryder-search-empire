@@ -55,14 +55,30 @@
         "evidence": "Current search results showed route-planning intent around a Koh Larn day trip from Pattaya, while official destination sources support the day-trip format, island transport and distinct beach choices. Qualitative intent only; no search volume claimed.",
         "distinctiveness": "A route-first island guide focused on crossing, beach choice and return planning; existing Pattaya guides do not answer island-day logistics."
       },
-      "commit_sha": null,
-      "status": "deployment_pending",
+      "commit_sha": "cc07dc943274fbe7ee46bd37601eb7e2b0521ba1",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py",
         "editorial": "Official tourism and city sources reviewed; no live timetable, fare, weather, firsthand review or operator partnership claimed.",
         "responsive": "Candidate uses established responsive CSS, stacked grids and a locally scrollable comparison table.",
         "music": "YouTube oEmbed returned HTTP 200 on 4 October 2026 and identified the existing official Pattaya upload.",
-        "visual_preview": "Full candidate HTML and responsive CSS reviewed. Local browser preview was attempted but the browser client blocked the loopback address; live visual review remains required after deployment."
+        "visual_preview": "Live desktop page visually reviewed after deployment; hero, navigation, typography and CTAs rendered without visible overflow. Responsive CSS uses established mobile stacking and local table scrolling."
+      },
+      "deployment": {
+        "workflow_run_id": 37169832020,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/37169832020",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-10-04T02:03:03Z",
+        "public_checks": {
+          "http_status": 200,
+          "title": "Koh Larn Day Trip from Pattaya: Plan the Route | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/pattaya/koh-larn-day-trip/",
+          "property_marker": true,
+          "comparison_rows": 4,
+          "music_embed": "https://www.youtube-nocookie.com/embed/CtLJ4Yh27bI?rel=0",
+          "direct_telegram_ctas": 2
+        }
       }
     },
     {
