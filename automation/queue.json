@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-04",
+  "updated": "2026-10-05",
   "properties": [
     {
       "path": "cities/pattaya/beach-clubs/index.html",
@@ -85,7 +85,7 @@
       "path": "cities/pattaya/events/index.html",
       "city": "Pattaya",
       "target_query": "pattaya events",
-      "status": "queued"
+      "status": "validated"
     },
     {
       "property_number": 16,

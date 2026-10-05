@@ -2,6 +2,61 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-10-05",
+      "city": "Pattaya",
+      "property_number": 15,
+      "target_query": "pattaya events",
+      "path": "cities/pattaya/events/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/pattaya/events/",
+      "research_sources": [
+        {
+          "url": "https://qa.thailand.go.th/issue-focus-detail/-pattaya-turns-365-days-of-events-into-a-world-class-city-strategy",
+          "checked_at": "2026-10-05",
+          "supported_facts": [
+            "Pattaya presents a year-round calendar across sport, music, culture and business events",
+            "Pattaya International Bikini Beach Race is listed for 31 October 2026 at Pattaya Beach",
+            "Pattaya International Fireworks Festival is listed for 27-28 November 2026 along the beachfront",
+            "Tomorrowland Thailand is listed for 11-13 December 2026 at Wisdom Valley"
+          ]
+        },
+        {
+          "url": "https://wonderfruit.co/faq",
+          "checked_at": "2026-10-05",
+          "supported_facts": [
+            "Wonderfruit is scheduled for 3-7 December 2026",
+            "The venue is The Fields at Siam Country Club in Chonburi",
+            "Current gate, accommodation and transport guidance is maintained by the organizer"
+          ]
+        },
+        {
+          "url": "https://chon.go.th/public/list/data/detail/id/3443/menu/1559",
+          "checked_at": "2026-10-05",
+          "supported_facts": [
+            "The completed 2026 Pattaya Music Festival ran across four March weekends",
+            "Official locations included Central Pattaya Beach, Jomtien Beach, Samae Beach on Koh Larn and Lan Pho Na Kluea Public Park"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CtLJ4Yh27bI",
+          "checked_at": "2026-10-05",
+          "supported_facts": ["Established Pattaya song module retained; availability rechecked before publication"]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Current results combine date-specific event discovery with venue, travel and accommodation planning. Government and organizer sources support a useful late-2026 calendar without claiming search volume.",
+        "distinctiveness": "A source-led event calendar and venue-planning guide; existing Pattaya pages cover nightlife, music venues and attractions rather than city-scale scheduled events."
+      },
+      "commit_sha": null,
+      "status": "validated",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py",
+        "editorial": "Government and organizer sources reviewed; expired March music dates labeled as past; no ticket availability, attendance guarantee, firsthand experience or partnership claimed.",
+        "responsive": "Candidate uses established responsive CSS, stacked grids and a locally scrollable event table.",
+        "music": "YouTube oEmbed returned HTTP 200 on 5 October 2026 and identified the official Pattaya upload by Shaddowmusic.",
+        "visual_preview": "Local browser preview unavailable because the installed Playwright package had no browser binary; full HTML and responsive CSS reviewed before publication. Live visual review pending deployment."
+      }
+    },
+    {
       "date_bangkok": "2026-10-04",
       "city": "Pattaya",
       "property_number": 14,
