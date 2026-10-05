@@ -46,14 +46,30 @@
         "evidence": "Current results combine date-specific event discovery with venue, travel and accommodation planning. Government and organizer sources support a useful late-2026 calendar without claiming search volume.",
         "distinctiveness": "A source-led event calendar and venue-planning guide; existing Pattaya pages cover nightlife, music venues and attractions rather than city-scale scheduled events."
       },
-      "commit_sha": null,
-      "status": "validated",
+      "commit_sha": "f68b843b36c696308de1849e1452e67d60893ce8",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py",
         "editorial": "Government and organizer sources reviewed; expired March music dates labeled as past; no ticket availability, attendance guarantee, firsthand experience or partnership claimed.",
         "responsive": "Candidate uses established responsive CSS, stacked grids and a locally scrollable event table.",
         "music": "YouTube oEmbed returned HTTP 200 on 5 October 2026 and identified the official Pattaya upload by Shaddowmusic.",
-        "visual_preview": "Local browser preview unavailable because the installed Playwright package had no browser binary; full HTML and responsive CSS reviewed before publication. Live visual review pending deployment."
+        "visual_preview": "Live desktop page visually reviewed after deployment; hero, navigation, typography and CTAs rendered without visible overflow. Responsive CSS uses established mobile stacking and local table scrolling."
+      },
+      "deployment": {
+        "workflow_run_id": 37251212297,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/37251212297",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-10-05T01:24:00Z",
+        "public_checks": {
+          "http_status": 200,
+          "title": "Pattaya Events 2026: Fireworks, Music & Festivals | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/pattaya/events/",
+          "property_marker": true,
+          "event_rows": 4,
+          "music_embed": "https://www.youtube-nocookie.com/embed/CtLJ4Yh27bI?rel=0",
+          "direct_telegram_ctas": 2
+        }
       }
     },
     {

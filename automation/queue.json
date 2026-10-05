@@ -85,7 +85,7 @@
       "path": "cities/pattaya/events/index.html",
       "city": "Pattaya",
       "target_query": "pattaya events",
-      "status": "validated"
+      "status": "deployed"
     },
     {
       "property_number": 16,
