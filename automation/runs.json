@@ -2,6 +2,70 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-10-06",
+      "city": "Pattaya",
+      "property_number": 16,
+      "target_query": "pattaya night markets",
+      "path": "cities/pattaya/night-markets/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/pattaya/night-markets/",
+      "research_sources": [
+        {
+          "url": "https://www.facebook.com/thepprasitmarket",
+          "checked_at": "2026-10-06",
+          "supported_facts": [
+            "Official market profile identified consistently by current directories",
+            "Thepprasit Road location near the Sukhumvit end of the road",
+            "Market combines food and general shopping; volatile hours omitted because current listings disagree"
+          ]
+        },
+        {
+          "url": "https://www.facebook.com/Jomtien.Night.Market18",
+          "checked_at": "2026-10-06",
+          "supported_facts": [
+            "Official market profile identified consistently by current directories",
+            "Jomtien Beach Road area location",
+            "Open-air, food-led evening format; volatile hours omitted"
+          ]
+        },
+        {
+          "url": "https://www.pattayanightbazaar.com/",
+          "checked_at": "2026-10-06",
+          "supported_facts": [
+            "Operator states that the bazaar has more than 250 shops",
+            "Product categories include Thai clothing, silk, carvings, herbal products, home accessories and souvenirs",
+            "Operator gives a central Second Road address opposite the Central Pattaya area"
+          ]
+        },
+        {
+          "url": "https://www.tourismthailand.org/Destinations/Provinces/Pattaya/469",
+          "checked_at": "2026-10-06",
+          "supported_facts": [
+            "Tourism Authority of Thailand destination page supports Pattaya's broader food, shopping and nighttime visitor context"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CtLJ4Yh27bI",
+          "checked_at": "2026-10-06",
+          "supported_facts": [
+            "Established Pattaya song module retained and availability rechecked before publication"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Current exact-topic results repeatedly surfaced Thepprasit, Jomtien Night Market and Pattaya Night Bazaar, with users choosing among food, beach setting and central shopping. Qualitative intent only; no search volume claimed.",
+        "distinctiveness": "A short decision guide comparing three evening-market formats; existing Pattaya pages cover nightlife districts, restaurants, events and attractions rather than market selection."
+      },
+      "commit_sha": null,
+      "status": "validated",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py",
+        "editorial": "Official market/operator pages and current directories reviewed; conflicting schedules intentionally omitted. No prices, rankings, firsthand experiences or partnership claims.",
+        "responsive": "Candidate uses established responsive CSS, stacked grids and a locally scrollable comparison table.",
+        "music": "YouTube oEmbed returned HTTP 200 on 6 October 2026 and identified Pattaya by Shaddowmusic.",
+        "visual_preview": "Local browser preview unavailable because the installed Playwright package had no browser binary; full HTML and responsive CSS reviewed before publication. Live visual review pending deployment."
+      }
+    },
+    {
       "date_bangkok": "2026-10-05",
       "city": "Pattaya",
       "property_number": 15,
