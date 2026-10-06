@@ -55,14 +55,30 @@
         "evidence": "Current exact-topic results repeatedly surfaced Thepprasit, Jomtien Night Market and Pattaya Night Bazaar, with users choosing among food, beach setting and central shopping. Qualitative intent only; no search volume claimed.",
         "distinctiveness": "A short decision guide comparing three evening-market formats; existing Pattaya pages cover nightlife districts, restaurants, events and attractions rather than market selection."
       },
-      "commit_sha": null,
-      "status": "validated",
+      "commit_sha": "2fe5b714e1b143a34f6628511231e884d27efe8f",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py",
         "editorial": "Official market/operator pages and current directories reviewed; conflicting schedules intentionally omitted. No prices, rankings, firsthand experiences or partnership claims.",
         "responsive": "Candidate uses established responsive CSS, stacked grids and a locally scrollable comparison table.",
         "music": "YouTube oEmbed returned HTTP 200 on 6 October 2026 and identified Pattaya by Shaddowmusic.",
-        "visual_preview": "Local browser preview unavailable because the installed Playwright package had no browser binary; full HTML and responsive CSS reviewed before publication. Live visual review pending deployment."
+        "visual_preview": "Live desktop page visually reviewed after deployment; hero, navigation, typography and CTAs rendered without visible overflow. Responsive CSS uses established mobile stacking and local table scrolling."
+      },
+      "deployment": {
+        "workflow_run_id": 37401804705,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/37401804705",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-10-06T01:58:36Z",
+        "public_checks": {
+          "http_status": 200,
+          "title": "Pattaya Night Markets: Compare 3 Evening Styles | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/pattaya/night-markets/",
+          "property_marker": true,
+          "comparison_rows": 3,
+          "music_embed": "https://www.youtube-nocookie.com/embed/CtLJ4Yh27bI?rel=0",
+          "direct_telegram_ctas": 2
+        }
       }
     },
     {
