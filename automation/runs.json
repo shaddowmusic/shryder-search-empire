@@ -2,6 +2,56 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-10-07",
+      "city": "Pattaya",
+      "property_number": 17,
+      "target_query": "pattaya shaddow",
+      "path": "cities/pattaya/pattaya-music/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/pattaya/pattaya-music/",
+      "research_sources": [
+        {
+          "url": "https://open.spotify.com/album/7xSgiyuO1IMsJb9lfEzxhx",
+          "checked_at": "2026-10-07",
+          "supported_facts": [
+            "Spotify identifies Pattaya as a single by Shaddow",
+            "Release date is 1 September 2026",
+            "The release contains one track with a duration of 4 minutes 25 seconds",
+            "Verified artist ID is 0F7VqZmW33A5f4b90v5auq and track ID is 6sInLub96W7tto4XlPAMGI"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/shorts/CtLJ4Yh27bI",
+          "checked_at": "2026-10-07",
+          "supported_facts": [
+            "Official YouTube page loaded successfully",
+            "Visible title is Pattaya — Every kingdom needs its own sound. | Shaddow #Shorts",
+            "Established non-autoplay Pattaya embed remains available"
+          ]
+        },
+        {
+          "url": "https://www.tourismthailand.org/Destinations/Provinces/Pattaya/469",
+          "checked_at": "2026-10-07",
+          "supported_facts": [
+            "Tourism Authority of Thailand identifies Pattaya as a Gulf beach destination",
+            "Official overview supports nightlife, water activities, nearby islands, sports and broad dining context"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Exact-name discovery is navigational and entity-led: the verified Spotify release and official YouTube visual establish a distinct Pattaya-by-Shaddow destination. No search volume is claimed.",
+        "distinctiveness": "The artist-owned song page consolidates verified listening destinations, release facts, visual context and links into the Pattaya guide collection; existing pages answer travel and venue questions."
+      },
+      "commit_sha": null,
+      "status": "validated",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py against a clean complete checkout",
+        "editorial": "Official Spotify and YouTube release pages plus Tourism Authority of Thailand context reviewed. No rankings, stream counts, lyrics, firsthand travel experience or partnership claims.",
+        "responsive": "Candidate extends established responsive CSS with mobile-stacked release and story grids.",
+        "music": "YouTube page and Spotify release loaded successfully on 7 October 2026; title, artist, date, track count and duration were visibly verified.",
+        "visual_preview": "Full candidate HTML and responsive rules reviewed before publication; no local browser renderer was available. Live desktop visual review remains required after deployment."
+      }
+    },
+    {
       "date_bangkok": "2026-10-06",
       "city": "Pattaya",
       "property_number": 16,
