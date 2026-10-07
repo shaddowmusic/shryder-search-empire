@@ -41,14 +41,31 @@
         "evidence": "Exact-name discovery is navigational and entity-led: the verified Spotify release and official YouTube visual establish a distinct Pattaya-by-Shaddow destination. No search volume is claimed.",
         "distinctiveness": "The artist-owned song page consolidates verified listening destinations, release facts, visual context and links into the Pattaya guide collection; existing pages answer travel and venue questions."
       },
-      "commit_sha": null,
-      "status": "validated",
+      "commit_sha": "e957e5468ff85c87f8510c35a2723df6bbe70032",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py against a clean complete checkout",
         "editorial": "Official Spotify and YouTube release pages plus Tourism Authority of Thailand context reviewed. No rankings, stream counts, lyrics, firsthand travel experience or partnership claims.",
         "responsive": "Candidate extends established responsive CSS with mobile-stacked release and story grids.",
         "music": "YouTube page and Spotify release loaded successfully on 7 October 2026; title, artist, date, track count and duration were visibly verified.",
-        "visual_preview": "Full candidate HTML and responsive rules reviewed before publication; no local browser renderer was available. Live desktop visual review remains required after deployment."
+        "visual_preview": "Live desktop page visually reviewed after deployment; hero, navigation, release facts, embedded video and CTAs rendered without visible overflow. Responsive rules stack the release and story grids on mobile."
+      },
+      "deployment": {
+        "workflow_run_id": 37558926814,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/37558926814",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-10-07T01:49:35Z",
+        "public_checks": {
+          "http_status": 200,
+          "title": "Pattaya by Shaddow: Official Song & Video | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/pattaya/pattaya-music/",
+          "property_marker": true,
+          "release_facts": 4,
+          "music_embed": "https://www.youtube-nocookie.com/embed/CtLJ4Yh27bI?rel=0",
+          "spotify_album": "https://open.spotify.com/album/7xSgiyuO1IMsJb9lfEzxhx",
+          "direct_telegram_ctas": 2
+        }
       }
     },
     {
