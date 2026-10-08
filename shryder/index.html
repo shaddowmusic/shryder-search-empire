@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SHRYDER Token, Music &amp; Cultural Ecosystem | Official Hub</title>
+  <meta name="description" content="Official SHRYDER hub for Shaddow’s music, cultural community and verified Solana token facts, including the mint address, utility status and risks.">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-video-preview:-1">
+  <link rel="canonical" href="https://shaddowmusic.github.io/shryder-search-empire/shryder/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SHRYDER Search Empire">
+  <meta property="og:title" content="SHRYDER Token, Music &amp; Cultural Ecosystem | Official Hub">
+  <meta property="og:description" content="Music and culture first, with independently verified Solana token facts, current utility status and clear risk disclosures.">
+  <meta property="og:url" content="https://shaddowmusic.github.io/shryder-search-empire/shryder/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="SHRYDER — Official Token, Music &amp; Cultural Ecosystem">
+  <meta name="twitter:description" content="The official Shaddow-owned reference for SHRYDER music, culture, community and verified token facts.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2305070b'/%3E%3Cpath d='M13 45 25 17h14l12 28H40l-2-6H26l-2 6zm16-15h6l-3-9z' fill='%23f5b942'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <style>
+    .shryder-hero { position: relative; overflow: hidden; padding-bottom: clamp(3.5rem,7vw,6.5rem); }
+    .shryder-hero::after { content: "SHRYDER"; position: absolute; right: -1vw; bottom: .6rem; z-index: -1; color: rgba(245,185,66,.035); font: 900 clamp(4.8rem,17vw,13rem)/.72 Inter,ui-sans-serif,system-ui,sans-serif; letter-spacing: -.08em; }
+    .shryder-hero h1 { max-width: 18ch; }
+    .status-row { display: flex; flex-wrap: wrap; gap: .55rem; margin: 1.35rem 0 0; padding: 0; list-style: none; }
+    .status-row li, .label { display: inline-flex; align-items: center; gap: .4rem; padding: .35rem .65rem; border: 1px solid rgba(245,185,66,.28); background: rgba(245,185,66,.055); color: #ded9ce; font-size: .75rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+    .status-row .warning, .label.warning { border-color: rgba(255,151,115,.5); color: #ffb39a; }
+    .definition-grid, .fact-grid, .album-grid, .source-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1rem; margin-top: 1.5rem; }
+    .definition-card, .fact-card, .album-card, .source-card { padding: 1.3rem; border: 1px solid rgba(255,255,255,.09); background: var(--panel); }
+    .definition-card h3, .fact-card h3, .album-card h3, .source-card h3 { margin: .25rem 0 .6rem; }
+    .definition-card p, .fact-card p, .album-card p, .source-card p { color: var(--muted); }
+    .mint-panel { margin-top: 1.5rem; padding: 1.3rem; border: 1px solid var(--line); background: linear-gradient(135deg,rgba(247,147,26,.11),rgba(61,80,123,.08)); }
+    .mint-label { margin: 0 0 .5rem; color: var(--gold); font-size: .72rem; font-weight: 850; letter-spacing: .12em; text-transform: uppercase; }
+    .mint-row { display: flex; align-items: stretch; gap: .6rem; }
+    .mint-address { display: flex; align-items: center; min-width: 0; flex: 1; padding: .85rem 1rem; overflow-wrap: anywhere; border: 1px solid rgba(255,255,255,.12); background: #040609; color: #f7f4ed; font: 650 clamp(.72rem,2vw,.95rem)/1.45 ui-monospace,SFMono-Regular,Consolas,monospace; }
+    .copy-button { min-width: 92px; padding: .75rem 1rem; border: 1px solid var(--gold); background: transparent; color: var(--ink); font: inherit; font-weight: 800; cursor: pointer; }
+    .copy-button:hover, .copy-button:focus-visible { background: var(--gold); color: #120a01; }
+    .fact-table { width: 100%; margin-top: 1.2rem; border-collapse: collapse; }
+    .fact-table th, .fact-table td { padding: .8rem .65rem; border-bottom: 1px solid rgba(255,255,255,.08); text-align: left; vertical-align: top; }
+    .fact-table th { width: 34%; color: var(--muted); font-size: .78rem; letter-spacing: .07em; text-transform: uppercase; }
+    .fact-table td { overflow-wrap: anywhere; }
+    .verified { color: #8fd9b6; }
+    .unknown { color: #ffd39c; }
+    .disclosure { margin-top: 1.4rem; padding: 1.2rem 1.3rem; border-left: 3px solid #ff9f76; background: rgba(255,105,72,.07); }
+    .disclosure strong { color: #ffc0aa; }
+    .route-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1rem; margin-top: 1.5rem; }
+    .route-card { padding: 1.3rem; border: 1px solid rgba(255,255,255,.09); background: var(--panel); }
+    .route-card h3 { margin: .4rem 0 .55rem; }
+    .route-card p { color: var(--muted); }
+    .spotify-frame { width: 100%; height: 352px; margin-top: .8rem; border: 0; border-radius: 12px; }
+    .youtube-frame { width: 100%; aspect-ratio: 16/9; margin-top: .8rem; border: 0; }
+    .timeline { position: relative; display: grid; gap: 1rem; margin-top: 1.5rem; padding-left: 1.4rem; }
+    .timeline::before { content: ""; position: absolute; left: .32rem; top: .45rem; bottom: .45rem; width: 1px; background: linear-gradient(var(--gold),rgba(245,185,66,.1)); }
+    .timeline-item { position: relative; display: grid; grid-template-columns: 8rem minmax(0,1fr); gap: 1rem; padding: 1.1rem 1.2rem; border: 1px solid rgba(255,255,255,.085); background: var(--panel); }
+    .timeline-item::before { content: ""; position: absolute; left: -1.52rem; top: 1.45rem; width: .7rem; height: .7rem; border: 2px solid var(--gold); border-radius: 50%; background: var(--night); }
+    .timeline-date { color: var(--gold); font-weight: 850; font-variant-numeric: tabular-nums; }
+    .timeline-item h3 { margin: 0 0 .4rem; font-size: 1.15rem; }
+    .timeline-item p { margin: 0; color: var(--muted); }
+    .risk-list, .verify-list { color: #cbc7bd; }
+    .risk-list li, .verify-list li { margin-bottom: .6rem; }
+    .source-card a { color: var(--gold); text-underline-offset: .18em; }
+    .legal-note { color: var(--muted); font-size: .88rem; }
+    @media (max-width: 760px) {
+      .definition-grid, .fact-grid, .album-grid, .source-grid, .route-grid { grid-template-columns: 1fr; }
+      .mint-row { flex-direction: column; }
+      .copy-button { min-height: 48px; }
+      .fact-table, .fact-table tbody, .fact-table tr, .fact-table th, .fact-table td { display: block; }
+      .fact-table th { width: auto; padding-bottom: .15rem; border-bottom: 0; }
+      .fact-table td { padding-top: .15rem; }
+      .timeline-item { grid-template-columns: 1fr; gap: .3rem; }
+      .spotify-frame { height: 152px; }
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"WebPage",
+        "@id":"https://shaddowmusic.github.io/shryder-search-empire/shryder/#webpage",
+        "url":"https://shaddowmusic.github.io/shryder-search-empire/shryder/",
+        "name":"SHRYDER Token, Music & Cultural Ecosystem | Official Hub",
+        "description":"Official SHRYDER hub for Shaddow’s music, cultural community and verified Solana token facts, including the mint address, utility status and risks.",
+        "inLanguage":"en",
+        "dateModified":"2026-10-08",
+        "about":[{"@id":"https://shaddowmusic.github.io/shryder-search-empire/shryder/#shryder-culture"},{"@id":"https://shaddowmusic.github.io/shryder-search-empire/shryder/#shaddow"}],
+        "breadcrumb":{"@id":"https://shaddowmusic.github.io/shryder-search-empire/shryder/#breadcrumb"}
+      },
+      {
+        "@type":"Person",
+        "@id":"https://shaddowmusic.github.io/shryder-search-empire/shryder/#shaddow",
+        "name":"Shaddow",
+        "description":"American saxophonist, vocalist, songwriter and producer whose work includes SHRYDER music and cultural projects.",
+        "sameAs":["https://open.spotify.com/artist/0F7VqZmW33A5f4b90v5auq","https://music.apple.com/us/artist/shaddow/336772230","https://www.youtube.com/channel/UC4gbhhNd40V3hykvWyGR3Mw"]
+      },
+      {
+        "@type":"CreativeWork",
+        "@id":"https://shaddowmusic.github.io/shryder-search-empire/shryder/#shryder-culture",
+        "name":"SHRYDER",
+        "description":"A cultural ecosystem connected to Shaddow’s music, creative identity and public community. It is distinct from the SHRYDER Solana token.",
+        "creator":{"@id":"https://shaddowmusic.github.io/shryder-search-empire/shryder/#shaddow"}
+      },
+      {
+        "@type":"MusicAlbum",
+        "name":"Shryder Mode",
+        "byArtist":{"@id":"https://shaddowmusic.github.io/shryder-search-empire/shryder/#shaddow"},
+        "datePublished":"2026-08-10",
+        "numTracks":10,
+        "sameAs":["https://open.spotify.com/album/3TowxsOcBinHfFxYgBLa96","https://music.apple.com/us/album/shryder-mode/6800026454"]
+      },
+      {
+        "@type":"MusicAlbum",
+        "name":"The Signal",
+        "byArtist":{"@id":"https://shaddowmusic.github.io/shryder-search-empire/shryder/#shaddow"},
+        "datePublished":"2026-10-05",
+        "numTracks":10,
+        "sameAs":["https://open.spotify.com/album/7n1GF8Af1p69TcumWptT5X","https://music.apple.com/us/album/the-signal/6819346984"]
+      },
+      {
+        "@type":"BreadcrumbList",
+        "@id":"https://shaddowmusic.github.io/shryder-search-empire/shryder/#breadcrumb",
+        "itemListElement":[
+          {"@type":"ListItem","position":1,"name":"SHRYDER Search Empire","item":"https://shaddowmusic.github.io/shryder-search-empire/"},
+          {"@type":"ListItem","position":2,"name":"SHRYDER","item":"https://shaddowmusic.github.io/shryder-search-empire/shryder/"}
+        ]
+      },
+      {
+        "@type":"FAQPage",
+        "mainEntity":[
+          {"@type":"Question","name":"What is SHRYDER?","acceptedAnswer":{"@type":"Answer","text":"SHRYDER is a cultural ecosystem connected to Shaddow’s music, creative projects and public community. A separate Solana token with the ticker SHRYDER is associated with that ecosystem."}},
+          {"@type":"Question","name":"Is SHRYDER a Solana token?","acceptedAnswer":{"@type":"Answer","text":"Yes. The verified mint is an SPL Token mint on Solana mainnet."}},
+          {"@type":"Question","name":"What is the official SHRYDER mint address?","acceptedAnswer":{"@type":"Answer","text":"HPkfMuWs3d4VWsuTAAS2xnrVaFSAs34poqChiFWzbonk"}},
+          {"@type":"Question","name":"Does SHRYDER currently have utility?","acceptedAnswer":{"@type":"Answer","text":"As of October 8, 2026, SHRYDER has no current operational token utility, according to the project owner."}},
+          {"@type":"Question","name":"Can I join the community without buying tokens?","acceptedAnswer":{"@type":"Answer","text":"Yes. Listening to Shaddow’s music and participating in the public SHRYDER community do not require token ownership."}},
+          {"@type":"Question","name":"Is SHRYDER an investment?","acceptedAnswer":{"@type":"Answer","text":"This official hub does not present SHRYDER as an investment or promise returns. Trading the token can result in partial or total loss."}}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar">
+    <div class="shell">
+      <a class="brand" href="../">SHRYDER <span>SEARCH EMPIRE</span></a>
+      <nav class="nav" aria-label="Page navigation">
+        <a href="#token">Token facts</a>
+        <a href="#music">Music</a>
+        <a href="#risks">Risks</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="shell breadcrumb"><a href="../">Search Empire</a><span aria-hidden="true">/</span><span>SHRYDER</span></div>
+
+    <section class="hero shryder-hero">
+      <div class="shell">
+        <p class="eyebrow">Official Shaddow-owned information hub</p>
+        <h1>SHRYDER — Official Token, Music &amp; Cultural Ecosystem</h1>
+        <p class="lede">SHRYDER connects Shaddow’s music, creative identity and public community. The SHRYDER token is a separate Solana cryptoasset associated with that culture. Music and community participation do not require token ownership.</p>
+        <ul class="status-row" aria-label="Current status">
+          <li>Solana mainnet</li>
+          <li>SPL Token</li>
+          <li class="warning">No current utility</li>
+          <li>Verified October 8, 2026</li>
+        </ul>
+        <div class="actions">
+          <a class="button primary" href="#music">Explore the Music</a>
+          <a class="button" href="#community">Explore the Community</a>
+          <a class="button" href="#token">Verify Token Address</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="what-is-shryder">
+      <div class="shell">
+        <p class="eyebrow">Culture and token are not the same thing</p>
+        <h2>What is SHRYDER?</h2>
+        <div class="definition-grid">
+          <article class="definition-card">
+            <p class="label">The cultural ecosystem</p>
+            <h3>Music, identity and community</h3>
+            <p>SHRYDER is a cultural ecosystem connected to Shaddow’s music, recurring creative language and public community. Its clearest current expressions are the music catalog and the SHRYDER Network.</p>
+          </article>
+          <article class="definition-card">
+            <p class="label">The cryptoasset</p>
+            <h3>A Solana SPL Token</h3>
+            <p>The SHRYDER token is a separate cryptoasset on Solana. Holding it does not automatically make someone a member of the culture, and the token currently provides no operational utility.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="token">
+      <div class="shell">
+        <p class="eyebrow">On-chain facts · independently checked</p>
+        <h2>Official SHRYDER token facts</h2>
+        <p class="copy">Always verify the complete mint address. A ticker or token name can be copied by an unrelated asset.</p>
+        <div class="mint-panel">
+          <p class="mint-label">Official Solana mint address</p>
+          <div class="mint-row">
+            <code class="mint-address" id="mint-address">HPkfMuWs3d4VWsuTAAS2xnrVaFSAs34poqChiFWzbonk</code>
+            <button class="copy-button" type="button" data-copy-mint aria-describedby="copy-status">Copy</button>
+          </div>
+          <p class="note" id="copy-status" aria-live="polite">Compare every character before interacting with a wallet or trading interface.</p>
+        </div>
+        <table class="fact-table">
+          <tbody>
+            <tr><th scope="row">Network</th><td>Solana mainnet</td></tr>
+            <tr><th scope="row">Token standard</th><td>SPL Token program (<code>TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA</code>); not Token-2022</td></tr>
+            <tr><th scope="row">Name / ticker</th><td>SHRYDER / SHRYDER</td></tr>
+            <tr><th scope="row">Decimals</th><td>6</td></tr>
+            <tr><th scope="row">Current minted supply</th><td>88,887,823.999941 SHRYDER</td></tr>
+            <tr><th scope="row">Maximum possible supply</th><td><span class="verified">88,887,823.999941 SHRYDER under the current mint state</span> — the mint authority is disabled</td></tr>
+            <tr><th scope="row">Circulating supply</th><td><span class="unknown">Not independently established</span></td></tr>
+            <tr><th scope="row">Mint authority</th><td>None</td></tr>
+            <tr><th scope="row">Freeze authority</th><td>None</td></tr>
+            <tr><th scope="row">Token-2022 extensions</th><td>None; this is the original SPL Token program</td></tr>
+            <tr><th scope="row">Metadata</th><td>Metaplex metadata is immutable; update authority <code>WLHv2UAZm6z4KyaaELi5pjdbJh6RESMva1Rnn8pJVVh</code></td></tr>
+            <tr><th scope="row">Holders observed</th><td>16 on Solscan at verification; live counts can change</td></tr>
+            <tr><th scope="row">Holder concentration</th><td>Solscan showed the top ten token accounts holding 99.98%, including the launchpad pool; the largest token account was the pool at 91.71%. Pool inclusion makes this different from a top-ten holder metric that excludes liquidity.</td></tr>
+            <tr><th scope="row">Observed market</th><td>One Raydium Launchpad SHRYDER–WSOL market, account <code>J7YWZ8SnNtLf55aW1ZsuTrUjw2A5s5cAPeCizNqxNq6E</code>; observed liquidity was approximately $253 and can change rapidly</td></tr>
+            <tr><th scope="row">Last verified</th><td>October 8, 2026 using finalized Solana RPC, Solana Explorer and Solscan</td></tr>
+          </tbody>
+        </table>
+        <div class="disclosure"><strong>Supply correction:</strong> the owner-reported figure of 88,888,888 does not match the on-chain mint. The fixed minted supply is 88,887,823.999941, which is 1,064.000059 lower. This page uses the independently verified on-chain figure and does not describe the token’s circulating supply as known.</div>
+        <div class="actions">
+          <a class="button primary" href="https://explorer.solana.com/address/HPkfMuWs3d4VWsuTAAS2xnrVaFSAs34poqChiFWzbonk" data-outbound="explorer_solana">View on Solana Explorer</a>
+          <a class="button" href="https://solscan.io/token/HPkfMuWs3d4VWsuTAAS2xnrVaFSAs34poqChiFWzbonk" data-outbound="explorer_solscan">View on Solscan</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="verify">
+      <div class="shell grid">
+        <div>
+          <p class="eyebrow">Anti-impersonation checklist</p>
+          <h2>How to verify SHRYDER</h2>
+          <ol class="verify-list">
+            <li>Copy the complete mint address from this page.</li>
+            <li>Open a reputable Solana explorer independently.</li>
+            <li>Paste the address and confirm the network is Solana mainnet.</li>
+            <li>Confirm the name and ticker, then compare all 44 address characters.</li>
+            <li>On a trading interface, confirm the exact same mint before requesting a quote or connecting a wallet.</li>
+          </ol>
+        </div>
+        <aside class="aside">
+          <p class="eyebrow">Security warning</p>
+          <h3>Ticker names are not unique</h3>
+          <p>A token labeled “SHRYDER” can still be an impersonator. Never rely on a logo, ticker, screenshot, social post or shortened address alone. No official source will need your private key or recovery phrase.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="trade">
+      <div class="shell">
+        <p class="eyebrow">Verified interfaces · not endorsements</p>
+        <h2>Where SHRYDER can be researched or traded</h2>
+        <p class="copy">The interfaces below resolved to the exact mint during verification. Availability, liquidity, quotes and legal access can change. An explorer is for verification; a trading interface can request a swap quote.</p>
+        <div class="route-grid">
+          <article class="route-card">
+            <p class="label">Trading interface</p>
+            <h3>Jupiter</h3>
+            <p>Jupiter recognized the exact SHRYDER mint and displayed a token page with a swap interface. Check the live route, price impact and slippage before any transaction.</p>
+            <a class="button" href="https://jup.ag/tokens/HPkfMuWs3d4VWsuTAAS2xnrVaFSAs34poqChiFWzbonk" data-outbound="trade_jupiter">Open exact mint on Jupiter</a>
+          </article>
+          <article class="route-card">
+            <p class="label">Launch interface</p>
+            <h3>LetsBONK.fun</h3>
+            <p>The exact mint resolves to its launch page and SHRYDER–WSOL trading controls. This is a third-party interface, not part of this website.</p>
+            <a class="button" href="https://www.letsbonk.fun/token/HPkfMuWs3d4VWsuTAAS2xnrVaFSAs34poqChiFWzbonk" data-outbound="trade_letsbonk">Open exact mint on LetsBONK.fun</a>
+          </article>
+        </div>
+        <p class="legal-note">No swap, wallet connection or transaction is performed by this page. Raydium exposed the matching LaunchLab route, but its interface displayed jurisdiction restrictions and is not promoted here. DexScreener and DEXTools were not confirmed for this mint during verification.</p>
+      </div>
+    </section>
+
+    <section id="utility">
+      <div class="shell grid">
+        <div>
+          <p class="eyebrow">Current status</p>
+          <h2>Current token utility</h2>
+          <div class="disclosure"><strong>As of October 8, 2026, SHRYDER has no current operational token utility, according to the project owner.</strong></div>
+          <p class="copy">The token does not currently provide token-gated access, staking, rewards, governance, payouts, ticketing or active game integration. Historical announcements and experiments are not evidence of current functionality.</p>
+        </div>
+        <aside class="aside">
+          <p class="eyebrow">Future concepts</p>
+          <h3>Not published without approval</h3>
+          <p>No planned utility is presented in this preview. Any future concept must be approved for public disclosure and labeled “not live, not guaranteed.”</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="music">
+      <div class="shell">
+        <p class="eyebrow">Music first</p>
+        <h2>SHRYDER music by Shaddow</h2>
+        <p class="copy">Shaddow’s catalog gives SHRYDER its clearest current creative expression. These verified releases can be heard without owning a token.</p>
+        <div class="album-grid">
+          <article class="album-card">
+            <p class="label">Album · 10 tracks · 42 minutes</p>
+            <h3>Shryder Mode</h3>
+            <p>Released August 10, 2026. The verified track list includes “Enter Shryder Mode,” “Shryder Nights,” “Shryder World,” “Shryder Code” and “Long Live Shryder.”</p>
+            <iframe class="spotify-frame" loading="lazy" src="https://open.spotify.com/embed/album/3TowxsOcBinHfFxYgBLa96?utm_source=generator" title="Shryder Mode by Shaddow on Spotify" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            <div class="actions"><a class="button" href="https://open.spotify.com/album/3TowxsOcBinHfFxYgBLa96" data-outbound="spotify_shryder_mode">Spotify</a><a class="button" href="https://music.apple.com/us/album/shryder-mode/6800026454" data-outbound="apple_shryder_mode">Apple Music</a></div>
+          </article>
+          <article class="album-card">
+            <p class="label">Album · 10 tracks · 48 minutes</p>
+            <h3>The Signal</h3>
+            <p>Released October 5, 2026. Verified titles include “The Signal,” “Welcome to Shryder World,” “Find the Army,” “Shryder Mission” and “Shryder Forever.”</p>
+            <iframe class="spotify-frame" loading="lazy" src="https://open.spotify.com/embed/album/7n1GF8Af1p69TcumWptT5X?utm_source=generator" title="The Signal by Shaddow on Spotify" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            <div class="actions"><a class="button" href="https://open.spotify.com/album/7n1GF8Af1p69TcumWptT5X" data-outbound="spotify_the_signal">Spotify</a><a class="button" href="https://music.apple.com/us/album/the-signal/6819346984" data-outbound="apple_the_signal">Apple Music</a></div>
+          </article>
+        </div>
+        <div class="video-card">
+          <div class="video-wrap"><iframe class="youtube-frame" loading="lazy" src="https://www.youtube-nocookie.com/embed/Z68yCwcvCOk" title="Shryder Season by Shaddow on YouTube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+          <div class="video-meta"><span><strong>Shryder Season</strong> · Shaddow · from Shryder Mode</span><a href="https://www.youtube.com/watch?v=Z68yCwcvCOk" data-outbound="youtube_shryder_season">Open on YouTube</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="culture">
+      <div class="shell grid">
+        <div>
+          <p class="eyebrow">Cultural language</p>
+          <h2>SHRYDER culture</h2>
+          <p class="copy">The verified music catalog repeatedly uses SHRYDER as a world, mode, code, city, signal, mission and shared identity. The official hub treats those themes as creative language—not as financial promises or evidence of token adoption.</p>
+          <p class="copy">The cultural movement is open to listeners and community participants. Buying or holding the token is not a prerequisite for hearing the music, following Shaddow or joining the public SHRYDER Network.</p>
+        </div>
+        <aside class="aside">
+          <p class="eyebrow">Artist</p>
+          <h3>Shaddow</h3>
+          <p>Shaddow is an American saxophonist, vocalist, songwriter and producer. His music blends jazz, R&amp;B, soul, hip-hop, trap and electronic influences.</p>
+          <div class="actions"><a class="button" href="https://open.spotify.com/artist/0F7VqZmW33A5f4b90v5auq" data-outbound="spotify_shaddow_artist">Shaddow on Spotify</a></div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="community">
+      <div class="shell grid">
+        <div>
+          <p class="eyebrow">Public community</p>
+          <h2>Join without buying a token</h2>
+          <p class="copy">The SHRYDER Network is the official public community destination supplied by Shaddow. Listening, following and participating in the public community do not require token ownership.</p>
+          <div class="actions"><a class="button primary" href="https://t.me/SHRYDERNetwork" data-outbound="telegram_shryder_network">Join the SHRYDER Network</a></div>
+        </div>
+        <aside class="aside"><p class="eyebrow">Participation boundary</p><p>Community participation is cultural and social. It does not imply investment status, financial entitlement, governance rights or guaranteed access to future products.</p></aside>
+      </div>
+    </section>
+
+    <section id="history">
+      <div class="shell">
+        <p class="eyebrow">Status-labeled chronology</p>
+        <h2>Ecosystem history</h2>
+        <p class="copy">Public records show music releases and earlier technology experiments. The labels below prevent historical announcements from being mistaken for current utility.</p>
+        <div class="timeline">
+          <article class="timeline-item"><div class="timeline-date">Aug 2, 2025</div><div><h3>SHRYDER mint first observed</h3><p><span class="label">On-chain</span> Solscan records the mint’s first mint activity on August 2, 2025. The current mint and freeze authorities are both disabled.</p></div></article>
+          <article class="timeline-item"><div class="timeline-date">Aug 2025</div><div><h3>Roadmap and app announcements</h3><p><span class="label">Historical announcement</span> A first-party Patreon collection lists a token roadmap, rewards language and a SHRYDER-powered Shaddowryderz Army app preview. Locked posts were not treated as proof of live functionality.</p></div></article>
+          <article class="timeline-item"><div class="timeline-date">Aug 26, 2025</div><div><h3>Shadow Runner announced live</h3><p><span class="label warning">Previously operated</span> A public Patreon post described Shadow Runner as a SHRYDER-powered app. The linked Replit destination was unavailable when checked on October 8, 2026, so it is not presented as current utility.</p></div></article>
+          <article class="timeline-item"><div class="timeline-date">Aug 10, 2026</div><div><h3>Shryder Mode released</h3><p><span class="label">Released</span> Apple Music and Spotify list the ten-track Shaddow album, establishing a current music expression of the SHRYDER identity.</p></div></article>
+          <article class="timeline-item"><div class="timeline-date">Oct 5, 2026</div><div><h3>The Signal released</h3><p><span class="label">Released</span> The ten-track Shaddow album extends the SHRYDER music and community vocabulary through songs including “Find the Army” and “Shryder Mission.”</p></div></article>
+          <article class="timeline-item"><div class="timeline-date">Oct 8, 2026</div><div><h3>Current utility confirmed as none</h3><p><span class="label warning">Current status</span> According to the project owner, SHRYDER has no current operational token utility.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="risks">
+      <div class="shell grid">
+        <div>
+          <p class="eyebrow">Transparency before promotion</p>
+          <h2>Security and financial risks</h2>
+          <ul class="risk-list">
+            <li>SHRYDER can be highly volatile and a buyer can lose some or all funds.</li>
+            <li>Observed liquidity is limited and can disappear; low liquidity can produce severe slippage.</li>
+            <li>Transactions can fail, be routed poorly or be sent to an impersonator token.</li>
+            <li>Wallet compromise, malicious links and exposed recovery phrases can cause permanent loss.</li>
+            <li>Market activity does not prove legitimate demand or future adoption.</li>
+            <li>Music or community success does not guarantee token price appreciation.</li>
+            <li>There is no guaranteed future functionality and no guarantee of returns.</li>
+          </ul>
+        </div>
+        <aside class="aside">
+          <p class="eyebrow">Referral disclosure</p>
+          <h3>FOMO link withheld</h3>
+          <p>The owner-provided FOMO URL contains <code>r=shaddow</code> and <code>source=share_link</code>, indicating referral attribution. The route did not resolve to the SHRYDER token during verification, and the compensation relationship was not established. It is therefore not published as a trade button.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="shell">
+        <p class="eyebrow">Direct answers</p>
+        <h2>Frequently asked questions</h2>
+        <div class="faq">
+          <details><summary>What is SHRYDER?</summary><p>SHRYDER is a cultural ecosystem connected to Shaddow’s music, creative projects and public community. A separate Solana token with the ticker SHRYDER is associated with that ecosystem.</p></details>
+          <details><summary>Is SHRYDER a Solana token?</summary><p>Yes. The mint is an original-program SPL Token mint on Solana mainnet, not a Token-2022 mint.</p></details>
+          <details><summary>What is the official SHRYDER mint address?</summary><p><code>HPkfMuWs3d4VWsuTAAS2xnrVaFSAs34poqChiFWzbonk</code>. Compare the complete address on multiple independent sources.</p></details>
+          <details><summary>How can I verify the token?</summary><p>Paste the full mint into Solana Explorer or Solscan and compare the network, program, name, ticker, decimals and authorities. Do not rely on the ticker alone.</p></details>
+          <details><summary>Where can I trade SHRYDER?</summary><p>At verification, the exact mint resolved on Jupiter and LetsBONK.fun. Route availability and liquidity can change. Confirm the mint and live quote before any transaction.</p></details>
+          <details><summary>Does SHRYDER currently have utility?</summary><p>No. As of October 8, 2026, SHRYDER has no current operational token utility, according to the project owner.</p></details>
+          <details><summary>Is SHRYDER connected to Shaddow’s music?</summary><p>Yes. Shaddow’s verified albums Shryder Mode and The Signal use SHRYDER as a recurring creative and cultural identity.</p></details>
+          <details><summary>Can I join the community without buying tokens?</summary><p>Yes. Listening to the music and participating in the public SHRYDER Network do not require token ownership.</p></details>
+          <details><summary>What is the difference between SHRYDER and Shaddowryderz?</summary><p>Shaddowryderz is the older, broader creative and cultural identity documented in Shaddow’s historical archive. SHRYDER is a later music and cultural ecosystem with an associated token. The available evidence supports continuity, but not a claim that one is simply a rename of the other.</p></details>
+          <details><summary>Is SHRYDER an investment?</summary><p>This page does not present SHRYDER as an investment or promise returns. Anyone considering a trade should conduct independent research and be prepared for total loss.</p></details>
+          <details><summary>What are the risks of trading SHRYDER?</summary><p>Risks include volatility, low or disappearing liquidity, severe slippage, transaction failure, wallet compromise, impersonator tokens and partial or total loss.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section id="sources">
+      <div class="shell">
+        <p class="eyebrow">First-party and verification sources</p>
+        <h2>Official sources</h2>
+        <div class="source-grid">
+          <article class="source-card"><h3>Token verification</h3><p><a href="https://explorer.solana.com/address/HPkfMuWs3d4VWsuTAAS2xnrVaFSAs34poqChiFWzbonk" data-outbound="source_solana_explorer">Solana Explorer</a><br><a href="https://solscan.io/token/HPkfMuWs3d4VWsuTAAS2xnrVaFSAs34poqChiFWzbonk" data-outbound="source_solscan">Solscan</a></p></article>
+          <article class="source-card"><h3>Shaddow music</h3><p><a href="https://open.spotify.com/artist/0F7VqZmW33A5f4b90v5auq" data-outbound="source_spotify_artist">Spotify artist profile</a><br><a href="https://music.apple.com/us/artist/shaddow/336772230" data-outbound="source_apple_artist">Apple Music artist profile</a><br><a href="https://www.youtube.com/channel/UC4gbhhNd40V3hykvWyGR3Mw" data-outbound="source_youtube_channel">Official YouTube channel</a></p></article>
+          <article class="source-card"><h3>Community</h3><p><a href="https://t.me/SHRYDERNetwork" data-outbound="source_telegram">SHRYDER Network on Telegram</a></p></article>
+          <article class="source-card"><h3>Historical evidence</h3><p><a href="https://www.patreon.com/collection/1624175?view=expanded" data-outbound="source_patreon_collection">SHRYDER Patreon collection</a><br><a href="https://www.patreon.com/Shaddowmusic/posts/shadow-runner-is-137380846?collection=1624175" data-outbound="source_shadow_runner">Shadow Runner announcement</a><br><a href="../shaddowryderz/">Shaddowryderz historical archive</a></p></article>
+        </div>
+        <p class="legal-note">This page is informational, not financial, investment, legal or tax advice. Third-party interfaces and services have their own terms, risks and geographic restrictions.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell"><span>© 2026 Shaddow · SHRYDER Search Empire</span><a href="../">All search experiences</a></div>
+  </footer>
+  <script src="../assets/app.js" defer></script>
+  <script src="./shryder.js" defer></script>
+</body>
+</html>
