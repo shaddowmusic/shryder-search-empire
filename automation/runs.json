@@ -2,6 +2,108 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-10-08",
+      "city": "Bangkok",
+      "property_number": 1,
+      "target_query": "bangkok nightlife guide",
+      "path": "cities/bangkok/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/",
+      "research_sources": [
+        {
+          "url": "https://www.tourismthailand.org/Destinations/Provinces/Bangkok/219",
+          "checked_at": "2026-10-08",
+          "supported_facts": [
+            "Tourism Authority of Thailand presents Bangkok as a mix of historical sites, markets, shopping, food, entertainment and transportation",
+            "The official destination page specifically names Yaowarat and Phahurat Night Market among Bangkok experiences"
+          ]
+        },
+        {
+          "url": "https://thecommonsbkk.com/thonglor",
+          "checked_at": "2026-10-08",
+          "supported_facts": [
+            "Operator describes theCOMMONS Thonglor as a four-level neighborhood community space",
+            "Official page lists food, drinks, vendors and changing events at its Thonglor location",
+            "Published venue hours are 8 AM to 1 AM, with individual vendor hours varying"
+          ]
+        },
+        {
+          "url": "https://rivercitybangkok.com/",
+          "checked_at": "2026-10-08",
+          "supported_facts": [
+            "Operator identifies River City Bangkok as an arts-and-antiques cultured lifestyle center",
+            "Programming categories include exhibitions, events, film, music and auctions",
+            "Published location is 23 Charoen Krung Soi 24, Talard Noi, Bangkok"
+          ]
+        },
+        {
+          "url": "https://www.bts.co.th/eng/routemap-mb/",
+          "checked_at": "2026-10-08",
+          "supported_facts": [
+            "Official BTS tool provides route, fare, travel-time and station-area planning"
+          ]
+        },
+        {
+          "url": "https://metro.bemplc.co.th/MRT-System-Map?lang=en",
+          "checked_at": "2026-10-08",
+          "supported_facts": [
+            "Official Bangkok MRT operator publishes Blue and Purple Line route and station information"
+          ]
+        },
+        {
+          "url": "https://www.bangkoktourist.com/chinatown/",
+          "checked_at": "2026-10-08",
+          "supported_facts": [
+            "Current local city guide describes Yaowarat as active by day and night",
+            "Guide supports the district's food, music and Thai-Chinese cultural character"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/shorts/CtLJ4Yh27bI",
+          "checked_at": "2026-10-08",
+          "supported_facts": [
+            "Established Shaddow Pattaya music embed retained as a clearly labeled Thailand after-dark soundtrack",
+            "The page explicitly states that Pattaya is not a Bangkok song"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Current results for Bangkok nightlife guide organize the problem by district, atmosphere and transportation. This page answers that planning intent without claiming search volume.",
+        "distinctiveness": "This is the first Bangkok property and a route-selection hub. It does not duplicate Pattaya pages or publish a brittle club ranking; it compares four Bangkok night modes using current operator and transit sources."
+      },
+      "commit_sha": null,
+      "status": "validated",
+      "qa": {
+        "validator": "Pending final clean-checkout run before commit",
+        "editorial": "Official tourism, venue and transit sources reviewed. No rankings, prices, firsthand experience, partnership claims or guaranteed schedules.",
+        "responsive": "Candidate uses established responsive CSS plus mobile-stacked mode cards and a locally scrollable comparison table.",
+        "music": "Established non-autoplay Shaddow Pattaya embed retained with explicit Bangkok-context disclosure.",
+        "visual_preview": "Pending local desktop and mobile render review."
+      }
+    },
+    {
+      "date_bangkok": "2026-10-08",
+      "city": "Pattaya",
+      "property_number": 18,
+      "target_query": "pattaya jdm car culture",
+      "path": "cities/pattaya/jdm-car-culture/index.html",
+      "url": null,
+      "research_sources": [
+        {
+          "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/pattaya/bira-circuit/",
+          "checked_at": "2026-10-08",
+          "supported_facts": ["Existing live property already covers Pattaya circuit and motorsport planning intent"]
+        },
+        {
+          "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/pattaya/car-shows-meets/",
+          "checked_at": "2026-10-08",
+          "supported_facts": ["Existing live property already covers Pattaya modified, classic, JDM and supercar event intent"]
+        }
+      ],
+      "commit_sha": null,
+      "status": "deferred",
+      "error": "The exact JDM query did not surface a reliable organizer-led source, and publishing now would overlap two existing automotive guides. Reconsider only with original Shaddow coverage and a distinct organizer-backed angle."
+    },
+    {
       "date_bangkok": "2026-10-07",
       "city": "Pattaya",
       "property_number": 17,

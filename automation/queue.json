@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "properties": [
     {
       "path": "cities/pattaya/beach-clubs/index.html",
@@ -106,8 +106,17 @@
       "path": "cities/pattaya/jdm-car-culture/index.html",
       "city": "Pattaya",
       "target_query": "pattaya jdm car culture",
-      "status": "conditional",
-      "gate": "Publish only with original coverage, real organizer references and distinct query evidence; otherwise defer and begin Bangkok."
+      "status": "deferred",
+      "gate": "Publish only with original coverage, real organizer references and distinct query evidence; otherwise defer and begin Bangkok.",
+      "deferred_on": "2026-10-08",
+      "reason": "No reliable organizer-led result for the exact query, and the useful automotive intent is already served by the published Bira Circuit and car shows/meets guides. Reconsider only with original Shaddow coverage and a distinct organizer-backed angle."
+    },
+    {
+      "property_number": 1,
+      "path": "cities/bangkok/index.html",
+      "city": "Bangkok",
+      "target_query": "bangkok nightlife guide",
+      "status": "validated"
     }
   ],
   "next_cities": [
