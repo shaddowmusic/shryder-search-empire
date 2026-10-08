@@ -70,14 +70,32 @@
         "evidence": "Current results for Bangkok nightlife guide organize the problem by district, atmosphere and transportation. This page answers that planning intent without claiming search volume.",
         "distinctiveness": "This is the first Bangkok property and a route-selection hub. It does not duplicate Pattaya pages or publish a brittle club ranking; it compares four Bangkok night modes using current operator and transit sources."
       },
-      "commit_sha": null,
-      "status": "validated",
+      "commit_sha": "3340553b35767502e4d8d1b018fcd2883f73db8e",
+      "status": "deployed",
       "qa": {
-        "validator": "Pending final clean-checkout run before commit",
+        "validator": "PASS: python3 scripts/validate_factory.py against a clean complete checkout",
         "editorial": "Official tourism, venue and transit sources reviewed. No rankings, prices, firsthand experience, partnership claims or guaranteed schedules.",
         "responsive": "Candidate uses established responsive CSS plus mobile-stacked mode cards and a locally scrollable comparison table.",
         "music": "Established non-autoplay Shaddow Pattaya embed retained with explicit Bangkok-context disclosure.",
-        "visual_preview": "Pending local desktop and mobile render review."
+        "visual_preview": "Live desktop page visually reviewed after deployment; hero, navigation, typography, route chooser and CTAs rendered without visible overflow. Browser DOM confirmed no horizontal page overflow; responsive rules stack cards and keep the comparison table locally scrollable on mobile."
+      },
+      "deployment": {
+        "workflow_run_id": 37715212503,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/37715212503",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-10-08T01:55:28Z",
+        "public_checks": {
+          "http_status": 200,
+          "title": "Bangkok Nightlife Guide: Choose Your After-Dark Route | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/",
+          "property_marker": true,
+          "route_rows": 4,
+          "music_embed": "https://www.youtube-nocookie.com/embed/CtLJ4Yh27bI?rel=0",
+          "direct_telegram_ctas": 2,
+          "root_discovery_link": true,
+          "horizontal_overflow": false
+        }
       }
     },
     {

@@ -116,7 +116,7 @@
       "path": "cities/bangkok/index.html",
       "city": "Bangkok",
       "target_query": "bangkok nightlife guide",
-      "status": "validated"
+      "status": "deployed"
     }
   ],
   "next_cities": [
