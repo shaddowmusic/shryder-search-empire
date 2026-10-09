@@ -63,14 +63,32 @@
         "evidence": "Current results for Bangkok rooftop bars present a large venue category, while official operators differentiate locations by skyline, neighborhood, dining, live music and party atmosphere. The page answers comparison and selection intent without claiming search volume or a universal best.",
         "distinctiveness": "This is a venue-comparison property within the Bangkok cluster. The Bangkok hub chooses among whole districts and night modes; this page compares four operator-verified rooftop experiences and current planning constraints."
       },
-      "commit_sha": null,
-      "status": "validated",
+      "commit_sha": "783f3fcdce16997868271bce80dc5dbe92a2afbd",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py against a clean complete checkout",
         "editorial": "Official venue/operator pages reviewed. No prices, firsthand experience, partnership claims or guaranteed schedules.",
         "responsive": "Candidate uses established responsive CSS, a mobile-stacked venue grid and a locally scrollable comparison table.",
         "music": "Established non-autoplay Shaddow Pattaya embed retained with explicit Bangkok-context disclosure.",
-        "visual_preview": "Pending local or deployed visual review."
+        "visual_preview": "Live desktop page visually reviewed after deployment; hero, navigation, comparison, typography and CTAs rendered without visible overflow. Browser DOM confirmed no horizontal page overflow; responsive rules stack venue cards and keep the comparison table locally scrollable on mobile."
+      },
+      "deployment": {
+        "workflow_run_id": 37868546451,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/37868546451",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-10-09T01:13:10Z",
+        "public_checks": {
+          "http_status": 200,
+          "title": "Bangkok Rooftop Bars: Choose Your Skyline Night | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/rooftop-bars/",
+          "property_marker": true,
+          "comparison_rows": 4,
+          "music_embed": "https://www.youtube-nocookie.com/embed/CtLJ4Yh27bI?rel=0",
+          "direct_telegram_ctas": 2,
+          "bangkok_hub_link": true,
+          "horizontal_overflow": false
+        }
       }
     },
     {
