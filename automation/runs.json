@@ -2,6 +2,78 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-10-09",
+      "city": "Bangkok",
+      "property_number": 2,
+      "target_query": "bangkok rooftop bars",
+      "path": "cities/bangkok/rooftop-bars/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/rooftop-bars/",
+      "research_sources": [
+        {
+          "url": "https://lebua.com/restaurants/sky/",
+          "checked_at": "2026-10-09",
+          "supported_facts": [
+            "Lebua places Sky Bar on the 64th floor, 247 metres above Bangkok",
+            "The operator describes a panoramic open-air setting and the circular island bar",
+            "Lebua currently states that Sky Bar and its other bars accept walk-ins without reservations"
+          ]
+        },
+        {
+          "url": "https://www.marriott.com/en-us/hotels/bkkms-bangkok-marriott-hotel-sukhumvit/dining/",
+          "checked_at": "2026-10-09",
+          "supported_facts": [
+            "Marriott describes Octave as a rooftop destination in Sukhumvit with 360-degree Bangkok views",
+            "The official page highlights sunset, crafted drinks and elevated dining in Thonglor"
+          ]
+        },
+        {
+          "url": "https://www.standardhotels.com/bangkok/features/skybeach-rooftopbar-bkk",
+          "checked_at": "2026-10-09",
+          "supported_facts": [
+            "The Standard identifies Sky Beach as Bangkok's highest alfresco rooftop bar",
+            "The operator positions the venue around elevated parties and live-DJ nightlife"
+          ]
+        },
+        {
+          "url": "https://www.hyatt.com/hyatt-regency/en-US/bkkhr-hyatt-regency-bangkok-sukhumvit/dining/spectrum-lounge-and-bar",
+          "checked_at": "2026-10-09",
+          "supported_facts": [
+            "Hyatt describes Spectrum as a rooftop lounge and bar with Bangkok skyline views",
+            "The official page promotes live performances by local Thai artists and rooftop dining"
+          ]
+        },
+        {
+          "url": "https://www.banyantree.com/thailand/bangkok/dining/moon-bar",
+          "checked_at": "2026-10-09",
+          "supported_facts": [
+            "Banyan Tree says Moon Bar and Vertigo are temporarily closed for renovation",
+            "The operator gives 2 December 2026 as the scheduled reopening date"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/shorts/CtLJ4Yh27bI",
+          "checked_at": "2026-10-09",
+          "supported_facts": [
+            "Established Shaddow Pattaya embed retained as a clearly labeled Thailand after-dark soundtrack",
+            "The page explicitly states that Pattaya is not a Bangkok song"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Current results for Bangkok rooftop bars present a large venue category, while official operators differentiate locations by skyline, neighborhood, dining, live music and party atmosphere. The page answers comparison and selection intent without claiming search volume or a universal best.",
+        "distinctiveness": "This is a venue-comparison property within the Bangkok cluster. The Bangkok hub chooses among whole districts and night modes; this page compares four operator-verified rooftop experiences and current planning constraints."
+      },
+      "commit_sha": null,
+      "status": "validated",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py against a clean complete checkout",
+        "editorial": "Official venue/operator pages reviewed. No prices, firsthand experience, partnership claims or guaranteed schedules.",
+        "responsive": "Candidate uses established responsive CSS, a mobile-stacked venue grid and a locally scrollable comparison table.",
+        "music": "Established non-autoplay Shaddow Pattaya embed retained with explicit Bangkok-context disclosure.",
+        "visual_preview": "Pending local or deployed visual review."
+      }
+    },
+    {
       "date_bangkok": "2026-10-08",
       "city": "Bangkok",
       "property_number": 1,

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "properties": [
     {
       "path": "cities/pattaya/beach-clubs/index.html",
@@ -117,6 +117,13 @@
       "city": "Bangkok",
       "target_query": "bangkok nightlife guide",
       "status": "deployed"
+    },
+    {
+      "property_number": 2,
+      "path": "cities/bangkok/rooftop-bars/index.html",
+      "city": "Bangkok",
+      "target_query": "bangkok rooftop bars",
+      "status": "validated"
     }
   ],
   "next_cities": [
