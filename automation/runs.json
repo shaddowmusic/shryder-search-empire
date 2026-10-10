@@ -69,14 +69,32 @@
         "evidence": "Current Bangkok jazz results present a broad, active venue category, while official operators differentiate rooms by heritage, listening focus, casual pub energy and skyline setting. The page answers comparison and selection intent without claiming search volume or a universal best.",
         "distinctiveness": "The Bangkok hub chooses among whole districts and night modes, while the rooftop guide compares skyline venues. This property specifically helps visitors choose a live-jazz experience and aligns directly with Shaddow's saxophone-led artist identity."
       },
-      "commit_sha": null,
-      "status": "validated",
+      "commit_sha": "e5c0ce6cb135bd1fd5eced31744401e35aea4d7e",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py against a clean complete checkout",
         "editorial": "Official venue/operator pages and a current city editorial guide reviewed. No prices, firsthand experience, partnership claims or guaranteed schedules.",
         "responsive": "Candidate uses established responsive CSS, a mobile-stacked venue grid and a locally scrollable comparison table.",
         "music": "Established non-autoplay Shaddow Pattaya embed retained with explicit Bangkok-context disclosure.",
-        "visual_preview": "Pending local or deployed visual review."
+        "visual_preview": "Live desktop page visually reviewed after deployment; hero, navigation, comparison, typography and CTAs rendered without visible overflow. Browser DOM confirmed no horizontal page overflow; responsive rules stack venue cards and keep the comparison table locally scrollable on mobile."
+      },
+      "deployment": {
+        "workflow_run_id": 38015416743,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/38015416743",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-10-10T02:03:04Z",
+        "public_checks": {
+          "http_status": 200,
+          "title": "Bangkok Jazz Bars: Choose Your Live Music Night | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/jazz-bars/",
+          "property_marker": true,
+          "comparison_rows": 4,
+          "music_embed": "https://www.youtube-nocookie.com/embed/CtLJ4Yh27bI?rel=0",
+          "direct_telegram_ctas": 2,
+          "bangkok_hub_link": true,
+          "horizontal_overflow": false
+        }
       }
     },
     {

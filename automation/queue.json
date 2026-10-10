@@ -130,7 +130,7 @@
       "path": "cities/bangkok/jazz-bars/index.html",
       "city": "Bangkok",
       "target_query": "bangkok jazz bars",
-      "status": "validated"
+      "status": "deployed"
     }
   ],
   "next_cities": [
