@@ -2,6 +2,84 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-10-10",
+      "city": "Bangkok",
+      "property_number": 3,
+      "target_query": "bangkok jazz bars",
+      "path": "cities/bangkok/jazz-bars/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/jazz-bars/",
+      "research_sources": [
+        {
+          "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/dine/the-bamboo-bar",
+          "checked_at": "2026-10-10",
+          "supported_facts": [
+            "Mandarin Oriental identifies The Bamboo Bar as a live jazz and blues bar",
+            "The operator publishes an elegant-attire policy for the evening",
+            "The official page currently states that The Bamboo Bar does not accept reservations"
+          ]
+        },
+        {
+          "url": "https://www.marriott.com/en-us/dining/restaurant-bar/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/6072682-the-living-room.mi",
+          "checked_at": "2026-10-10",
+          "supported_facts": [
+            "Marriott identifies The Living Room as a live-jazz venue at Sheraton Grande Sukhumvit",
+            "The operator states that the room has hosted respected jazz musicians, including Grammy Award winners"
+          ]
+        },
+        {
+          "url": "https://www.saxophonepub.com/",
+          "checked_at": "2026-10-10",
+          "supported_facts": [
+            "The official venue site identifies Saxophone Pub as a Bangkok jazz-and-blues pub",
+            "The operator states that the venue has operated since 1987"
+          ]
+        },
+        {
+          "url": "https://www.saxophonepub.com/contact.php",
+          "checked_at": "2026-10-10",
+          "supported_facts": [
+            "The official contact page places Saxophone Pub on Phayathai Road at Victory Monument"
+          ]
+        },
+        {
+          "url": "https://www.hilton.com/en/hotels/bkkhitw-millennium-hilton-bangkok/dining/threesixty-jazz-lounge/",
+          "checked_at": "2026-10-10",
+          "supported_facts": [
+            "Hilton describes ThreeSixty Jazz Lounge as a live-jazz venue with panoramic Bangkok and Chao Phraya views",
+            "The operator publishes recurring live-jazz performances while schedules remain subject to change"
+          ]
+        },
+        {
+          "url": "https://www.timeout.com/bangkok/music/the-best-jazz-venues-in-the-city",
+          "checked_at": "2026-10-10",
+          "supported_facts": [
+            "A current Bangkok editorial guide supports distinct visitor intent around choosing among multiple live-jazz venues"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/shorts/CtLJ4Yh27bI",
+          "checked_at": "2026-10-10",
+          "supported_facts": [
+            "Established Shaddow Pattaya embed retained as a clearly labeled Thailand after-dark saxophone soundtrack",
+            "The page explicitly states that Pattaya is not a Bangkok song"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Current Bangkok jazz results present a broad, active venue category, while official operators differentiate rooms by heritage, listening focus, casual pub energy and skyline setting. The page answers comparison and selection intent without claiming search volume or a universal best.",
+        "distinctiveness": "The Bangkok hub chooses among whole districts and night modes, while the rooftop guide compares skyline venues. This property specifically helps visitors choose a live-jazz experience and aligns directly with Shaddow's saxophone-led artist identity."
+      },
+      "commit_sha": null,
+      "status": "validated",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py against a clean complete checkout",
+        "editorial": "Official venue/operator pages and a current city editorial guide reviewed. No prices, firsthand experience, partnership claims or guaranteed schedules.",
+        "responsive": "Candidate uses established responsive CSS, a mobile-stacked venue grid and a locally scrollable comparison table.",
+        "music": "Established non-autoplay Shaddow Pattaya embed retained with explicit Bangkok-context disclosure.",
+        "visual_preview": "Pending local or deployed visual review."
+      }
+    },
+    {
       "date_bangkok": "2026-10-09",
       "city": "Bangkok",
       "property_number": 2,
