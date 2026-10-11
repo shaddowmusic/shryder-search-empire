@@ -2,6 +2,84 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-10-11",
+      "city": "Bangkok",
+      "property_number": 4,
+      "target_query": "bangkok night markets",
+      "path": "cities/bangkok/night-markets/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/night-markets/",
+      "research_sources": [
+        {
+          "url": "https://www.asiatiquethailand.com/",
+          "checked_at": "2026-10-11",
+          "supported_facts": [
+            "The operator presents Asiatique as a large riverside destination combining shopping, dining, sightseeing, activities and events"
+          ]
+        },
+        {
+          "url": "https://www.asiatiquethailand.com/contact-us",
+          "checked_at": "2026-10-11",
+          "supported_facts": [
+            "The official site publishes the current destination address and daily general opening information",
+            "Individual attractions and businesses may keep different schedules"
+          ]
+        },
+        {
+          "url": "https://www.changchuibangkok.com/",
+          "checked_at": "2026-10-11",
+          "supported_facts": [
+            "The official site identifies ChangChui as a creative park on Sirindhorn Road in Bang Phlat",
+            "The operator publishes separate green-zone and night-zone hours and states that the park closes on Wednesday"
+          ]
+        },
+        {
+          "url": "https://www.tourismthailand.org/Destinations/Provinces/Bangkok/219",
+          "checked_at": "2026-10-11",
+          "supported_facts": [
+            "Tourism Authority of Thailand names Yaowarat among Bangkok's market and shopping experiences",
+            "Official destination context supports treating Yaowarat as a district experience rather than one managed market"
+          ]
+        },
+        {
+          "url": "https://www.airahotelbangkok.com/jodd-fairs-night-market/",
+          "checked_at": "2026-10-11",
+          "supported_facts": [
+            "The current hotel destination guide states that JODD FAIRS relocated from the former Rama 9 site to Ratchadaphisek Road near Thailand Cultural Centre MRT in 2025"
+          ]
+        },
+        {
+          "url": "https://bangkokauthority.com/en/attractions/jodd-fairs-marche-de-nuit",
+          "checked_at": "2026-10-11",
+          "supported_facts": [
+            "The local guide was updated on 5 October 2026",
+            "It places the current JODD FAIRS Ratchada site on Ratchadaphisek Road near Thailand Cultural Centre MRT",
+            "It confirms that older pages for the former location can misdirect visitors"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/shorts/CtLJ4Yh27bI",
+          "checked_at": "2026-10-11",
+          "supported_facts": [
+            "Established non-autoplay Shaddow Pattaya embed retained as a clearly disclosed Thailand after-dark soundtrack",
+            "The page explicitly states that Pattaya is not a Bangkok song"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Current results show strong comparison and planning intent but frequently mix managed night markets, open-air retail destinations and street-food districts. Fresh location results also expose a practical problem: stale JODD FAIRS Rama 9 pages remain searchable after the move. Qualitative intent only; no search volume claimed.",
+        "distinctiveness": "The Bangkok hub chooses among broad night modes, while this property compares four market formats and solves the current-location problem. It does not duplicate the rooftop-bar or live-jazz guides."
+      },
+      "commit_sha": null,
+      "status": "validated",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py against the complete current checkout",
+        "editorial": "Official operator and tourism sources reviewed; current secondary sources used only for JODD FAIRS relocation and location evidence. No prices, firsthand experience, partnership claims, search volume or guaranteed schedules.",
+        "responsive": "Candidate uses established responsive CSS, a mobile-stacked market grid and a locally scrollable comparison table.",
+        "music": "YouTube oEmbed returned HTTP 200 on 11 October 2026 and identified the video as Pattaya by Shaddowmusic; the Spotify album URL returned HTTP 200 with the title Pattaya - Single by Shaddow. The non-autoplay embed is retained with explicit Bangkok-context disclosure.",
+        "visual_preview": "Pending live visual review after publication. Full candidate HTML and responsive rules reviewed before commit."
+      }
+    },
+    {
       "date_bangkok": "2026-10-10",
       "city": "Bangkok",
       "property_number": 3,
