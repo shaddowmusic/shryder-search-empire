@@ -69,14 +69,34 @@
         "evidence": "Current results show strong comparison and planning intent but frequently mix managed night markets, open-air retail destinations and street-food districts. Fresh location results also expose a practical problem: stale JODD FAIRS Rama 9 pages remain searchable after the move. Qualitative intent only; no search volume claimed.",
         "distinctiveness": "The Bangkok hub chooses among broad night modes, while this property compares four market formats and solves the current-location problem. It does not duplicate the rooftop-bar or live-jazz guides."
       },
-      "commit_sha": null,
-      "status": "validated",
+      "commit_sha": "143a3b20f73cead224c65417b223a3aba8f5f93f",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py against the complete current checkout",
         "editorial": "Official operator and tourism sources reviewed; current secondary sources used only for JODD FAIRS relocation and location evidence. No prices, firsthand experience, partnership claims, search volume or guaranteed schedules.",
         "responsive": "Candidate uses established responsive CSS, a mobile-stacked market grid and a locally scrollable comparison table.",
         "music": "YouTube oEmbed returned HTTP 200 on 11 October 2026 and identified the video as Pattaya by Shaddowmusic; the Spotify album URL returned HTTP 200 with the title Pattaya - Single by Shaddow. The non-autoplay embed is retained with explicit Bangkok-context disclosure.",
-        "visual_preview": "Pending live visual review after publication. Full candidate HTML and responsive rules reviewed before commit."
+        "visual_preview": "Live desktop page visually reviewed after successful deployment. Hero, navigation, comparison, music module and lower content rendered cleanly; browser DOM confirmed one H1, no document-level horizontal overflow, a locally scrollable comparison table and two-column desktop market cards. Established media queries stack cards on mobile."
+      },
+      "deployment": {
+        "workflow_run_id": 38101995039,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/38101995039",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-10-11T01:31:00Z",
+        "public_checks": {
+          "http_status": 200,
+          "title": "Bangkok Night Markets: Choose the Right Evening | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/night-markets/",
+          "property_marker": true,
+          "comparison_rows": 4,
+          "music_embed": "https://www.youtube-nocookie.com/embed/CtLJ4Yh27bI?rel=0",
+          "direct_telegram_ctas": 2,
+          "bangkok_hub_link": true,
+          "published_neighbor_links": 2,
+          "hub_discovery_link": true,
+          "horizontal_overflow": false
+        }
       }
     },
     {

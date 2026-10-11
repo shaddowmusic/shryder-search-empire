@@ -137,7 +137,7 @@
       "path": "cities/bangkok/night-markets/index.html",
       "city": "Bangkok",
       "target_query": "bangkok night markets",
-      "status": "validated"
+      "status": "deployed"
     }
   ],
   "next_cities": [
