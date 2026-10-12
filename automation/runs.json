@@ -2,6 +2,102 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-10-12",
+      "city": "Bangkok",
+      "property_number": 5,
+      "target_query": "bangkok luxury hotels",
+      "path": "cities/bangkok/luxury-hotels/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/luxury-hotels/",
+      "research_sources": [
+        {
+          "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river",
+          "checked_at": "2026-10-12",
+          "supported_facts": [
+            "The operator describes more than 150 years of hospitality beside the Chao Phraya River",
+            "The official hotel page identifies river-led accommodation and the property's Bangkok riverside setting"
+          ]
+        },
+        {
+          "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/stay",
+          "checked_at": "2026-10-12",
+          "supported_facts": [
+            "The official accommodation page publishes river-view rooms and suites",
+            "Signature categories include Authors' Suites tied to literary guests and Chao Phraya suites with private terraces"
+          ]
+        },
+        {
+          "url": "https://capellahotels.com/en/capella-bangkok/accommodation",
+          "checked_at": "2026-10-12",
+          "supported_facts": [
+            "Capella publishes 101 rooms, suites and villas along the Chao Phraya River",
+            "The operator lists private balconies, larger verandah categories with plunge pools and seven villas at the river's edge",
+            "Room and villa features vary by category"
+          ]
+        },
+        {
+          "url": "https://www.thesiamhotel.com/",
+          "checked_at": "2026-10-12",
+          "supported_facts": [
+            "The Siam describes an art-and-antiques luxury hotel in three acres of gardens on the Chao Phraya River",
+            "The official site lists spacious suites, courtyard pool villas and riverside pool villas",
+            "The operator publishes a shuttle-boat connection"
+          ]
+        },
+        {
+          "url": "https://www.thesiamhotel.com/the-hotel",
+          "checked_at": "2026-10-12",
+          "supported_facts": [
+            "The operator describes an Art Deco and Thai-heritage design approach",
+            "The hotel identifies its setting in Bangkok's historic Dusit district"
+          ]
+        },
+        {
+          "url": "https://www.rosewoodhotels.com/en/bangkok",
+          "checked_at": "2026-10-12",
+          "supported_facts": [
+            "Rosewood describes residential-style guestrooms with modern interiors and panoramic city views",
+            "The official address is on Ploenchit Road in Pathumwan"
+          ]
+        },
+        {
+          "url": "https://www.rosewoodhotels.com/en/bangkok/overview/location",
+          "checked_at": "2026-10-12",
+          "supported_facts": [
+            "The official location page states that Rosewood Bangkok connects directly to Exit 1 of Ploenchit BTS"
+          ]
+        },
+        {
+          "url": "https://www.vogue.com/article/best-hotels-in-bangkok",
+          "checked_at": "2026-10-12",
+          "supported_facts": [
+            "A current editorial roundup supports comparison intent across heritage hotels, riverfront retreats, boutique hideaways and central design-led stays",
+            "Used only as qualitative search-intent evidence, not as the page's ranking or factual hotel source"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/shorts/CtLJ4Yh27bI",
+          "checked_at": "2026-10-12",
+          "supported_facts": [
+            "Established non-autoplay Shaddow Pattaya embed retained as a clearly disclosed Thailand luxury-night soundtrack",
+            "The page explicitly states that Pattaya is not a Bangkok song"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Current results show broad comparison and booking intent for Bangkok luxury hotels, with official operators differentiating heritage, privacy, design, room product and transport access. Qualitative intent only; no search volume or universal ranking claimed.",
+        "distinctiveness": "The existing Bangkok pages choose nightlife districts, rooftops, live-jazz rooms and night markets. This property answers accommodation-selection intent through exact hotel settings and room-product checks rather than repackaging nightlife content."
+      },
+      "commit_sha": null,
+      "status": "validated",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py against the complete current checkout",
+        "editorial": "Official hotel and location sources reviewed; current editorial roundup used only for qualitative intent. No rates, availability, firsthand reviews, partnership claims, search volume or universal best-hotel claim.",
+        "responsive": "Candidate uses established responsive CSS, a mobile-stacked hotel grid and a locally scrollable comparison table.",
+        "music": "YouTube oEmbed returned HTTP 200 on 12 October 2026 and identified the video as Pattaya by Shaddowmusic; the Spotify album URL returned HTTP 200 with the title Pattaya - Single by Shaddow. The non-autoplay embed is retained with explicit Bangkok-context disclosure.",
+        "visual_preview": "Pending live visual review after publication. Full candidate HTML and responsive rules reviewed before commit."
+      }
+    },
+    {
       "date_bangkok": "2026-10-11",
       "city": "Bangkok",
       "property_number": 4,
