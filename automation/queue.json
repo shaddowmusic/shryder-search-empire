@@ -144,7 +144,7 @@
       "path": "cities/bangkok/luxury-hotels/index.html",
       "city": "Bangkok",
       "target_query": "bangkok luxury hotels",
-      "status": "validated"
+      "status": "deployed"
     }
   ],
   "next_cities": [

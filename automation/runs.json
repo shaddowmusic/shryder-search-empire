@@ -87,14 +87,35 @@
         "evidence": "Current results show broad comparison and booking intent for Bangkok luxury hotels, with official operators differentiating heritage, privacy, design, room product and transport access. Qualitative intent only; no search volume or universal ranking claimed.",
         "distinctiveness": "The existing Bangkok pages choose nightlife districts, rooftops, live-jazz rooms and night markets. This property answers accommodation-selection intent through exact hotel settings and room-product checks rather than repackaging nightlife content."
       },
-      "commit_sha": null,
-      "status": "validated",
+      "commit_sha": "dc340376550f219fff7c8fde8ff579bd59d37021",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py against the complete current checkout",
         "editorial": "Official hotel and location sources reviewed; current editorial roundup used only for qualitative intent. No rates, availability, firsthand reviews, partnership claims, search volume or universal best-hotel claim.",
         "responsive": "Candidate uses established responsive CSS, a mobile-stacked hotel grid and a locally scrollable comparison table.",
         "music": "YouTube oEmbed returned HTTP 200 on 12 October 2026 and identified the video as Pattaya by Shaddowmusic; the Spotify album URL returned HTTP 200 with the title Pattaya - Single by Shaddow. The non-autoplay embed is retained with explicit Bangkok-context disclosure.",
-        "visual_preview": "Pending live visual review after publication. Full candidate HTML and responsive rules reviewed before commit."
+        "visual_preview": "Live desktop page visually reviewed after successful deployment. Hero, navigation, comparison and lower content rendered cleanly; browser DOM confirmed one H1, no document-level horizontal overflow, a locally scrollable comparison table, four hotel cards and a two-column desktop hotel grid. Established media queries stack cards on mobile."
+      },
+      "deployment": {
+        "workflow_run_id": 38192164917,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/38192164917",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-10-12T01:32:41Z",
+        "public_checks": {
+          "http_status": 200,
+          "title": "Bangkok Luxury Hotels: Choose Your Kind of Luxury | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/luxury-hotels/",
+          "property_marker": true,
+          "comparison_rows": 4,
+          "hotel_cards": 4,
+          "music_embed": "https://www.youtube-nocookie.com/embed/CtLJ4Yh27bI?rel=0",
+          "direct_telegram_ctas": 2,
+          "bangkok_hub_link": true,
+          "published_neighbor_links": 2,
+          "hub_discovery_link": true,
+          "horizontal_overflow": false
+        }
       }
     },
     {
