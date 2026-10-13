@@ -2,6 +2,87 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-10-13",
+      "city": "Bangkok",
+      "property_number": 6,
+      "target_query": "bangkok dinner cruise",
+      "path": "cities/bangkok/dinner-cruises/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/dinner-cruises/",
+      "research_sources": [
+        {
+          "url": "https://www.manohracruises.com/",
+          "checked_at": "2026-10-13",
+          "supported_facts": [
+            "Manohra operates carefully restored teak rice barges on the Chao Phraya River",
+            "The operator presents Thai cuisine and heritage-led river dining from Anantara Riverside Bangkok Resort"
+          ]
+        },
+        {
+          "url": "https://www.manohracruises.com/events-offers/dinner-river-cruise/",
+          "checked_at": "2026-10-13",
+          "supported_facts": [
+            "The current dinner cruise is a Thai set-menu experience with standard and premium menu options",
+            "The operator currently publishes multiple evening rounds and instructs guests to begin at Manohra Lounge"
+          ]
+        },
+        {
+          "url": "https://www.shangri-la.com/bangkok/shangrila/dining/restaurants/horizon-cruise/",
+          "checked_at": "2026-10-13",
+          "supported_facts": [
+            "Shangri-La operates Horizon as an international-buffet dinner cruise",
+            "The official page identifies NEXT2 pier and a smart-casual dress code",
+            "The published route passes historic buildings and major Chao Phraya landmarks"
+          ]
+        },
+        {
+          "url": "https://www.meridiancruise.co.th/cruises/",
+          "checked_at": "2026-10-13",
+          "supported_facts": [
+            "Meridian distinguishes a sunset cruise from a later after-dark dinner cruise",
+            "Both current programs publish an international buffet and live music from ICONSIAM",
+            "The dinner program adds traditional Thai dance performances"
+          ]
+        },
+        {
+          "url": "https://www.chaophrayaprincess.com/",
+          "checked_at": "2026-10-13",
+          "supported_facts": [
+            "The official operator includes live music, an international buffet and historical river landmarks in its dinner program",
+            "The company publishes multiple ships and program-dependent booking details"
+          ]
+        },
+        {
+          "url": "https://www.chaophrayaprincess.com/routeprogram.php",
+          "checked_at": "2026-10-13",
+          "supported_facts": [
+            "The official route program describes saxophonists and singers performing soft pop and jazz during the first hour",
+            "The published program shifts to upbeat music and dancing after dinner"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/shorts/CtLJ4Yh27bI",
+          "checked_at": "2026-10-13",
+          "supported_facts": [
+            "YouTube oEmbed identified the established Pattaya video as a Shaddowmusic upload",
+            "The page clearly discloses that Pattaya is not a Bangkok song while connecting its tenor-sax sound to the cruise topic"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Current results show comparison and booking intent around Bangkok dinner cruises, especially boat style, buffet versus set menu, sunset versus after-dark sailing, live entertainment and departure pier. Qualitative intent only; no search volume or universal ranking claimed.",
+        "distinctiveness": "The Bangkok hub chooses an after-dark district, while existing rooftop, jazz, night-market and hotel pages solve different decisions. This property compares moving river-dining formats and pier logistics rather than duplicating those guides."
+      },
+      "commit_sha": null,
+      "status": "validated",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py against the complete current checkout",
+        "editorial": "Official operator pages reviewed; no price, live availability, firsthand review, partnership claim, search volume, guaranteed schedule or universal best-cruise claim.",
+        "responsive": "Candidate uses established responsive CSS, a mobile-stacked cruise grid and a locally scrollable comparison table.",
+        "music": "YouTube oEmbed returned HTTP 200 on 13 October 2026 and identified Pattaya by Shaddowmusic; the Spotify album URL returned HTTP 200 with the title Pattaya - Single by Shaddow. The non-autoplay embed is retained with explicit Bangkok-context disclosure.",
+        "visual_preview": "Pending live visual review after publication. Full candidate HTML and responsive rules reviewed before commit."
+      }
+    },
+    {
       "date_bangkok": "2026-10-12",
       "city": "Bangkok",
       "property_number": 5,
