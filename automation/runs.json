@@ -72,14 +72,35 @@
         "evidence": "Current results show comparison and booking intent around Bangkok dinner cruises, especially boat style, buffet versus set menu, sunset versus after-dark sailing, live entertainment and departure pier. Qualitative intent only; no search volume or universal ranking claimed.",
         "distinctiveness": "The Bangkok hub chooses an after-dark district, while existing rooftop, jazz, night-market and hotel pages solve different decisions. This property compares moving river-dining formats and pier logistics rather than duplicating those guides."
       },
-      "commit_sha": null,
-      "status": "validated",
+      "commit_sha": "27a5b005316f35425a2cfd6e6966f3a5f5b75077",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py against the complete current checkout",
         "editorial": "Official operator pages reviewed; no price, live availability, firsthand review, partnership claim, search volume, guaranteed schedule or universal best-cruise claim.",
         "responsive": "Candidate uses established responsive CSS, a mobile-stacked cruise grid and a locally scrollable comparison table.",
         "music": "YouTube oEmbed returned HTTP 200 on 13 October 2026 and identified Pattaya by Shaddowmusic; the Spotify album URL returned HTTP 200 with the title Pattaya - Single by Shaddow. The non-autoplay embed is retained with explicit Bangkok-context disclosure.",
-        "visual_preview": "Pending live visual review after publication. Full candidate HTML and responsive rules reviewed before commit."
+        "visual_preview": "Live desktop page visually reviewed after successful deployment. Hero, navigation, comparison table and first content transition rendered cleanly; browser DOM confirmed one H1, no document-level horizontal overflow, a locally scrollable comparison table, four cruise cards and a two-column desktop grid. Established media queries stack cards on mobile."
+      },
+      "deployment": {
+        "workflow_run_id": 38335012509,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/38335012509",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-10-13T02:04:51Z",
+        "public_checks": {
+          "http_status": 200,
+          "title": "Bangkok Dinner Cruises: Choose the Right River Night | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/dinner-cruises/",
+          "property_marker": true,
+          "comparison_rows": 4,
+          "cruise_cards": 4,
+          "music_embed": "https://www.youtube-nocookie.com/embed/CtLJ4Yh27bI?rel=0",
+          "direct_telegram_ctas": 2,
+          "bangkok_hub_link": true,
+          "published_neighbor_links": 2,
+          "hub_discovery_link": true,
+          "horizontal_overflow": false
+        }
       }
     },
     {
