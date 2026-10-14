@@ -2,6 +2,79 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-10-14",
+      "city": "Bangkok",
+      "property_number": 7,
+      "target_query": "bangkok coworking day pass",
+      "path": "cities/bangkok/coworking-day-passes/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/coworking-day-passes/",
+      "research_sources": [
+        {
+          "url": "https://thehive.co.th/",
+          "checked_at": "2026-10-14",
+          "supported_facts": [
+            "Piman 49 location; hot desks, meeting rooms and rooftop café lounge and terrace"
+          ]
+        },
+        {
+          "url": "https://thehive.co.th/membership/",
+          "checked_at": "2026-10-14",
+          "supported_facts": [
+            "Day and week pass products differ from full-time access; listed facilities include phone booths and Wi-Fi"
+          ]
+        },
+        {
+          "url": "https://www.commonground.work/th-en/locations/centralworld/",
+          "checked_at": "2026-10-14",
+          "supported_facts": [
+            "CentralWorld office location; café, call booths and meeting facilities"
+          ]
+        },
+        {
+          "url": "https://www.commonground.work/th-en/day-pass/",
+          "checked_at": "2026-10-14",
+          "supported_facts": [
+            "Day passes at CentralWorld, G Tower and Ploenchit; weekday access excludes weekends and public holidays; hot-desk seating, Wi-Fi and pantry refreshments"
+          ]
+        },
+        {
+          "url": "https://truedigitalpark.com/en/workplace/co-working-space",
+          "checked_at": "2026-10-14",
+          "supported_facts": [
+            "One-day hot-desk product; Punnawithi BTS walkway; sixth floor of East building; lobby ID and registration instructions; separate weekend and holiday rules"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=g4mXXUefOMw",
+          "checked_at": "2026-10-14",
+          "supported_facts": [
+            "YouTube oEmbed HTTP 200 identified Focus Music for Work & Trading by Shaddowmusic"
+          ]
+        },
+        {
+          "url": "https://bkkscene.com/best-coworking-bangkok/",
+          "checked_at": "2026-10-14",
+          "supported_facts": [
+            "Qualitative comparison intent around workspaces, day passes and different work styles; not used for operator facts"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Current search results and official day-access products support short-stay workspace comparison by neighborhood, access window, calls and facilities. Qualitative evidence only; no search volume.",
+        "distinctiveness": "First Bangkok daytime work-lifestyle page; solves day-pass versus membership entitlements and arrival logistics rather than repeating nightlife, hotel or dining decisions."
+      },
+      "commit_sha": null,
+      "status": "validated",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py against the complete current checkout",
+        "editorial": "Official facilities distinguished from pass entitlements. No prices, speed tests, firsthand claims, guaranteed quiet, availability or legal/work-permission advice.",
+        "responsive": "Established responsive CSS, locally scrolling table and stacked cards under 900px; full HTML reviewed.",
+        "music": "YouTube oEmbed HTTP 200 confirmed the existing Shaddowmusic focus session. Non-autoplay embed and direct verified YouTube destination; no Spotify destination invented.",
+        "visual_preview": "Pending live visual QA; local browser preview unavailable."
+      },
+      "maintenance": "Pattaya event entries inspected: March festival remains labeled past; all four late-2026 calendar entries remain future on 14 October. No event dates changed."
+    },
+    {
       "date_bangkok": "2026-10-13",
       "city": "Bangkok",
       "property_number": 6,
@@ -612,12 +685,16 @@
         {
           "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/pattaya/bira-circuit/",
           "checked_at": "2026-10-08",
-          "supported_facts": ["Existing live property already covers Pattaya circuit and motorsport planning intent"]
+          "supported_facts": [
+            "Existing live property already covers Pattaya circuit and motorsport planning intent"
+          ]
         },
         {
           "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/pattaya/car-shows-meets/",
           "checked_at": "2026-10-08",
-          "supported_facts": ["Existing live property already covers Pattaya modified, classic, JDM and supercar event intent"]
+          "supported_facts": [
+            "Existing live property already covers Pattaya modified, classic, JDM and supercar event intent"
+          ]
         }
       ],
       "commit_sha": null,
@@ -809,7 +886,9 @@
         {
           "url": "https://www.youtube.com/watch?v=CtLJ4Yh27bI",
           "checked_at": "2026-10-05",
-          "supported_facts": ["Established Pattaya song module retained; availability rechecked before publication"]
+          "supported_facts": [
+            "Established Pattaya song module retained; availability rechecked before publication"
+          ]
         }
       ],
       "search_intent": {
@@ -870,7 +949,9 @@
         {
           "url": "https://thailandtourismdirectory.go.th/en/attraction/1689",
           "checked_at": "2026-10-04",
-          "supported_facts": ["Government tourism listing for Tawaen Beach on Koh Larn"]
+          "supported_facts": [
+            "Government tourism listing for Tawaen Beach on Koh Larn"
+          ]
         },
         {
           "url": "https://www.thailandtourismdirectory.go.th/attraction/21500",
@@ -884,12 +965,16 @@
         {
           "url": "https://www.thailandtourismdirectory.go.th/th/attraction/1694",
           "checked_at": "2026-10-04",
-          "supported_facts": ["Samae is described as a relatively long beach visible from an island viewpoint"]
+          "supported_facts": [
+            "Samae is described as a relatively long beach visible from an island viewpoint"
+          ]
         },
         {
           "url": "https://www.youtube.com/watch?v=CtLJ4Yh27bI",
           "checked_at": "2026-10-04",
-          "supported_facts": ["Established Pattaya song module retained; availability rechecked before publication"]
+          "supported_facts": [
+            "Established Pattaya song module retained; availability rechecked before publication"
+          ]
         }
       ],
       "search_intent": {
@@ -969,7 +1054,7 @@
           "url": "https://www.youtube.com/watch?v=CtLJ4Yh27bI",
           "checked_at": "2026-10-01",
           "supported_facts": [
-            "Browser displayed Pattaya \u2014 Every kingdom needs its own sound. | Shaddow #Shorts",
+            "Browser displayed Pattaya — Every kingdom needs its own sound. | Shaddow #Shorts",
             "Official Shaddowmusic artist channel UC4gbhhNd40V3hykvWyGR3Mw",
             "24-second player available"
           ]
@@ -1017,27 +1102,48 @@
         {
           "url": "https://www.hilton.com/en/hotels/bkkhphi-hilton-pattaya/dining/",
           "checked_at": "2026-10-02",
-          "supported_facts": ["Edge is on Level 14", "Panoramic Pattaya Bay views", "Indoor and outdoor seating", "Themed buffet, brunch and seafood dinner formats"]
+          "supported_facts": [
+            "Edge is on Level 14",
+            "Panoramic Pattaya Bay views",
+            "Indoor and outdoor seating",
+            "Themed buffet, brunch and seafood dinner formats"
+          ]
         },
         {
           "url": "https://www.royalcliff.com/restaurant/breezeo/",
           "checked_at": "2026-10-02",
-          "supported_facts": ["Beachside dining with beachfront views", "Thai and international dishes", "Seafood barbecue, prime cuts and cocktails", "Located at Royal Cliff Beach Hotel and Royal Cliff Beach Terrace"]
+          "supported_facts": [
+            "Beachside dining with beachfront views",
+            "Thai and international dishes",
+            "Seafood barbecue, prime cuts and cocktails",
+            "Located at Royal Cliff Beach Hotel and Royal Cliff Beach Terrace"
+          ]
         },
         {
           "url": "https://www.marriott.com/en-us/hotels/pyxbr-renaissance-pattaya-resort-and-spa/dining/",
           "checked_at": "2026-10-02",
-          "supported_facts": ["Pebbles Bar and Grill is an ocean-view venue", "Flame-grilled dishes and crafted cocktails", "Renaissance Pattaya Resort and Spa location"]
+          "supported_facts": [
+            "Pebbles Bar and Grill is an ocean-view venue",
+            "Flame-grilled dishes and crafted cocktails",
+            "Renaissance Pattaya Resort and Spa location"
+          ]
         },
         {
           "url": "https://mgallery.accor.com/en/hotels/A0E9/R002.restaurant.html",
           "checked_at": "2026-10-02",
-          "supported_facts": ["I Sea Sky is a rooftop venue", "Light meals, tapas and cocktails", "Sunken seating and water features", "Na Jomtien address"]
+          "supported_facts": [
+            "I Sea Sky is a rooftop venue",
+            "Light meals, tapas and cocktails",
+            "Sunken seating and water features",
+            "Na Jomtien address"
+          ]
         },
         {
           "url": "https://www.youtube.com/watch?v=CtLJ4Yh27bI",
           "checked_at": "2026-10-02",
-          "supported_facts": ["Existing verified Pattaya song module retained from the established Pattaya page architecture"]
+          "supported_facts": [
+            "Existing verified Pattaya song module retained from the established Pattaya page architecture"
+          ]
         }
       ],
       "search_intent": {
@@ -1081,37 +1187,62 @@
         {
           "url": "https://akvavitjomtien.com/",
           "checked_at": "2026-10-03",
-          "supported_facts": ["Grill and bar", "Jomtien Beach Road at Soi 3"]
+          "supported_facts": [
+            "Grill and bar",
+            "Jomtien Beach Road at Soi 3"
+          ]
         },
         {
           "url": "https://www.hemingwaysjomtien.com/",
           "checked_at": "2026-10-03",
-          "supported_facts": ["Jomtien sports bar and restaurant", "Live sports on demand", "Air-conditioned venue"]
+          "supported_facts": [
+            "Jomtien sports bar and restaurant",
+            "Live sports on demand",
+            "Air-conditioned venue"
+          ]
         },
         {
           "url": "https://www.legends-sportsbar.com/",
           "checked_at": "2026-10-03",
-          "supported_facts": ["Thappraya Road Jomtien location", "Live sports and pool", "Venue advertises recurring live music; visitors told to verify current program"]
+          "supported_facts": [
+            "Thappraya Road Jomtien location",
+            "Live sports and pool",
+            "Venue advertises recurring live music; visitors told to verify current program"
+          ]
         },
         {
           "url": "https://jomtiencomplex.com/",
           "checked_at": "2026-10-03",
-          "supported_facts": ["Directory covers bars, cabaret, restaurants and hotels", "LGBTQ+ destination near Jomtien Beach", "Main Pattaya–Jomtien baht-bus route described by directory"]
+          "supported_facts": [
+            "Directory covers bars, cabaret, restaurants and hotels",
+            "LGBTQ+ destination near Jomtien Beach",
+            "Main Pattaya–Jomtien baht-bus route described by directory"
+          ]
         },
         {
           "url": "https://www.thailandtourismdirectory.go.th/en/restaurants/84440",
           "checked_at": "2026-10-03",
-          "supported_facts": ["Government tourism listing identifies D Varee Inspiration Bar", "38th-floor location at D Varee Jomtien Beach"]
+          "supported_facts": [
+            "Government tourism listing identifies D Varee Inspiration Bar",
+            "38th-floor location at D Varee Jomtien Beach"
+          ]
         },
         {
           "url": "https://www.djbpattaya.com/th/dining",
           "checked_at": "2026-10-03",
-          "supported_facts": ["Official D Varee dining page", "Hotel address at Jomtien Beach Road Soi 13–14"]
+          "supported_facts": [
+            "Official D Varee dining page",
+            "Hotel address at Jomtien Beach Road Soi 13–14"
+          ]
         },
         {
           "url": "https://www.youtube.com/watch?v=CtLJ4Yh27bI",
           "checked_at": "2026-10-03",
-          "supported_facts": ["YouTube oEmbed returned HTTP 200", "Title identifies Pattaya by Shaddow", "Author is Shaddowmusic"]
+          "supported_facts": [
+            "YouTube oEmbed returned HTTP 200",
+            "Title identifies Pattaya by Shaddow",
+            "Author is Shaddowmusic"
+          ]
         }
       ],
       "search_intent": {

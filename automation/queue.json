@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "properties": [
     {
       "path": "cities/pattaya/beach-clubs/index.html",
@@ -152,6 +152,13 @@
       "city": "Bangkok",
       "target_query": "bangkok dinner cruise",
       "status": "deployed"
+    },
+    {
+      "property_number": 7,
+      "path": "cities/bangkok/coworking-day-passes/index.html",
+      "city": "Bangkok",
+      "target_query": "bangkok coworking day pass",
+      "status": "validated"
     }
   ],
   "next_cities": [
