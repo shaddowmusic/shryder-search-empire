@@ -158,7 +158,7 @@
       "path": "cities/bangkok/coworking-day-passes/index.html",
       "city": "Bangkok",
       "target_query": "bangkok coworking day pass",
-      "status": "validated"
+      "status": "deployed"
     }
   ],
   "next_cities": [

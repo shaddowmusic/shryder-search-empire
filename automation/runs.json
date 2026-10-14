@@ -63,16 +63,37 @@
         "evidence": "Current search results and official day-access products support short-stay workspace comparison by neighborhood, access window, calls and facilities. Qualitative evidence only; no search volume.",
         "distinctiveness": "First Bangkok daytime work-lifestyle page; solves day-pass versus membership entitlements and arrival logistics rather than repeating nightlife, hotel or dining decisions."
       },
-      "commit_sha": null,
-      "status": "validated",
+      "commit_sha": "700edb0b526bad3c4366719b549fa9854f98d141",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py against the complete current checkout",
         "editorial": "Official facilities distinguished from pass entitlements. No prices, speed tests, firsthand claims, guaranteed quiet, availability or legal/work-permission advice.",
         "responsive": "Established responsive CSS, locally scrolling table and stacked cards under 900px; full HTML reviewed.",
         "music": "YouTube oEmbed HTTP 200 confirmed the existing Shaddowmusic focus session. Non-autoplay embed and direct verified YouTube destination; no Spotify destination invented.",
-        "visual_preview": "Pending live visual QA; local browser preview unavailable."
+        "visual_preview": "Live desktop hero and comparison visually reviewed; no document overflow at 1363px. Three table rows and workspace cards. Focus player loaded the expected title and Shaddowmusic channel. Mobile stacking and local table scrolling verified in CSS; no emulated mobile screenshot."
       },
-      "maintenance": "Pattaya event entries inspected: March festival remains labeled past; all four late-2026 calendar entries remain future on 14 October. No event dates changed."
+      "maintenance": "Pattaya event entries inspected: March festival remains labeled past; all four late-2026 calendar entries remain future on 14 October. No event dates changed.",
+      "deployment": {
+        "workflow_run_id": 38498664513,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/38498664513",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-10-14T02:00:55Z",
+        "public_checks": {
+          "http_status": 200,
+          "title": "Bangkok Coworking Day Passes: Choose Your Work Base | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/coworking-day-passes/",
+          "property_marker": true,
+          "comparison_rows": 3,
+          "workspace_cards": 3,
+          "music_embed": "https://www.youtube-nocookie.com/embed/g4mXXUefOMw?rel=0",
+          "direct_telegram_ctas": 2,
+          "bangkok_hub_link": true,
+          "published_neighbor_links": 2,
+          "hub_discovery_link": true,
+          "horizontal_overflow": false
+        }
+      }
     },
     {
       "date_bangkok": "2026-10-13",
