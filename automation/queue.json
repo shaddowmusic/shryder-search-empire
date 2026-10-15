@@ -165,7 +165,7 @@
       "path": "cities/bangkok/listening-bars/index.html",
       "city": "Bangkok",
       "target_query": "bangkok listening bars",
-      "status": "deployment_pending"
+      "status": "deployed"
     }
   ],
   "next_cities": [

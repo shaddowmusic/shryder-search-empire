@@ -54,16 +54,38 @@
         "evidence": "Fresh results for Bangkok listening bars surfaced operator-led vinyl rooms and current July 2026 editorial coverage of complete-album listening. Qualitative intent only; no search volume.",
         "distinctiveness": "Recorded-music session format and listening etiquette differ from the existing live-jazz performance guide and skyline-led rooftop guide. Three venue formats answer different visitor choices."
       },
-      "commit_sha": null,
-      "status": "deployment_pending",
+      "commit_sha": "83dc756133eea17eeafb4e695b09aea738d9feb2",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py against complete current checkout",
         "editorial": "Full HTML reviewed against official operator facts; no acoustic rankings, prices, schedules, firsthand visits or Shaddow venue-airplay claims.",
         "responsive": "Established CSS with stacked cards below 900px, mobile sound grid below 760px and keyboard-focusable locally scrolling table.",
         "music": "Live YouTube watch page showed the established Pattaya title and 24-second player on 15 October. Page explicitly identifies it as a Pattaya song in Bangkok context. No Spotify URL added.",
-        "visual_preview": "Full HTML and responsive CSS reviewed; prepublication visual preview unavailable."
+        "visual_preview": "Live desktop hero, music module and comparison table visually reviewed; 1363px viewport has no document overflow, 3-column venue grid and locally scrolling comparison table. Embedded player loaded Pattaya and the Shaddowmusic channel. Mobile stacking checked in CSS; no emulated mobile screenshot."
       },
-      "maintenance": "Pattaya events page inspected: March music festival remains explicitly past; all four late-2026 entries remain future on 15 October. No dates changed."
+      "maintenance": "Pattaya events page inspected: March music festival remains explicitly past; all four late-2026 entries remain future on 15 October. No dates changed.",
+      "deployment": {
+        "workflow_run_id": 38667975189,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/38667975189",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-10-15T01:53:52.658161+00:00",
+        "initial_public_check": "404 while deployment was queued; successful after Pages completed",
+        "public_checks": {
+          "title": "Bangkok Listening Bars: Vinyl, Sound & Night Formats | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/listening-bars/",
+          "property_marker": true,
+          "comparison_rows": 3,
+          "venue_cards": 3,
+          "music_embed": "https://www.youtube-nocookie.com/embed/CtLJ4Yh27bI?rel=0",
+          "embed_player": "Loaded expected Pattaya title and Shaddowmusic artist channel",
+          "direct_telegram_ctas": 2,
+          "bangkok_hub_link": true,
+          "published_neighbor_links": 2,
+          "hub_discovery_link": true,
+          "horizontal_overflow": false
+        }
+      }
     },
     {
       "date_bangkok": "2026-10-14",
