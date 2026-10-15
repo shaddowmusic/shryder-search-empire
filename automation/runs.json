@@ -2,6 +2,70 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-10-15",
+      "city": "Bangkok",
+      "property_number": 8,
+      "target_query": "bangkok listening bars",
+      "path": "cities/bangkok/listening-bars/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/listening-bars/",
+      "research_sources": [
+        {
+          "url": "https://www.freakingout.co/",
+          "checked_at": "2026-10-15",
+          "supported_facts": [
+            "Whole-album listening and featured-album curation",
+            "49 Soi Napha Sap 1, Sukhumvit 36; reservations recommended"
+          ]
+        },
+        {
+          "url": "https://www.rosewoodhotels.com/en/bangkok/dining/lennons",
+          "checked_at": "2026-10-15",
+          "supported_facts": [
+            "Vinyl speakeasy and recording-studio-inspired setting",
+            "30th floor at Rosewood Bangkok; smart-casual guidance with closed footwear",
+            "Current genre programming means format should be verified for the chosen date"
+          ]
+        },
+        {
+          "url": "https://www.thewarehousebkk.com/spaces/clutch",
+          "checked_at": "2026-10-15",
+          "supported_facts": [
+            "Clutch is at The Warehouse in Talat Noi",
+            "Vintage JBL sound system",
+            "Events span vinyl listening sessions, visiting DJs and electronic music"
+          ]
+        },
+        {
+          "url": "https://www.timeout.com/bangkok/bars/freaking-out-the-neighborhood",
+          "checked_at": "2026-10-15",
+          "supported_facts": [
+            "Current editorial coverage supports whole-album listening intent; used only for qualitative intent, not operator facts"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CtLJ4Yh27bI",
+          "checked_at": "2026-10-15",
+          "supported_facts": [
+            "Browser displayed Pattaya — Every kingdom needs its own sound. | Shaddow #Shorts and an available 24-second player"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Fresh results for Bangkok listening bars surfaced operator-led vinyl rooms and current July 2026 editorial coverage of complete-album listening. Qualitative intent only; no search volume.",
+        "distinctiveness": "Recorded-music session format and listening etiquette differ from the existing live-jazz performance guide and skyline-led rooftop guide. Three venue formats answer different visitor choices."
+      },
+      "commit_sha": null,
+      "status": "deployment_pending",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py against complete current checkout",
+        "editorial": "Full HTML reviewed against official operator facts; no acoustic rankings, prices, schedules, firsthand visits or Shaddow venue-airplay claims.",
+        "responsive": "Established CSS with stacked cards below 900px, mobile sound grid below 760px and keyboard-focusable locally scrolling table.",
+        "music": "Live YouTube watch page showed the established Pattaya title and 24-second player on 15 October. Page explicitly identifies it as a Pattaya song in Bangkok context. No Spotify URL added.",
+        "visual_preview": "Full HTML and responsive CSS reviewed; prepublication visual preview unavailable."
+      },
+      "maintenance": "Pattaya events page inspected: March music festival remains explicitly past; all four late-2026 entries remain future on 15 October. No dates changed."
+    },
+    {
       "date_bangkok": "2026-10-14",
       "city": "Bangkok",
       "property_number": 7,
