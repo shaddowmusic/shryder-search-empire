@@ -172,7 +172,7 @@
       "path": "cities/bangkok/record-stores/index.html",
       "city": "Bangkok",
       "target_query": "bangkok record stores",
-      "status": "deployment_pending"
+      "status": "deployed"
     }
   ],
   "next_cities": [
