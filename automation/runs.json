@@ -2,6 +2,71 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-10-16",
+      "city": "Bangkok",
+      "property_number": 9,
+      "target_query": "bangkok record stores",
+      "path": "cities/bangkok/record-stores/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/record-stores/",
+      "research_sources": [
+        {
+          "url": "https://zudrangmarecords.com/",
+          "checked_at": "2026-10-16",
+          "supported_facts": [
+            "Catalog categories include Thai molam, luk thung, jazz, soul/funk and international music"
+          ]
+        },
+        {
+          "url": "https://zudrangmarecords.com/contact/",
+          "checked_at": "2026-10-16",
+          "supported_facts": [
+            "Official store address: 7/1 Sukhumvit 51",
+            "Contact page contains conflicting opening schedules; no hours published in guide"
+          ]
+        },
+        {
+          "url": "https://gadhouse.com/blog/must-visit-record-stores-vinyl-lover/?v=3678880a8f79",
+          "checked_at": "2026-10-16",
+          "supported_facts": [
+            "Gadhouse identifies FORMAT BKK Ari as its official Thailand store",
+            "Records, turntables and audio products are described",
+            "Official FORMAT Instagram destination linked by the brand; account content not retrieved"
+          ]
+        },
+        {
+          "url": "https://www.timeout.com/bangkok/music/best-record-shops-in-bangkok",
+          "checked_at": "2026-10-16",
+          "supported_facts": [
+            "Current 2026 editorial roundup supports record-shopping and genre-led comparison intent; no operator facts taken from it"
+          ]
+        },
+        {
+          "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/listening-bars/",
+          "checked_at": "2026-10-16",
+          "supported_facts": [
+            "Prior property live on 16 October; embedded Pattaya player loaded expected title and Shaddowmusic channel"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Fresh search surfaced a current 2026 record-shop roundup, genre-specific shopping discussion and official catalog and brand-store pages. Qualitative intent only; no search-volume claim.",
+        "distinctiveness": "Physical record shopping, edition/condition questions and first playback setup differ from yesterday’s listening-bar sessions and the live-jazz venue guide. Two directly supported leads, not a padded exhaustive ranking."
+      },
+      "commit_sha": null,
+      "status": "deployment_pending",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py against complete current checkout",
+        "editorial": "Complete candidate reviewed against primary catalog, contact and brand-store sources. Conflicting hours omitted and flagged; no prices, stock promises, firsthand visits or Shaddow vinyl availability claimed.",
+        "responsive": "Established responsive CSS; 2-column cards stack under 760px; keyboard-focusable locally scrolling comparison table.",
+        "music": "16 October browser check of prior live property loaded expected Pattaya title and official Shaddowmusic channel. New page retains non-autoplay embed with explicit Pattaya/Bangkok distinction; no Spotify URL added.",
+        "visual_preview": "Prepublication local browser preview unavailable; full candidate HTML and responsive CSS reviewed."
+      },
+      "maintenance": "Pattaya events inspected: March festival explicitly past; remaining entries dated 31 Oct, 27–28 Nov, 3–7 Dec and 11–13 Dec remain future on 16 October. No event dates changed.",
+      "research_decisions": [
+        "Used only two directly supported shop leads; omitted More Rice storefront logistics because its operator site could not be retrieved, and omitted Bungkumhouse because location evidence conflicted. These omissions are research scope decisions, not separate deferred property runs."
+      ]
+    },
+    {
       "date_bangkok": "2026-10-15",
       "city": "Bangkok",
       "property_number": 8,

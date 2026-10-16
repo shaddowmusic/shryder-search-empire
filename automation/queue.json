@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "properties": [
     {
       "path": "cities/pattaya/beach-clubs/index.html",
@@ -166,6 +166,13 @@
       "city": "Bangkok",
       "target_query": "bangkok listening bars",
       "status": "deployed"
+    },
+    {
+      "property_number": 9,
+      "path": "cities/bangkok/record-stores/index.html",
+      "city": "Bangkok",
+      "target_query": "bangkok record stores",
+      "status": "deployment_pending"
     }
   ],
   "next_cities": [
