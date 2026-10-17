@@ -179,7 +179,7 @@
       "path": "cities/bangkok/pool-day-passes/index.html",
       "city": "Bangkok",
       "target_query": "bangkok pool day pass",
-      "status": "deployment_pending"
+      "status": "deployed"
     }
   ],
   "next_cities": [

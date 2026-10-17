@@ -48,19 +48,41 @@
         "evidence": "Fresh search for Bangkok hotel pool day passes returned multiple official non-guest day-access products and queries distinguishing public access, leisure pools and day rooms. Qualitative intent only; no search volume claimed.",
         "distinctiveness": "Non-guest facility access, package entitlements and credits differ from the existing overnight luxury-hotel comparison and coworking desk-access guide."
       },
-      "commit_sha": null,
-      "status": "deployment_pending",
+      "commit_sha": "baefff0c2f42f6139f37675e868215166ed3f91a",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py against complete current checkout",
         "editorial": "Full candidate reviewed against three official offers. No price, live capacity, fixed schedule, independent pool review or treatment inclusion implied. NH no-lifeguard warning preserved.",
         "responsive": "Established responsive CSS; 3-column cards stack below 900px, sound grid below 760px, keyboard-focusable locally scrolling comparison table.",
         "music": "17 October live prior-property check loaded expected Pattaya title and Shaddowmusic channel. Same non-autoplay embed retained with explicit Pattaya/Bangkok distinction; no Spotify URL added.",
-        "visual_preview": "Full candidate HTML and responsive CSS reviewed; prepublication local visual preview unavailable."
+        "visual_preview": "Live desktop hero and comparison table visually reviewed at 1363px; no document overflow. Three-column cards and local table scrolling observed. Embedded player loaded expected Pattaya title and Shaddowmusic channel. Mobile stacking reviewed in CSS; no emulated mobile screenshot."
       },
       "maintenance": "Pattaya events inspected: March music festival explicitly past; entries dated 31 Oct, 27–28 Nov, 3–7 Dec and 11–13 Dec remain future on 17 October. No dates changed.",
       "research_decisions": [
         "Omitted Peninsula: fresh open of the indexed pass URL redirected to the hotel homepage and did not establish current day-pass terms. Three other direct operator offers supported the property."
-      ]
+      ],
+      "deployment": {
+        "workflow_run_id": 38989475774,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/38989475774",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-10-17 01:08:09 UTC",
+        "public_checks": {
+          "title": "Bangkok Pool Day Passes: Compare Non-Guest Access | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/pool-day-passes/",
+          "property_marker": true,
+          "comparison_rows": 3,
+          "hotel_cards": 3,
+          "music_embed": "https://www.youtube-nocookie.com/embed/CtLJ4Yh27bI?rel=0",
+          "embed_player": "Loaded expected Pattaya title and Shaddowmusic channel",
+          "direct_telegram_ctas": 2,
+          "bangkok_hub_link": true,
+          "published_neighbor_links": 2,
+          "hub_discovery_link": true,
+          "horizontal_overflow": false,
+          "sitemap": "New property URL and updated hub lastmod validated in committed XML; no public XML-fetch claim."
+        }
+      }
     },
     {
       "date_bangkok": "2026-10-16",
