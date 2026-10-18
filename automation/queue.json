@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "properties": [
     {
       "path": "cities/pattaya/beach-clubs/index.html",
@@ -180,6 +180,13 @@
       "city": "Bangkok",
       "target_query": "bangkok pool day pass",
       "status": "deployed"
+    },
+    {
+      "property_number": 11,
+      "path": "cities/bangkok/art-galleries/index.html",
+      "city": "Bangkok",
+      "target_query": "bangkok art galleries",
+      "status": "deployment_pending"
     }
   ],
   "next_cities": [

@@ -2,6 +2,81 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-10-18",
+      "city": "Bangkok",
+      "property_number": 11,
+      "target_query": "bangkok art galleries",
+      "path": "cities/bangkok/art-galleries/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/art-galleries/",
+      "research_sources": [
+        {
+          "url": "https://www.bacc.or.th/en/plan-your-visit/",
+          "checked_at": "2026-10-18",
+          "supported_facts": [
+            "Public cultural center at Pathumwan with main galleries on floors 7–9 and BTS-connected third floor",
+            "General exhibition admission free except special events",
+            "Main-gallery photography/video/equipment restrictions; visitor admission does not imply filming permission"
+          ]
+        },
+        {
+          "url": "https://www.jimthompsonartcenter.org/",
+          "checked_at": "2026-10-18",
+          "supported_facts": [
+            "Current and past exhibitions separated",
+            "No.6 Soi Kasemsan 2, Rama I; National Stadium BTS arrival option",
+            "Art-center-only and combined House Museum admission distinguished",
+            "Group visits by advance reservation"
+          ]
+        },
+        {
+          "url": "https://rivercitybangkok.com/",
+          "checked_at": "2026-10-18",
+          "supported_facts": [
+            "Art and antiques center with galleries and dated exhibition program",
+            "23 Charoen Krung Soi 24 in Talat Noi",
+            "Temporary show dates reviewed but not copied into durable guide"
+          ]
+        },
+        {
+          "url": "https://rivercitybangkok.com/plan-your-visit/",
+          "checked_at": "2026-10-18",
+          "supported_facts": [
+            "Official address and multiple arrival modes published",
+            "Transport prices and timetables not copied"
+          ]
+        },
+        {
+          "url": "https://www.bangkokartcity.org/",
+          "checked_at": "2026-10-18",
+          "supported_facts": [
+            "Current bilingual exhibition listings support art-discovery and exhibition-route intent; operator sources used for venue facts"
+          ]
+        },
+        {
+          "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/pool-day-passes/",
+          "checked_at": "2026-10-18",
+          "supported_facts": [
+            "Latest property live and reconciled with repository",
+            "Pattaya embed loaded expected title and official Shaddowmusic channel"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Fresh search results surfaced official art centers, gallery directories and current exhibition-discovery listings. Qualitative visitor intent is choosing a show, area, entry format and route; no search-volume claim.",
+        "distinctiveness": "First dedicated art-visit chooser. The city hub names a river-culture district but does not compare exhibition venues, admission products, gallery floors or filming restrictions. This guide extends its established culture-into-night route."
+      },
+      "commit_sha": null,
+      "status": "deployment_pending",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py against complete current checkout",
+        "editorial": "Full candidate reviewed against official visitor pages; no rankings, firsthand visits, art-sale advice or permission to film implied. Temporary exhibition titles/dates omitted from durable page.",
+        "responsive": "Established CSS with 3-column art cards stacking below 900px, sound grid below 760px and keyboard-focusable locally scrolling table.",
+        "music": "18 October browser check loaded existing Pattaya title and official Shaddowmusic channel. Same non-autoplay module retained with explicit Pattaya/Bangkok distinction; no Spotify URL added.",
+        "visual_preview": "Full candidate HTML and responsive CSS reviewed; local prepublication visual preview unavailable."
+      },
+      "maintenance": "Pattaya dated events reviewed: March festival remains explicitly past; 31 Oct, 27–28 Nov, 3–7 Dec and 11–13 Dec entries are future on 18 October. No event dates changed."
+    },
+    {
       "date_bangkok": "2026-10-17",
       "city": "Bangkok",
       "property_number": 10,
