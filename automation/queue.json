@@ -186,7 +186,7 @@
       "path": "cities/bangkok/art-galleries/index.html",
       "city": "Bangkok",
       "target_query": "bangkok art galleries",
-      "status": "deployment_pending"
+      "status": "deployed"
     }
   ],
   "next_cities": [

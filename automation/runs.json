@@ -65,16 +65,38 @@
         "evidence": "Fresh search results surfaced official art centers, gallery directories and current exhibition-discovery listings. Qualitative visitor intent is choosing a show, area, entry format and route; no search-volume claim.",
         "distinctiveness": "First dedicated art-visit chooser. The city hub names a river-culture district but does not compare exhibition venues, admission products, gallery floors or filming restrictions. This guide extends its established culture-into-night route."
       },
-      "commit_sha": null,
-      "status": "deployment_pending",
+      "commit_sha": "7c46b08aef0118d57abad67ae7240808b2944a83",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py against complete current checkout",
         "editorial": "Full candidate reviewed against official visitor pages; no rankings, firsthand visits, art-sale advice or permission to film implied. Temporary exhibition titles/dates omitted from durable page.",
         "responsive": "Established CSS with 3-column art cards stacking below 900px, sound grid below 760px and keyboard-focusable locally scrolling table.",
         "music": "18 October browser check loaded existing Pattaya title and official Shaddowmusic channel. Same non-autoplay module retained with explicit Pattaya/Bangkok distinction; no Spotify URL added.",
-        "visual_preview": "Full candidate HTML and responsive CSS reviewed; local prepublication visual preview unavailable."
+        "visual_preview": "Live desktop hero, comparison table and first content transition reviewed at 1363px; no document overflow. Three-column cards and local table scrolling observed. Embedded player loaded expected Pattaya title and Shaddowmusic channel. Mobile stacking reviewed in CSS; no emulated mobile screenshot."
       },
-      "maintenance": "Pattaya dated events reviewed: March festival remains explicitly past; 31 Oct, 27–28 Nov, 3–7 Dec and 11–13 Dec entries are future on 18 October. No event dates changed."
+      "maintenance": "Pattaya dated events reviewed: March festival remains explicitly past; 31 Oct, 27–28 Nov, 3–7 Dec and 11–13 Dec entries are future on 18 October. No event dates changed.",
+      "deployment": {
+        "workflow_run_id": 39086127701,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/39086127701",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-10-18 01:21:37 UTC",
+        "public_checks": {
+          "title": "Bangkok Art Galleries: Choose Your Exhibition Route | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/art-galleries/",
+          "property_marker": true,
+          "comparison_rows": 3,
+          "art_cards": 3,
+          "music_embed": "https://www.youtube-nocookie.com/embed/CtLJ4Yh27bI?rel=0",
+          "embed_player": "Loaded expected Pattaya title and Shaddowmusic channel",
+          "direct_telegram_ctas": 2,
+          "bangkok_hub_link": true,
+          "published_neighbor_links": 2,
+          "hub_discovery_link": true,
+          "horizontal_overflow": false,
+          "sitemap": "New property URL and updated hub lastmod validated in committed XML; no public XML-fetch claim."
+        }
+      }
     },
     {
       "date_bangkok": "2026-10-17",
