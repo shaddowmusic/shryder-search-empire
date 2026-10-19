@@ -2,6 +2,68 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-10-19",
+      "city": "Bangkok",
+      "property_number": 12,
+      "target_query": "bangkok cooking classes",
+      "path": "cities/bangkok/cooking-classes/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/cooking-classes/",
+      "research_sources": [
+        {
+          "url": "https://blueelephant.com/cooking-school/cooking-school-bangkok/",
+          "checked_at": "2026-10-19",
+          "supported_facts": [
+            "Sathorn discovery classes half-day with four or five recipes; daily menu may change with ingredients",
+            "Market visit exclusive to morning session",
+            "41 South Sathorn Road and BTS Surasak; separate Sukhumvit branch"
+          ]
+        },
+        {
+          "url": "https://www.cookingschoolbangkok.com/",
+          "checked_at": "2026-10-19",
+          "supported_facts": [
+            "Morning and afternoon market visits advertised",
+            "English-language hands-on class; own wok, four dishes and curry paste; ingredients and equipment included",
+            "Vegetarian options available; no allergen-free guarantee inferred"
+          ]
+        },
+        {
+          "url": "https://bangkokthaicookingacademy.com/learn-thai-cooking/",
+          "checked_at": "2026-10-19",
+          "supported_facts": [
+            "Choose-your-menu hands-on class, curry paste, air-conditioned classroom",
+            "Standard class includes market and On Nut pickup; FAQ qualifies tour inclusion by program",
+            "Vegetarian half-day classes distinguished from longer training"
+          ]
+        },
+        {
+          "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/art-galleries/",
+          "checked_at": "2026-10-19",
+          "supported_facts": [
+            "Latest prior property live with expected title and content",
+            "Embedded Pattaya title and official Shaddowmusic channel loaded"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Fresh free search returned direct school pages and booking-format questions around market tours, session choice, dishes and vegetarian options. Qualitative evidence only; no volume claim.",
+        "distinctiveness": "First hands-on culinary activity guide. Existing night-market and dinner-cruise pages serve independent browsing or dining/transport, not instruction, recipe selection and course booking."
+      },
+      "research_decisions": [
+        "Silom candidate omitted: direct source open exposed only a loading screen; three other fully readable official programs support this guide."
+      ],
+      "commit_sha": null,
+      "status": "deployment_pending",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py against complete current 49-file main snapshot plus edits",
+        "editorial": "Full candidate checked against three official programs. No price, fixed start time, ranking, firsthand review, school partnership or allergen-free guarantee. Academy market inclusion qualified by program.",
+        "responsive": "Reused established CSS; three cards stack below 900px, sound grid below 760px; keyboard-focusable locally scrolling table.",
+        "music": "19 October prior-property embed loaded expected Pattaya title and official Shaddowmusic channel. Same non-autoplay module with explicit Pattaya/Bangkok distinction; no new Spotify URL.",
+        "visual_preview": "Pre-publication full HTML and responsive CSS review; no local browser preview surface available. Live visual verification pending."
+      },
+      "maintenance": "Pattaya dated entries inspected against 19 October: March music festival explicitly past; 31 Oct, 27–28 Nov, 3–7 Dec and 11–13 Dec remain future. No event dates or factual-review stamps changed."
+    },
+    {
       "date_bangkok": "2026-10-18",
       "city": "Bangkok",
       "property_number": 11,

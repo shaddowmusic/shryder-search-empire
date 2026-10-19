@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "properties": [
     {
       "path": "cities/pattaya/beach-clubs/index.html",
@@ -187,6 +187,13 @@
       "city": "Bangkok",
       "target_query": "bangkok art galleries",
       "status": "deployed"
+    },
+    {
+      "property_number": 12,
+      "path": "cities/bangkok/cooking-classes/index.html",
+      "city": "Bangkok",
+      "target_query": "bangkok cooking classes",
+      "status": "deployment_pending"
     }
   ],
   "next_cities": [
