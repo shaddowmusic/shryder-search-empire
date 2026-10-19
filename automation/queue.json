@@ -193,7 +193,7 @@
       "path": "cities/bangkok/cooking-classes/index.html",
       "city": "Bangkok",
       "target_query": "bangkok cooking classes",
-      "status": "deployment_pending"
+      "status": "deployed"
     }
   ],
   "next_cities": [

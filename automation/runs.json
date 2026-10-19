@@ -52,16 +52,38 @@
       "research_decisions": [
         "Silom candidate omitted: direct source open exposed only a loading screen; three other fully readable official programs support this guide."
       ],
-      "commit_sha": null,
-      "status": "deployment_pending",
+      "commit_sha": "e7a54f17af7eb3658343172aa7ea2566b6dff2af",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py against complete current 49-file main snapshot plus edits",
         "editorial": "Full candidate checked against three official programs. No price, fixed start time, ranking, firsthand review, school partnership or allergen-free guarantee. Academy market inclusion qualified by program.",
         "responsive": "Reused established CSS; three cards stack below 900px, sound grid below 760px; keyboard-focusable locally scrolling table.",
         "music": "19 October prior-property embed loaded expected Pattaya title and official Shaddowmusic channel. Same non-autoplay module with explicit Pattaya/Bangkok distinction; no new Spotify URL.",
-        "visual_preview": "Pre-publication full HTML and responsive CSS review; no local browser preview surface available. Live visual verification pending."
+        "visual_preview": "Live desktop hero and comparison table visually reviewed at 1363px with no document overflow. Three-column cards and local table scrolling observed. Embedded player loaded expected Pattaya title and official Shaddowmusic channel. Mobile stacking reviewed in CSS; no emulated mobile screenshot."
       },
-      "maintenance": "Pattaya dated entries inspected against 19 October: March music festival explicitly past; 31 Oct, 27–28 Nov, 3–7 Dec and 11–13 Dec remain future. No event dates or factual-review stamps changed."
+      "maintenance": "Pattaya dated entries inspected against 19 October: March music festival explicitly past; 31 Oct, 27–28 Nov, 3–7 Dec and 11–13 Dec remain future. No event dates or factual-review stamps changed.",
+      "deployment": {
+        "workflow_run_id": 39187091170,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/39187091170",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-10-19 01:50:41 UTC",
+        "public_checks": {
+          "title": "Bangkok Cooking Classes: Market Tours & Menu Choice | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/cooking-classes/",
+          "property_marker": true,
+          "comparison_rows": 3,
+          "class_cards": 3,
+          "music_embed": "https://www.youtube-nocookie.com/embed/CtLJ4Yh27bI?rel=0",
+          "embed_player": "Expected Pattaya title and official Shaddowmusic channel loaded",
+          "direct_telegram_ctas": 2,
+          "bangkok_hub_link": true,
+          "published_neighbor_links": 2,
+          "hub_discovery_link": true,
+          "horizontal_overflow": false,
+          "sitemap": "New URL and hub lastmod validated in committed XML; no public XML-fetch claim."
+        }
+      }
     },
     {
       "date_bangkok": "2026-10-18",
