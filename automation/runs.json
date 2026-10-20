@@ -2,6 +2,74 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-10-20",
+      "city": "Bangkok",
+      "property_number": 13,
+      "target_query": "bangkok observation decks",
+      "path": "cities/bangkok/observation-decks/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/observation-decks/",
+      "research_sources": [
+        {
+          "url": "https://kingpowermahanakhon.co.th/experience/mahanakhon-skywalk",
+          "checked_at": "2026-10-20",
+          "supported_facts": [
+            "Floor 74 indoor observation; floor 78 outdoor Glass Tray and The Peak",
+            "114 Narathiwas Ratchanakarin Road; Chong Nonsi BTS exit 3"
+          ]
+        },
+        {
+          "url": "https://kingpowermahanakhon.co.th/th/safety-and-guideline-policy",
+          "checked_at": "2026-10-20",
+          "supported_facts": [
+            "Rain and storms can temporarily close outdoor areas",
+            "Tripods/monopods prohibited; professional photographic or recording gear needs prior management approval"
+          ]
+        },
+        {
+          "url": "https://baiyokesky.baiyokehotel.com/things-to-do-in-bangkok-sightseeing-thailand.html",
+          "checked_at": "2026-10-20",
+          "supported_facts": [
+            "Observation deck floor 77; revolving viewpoint floor 84",
+            "Pratunam hotel address at 222 Soi Ratchaprarop 3, Ratchaprarop Road",
+            "Holiday hours may change; fixed prices and times omitted"
+          ]
+        },
+        {
+          "url": "https://baiyokesky.baiyokehotel.com/dinner-buffet-bangkok.html",
+          "checked_at": "2026-10-20",
+          "supported_facts": [
+            "Specific Bangkok Sky Restaurant offer includes both viewing floors; not generalized to all restaurant products"
+          ]
+        },
+        {
+          "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/cooking-classes/",
+          "checked_at": "2026-10-20",
+          "supported_facts": [
+            "Prior property title/content live; expected Pattaya embed title and Shaddowmusic channel loaded"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Fresh free search returned a dedicated Bangkok observation-deck comparison category and direct attraction pages. Qualitative intent concerns viewing floors, outdoor closure, admission and combinations; no search-volume claim.",
+        "distinctiveness": "Sightseeing access and viewing-floor decisions differ from bar atmosphere/reservations. Existing rooftop guide includes Sky Beach nightlife but does not explain SkyWalk observation admission or Baiyoke viewing-floor packages."
+      },
+      "research_decisions": [
+        "Use actual Baiyoke operator domain baiyokesky.baiyokehotel.com, not similarly named ticket reseller.",
+        "Mahanakhon /en URL inaccessible; official language switch resolved the English canonical operator page. Indexed mock ticket page excluded. Conflicting/split price and time fields not copied.",
+        "Two supported towers only; no padded list or fabricated visitor photos."
+      ],
+      "commit_sha": null,
+      "status": "deployment_pending",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py against complete current 50-file main snapshot plus edits",
+        "editorial": "Full candidate checked against official attraction and visitor-policy sources. No highest-building ranking, clear-view guarantee, firsthand visit, ticket availability or inferred filming rights.",
+        "responsive": "Established CSS; two-column deck cards stack below 900px, sound grid below 760px, locally scrolling keyboard-focusable table.",
+        "music": "20 October prior-property player loaded expected Pattaya title and Shaddowmusic channel. Same non-autoplay module retained with Pattaya/Bangkok distinction; no Spotify URL added.",
+        "visual_preview": "Full HTML and responsive CSS review before publication; local visual preview unavailable. Live visual check pending."
+      },
+      "maintenance": "Pattaya dated events checked against 20 October: March music festival remains labeled ended; 31 Oct, 27–28 Nov, 3–7 Dec and 11–13 Dec are still future. No dates or factual review stamps changed."
+    },
+    {
       "date_bangkok": "2026-10-19",
       "city": "Bangkok",
       "property_number": 12,

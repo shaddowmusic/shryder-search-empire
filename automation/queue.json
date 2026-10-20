@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "properties": [
     {
       "path": "cities/pattaya/beach-clubs/index.html",
@@ -194,6 +194,13 @@
       "city": "Bangkok",
       "target_query": "bangkok cooking classes",
       "status": "deployed"
+    },
+    {
+      "property_number": 13,
+      "path": "cities/bangkok/observation-decks/index.html",
+      "city": "Bangkok",
+      "target_query": "bangkok observation decks",
+      "status": "deployment_pending"
     }
   ],
   "next_cities": [
