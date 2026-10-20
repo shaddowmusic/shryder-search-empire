@@ -200,7 +200,7 @@
       "path": "cities/bangkok/observation-decks/index.html",
       "city": "Bangkok",
       "target_query": "bangkok observation decks",
-      "status": "deployment_pending"
+      "status": "deployed"
     }
   ],
   "next_cities": [

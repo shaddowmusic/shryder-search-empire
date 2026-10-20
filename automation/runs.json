@@ -58,16 +58,38 @@
         "Mahanakhon /en URL inaccessible; official language switch resolved the English canonical operator page. Indexed mock ticket page excluded. Conflicting/split price and time fields not copied.",
         "Two supported towers only; no padded list or fabricated visitor photos."
       ],
-      "commit_sha": null,
-      "status": "deployment_pending",
+      "commit_sha": "4c4956d2f1fdc74ef8306543333f02560f37b833",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py against complete current 50-file main snapshot plus edits",
         "editorial": "Full candidate checked against official attraction and visitor-policy sources. No highest-building ranking, clear-view guarantee, firsthand visit, ticket availability or inferred filming rights.",
         "responsive": "Established CSS; two-column deck cards stack below 900px, sound grid below 760px, locally scrolling keyboard-focusable table.",
         "music": "20 October prior-property player loaded expected Pattaya title and Shaddowmusic channel. Same non-autoplay module retained with Pattaya/Bangkok distinction; no Spotify URL added.",
-        "visual_preview": "Full HTML and responsive CSS review before publication; local visual preview unavailable. Live visual check pending."
+        "visual_preview": "Live desktop hero and comparison table visually reviewed at 1363px without document overflow. Two-column cards and local table scrolling observed. Embedded player loaded expected Pattaya title and Shaddowmusic channel. Mobile stacking reviewed in CSS; no emulated mobile screenshot."
       },
-      "maintenance": "Pattaya dated events checked against 20 October: March music festival remains labeled ended; 31 Oct, 27–28 Nov, 3–7 Dec and 11–13 Dec are still future. No dates or factual review stamps changed."
+      "maintenance": "Pattaya dated events checked against 20 October: March music festival remains labeled ended; 31 Oct, 27–28 Nov, 3–7 Dec and 11–13 Dec are still future. No dates or factual review stamps changed.",
+      "deployment": {
+        "workflow_run_id": 39353729117,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/39353729117",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-10-20 01:31:11 UTC",
+        "public_checks": {
+          "title": "Bangkok Observation Decks: SkyWalk or Baiyoke? | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/observation-decks/",
+          "property_marker": true,
+          "comparison_rows": 2,
+          "deck_cards": 2,
+          "music_embed": "https://www.youtube-nocookie.com/embed/CtLJ4Yh27bI?rel=0",
+          "embed_player": "Expected Pattaya title and Shaddowmusic channel loaded",
+          "direct_telegram_ctas": 2,
+          "bangkok_hub_link": true,
+          "published_neighbor_links": 2,
+          "hub_discovery_link": true,
+          "horizontal_overflow": false,
+          "sitemap": "New property URL and hub lastmod validated in committed XML; no public XML-fetch claim."
+        }
+      }
     },
     {
       "date_bangkok": "2026-10-19",
