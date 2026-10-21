@@ -1,1 +1,224 @@
-ewogICJ2ZXJzaW9uIjogMSwKICAidXBkYXRlZCI6ICIyMDI2LTEwLTIxIiwKICAicHJvcGVydGllcyI6IFsKICAgIHsKICAgICAgInBhdGgiOiAiY2l0aWVzL3BhdHRheWEvYmVhY2gtY2x1YnMvaW5kZXguaHRtbCIsCiAgICAgICJzdGF0dXMiOiAicHVibGlzaGVkIiwKICAgICAgInNlZWRlZF9mcm9tIjogInJlcG9zaXRvcnkgbWFpbiwgMjAyNi0xMC0wMSIKICAgIH0sCiAgICB7CiAgICAgICJwYXRoIjogImNpdGllcy9wYXR0YXlhL2JpcmEtY2lyY3VpdC9pbmRleC5odG1sIiwKICAgICAgInN0YXR1cyI6ICJwdWJsaXNoZWQiLAogICAgICAic2VlZGVkX2Zyb20iOiAicmVwb3NpdG9yeSBtYWluLCAyMDI2LTEwLTAxIgogICAgfSwKICAgIHsKICAgICAgInBhdGgiOiAiY2l0aWVzL3BhdHRheWEvY2FyLXNob3dzLW1lZXRzL2luZGV4Lmh0bWwiLAogICAgICAic3RhdHVzIjogInB1Ymxpc2hlZCIsCiAgICAgICJzZWVkZWRfZnJvbSI6ICJyZXBvc2l0b3J5IG1haW4sIDIwMjYtMTAtMDEiCiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJjaXRpZXMvcGF0dGF5YS9pbmRleC5odG1sIiwKICAgICAgInN0YXR1cyI6ICJwdWJsaXNoZWQiLAogICAgICAic2VlZGVkX2Zyb20iOiAicmVwb3NpdG9yeSBtYWluLCAyMDI2LTEwLTAxIgogICAgfSwKICAgIHsKICAgICAgInBhdGgiOiAiY2l0aWVzL3BhdHRheWEvbGl2ZS1tdXNpYy1qYXp6L2luZGV4Lmh0bWwiLAogICAgICAic3RhdHVzIjogInB1Ymxpc2hlZCIsCiAgICAgICJzZWVkZWRfZnJvbSI6ICJyZXBvc2l0b3J5IG1haW4sIDIwMjYtMTAtMDEiCiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJjaXRpZXMvcGF0dGF5YS9uaWdodGxpZmUvaW5kZXguaHRtbCIsCiAgICAgICJzdGF0dXMiOiAicHVibGlzaGVkIiwKICAgICAgInNlZWRlZF9mcm9tIjogInJlcG9zaXRvcnkgbWFpbiwgMjAyNi0xMC0wMSIKICAgIH0sCiAgICB7CiAgICAgICJwYXRoIjogImNpdGllcy9wYXR0YXlhL3Jvb2Z0b3AtYmFycy9pbmRleC5odG1sIiwKICAgICAgInN0YXR1cyI6ICJwdWJsaXNoZWQiLAogICAgICAic2VlZGVkX2Zyb20iOiAicmVwb3NpdG9yeSBtYWluLCAyMDI2LTEwLTAxIgogICAgfSwKICAgIHsKICAgICAgInBhdGgiOiAiY2l0aWVzL3BhdHRheWEvdGhpbmdzLXRvLWRvL2luZGV4Lmh0bWwiLAogICAgICAic3RhdHVzIjogInB1Ymxpc2hlZCIsCiAgICAgICJzZWVkZWRfZnJvbSI6ICJyZXBvc2l0b3J5IG1haW4sIDIwMjYtMTAtMDEiCiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJjaXRpZXMvcGF0dGF5YS93YWxraW5nLXN0cmVldC9pbmRleC5odG1sIiwKICAgICAgInN0YXR1cyI6ICJwdWJsaXNoZWQiLAogICAgICAic2VlZGVkX2Zyb20iOiAicmVwb3NpdG9yeSBtYWluLCAyMDI2LTEwLTAxIgogICAgfSwKICAgIHsKICAgICAgInBhdGgiOiAiY2l0aWVzL3BhdHRheWEvd2hlcmUtdG8tc3RheS9pbmRleC5odG1sIiwKICAgICAgInN0YXR1cyI6ICJwdWJsaXNoZWQiLAogICAgICAic2VlZGVkX2Zyb20iOiAicmVwb3NpdG9yeSBtYWluLCAyMDI2LTEwLTAxIgogICAgfSwKICAgIHsKICAgICAgInByb3BlcnR5X251bWJlciI6IDExLAogICAgICAicGF0aCI6ICJjaXRpZXMvcGF0dGF5YS9sdXh1cnktaG90ZWxzL2luZGV4Lmh0bWwiLAogICAgICAiY2l0eSI6ICJQYXR0YXlhIiwKICAgICAgInRhcmdldF9xdWVyeSI6ICJwYXR0YXlhIGx1eHVyeSBob3RlbHMiLAogICAgICAic3RhdHVzIjogImRlcGxveWVkIgogICAgfSwKICAgIHsKICAgICAgInByb3BlcnR5X251bWJlciI6IDEyLAogICAgICAicGF0aCI6ICJjaXRpZXMvcGF0dGF5YS9yZXN0YXVyYW50cy1zZWEtdmlldy9pbmRleC5odG1sIiwKICAgICAgImNpdHkiOiAiUGF0dGF5YSIsCiAgICAgICJ0YXJnZXRfcXVlcnkiOiAicGF0dGF5YSByZXN0YXVyYW50cyB3aXRoIGEgdmlldyIsCiAgICAgICJzdGF0dXMiOiAiZGVwbG95ZWQiCiAgICB9LAogICAgewogICAgICAicHJvcGVydHlfbnVtYmVyIjogMTMsCiAgICAgICJwYXRoIjogImNpdGllcy9wYXR0YXlhL2pvbXRpZW4tbmlnaHRsaWZlL2luZGV4Lmh0bWwiLAogICAgICAiY2l0eSI6ICJQYXR0YXlhIiwKICAgICAgInRhcmdldF9xdWVyeSI6ICJqb210aWVuIG5pZ2h0bGlmZSIsCiAgICAgICJzdGF0dXMiOiAiZGVwbG95ZWQiCiAgICB9LAogICAgewogICAgICAicHJvcGVydHlfbnVtYmVyIjogMTQsCiAgICAgICJwYXRoIjogImNpdGllcy9wYXR0YXlhL2tvaC1sYXJuLWRheS10cmlwL2luZGV4Lmh0bWwiLAogICAgICAiY2l0eSI6ICJQYXR0YXlhIiwKICAgICAgInRhcmdldF9xdWVyeSI6ICJrb2ggbGFybiBkYXkgdHJpcCBmcm9tIHBhdHRheWEiLAogICAgICAic3RhdHVzIjogImRlcGxveWVkIgogICAgfSwKICAgIHsKICAgICAgInByb3BlcnR5X251bWJlciI6IDE1LAogICAgICAicGF0aCI6ICJjaXRpZXMvcGF0dGF5YS9ldmVudHMvaW5kZXguaHRtbCIsCiAgICAgICJjaXR5IjogIlBhdHRheWEiLAogICAgICAidGFyZ2V0X3F1ZXJ5IjogInBhdHRheWEgZXZlbnRzIiwKICAgICAgInN0YXR1cyI6ICJkZXBsb3llZCIKICAgIH0sCiAgICB7CiAgICAgICJwcm9wZXJ0eV9udW1iZXIiOiAxNiwKICAgICAgInBhdGgiOiAiY2l0aWVzL3BhdHRheWEvbmlnaHQtbWFya2V0cy9pbmRleC5odG1sIiwKICAgICAgImNpdHkiOiAiUGF0dGF5YSIsCiAgICAgICJ0YXJnZXRfcXVlcnkiOiAicGF0dGF5YSBuaWdodCBtYXJrZXRzIiwKICAgICAgInN0YXR1cyI6ICJkZXBsb3llZCIKICAgIH0sCiAgICB7CiAgICAgICJwcm9wZXJ0eV9udW1iZXIiOiAxNywKICAgICAgInBhdGgiOiAiY2l0aWVzL3BhdHRheWEvcGF0dGF5YS1tdXNpYy9pbmRleC5odG1sIiwKICAgICAgImNpdHkiOiAiUGF0dGF5YSIsCiAgICAgICJ0YXJnZXRfcXVlcnkiOiAicGF0dGF5YSBzaGFkZG93IiwKICAgICAgInN0YXR1cyI6ICJkZXBsb3llZCIKICAgIH0sCiAgICB7CiAgICAgICJwcm9wZXJ0eV9udW1iZXIiOiAxOCwKICAgICAgInBhdGgiOiAiY2l0aWVzL3BhdHRheWEvamRtLWNhci1jdWx0dXJlL2luZGV4Lmh0bWwiLAogICAgICAiY2l0eSI6ICJQYXR0YXlhIiwKICAgICAgInRhcmdldF9xdWVyeSI6ICJwYXR0YXlhIGpkbSBjYXIgY3VsdHVyZSIsCiAgICAgICJzdGF0dXMiOiAiZGVmZXJyZWQiLAogICAgICAiZ2F0ZSI6ICJQdWJsaXNoIG9ubHkgd2l0aCBvcmlnaW5hbCBjb3ZlcmFnZSwgcmVhbCBvcmdhbml6ZXIgcmVmZXJlbmNlcyBhbmQgZGlzdGluY3QgcXVlcnkgZXZpZGVuY2U7IG90aGVyd2lzZSBkZWZlciBhbmQgYmVnaW4gQmFuZ2tvay4iLAogICAgICAiZGVmZXJyZWRfb24iOiAiMjAyNi0xMC0wOCIsCiAgICAgICJyZWFzb24iOiAiTm8gcmVsaWFibGUgb3JnYW5pemVyLWxlZCByZXN1bHQgZm9yIHRoZSBleGFjdCBxdWVyeSwgYW5kIHRoZSB1c2VmdWwgYXV0b21vdGl2ZSBpbnRlbnQgaXMgYWxyZWFkeSBzZXJ2ZWQgYnkgdGhlIHB1Ymxpc2hlZCBCaXJhIENpcmN1aXQgYW5kIGNhciBzaG93cy9tZWV0cyBndWlkZXMuIFJlY29uc2lkZXIgb25seSB3aXRoIG9yaWdpbmFsIFNoYWRkb3cgY292ZXJhZ2UgYW5kIGEgZGlzdGluY3Qgb3JnYW5pemVyLWJhY2tlZCBhbmdsZS4iCiAgICB9LAogICAgewogICAgICAicHJvcGVydHlfbnVtYmVyIjogMSwKICAgICAgInBhdGgiOiAiY2l0aWVzL2Jhbmdrb2svaW5kZXguaHRtbCIsCiAgICAgICJjaXR5IjogIkJhbmdrb2siLAogICAgICAidGFyZ2V0X3F1ZXJ5IjogImJhbmdrb2sgbmlnaHRsaWZlIGd1aWRlIiwKICAgICAgInN0YXR1cyI6ICJkZXBsb3llZCIKICAgIH0sCiAgICB7CiAgICAgICJwcm9wZXJ0eV9udW1iZXIiOiAyLAogICAgICAicGF0aCI6ICJjaXRpZXMvYmFuZ2tvay9yb29mdG9wLWJhcnMvaW5kZXguaHRtbCIsCiAgICAgICJjaXR5IjogIkJhbmdrb2siLAogICAgICAidGFyZ2V0X3F1ZXJ5IjogImJhbmdrb2sgcm9vZnRvcCBiYXJzIiwKICAgICAgInN0YXR1cyI6ICJkZXBsb3llZCIKICAgIH0sCiAgICB7CiAgICAgICJwcm9wZXJ0eV9udW1iZXIiOiAzLAogICAgICAicGF0aCI6ICJjaXRpZXMvYmFuZ2tvay9qYXp6LWJhcnMvaW5kZXguaHRtbCIsCiAgICAgICJjaXR5IjogIkJhbmdrb2siLAogICAgICAidGFyZ2V0X3F1ZXJ5IjogImJhbmdrb2sgamF6eiBiYXJzIiwKICAgICAgInN0YXR1cyI6ICJkZXBsb3llZCIKICAgIH0sCiAgICB7CiAgICAgICJwcm9wZXJ0eV9udW1iZXIiOiA0LAogICAgICAicGF0aCI6ICJjaXRpZXMvYmFuZ2tvay9uaWdodC1tYXJrZXRzL2luZGV4Lmh0bWwiLAogICAgICAiY2l0eSI6ICJCYW5na29rIiwKICAgICAgInRhcmdldF9xdWVyeSI6ICJiYW5na29rIG5pZ2h0IG1hcmtldHMiLAogICAgICAic3RhdHVzIjogImRlcGxveWVkIgogICAgfSwKICAgIHsKICAgICAgInByb3BlcnR5X251bWJlciI6IDUsCiAgICAgICJwYXRoIjogImNpdGllcy9iYW5na29rL2x1eHVyeS1ob3RlbHMvaW5kZXguaHRtbCIsCiAgICAgICJjaXR5IjogIkJhbmdrb2siLAogICAgICAidGFyZ2V0X3F1ZXJ5IjogImJhbmdrb2sgbHV4dXJ5IGhvdGVscyIsCiAgICAgICJzdGF0dXMiOiAiZGVwbG95ZWQiCiAgICB9LAogICAgewogICAgICAicHJvcGVydHlfbnVtYmVyIjogNiwKICAgICAgInBhdGgiOiAiY2l0aWVzL2Jhbmdrb2svZGlubmVyLWNydWlzZXMvaW5kZXguaHRtbCIsCiAgICAgICJjaXR5IjogIkJhbmdrb2siLAogICAgICAidGFyZ2V0X3F1ZXJ5IjogImJhbmdrb2sgZGlubmVyIGNydWlzZSIsCiAgICAgICJzdGF0dXMiOiAiZGVwbG95ZWQiCiAgICB9LAogICAgewogICAgICAicHJvcGVydHlfbnVtYmVyIjogNywKICAgICAgInBhdGgiOiAiY2l0aWVzL2Jhbmdrb2svY293b3JraW5nLWRheS1wYXNzZXMvaW5kZXguaHRtbCIsCiAgICAgICJjaXR5IjogIkJhbmdrb2siLAogICAgICAidGFyZ2V0X3F1ZXJ5IjogImJhbmdrb2sgY293b3JraW5nIGRheSBwYXNzIiwKICAgICAgInN0YXR1cyI6ICJkZXBsb3llZCIKICAgIH0sCiAgICB7CiAgICAgICJwcm9wZXJ0eV9udW1iZXIiOiA4LAogICAgICAicGF0aCI6ICJjaXRpZXMvYmFuZ2tvay9saXN0ZW5pbmctYmFycy9pbmRleC5odG1sIiwKICAgICAgImNpdHkiOiAiQmFuZ2tvayIsCiAgICAgICJ0YXJnZXRfcXVlcnkiOiAiYmFuZ2tvayBsaXN0ZW5pbmcgYmFycyIsCiAgICAgICJzdGF0dXMiOiAiZGVwbG95ZWQiCiAgICB9LAogICAgewogICAgICAicHJvcGVydHlfbnVtYmVyIjogOSwKICAgICAgInBhdGgiOiAiY2l0aWVzL2Jhbmdrb2svcmVjb3JkLXN0b3Jlcy9pbmRleC5odG1sIiwKICAgICAgImNpdHkiOiAiQmFuZ2tvayIsCiAgICAgICJ0YXJnZXRfcXVlcnkiOiAiYmFuZ2tvayByZWNvcmQgc3RvcmVzIiwKICAgICAgInN0YXR1cyI6ICJkZXBsb3llZCIKICAgIH0sCiAgICB7CiAgICAgICJwcm9wZXJ0eV9udW1iZXIiOiAxMCwKICAgICAgInBhdGgiOiAiY2l0aWVzL2Jhbmdrb2svcG9vbC1kYXktcGFzc2VzL2luZGV4Lmh0bWwiLAogICAgICAiY2l0eSI6ICJCYW5na29rIiwKICAgICAgInRhcmdldF9xdWVyeSI6ICJiYW5na29rIHBvb2wgZGF5IHBhc3MiLAogICAgICAic3RhdHVzIjogImRlcGxveWVkIgogICAgfSwKICAgIHsKICAgICAgInByb3BlcnR5X251bWJlciI6IDExLAogICAgICAicGF0aCI6ICJjaXRpZXMvYmFuZ2tvay9hcnQtZ2FsbGVyaWVzL2luZGV4Lmh0bWwiLAogICAgICAiY2l0eSI6ICJCYW5na29rIiwKICAgICAgInRhcmdldF9xdWVyeSI6ICJiYW5na29rIGFydCBnYWxsZXJpZXMiLAogICAgICAic3RhdHVzIjogImRlcGxveWVkIgogICAgfSwKICAgIHsKICAgICAgInByb3BlcnR5X251bWJlciI6IDEyLAogICAgICAicGF0aCI6ICJjaXRpZXMvYmFuZ2tvay9jb29raW5nLWNsYXNzZXMvaW5kZXguaHRtbCIsCiAgICAgICJjaXR5IjogIkJhbmdrb2siLAogICAgICAidGFyZ2V0X3F1ZXJ5IjogImJhbmdrb2sgY29va2luZyBjbGFzc2VzIiwKICAgICAgInN0YXR1cyI6ICJkZXBsb3llZCIKICAgIH0sCiAgICB7CiAgICAgICJwcm9wZXJ0eV9udW1iZXIiOiAxMywKICAgICAgInBhdGgiOiAiY2l0aWVzL2Jhbmdrb2svb2JzZXJ2YXRpb24tZGVja3MvaW5kZXguaHRtbCIsCiAgICAgICJjaXR5IjogIkJhbmdrb2siLAogICAgICAidGFyZ2V0X3F1ZXJ5IjogImJhbmdrb2sgb2JzZXJ2YXRpb24gZGVja3MiLAogICAgICAic3RhdHVzIjogImRlcGxveWVkIgogICAgfSwKICAgIHsKICAgICAgInByb3BlcnR5X251bWJlciI6IDE0LAogICAgICAicGF0aCI6ICJjaXRpZXMvYmFuZ2tvay9tdWF5LXRoYWktc3RhZGl1bXMvaW5kZXguaHRtbCIsCiAgICAgICJjaXR5IjogIkJhbmdrb2siLAogICAgICAidGFyZ2V0X3F1ZXJ5IjogImJhbmdrb2sgbXVheSB0aGFpIHN0YWRpdW1zIiwKICAgICAgInN0YXR1cyI6ICJkZXBsb3ltZW50X3BlbmRpbmciCiAgICB9CiAgXSwKICAibmV4dF9jaXRpZXMiOiBbCiAgICAiQmFuZ2tvayIsCiAgICAiVG9reW8iLAogICAgIlNlb3VsIiwKICAgICJEdWJhaSIsCiAgICAiTGlzYm9uIiwKICAgICJSaW8gZGUgSmFuZWlybyIsCiAgICAiTWlhbWkiLAogICAgIkliaXphIgogIF0sCiAgImNpdHlfc2VsZWN0aW9uIjogIkZpbmlzaCBldmlkZW5jZS1xdWFsaWZpZWQgUGF0dGF5YSBxdWV1ZSwgdGhlbiBCYW5na29rLiBSZXNlYXJjaCBkaXN0aW5jdCBjaXR5IGludGVudCBiZWZvcmUgZXh0ZW5kaW5nIG90aGVyIGxpZmVzdHlsZSBjaXRpZXM7IG5ldmVyIG1lcmVseSByZXBsYWNlIGNpdHkgbmFtZXMuIgp9Cg==
+{
+  "version": 1,
+  "updated": "2026-10-21",
+  "properties": [
+    {
+      "path": "cities/pattaya/beach-clubs/index.html",
+      "status": "published",
+      "seeded_from": "repository main, 2026-10-01"
+    },
+    {
+      "path": "cities/pattaya/bira-circuit/index.html",
+      "status": "published",
+      "seeded_from": "repository main, 2026-10-01"
+    },
+    {
+      "path": "cities/pattaya/car-shows-meets/index.html",
+      "status": "published",
+      "seeded_from": "repository main, 2026-10-01"
+    },
+    {
+      "path": "cities/pattaya/index.html",
+      "status": "published",
+      "seeded_from": "repository main, 2026-10-01"
+    },
+    {
+      "path": "cities/pattaya/live-music-jazz/index.html",
+      "status": "published",
+      "seeded_from": "repository main, 2026-10-01"
+    },
+    {
+      "path": "cities/pattaya/nightlife/index.html",
+      "status": "published",
+      "seeded_from": "repository main, 2026-10-01"
+    },
+    {
+      "path": "cities/pattaya/rooftop-bars/index.html",
+      "status": "published",
+      "seeded_from": "repository main, 2026-10-01"
+    },
+    {
+      "path": "cities/pattaya/things-to-do/index.html",
+      "status": "published",
+      "seeded_from": "repository main, 2026-10-01"
+    },
+    {
+      "path": "cities/pattaya/walking-street/index.html",
+      "status": "published",
+      "seeded_from": "repository main, 2026-10-01"
+    },
+    {
+      "path": "cities/pattaya/where-to-stay/index.html",
+      "status": "published",
+      "seeded_from": "repository main, 2026-10-01"
+    },
+    {
+      "property_number": 11,
+      "path": "cities/pattaya/luxury-hotels/index.html",
+      "city": "Pattaya",
+      "target_query": "pattaya luxury hotels",
+      "status": "deployed"
+    },
+    {
+      "property_number": 12,
+      "path": "cities/pattaya/restaurants-sea-view/index.html",
+      "city": "Pattaya",
+      "target_query": "pattaya restaurants with a view",
+      "status": "deployed"
+    },
+    {
+      "property_number": 13,
+      "path": "cities/pattaya/jomtien-nightlife/index.html",
+      "city": "Pattaya",
+      "target_query": "jomtien nightlife",
+      "status": "deployed"
+    },
+    {
+      "property_number": 14,
+      "path": "cities/pattaya/koh-larn-day-trip/index.html",
+      "city": "Pattaya",
+      "target_query": "koh larn day trip from pattaya",
+      "status": "deployed"
+    },
+    {
+      "property_number": 15,
+      "path": "cities/pattaya/events/index.html",
+      "city": "Pattaya",
+      "target_query": "pattaya events",
+      "status": "deployed"
+    },
+    {
+      "property_number": 16,
+      "path": "cities/pattaya/night-markets/index.html",
+      "city": "Pattaya",
+      "target_query": "pattaya night markets",
+      "status": "deployed"
+    },
+    {
+      "property_number": 17,
+      "path": "cities/pattaya/pattaya-music/index.html",
+      "city": "Pattaya",
+      "target_query": "pattaya shaddow",
+      "status": "deployed"
+    },
+    {
+      "property_number": 18,
+      "path": "cities/pattaya/jdm-car-culture/index.html",
+      "city": "Pattaya",
+      "target_query": "pattaya jdm car culture",
+      "status": "deferred",
+      "gate": "Publish only with original coverage, real organizer references and distinct query evidence; otherwise defer and begin Bangkok.",
+      "deferred_on": "2026-10-08",
+      "reason": "No reliable organizer-led result for the exact query, and the useful automotive intent is already served by the published Bira Circuit and car shows/meets guides. Reconsider only with original Shaddow coverage and a distinct organizer-backed angle."
+    },
+    {
+      "property_number": 1,
+      "path": "cities/bangkok/index.html",
+      "city": "Bangkok",
+      "target_query": "bangkok nightlife guide",
+      "status": "deployed"
+    },
+    {
+      "property_number": 2,
+      "path": "cities/bangkok/rooftop-bars/index.html",
+      "city": "Bangkok",
+      "target_query": "bangkok rooftop bars",
+      "status": "deployed"
+    },
+    {
+      "property_number": 3,
+      "path": "cities/bangkok/jazz-bars/index.html",
+      "city": "Bangkok",
+      "target_query": "bangkok jazz bars",
+      "status": "deployed"
+    },
+    {
+      "property_number": 4,
+      "path": "cities/bangkok/night-markets/index.html",
+      "city": "Bangkok",
+      "target_query": "bangkok night markets",
+      "status": "deployed"
+    },
+    {
+      "property_number": 5,
+      "path": "cities/bangkok/luxury-hotels/index.html",
+      "city": "Bangkok",
+      "target_query": "bangkok luxury hotels",
+      "status": "deployed"
+    },
+    {
+      "property_number": 6,
+      "path": "cities/bangkok/dinner-cruises/index.html",
+      "city": "Bangkok",
+      "target_query": "bangkok dinner cruise",
+      "status": "deployed"
+    },
+    {
+      "property_number": 7,
+      "path": "cities/bangkok/coworking-day-passes/index.html",
+      "city": "Bangkok",
+      "target_query": "bangkok coworking day pass",
+      "status": "deployed"
+    },
+    {
+      "property_number": 8,
+      "path": "cities/bangkok/listening-bars/index.html",
+      "city": "Bangkok",
+      "target_query": "bangkok listening bars",
+      "status": "deployed"
+    },
+    {
+      "property_number": 9,
+      "path": "cities/bangkok/record-stores/index.html",
+      "city": "Bangkok",
+      "target_query": "bangkok record stores",
+      "status": "deployed"
+    },
+    {
+      "property_number": 10,
+      "path": "cities/bangkok/pool-day-passes/index.html",
+      "city": "Bangkok",
+      "target_query": "bangkok pool day pass",
+      "status": "deployed"
+    },
+    {
+      "property_number": 11,
+      "path": "cities/bangkok/art-galleries/index.html",
+      "city": "Bangkok",
+      "target_query": "bangkok art galleries",
+      "status": "deployed"
+    },
+    {
+      "property_number": 12,
+      "path": "cities/bangkok/cooking-classes/index.html",
+      "city": "Bangkok",
+      "target_query": "bangkok cooking classes",
+      "status": "deployed"
+    },
+    {
+      "property_number": 13,
+      "path": "cities/bangkok/observation-decks/index.html",
+      "city": "Bangkok",
+      "target_query": "bangkok observation decks",
+      "status": "deployed"
+    },
+    {
+      "property_number": 14,
+      "path": "cities/bangkok/muay-thai-stadiums/index.html",
+      "city": "Bangkok",
+      "target_query": "bangkok muay thai stadiums",
+      "status": "deployment_pending"
+    }
+  ],
+  "next_cities": [
+    "Bangkok",
+    "Tokyo",
+    "Seoul",
+    "Dubai",
+    "Lisbon",
+    "Rio de Janeiro",
+    "Miami",
+    "Ibiza"
+  ],
+  "city_selection": "Finish evidence-qualified Pattaya queue, then Bangkok. Research distinct city intent before extending other lifestyle cities; never merely replace city names."
+}
