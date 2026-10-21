@@ -207,7 +207,7 @@
       "path": "cities/bangkok/muay-thai-stadiums/index.html",
       "city": "Bangkok",
       "target_query": "bangkok muay thai stadiums",
-      "status": "deployment_pending"
+      "status": "deployed"
     }
   ],
   "next_cities": [
