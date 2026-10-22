@@ -214,7 +214,7 @@
       "path": "cities/bangkok/luxury-spas/index.html",
       "city": "Bangkok",
       "target_query": "bangkok luxury spa",
-      "status": "deployment_pending"
+      "status": "deployed"
     }
   ],
   "next_cities": [

@@ -57,17 +57,38 @@
         "Treat facility descriptions and facility entitlement as separate claims. Tell readers to confirm what the selected appointment includes.",
         "Omit prices, medical outcomes, unverified treatment benefits and any claim that one spa is universally best."
       ],
-      "commit_sha": null,
-      "status": "deployment_pending",
+      "commit_sha": "6d30cfe1adaf15f0cc14ab8e1256f6c6f87739c0",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py against complete current repository snapshot plus edits",
         "editorial": "Official-source draft focuses on access, facilities, age, arrival and cancellation logistics without medical claims or firsthand ranking.",
         "responsive": "Established CSS; two-column spa cards stack below 900px, sound grid below 760px, and comparison table scrolls locally with keyboard focus.",
-        "music": "22 October prior-property player loaded the expected Pattaya title and Shaddowmusic channel. Same non-autoplay module retained with explicit Pattaya/Bangkok and non-partnership distinction.",
-        "visual_preview": "Full candidate HTML and responsive CSS inspected before publication; no local renderer was available. Live desktop visual and DOM review pending deployment."
+        "music": "Live non-autoplay player loaded the expected Pattaya title and Shaddowmusic channel; page explicitly distinguishes the Pattaya release from Bangkok and adds no invented Spotify URL.",
+        "visual_preview": "Live music and comparison sections visually reviewed at 1348px. Four-row comparison and two-column spa cards render as designed; document scrollWidth equals clientWidth. Mobile stacking reviewed in CSS; no emulated mobile screenshot."
       },
       "maintenance": "Pattaya dated-event entries checked against 22 October: March festival remains labeled ended; 31 October, 27-28 November, 3-7 December and 11-13 December remain future. No event page or factual-review date changed.",
-      "deployment": null
+      "deployment": {
+        "workflow_run_id": 39704382761,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/39704382761",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-10-22 01:13:26 UTC",
+        "public_checks": {
+          "title": "Bangkok Luxury Spas: Compare Four Hotel Spa Days | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/luxury-spas/",
+          "property_marker": true,
+          "comparison_rows": 4,
+          "spa_cards": 4,
+          "music_embed": "https://www.youtube-nocookie.com/embed/CtLJ4Yh27bI?rel=0",
+          "embed_player": "Expected Pattaya title and Shaddowmusic channel loaded",
+          "direct_telegram_ctas": 2,
+          "bangkok_hub_link": true,
+          "published_neighbor_links": 2,
+          "hub_discovery_link": true,
+          "horizontal_overflow": false,
+          "sitemap": "New property URL and hub lastmod validated in committed XML; no public XML-fetch claim."
+        }
+      }
     },
     {
       "date_bangkok": "2026-10-21",
