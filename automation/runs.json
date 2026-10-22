@@ -2,6 +2,74 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-10-22",
+      "city": "Bangkok",
+      "property_number": 15,
+      "target_query": "bangkok luxury spa",
+      "path": "cities/bangkok/luxury-spas/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/luxury-spas/",
+      "research_sources": [
+        {
+          "url": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/wellness/the-spa",
+          "checked_at": "2026-10-22",
+          "supported_facts": [
+            "Restored century-old teakwood-house setting and Thai, Chinese and contemporary treatment approaches",
+            "Twenty-minute early arrival recommendation; late arrival does not extend treatment",
+            "General Spa and Fitness & Wellness Centre minimum age 16; children 6-15 have separate consent and same-room terms",
+            "Twenty-four-hour cancellation notice and post-treatment heat-experience access language"
+          ]
+        },
+        {
+          "url": "https://capellahotels.com/en/capella-bangkok/wellness",
+          "checked_at": "2026-10-22",
+          "supported_facts": [
+            "Seven treatment suites including two couples' suites",
+            "Vitality pool, water therapy, spa garden and relaxation lounge listed",
+            "Female steam room and male sauna identified separately",
+            "Online booking and direct contact routes available"
+          ]
+        },
+        {
+          "url": "https://www.fourseasons.com/bangkok/spa/",
+          "checked_at": "2026-10-22",
+          "supported_facts": [
+            "Riverfront Urban Wellness Centre with nine treatment rooms, steam rooms and vitality spaces",
+            "Current four-hour day-pass product combines one listed treatment with specified locker, vitality, pool, fitness and changing facilities",
+            "Day-pass product publishes its own time windows, minimum age and availability terms; price omitted from guide"
+          ]
+        },
+        {
+          "url": "https://www.peninsula.com/en/bangkok/wellness/luxury-hotel-spa-thailand",
+          "checked_at": "2026-10-22",
+          "supported_facts": [
+            "Three-story Thai colonial-style riverside building with private suites",
+            "Selected suites described with steam showers and en-suite whirlpool; broader page lists sauna, steam and plunge pools",
+            "Thirty-minute early arrival recommendation and minimum age 16 for access and treatments"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Fresh free search returned dedicated 2026 Bangkok luxury-spa comparisons, hotel-spa roundups and direct operator pages. Qualitative intent concerns which spa, day access, treatment type, facilities and booking rules; no search-volume claim.",
+        "distinctiveness": "The existing luxury-hotel guide chooses an overnight stay, while this page answers treatment and non-room facility questions. Pool-day-pass intent is also separated from spa-treatment access."
+      },
+      "research_decisions": [
+        "Use four official hotel-spa pages for logistics and format; exclude affiliate rankings, reseller prices and copied menus.",
+        "Treat facility descriptions and facility entitlement as separate claims. Tell readers to confirm what the selected appointment includes.",
+        "Omit prices, medical outcomes, unverified treatment benefits and any claim that one spa is universally best."
+      ],
+      "commit_sha": null,
+      "status": "deployment_pending",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py against complete current repository snapshot plus edits",
+        "editorial": "Official-source draft focuses on access, facilities, age, arrival and cancellation logistics without medical claims or firsthand ranking.",
+        "responsive": "Established CSS; two-column spa cards stack below 900px, sound grid below 760px, and comparison table scrolls locally with keyboard focus.",
+        "music": "22 October prior-property player loaded the expected Pattaya title and Shaddowmusic channel. Same non-autoplay module retained with explicit Pattaya/Bangkok and non-partnership distinction.",
+        "visual_preview": "Full candidate HTML and responsive CSS inspected before publication; no local renderer was available. Live desktop visual and DOM review pending deployment."
+      },
+      "maintenance": "Pattaya dated-event entries checked against 22 October: March festival remains labeled ended; 31 October, 27-28 November, 3-7 December and 11-13 December remain future. No event page or factual-review date changed.",
+      "deployment": null
+    },
+    {
       "date_bangkok": "2026-10-21",
       "city": "Bangkok",
       "property_number": 14,

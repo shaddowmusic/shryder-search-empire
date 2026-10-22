@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "properties": [
     {
       "path": "cities/pattaya/beach-clubs/index.html",
@@ -208,6 +208,13 @@
       "city": "Bangkok",
       "target_query": "bangkok muay thai stadiums",
       "status": "deployed"
+    },
+    {
+      "property_number": 15,
+      "path": "cities/bangkok/luxury-spas/index.html",
+      "city": "Bangkok",
+      "target_query": "bangkok luxury spa",
+      "status": "deployment_pending"
     }
   ],
   "next_cities": [
