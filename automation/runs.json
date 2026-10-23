@@ -50,7 +50,7 @@
           "checked_at": "2026-10-23",
           "supported_facts": [
             "Established Shaddow Pattaya music module retained for the Thailand after-dark soundtrack",
-            "Live player verification required after deployment"
+            "Live player loaded the expected Pattaya title and Shaddowmusic channel after deployment"
           ]
         }
       ],
@@ -63,17 +63,38 @@
         "Use official venue sites for room, music, ID and dress facts; omit volatile ticket prices and do not convert one event's package into a permanent rule.",
         "State that admission, schedules and lineups require same-day venue confirmation; claim no firsthand attendance, crowd quality or partnership."
       ],
-      "commit_sha": null,
-      "status": "deployment_pending",
+      "commit_sha": "dd7b440bd92c8d4bc1884026078855f6819785d9",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py against complete current repository snapshot plus edits",
         "editorial": "Official-source draft separates specialist electronic, open-format, house/techno and multi-room intents without ranking or firsthand claims.",
         "responsive": "Established CSS plus local table scrolling; two-column club cards stack below 900px and sound grid stacks below 760px.",
-        "music": "Established non-autoplay Pattaya module retained with explicit Pattaya/Bangkok and non-partnership distinction; live player check pending deployment.",
-        "visual_preview": "Full candidate HTML and responsive CSS inspected before publication; no local browser renderer was available. Live desktop visual and DOM review pending deployment."
+        "music": "Live non-autoplay player loaded the expected Pattaya title and Shaddowmusic channel; page explicitly distinguishes the Pattaya release from Bangkok and adds no invented Spotify URL.",
+        "visual_preview": "Live music and comparison sections visually reviewed at 1348px. Four-row table and two-column club cards render as designed; document scrollWidth equals clientWidth. Mobile stacking reviewed in CSS; no emulated mobile screenshot."
       },
       "maintenance": "Pattaya dated-event entries checked against 23 October: March festival remains labeled ended; 31 October, 27-28 November, 3-7 December and 11-13 December remain future. No event page or factual-review date changed.",
-      "deployment": null
+      "deployment": {
+        "workflow_run_id": 39882302380,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/39882302380",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-10-23 01:09:02 UTC",
+        "public_checks": {
+          "title": "Bangkok Nightclubs: Compare Four Music-First Rooms | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/nightclubs/",
+          "property_marker": true,
+          "comparison_rows": 4,
+          "club_cards": 4,
+          "music_embed": "https://www.youtube-nocookie.com/embed/CtLJ4Yh27bI?rel=0",
+          "embed_player": "Expected Pattaya title and Shaddowmusic channel loaded",
+          "direct_telegram_ctas": 2,
+          "bangkok_hub_link": true,
+          "published_neighbor_links": 3,
+          "hub_discovery_link": true,
+          "horizontal_overflow": false,
+          "sitemap": "New property URL and hub lastmod validated in committed XML; no public XML-fetch claim."
+        }
+      }
     },
     {
       "date_bangkok": "2026-10-22",

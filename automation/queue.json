@@ -221,7 +221,7 @@
       "path": "cities/bangkok/nightclubs/index.html",
       "city": "Bangkok",
       "target_query": "bangkok nightclubs",
-      "status": "deployment_pending"
+      "status": "deployed"
     }
   ],
   "next_cities": [
