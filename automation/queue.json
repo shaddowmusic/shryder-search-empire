@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "properties": [
     {
       "path": "cities/pattaya/beach-clubs/index.html",
@@ -215,6 +215,13 @@
       "city": "Bangkok",
       "target_query": "bangkok luxury spa",
       "status": "deployed"
+    },
+    {
+      "property_number": 16,
+      "path": "cities/bangkok/nightclubs/index.html",
+      "city": "Bangkok",
+      "target_query": "bangkok nightclubs",
+      "status": "deployment_pending"
     }
   ],
   "next_cities": [

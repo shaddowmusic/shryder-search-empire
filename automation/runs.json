@@ -2,6 +2,80 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-10-23",
+      "city": "Bangkok",
+      "property_number": 16,
+      "target_query": "bangkok nightclubs",
+      "path": "cities/bangkok/nightclubs/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/bangkok/nightclubs/",
+      "research_sources": [
+        {
+          "url": "https://singsingtheater.com/",
+          "checked_at": "2026-10-23",
+          "supported_facts": [
+            "Three floors and four split levels in a 1930s Chinoiserie theater setting on Sukhumvit Soi 45",
+            "Published music focus includes house, melodic house, indie dance and afro house rather than Top 40 or commercial EDM",
+            "Twenty-plus entry, original ID requirement and specific smart-casual restrictions"
+          ]
+        },
+        {
+          "url": "https://www.levelsclub.com/",
+          "checked_at": "2026-10-23",
+          "supported_facts": [
+            "Main room, mezzanine and terrace in Sukhumvit Soi 11",
+            "Open-format, commercial-house and pop soundtrack with house and techno on the terrace",
+            "Official smart-casual restrictions and direct reservation recommendation"
+          ]
+        },
+        {
+          "url": "https://mustachebangkok.com/",
+          "checked_at": "2026-10-23",
+          "supported_facts": [
+            "House-and-techno focus, VOID system and 700-person Decho Road room",
+            "Event pages identify exact artists, subgenres, dates and whether a takeover uses another location",
+            "Twenty-plus real-ID rule and published clothing restrictions"
+          ]
+        },
+        {
+          "url": "https://www.route66club.com/",
+          "checked_at": "2026-10-23",
+          "supported_facts": [
+            "Official RCA address and direct reservation channels",
+            "Current and archived event pages distinguish East hip-hop, West live-band and K-pop, and South EDM zones",
+            "Event-specific prices and table packages vary and are not treated as standing rules"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CtLJ4Yh27bI",
+          "checked_at": "2026-10-23",
+          "supported_facts": [
+            "Established Shaddow Pattaya music module retained for the Thailand after-dark soundtrack",
+            "Live player verification required after deployment"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Fresh Google autocomplete research for Bangkok nightlife and Bangkok nightclubs returned the exact query plus best-nightclub, Sukhumvit, couples, dress-code, closing-time, high-end and EDM refinements. This establishes a live club-choice and entry-planning intent; no search-volume claim.",
+        "distinctiveness": "The Bangkok hub chooses a district, while this page chooses a music and room format. Listening-bar and jazz guides serve seated or live-performance intent; rooftop bars prioritize height and view rather than a dance floor."
+      },
+      "research_decisions": [
+        "Compare four materially different official music formats rather than publish a subjective best-clubs ranking.",
+        "Use official venue sites for room, music, ID and dress facts; omit volatile ticket prices and do not convert one event's package into a permanent rule.",
+        "State that admission, schedules and lineups require same-day venue confirmation; claim no firsthand attendance, crowd quality or partnership."
+      ],
+      "commit_sha": null,
+      "status": "deployment_pending",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py against complete current repository snapshot plus edits",
+        "editorial": "Official-source draft separates specialist electronic, open-format, house/techno and multi-room intents without ranking or firsthand claims.",
+        "responsive": "Established CSS plus local table scrolling; two-column club cards stack below 900px and sound grid stacks below 760px.",
+        "music": "Established non-autoplay Pattaya module retained with explicit Pattaya/Bangkok and non-partnership distinction; live player check pending deployment.",
+        "visual_preview": "Full candidate HTML and responsive CSS inspected before publication; no local browser renderer was available. Live desktop visual and DOM review pending deployment."
+      },
+      "maintenance": "Pattaya dated-event entries checked against 23 October: March festival remains labeled ended; 31 October, 27-28 November, 3-7 December and 11-13 December remain future. No event page or factual-review date changed.",
+      "deployment": null
+    },
+    {
       "date_bangkok": "2026-10-22",
       "city": "Bangkok",
       "property_number": 15,
