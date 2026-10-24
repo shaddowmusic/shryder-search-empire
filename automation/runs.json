@@ -2,6 +2,111 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-10-24",
+      "city": "Tokyo",
+      "property_number": 1,
+      "target_query": "tokyo nightlife guide",
+      "path": "cities/tokyo/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/tokyo/",
+      "research_sources": [
+        {
+          "url": "https://www.gotokyo.org/en/see-and-do/nightlife/index.html",
+          "checked_at": "2026-10-24",
+          "supported_facts": [
+            "Official Tokyo tourism guide identifies Roppongi, Shibuya and Shinjuku as major nightlife scenes",
+            "Nightlife guidance distinguishes rooftop and high-rise dining, late-night attractions, local drinking and early-hours party intent"
+          ]
+        },
+        {
+          "url": "https://www.gotokyo.org/en/destinations/western-tokyo/shibuya/index.html",
+          "checked_at": "2026-10-24",
+          "supported_facts": [
+            "Udagawacho and Maruyamacho are identified for record shopping, live music venues and clubbing",
+            "District page was updated 1 October 2026"
+          ]
+        },
+        {
+          "url": "https://www.gotokyo.org/en/destinations/western-tokyo/shinjuku/index.html",
+          "checked_at": "2026-10-24",
+          "supported_facts": [
+            "Official guide presents Shinjuku as a major nightlife district with multiple contrasting areas",
+            "Guide supports choosing a specific micro-district rather than treating all of Shinjuku as one room"
+          ]
+        },
+        {
+          "url": "https://www.gotokyo.org/en/spot/62/index.html",
+          "checked_at": "2026-10-24",
+          "supported_facts": [
+            "Official Golden Gai page identifies a tight six-row block of small bars in Shinjuku",
+            "The spatial evidence supports advising readers to select a specific Shinjuku micro-scene"
+          ]
+        },
+        {
+          "url": "https://www.gotokyo.org/en/destinations/southern-tokyo/roppongi/index.html",
+          "checked_at": "2026-10-24",
+          "supported_facts": [
+            "Official guide combines Roppongi nightlife with large cultural complexes, luxury shopping, dining and art",
+            "This supports a planned art-or-dinner-to-nightlife route rather than a club-only description"
+          ]
+        },
+        {
+          "url": "https://www.gotokyo.org/en/destinations/western-tokyo/shimokitazawa/index.html",
+          "checked_at": "2026-10-24",
+          "supported_facts": [
+            "Official guide identifies vintage clothing, select bookstores, music shops, cafes and bars",
+            "District is associated with live houses and independent performance culture"
+          ]
+        },
+        {
+          "url": "https://www.gotokyo.org/en/plan/local-laws/index.html",
+          "checked_at": "2026-10-24",
+          "supported_facts": [
+            "Official visitor page covers alcohol, smoking, road safety, scams and drug laws",
+            "Page was updated 1 September 2026"
+          ]
+        },
+        {
+          "url": "https://www.tokyometro.jp/en/route_station/index.html",
+          "checked_at": "2026-10-24",
+          "supported_facts": [
+            "Tokyo Metro publishes current route and station information for nine lines",
+            "Official tool includes Shibuya and Shinjuku among popular station pages"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=g4mXXUefOMw",
+          "checked_at": "2026-10-24",
+          "supported_facts": [
+            "Live YouTube page title is Focus Music for Work & Trading | 1 Hour of Deep Electronic Music",
+            "Live canonical points to video g4mXXUefOMw and the page identifies Shaddowmusic as author",
+            "Player reports a 1 hour 4 minute 21 second duration"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Fresh Google autocomplete research returned the exact seed 'tokyo nightlife guide' plus nightlife-area, where-to-stay-for-nightlife, how-late-are-bars-open, nightlife-for-tourists, best-nightlife-areas and bar-hopping refinements. This supports district choice and night-planning intent; no search-volume claim.",
+        "distinctiveness": "This first Tokyo property is a district chooser, not a copied Bangkok hub. It contrasts music discovery, compact alley scenes, art-plus-nightlife and independent live-house intent using Tokyo's own official district evidence. Future venue pages can answer narrower queries without duplicating this hub."
+      },
+      "research_decisions": [
+        "Start Tokyo with the city hub because current query evidence asks which nightlife area to choose, and four official district pages support genuinely different routes.",
+        "Use official Tokyo tourism and transport sources for durable district and planning facts; omit venue rankings, prices, hours and crowd claims.",
+        "Use Shaddow's verified deep-electronic mix as a pre-route planning soundtrack and state clearly that it is not a Tokyo song, local set or venue partnership."
+      ],
+      "commit_sha": null,
+      "status": "pending",
+      "qa": {
+        "validator": "pending",
+        "editorial": "Official-source draft separates four district-level intents without firsthand, universal-safety or best-venue claims.",
+        "responsive": "pending",
+        "music": "Prepublication check confirmed the exact live YouTube title, canonical, Shaddowmusic author and 1:04:21 player duration.",
+        "visual_preview": "pending"
+      },
+      "maintenance": "Pattaya dated-event entries checked against 24 October: the March festival remains labeled ended; 31 October, 27-28 November, 3-7 December and 11-13 December remain future. No event page or factual-review date changed.",
+      "deployment": {
+        "status": "not_started"
+      }
+    },
+    {
       "date_bangkok": "2026-10-23",
       "city": "Bangkok",
       "property_number": 16,

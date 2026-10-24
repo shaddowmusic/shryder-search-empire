@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "properties": [
     {
       "path": "cities/pattaya/beach-clubs/index.html",
@@ -222,6 +222,13 @@
       "city": "Bangkok",
       "target_query": "bangkok nightclubs",
       "status": "deployed"
+    },
+    {
+      "property_number": 1,
+      "path": "cities/tokyo/index.html",
+      "city": "Tokyo",
+      "target_query": "tokyo nightlife guide",
+      "status": "pending"
     }
   ],
   "next_cities": [
