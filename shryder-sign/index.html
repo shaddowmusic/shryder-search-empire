@@ -87,7 +87,47 @@
     .source-list a{color:#e8c675}
     .closing{padding:clamp(3rem,7vw,6rem) 0;background:linear-gradient(180deg,transparent,rgba(245,185,66,.06))}
     @media(max-width:960px){.hero-layout,.origin-grid,.howto-grid{grid-template-columns:1fr}.hero-art{max-width:760px}.definition-panel{grid-template-columns:1fr}.definition-panel article+article{border-left:0;border-top:1px solid rgba(255,255,255,.08)}.relationship{grid-template-columns:repeat(2,minmax(0,1fr))}.relationship article::after{display:none}}
-    @media(max-width:680px){.sign-hero{padding-top:2.5rem}.sign-hero h1{font-size:clamp(3.4rem,21vw,5.5rem)}.hero-art::after{right:.55rem;bottom:.55rem;font-size:.52rem}.value-grid,.fan-grid,.lore-grid,.use-grid,.relationship{grid-template-columns:1fr}.value-card{min-height:auto}.timeline-item{grid-template-columns:1fr;gap:.35rem}.portrait-crop{aspect-ratio:4/3}.howto-grid{grid-template-columns:minmax(0,1fr)}}
+    @media(max-width:680px){
+      body{overflow-x:hidden}
+      main section{padding-block:3rem}
+      .topbar .shell{min-height:56px}.brand{font-size:.78rem;letter-spacing:.06em}
+      .breadcrumb{padding-top:.85rem;font-size:.72rem}
+      .sign-hero{padding:1.65rem 0 2.6rem}
+      .sign-hero::before{top:.05em;right:-.3em;font-size:17rem;opacity:.55}
+      .hero-layout{gap:1.45rem}.hero-layout>*,.origin-grid>*,.howto-grid>*{min-width:0}
+      .hero-kicker{gap:.42rem;margin-bottom:1rem}
+      .hero-kicker span{padding:.3rem .42rem;font-size:.58rem;letter-spacing:.11em}
+      .sign-hero h1{max-width:none;font-size:clamp(3rem,17vw,4.35rem);line-height:.88;letter-spacing:-.065em;overflow-wrap:anywhere}
+      .sign-hero .lede{font-size:1rem;line-height:1.65}
+      .hero-art{width:100%;box-shadow:0 18px 50px rgba(0,0,0,.5)}
+      .hero-art::after{display:none}
+      .hero-caption{margin:.55rem 0 0;padding:0 .7rem .7rem;font-size:.7rem;line-height:1.45}
+      .quick-definition{margin-top:0;padding-top:0}
+      .definition-panel{box-shadow:none}.definition-panel article{padding:1.1rem}
+      .value-grid,.fan-grid,.lore-grid,.use-grid,.relationship{grid-template-columns:1fr}
+      .value-card{min-height:auto;padding:1.05rem}.value-card .glyph{margin-bottom:1rem}
+      .creed{padding:1.35rem}.creed h2{font-size:2rem}.creed-line{font-size:1.14rem}
+      .pullquote{padding:1.15rem;font-size:1.3rem}
+      .portrait-crop{aspect-ratio:16/10}
+      .howto-grid{grid-template-columns:minmax(0,1fr)}
+      .step{grid-template-columns:2.35rem minmax(0,1fr);gap:.75rem;padding:.85rem}
+      .step-number{width:2.35rem;height:2.35rem}
+      .hashtag-box{align-items:stretch;padding:.9rem}.hashtag{font-size:1.12rem;overflow-wrap:anywhere}.copy-button{width:100%;min-height:44px}
+      .timeline{padding-left:.75rem}.timeline::before{left:.06rem}
+      .timeline-item{grid-template-columns:1fr;gap:.35rem;min-width:0;padding:1rem}
+      .timeline-item::before{left:-.98rem}.evidence-label{display:block;line-height:1.5;overflow-wrap:anywhere}
+      .fan-card,.lore-card,.use-card,.relationship article{padding:1rem}
+      .boundary,.faq-list details,.source-list li{padding:.9rem}
+      .source-list li,.source-list a,.source-list small{overflow-wrap:anywhere}
+      .closing .grid{gap:1.5rem}
+      footer .shell{flex-direction:column;align-items:flex-start}
+    }
+    @media(max-width:380px){
+      .shell{width:min(calc(100% - 1.25rem),var(--max))}
+      .brand{font-size:.72rem}
+      .sign-hero h1{font-size:clamp(2.75rem,17vw,3.75rem)}
+      .hero-kicker span{font-size:.55rem}
+    }
   </style>
   <script type="application/ld+json">
   {
