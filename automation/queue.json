@@ -228,7 +228,7 @@
       "path": "cities/tokyo/index.html",
       "city": "Tokyo",
       "target_query": "tokyo nightlife guide",
-      "status": "pending"
+      "status": "deployed"
     }
   ],
   "next_cities": [

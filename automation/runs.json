@@ -92,18 +92,35 @@
         "Use official Tokyo tourism and transport sources for durable district and planning facts; omit venue rankings, prices, hours and crowd claims.",
         "Use Shaddow's verified deep-electronic mix as a pre-route planning soundtrack and state clearly that it is not a Tokyo song, local set or venue partnership."
       ],
-      "commit_sha": null,
-      "status": "pending",
+      "commit_sha": "e76a034344f9e25e9b0ae327b27bad59222e63fa",
+      "status": "deployed",
       "qa": {
-        "validator": "pending",
+        "validator": "PASS: python3 scripts/validate_factory.py against complete current repository snapshot plus edits",
         "editorial": "Official-source draft separates four district-level intents without firsthand, universal-safety or best-venue claims.",
-        "responsive": "pending",
-        "music": "Prepublication check confirmed the exact live YouTube title, canonical, Shaddowmusic author and 1:04:21 player duration.",
-        "visual_preview": "pending"
+        "responsive": "Established CSS plus local breakpoints: four district summaries become two columns below 900px and one below 760px; district cards and sound grid become one column below 760px.",
+        "music": "Prepublication YouTube check confirmed the exact title, canonical, Shaddowmusic author and 1:04:21 duration; the live embedded player visibly loaded the expected Shaddowmusic title and channel after deployment.",
+        "visual_preview": "Live hero and music sections visually reviewed at 1348px. Type scale, two-button CTA, background wordmark and 16:9 Shaddow player render as designed; document scrollWidth equals clientWidth. Mobile stacking reviewed in CSS; no emulated mobile screenshot."
       },
       "maintenance": "Pattaya dated-event entries checked against 24 October: the March festival remains labeled ended; 31 October, 27-28 November, 3-7 December and 11-13 December remain future. No event page or factual-review date changed.",
       "deployment": {
-        "status": "not_started"
+        "workflow_run_id": 40052283234,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/40052283234",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-10-24 02:00:46 UTC",
+        "public_checks": {
+          "title": "Tokyo Nightlife Guide: Choose the Right District | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/tokyo/",
+          "property_marker": true,
+          "district_cards": 4,
+          "music_embed": "https://www.youtube-nocookie.com/embed/g4mXXUefOMw?rel=0",
+          "embed_player": "Expected Focus Music for Work & Trading title and Shaddowmusic channel loaded",
+          "direct_telegram_ctas": 2,
+          "published_neighbor_links": 3,
+          "root_discovery_link": true,
+          "horizontal_overflow": false,
+          "sitemap": "Tokyo URL and root lastmod validated in committed XML; no public XML-fetch claim."
+        }
       }
     },
     {
