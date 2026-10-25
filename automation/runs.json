@@ -2,6 +2,128 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-10-25",
+      "city": "Tokyo",
+      "property_number": 2,
+      "target_query": "tokyo car culture",
+      "path": "cities/tokyo/car-culture/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/tokyo/car-culture/",
+      "research_sources": [
+        {
+          "url": "https://www.nissan.co.jp/crossing/en/",
+          "checked_at": "2026-10-25",
+          "supported_facts": [
+            "Official Nissan information center in Ginza presents design, technology and rotating vehicle displays",
+            "Current exhibit periods are published separately, so the page directs readers to recheck rather than naming a durable lineup"
+          ]
+        },
+        {
+          "url": "https://www.nissan.co.jp/crossing/en/floor_guide",
+          "checked_at": "2026-10-25",
+          "supported_facts": [
+            "Official floor guide identifies vehicle display areas, a theater, boutique and cafe",
+            "Official access material supports a rail-first Ginza visit"
+          ]
+        },
+        {
+          "url": "https://newsroom.mazda.com/en/publicity/release/2025/202502/250204a.html",
+          "checked_at": "2026-10-25",
+          "supported_facts": [
+            "MAZDA TRANS AOYAMA opened in Minami-Aoyama in February 2025",
+            "Mazda describes production, concept and historic vehicle displays, a miniature history display and cafe",
+            "Events, workshops, limited exhibitions and MX-5 test drives are program-specific rather than guaranteed daily activities"
+          ]
+        },
+        {
+          "url": "https://www.apit-autobacs.com/shinonome/",
+          "checked_at": "2026-10-25",
+          "supported_facts": [
+            "A PIT AUTOBACS Shinonome describes itself as a Life & Car Shop with automotive services, books, cafe and family space",
+            "The venue publishes a separate current event calendar"
+          ]
+        },
+        {
+          "url": "https://www.apit-autobacs.com/shinonome/event/",
+          "checked_at": "2026-10-25",
+          "supported_facts": [
+            "Official calendar lists store events, workshops and brand booths by date",
+            "Past listings were used only to establish the recurring official-event format and are not promoted as upcoming"
+          ]
+        },
+        {
+          "url": "https://www.gotokyo.org/en/spot/307/index.html",
+          "checked_at": "2026-10-25",
+          "supported_facts": [
+            "Official Tokyo tourism listing places Hino Auto Plaza in Hachioji",
+            "Museum coverage includes trucks, buses, the Hino Contessa, experimental vehicles, engines, models and photographs"
+          ]
+        },
+        {
+          "url": "https://www.shutoko-sv.jp/pa/daikoku",
+          "checked_at": "2026-10-25",
+          "supported_facts": [
+            "Daikoku Parking Area is at the Daikoku Junction area of the Shuto Expressway in Yokohama",
+            "Official service information does not present it as a scheduled Tokyo car-meet attraction"
+          ]
+        },
+        {
+          "url": "https://prd-www.shutoko.jp/faq/",
+          "checked_at": "2026-10-25",
+          "supported_facts": [
+            "Shutoko states Daikoku Parking Area cannot be entered by pedestrian, bicycle or moped",
+            "Expressway parking areas cannot be entered on foot from general roads"
+          ]
+        },
+        {
+          "url": "https://www.shutoko.jp/lang/qa/pa/",
+          "checked_at": "2026-10-25",
+          "supported_facts": [
+            "Shutoko may close parking areas when necessary for safety and in response to malicious speeding or nuisance behavior",
+            "Closure and access guidance makes an assumed gathering an unreliable visitor plan"
+          ]
+        },
+        {
+          "url": "https://shaddowmusic.github.io/shryder-search-empire/shryder-sign/",
+          "checked_at": "2026-10-25",
+          "supported_facts": [
+            "Shaddow's first-person archive traces the SHRYDER Sign through live music and JDM culture in Japan and Korea",
+            "The archive specifically names Yokohama and Tokyo and supplies original editorial context without implying venue affiliation"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Z68yCwcvCOk",
+          "checked_at": "2026-10-25",
+          "supported_facts": [
+            "Live YouTube page title and Open Graph title identify the track as Shryder Season",
+            "Live canonical points to video Z68yCwcvCOk and page metadata identifies Shaddow - Topic as author"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Fresh autocomplete research returned the exact seed 'tokyo car culture' plus 'tokyo jdm car culture', 'where to see jdm cars in tokyo', 'tokyo car culture tour', 'tokyo car meets', meet-location and legality refinements. This supports public-access venue choice and access-correction intent; no search-volume claim.",
+        "distinctiveness": "The Tokyo hub chooses a nightlife district. This second property answers where a visitor can encounter automotive culture legally through official public venues and corrects the common Daikoku access misconception. Original SHRYDER/JDM history supplies a brand-specific editorial reason rather than a city-name substitution."
+      },
+      "research_decisions": [
+        "Build a legal public-access route around three current automotive spaces and one history museum rather than promote unpredictable informal gatherings.",
+        "State that Daikoku is in Yokohama, cannot be entered on foot, bicycle or moped, and may close; do not describe it as a guaranteed Tokyo meet or recommend improvised access.",
+        "Use only official venue, tourism and expressway sources for claims; omit prices, fixed hours, current vehicle lineup and guaranteed test-drive or event availability.",
+        "Use Shaddow's verified Shryder Season as the music module and disclose that it is not a venue recording, event soundtrack or partnership."
+      ],
+      "commit_sha": null,
+      "status": "pending",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py against complete current repository snapshot plus edits",
+        "editorial": "Official-source draft separates design, culture, retail-event and industrial-history intents; it makes no firsthand, event-guarantee or venue-affiliation claim.",
+        "responsive": "Established CSS plus local breakpoints: four route summaries become one column below 760px, the decision strip becomes two columns below 900px and one below 760px, and the sound grid stacks below 760px.",
+        "music": "Prepublication YouTube check confirmed the exact title, canonical and Shaddow - Topic author metadata; live embed verification pending deployment.",
+        "visual_preview": "Pending live deployment review"
+      },
+      "maintenance": "Pattaya dated-event entries checked against 25 October: the March festival remains labeled ended; 31 October, 27-28 November, 3-7 December and 11-13 December remain future. No event page or factual-review date changed.",
+      "deployment": {
+        "status": "not_started"
+      }
+    },
+    {
       "date_bangkok": "2026-10-24",
       "city": "Tokyo",
       "property_number": 1,

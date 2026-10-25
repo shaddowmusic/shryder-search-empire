@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "properties": [
     {
       "path": "cities/pattaya/beach-clubs/index.html",
@@ -229,6 +229,13 @@
       "city": "Tokyo",
       "target_query": "tokyo nightlife guide",
       "status": "deployed"
+    },
+    {
+      "property_number": 2,
+      "path": "cities/tokyo/car-culture/index.html",
+      "city": "Tokyo",
+      "target_query": "tokyo car culture",
+      "status": "pending"
     }
   ],
   "next_cities": [
