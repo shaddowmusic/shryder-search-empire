@@ -2,6 +2,107 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-10-26",
+      "city": "Tokyo",
+      "property_number": 3,
+      "target_query": "tokyo jazz clubs",
+      "path": "cities/tokyo/jazz-clubs/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/tokyo/jazz-clubs/",
+      "research_sources": [
+        {
+          "url": "https://www.bluenote.co.jp/jp/reservation/",
+          "checked_at": "2026-10-26",
+          "supported_facts": [
+            "Blue Note Tokyo publishes online and telephone reservation routes and seating by area",
+            "Walk-in admission is possible only when seats remain"
+          ]
+        },
+        {
+          "url": "https://www.bluenote.co.jp/jp/faq/",
+          "checked_at": "2026-10-26",
+          "supported_facts": [
+            "Blue Note Tokyo publishes no dress code",
+            "Unauthorized photography and audio or video recording are prohibited during performances"
+          ]
+        },
+        {
+          "url": "https://www.bluenote.co.jp/jp/access/",
+          "checked_at": "2026-10-26",
+          "supported_facts": [
+            "Official access information places Blue Note Tokyo in Minami-Aoyama"
+          ]
+        },
+        {
+          "url": "https://www.cottonclubjapan.co.jp/jp/reservation/",
+          "checked_at": "2026-10-26",
+          "supported_facts": [
+            "Cotton Club is an all-reserved live restaurant with online and telephone booking",
+            "Official guidance distinguishes table, box and pair-seat formats"
+          ]
+        },
+        {
+          "url": "https://www.cottonclubjapan.co.jp/jp/reserve/faq.html",
+          "checked_at": "2026-10-26",
+          "supported_facts": [
+            "Cotton Club publishes no dress code",
+            "Unauthorized photography and recording are prohibited during performances"
+          ]
+        },
+        {
+          "url": "https://www.cottonclubjapan.co.jp/jp/access/",
+          "checked_at": "2026-10-26",
+          "supported_facts": [
+            "Official access information places Cotton Club in Marunouchi near Tokyo Station"
+          ]
+        },
+        {
+          "url": "https://pit-inn.com/e/",
+          "checked_at": "2026-10-26",
+          "supported_facts": [
+            "Shinjuku Pit Inn publishes separate morning, daytime and evening programs",
+            "Reservations apply to eligible shows and advance reference numbers determine entrance priority"
+          ]
+        },
+        {
+          "url": "https://www.gotokyo.org/en/story/guide/tokyo-at-night/index.html",
+          "checked_at": "2026-10-26",
+          "supported_facts": [
+            "Official Tokyo tourism guidance identifies Blue Note Tokyo, Cotton Club and Shinjuku Pit Inn as distinct jazz experiences",
+            "The guide identifies Shinjuku Pit Inn as an established jazz room dating to 1965"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Z68yCwcvCOk",
+          "checked_at": "2026-10-26",
+          "supported_facts": [
+            "Verified Shaddow track selected as the planning soundtrack",
+            "The page explicitly disclaims a Tokyo recording, conventional-jazz claim and venue affiliation"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Fresh autocomplete research returned the exact seed 'tokyo jazz clubs' plus 'best tokyo jazz clubs', 'jazz clubs in tokyo japan', 'live jazz clubs tokyo', 'famous jazz clubs in tokyo', 'jazz in tokyo tonight', 'where are the jazz bars in tokyo', 'what are the best jazz clubs in tokyo' and venue-name refinements. This is qualitative query evidence only; no search-volume claim.",
+        "distinctiveness": "The Tokyo hub chooses a nightlife district. This property chooses a live jazz room by service format, seating or entrance system and listening ritual. It is narrower than the hub and aligned with Shaddow's sax-led musical identity without implying venue affiliation."
+      },
+      "research_decisions": [
+        "Compare three strongly documented rooms rather than inflate the guide with thinner listings.",
+        "Use official venue sources for booking, seating and conduct details and official tourism only for durable city context and Pit Inn history.",
+        "Omit prices, current lineups, fixed opening hours and future genre guarantees because they are volatile.",
+        "Frame Shryder Season as a verified planning soundtrack, not a Tokyo recording, jazz-club set or conventional-jazz classification."
+      ],
+      "commit_sha": null,
+      "status": "pending",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py against complete current repository snapshot plus edits",
+        "editorial": "Draft separates dining-stage, all-reserved live-restaurant and jazz-first live-house intents; no ranking, firsthand claim or lineup promise.",
+        "responsive": "Established CSS plus local breakpoints: three room cards become one column below 900px, the comparison table remains horizontally scrollable in its labeled region on narrow screens, and the global sound grid stacks below 760px.",
+        "music": "Prepublication YouTube check loaded Shryder Season with Shaddowmusic Official Artist Channel and the expected 15-second player.",
+        "visual_preview": "pending deployment"
+      },
+      "maintenance": "Pattaya dated-event entries checked against 26 October: the March festival remains labeled ended; 31 October, 27-28 November, 3-7 December and 11-13 December remain future. No event page or factual-review date changed.",
+      "deployment": null
+    },
+    {
       "date_bangkok": "2026-10-25",
       "city": "Tokyo",
       "property_number": 2,
