@@ -242,7 +242,7 @@
       "path": "cities/tokyo/jazz-clubs/index.html",
       "city": "Tokyo",
       "target_query": "tokyo jazz clubs",
-      "status": "pending"
+      "status": "deployed"
     }
   ],
   "next_cities": [

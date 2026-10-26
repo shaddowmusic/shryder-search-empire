@@ -90,17 +90,37 @@
         "Omit prices, current lineups, fixed opening hours and future genre guarantees because they are volatile.",
         "Frame Shryder Season as a verified planning soundtrack, not a Tokyo recording, jazz-club set or conventional-jazz classification."
       ],
-      "commit_sha": null,
-      "status": "pending",
+      "commit_sha": "15dfa8269791510c5800dd559de943a72235c282",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py against complete current repository snapshot plus edits",
         "editorial": "Draft separates dining-stage, all-reserved live-restaurant and jazz-first live-house intents; no ranking, firsthand claim or lineup promise.",
         "responsive": "Established CSS plus local breakpoints: three room cards become one column below 900px, the comparison table remains horizontally scrollable in its labeled region on narrow screens, and the global sound grid stacks below 760px.",
         "music": "Prepublication YouTube check loaded Shryder Season with Shaddowmusic Official Artist Channel and the expected 15-second player.",
-        "visual_preview": "pending deployment"
+        "visual_preview": "Live page reviewed at 1348px: hero, music-first module, comparison table and three room cards render in the established design; document scrollWidth equals clientWidth. Mobile stacking and labeled horizontal table scroll were separately reviewed in CSS."
       },
       "maintenance": "Pattaya dated-event entries checked against 26 October: the March festival remains labeled ended; 31 October, 27-28 November, 3-7 December and 11-13 December remain future. No event page or factual-review date changed.",
-      "deployment": null
+      "deployment": {
+        "workflow_run_id": 40257001270,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/40257001270",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-10-26 02:02:53 UTC",
+        "public_checks": {
+          "title": "Tokyo Jazz Clubs: Choose the Right Live Room | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/tokyo/jazz-clubs/",
+          "property_marker": true,
+          "room_cards": 3,
+          "music_embed": "https://www.youtube-nocookie.com/embed/Z68yCwcvCOk?rel=0",
+          "embed_player": "Expected Shryder Season title and Shaddow - Topic channel loaded",
+          "direct_telegram_ctas": 2,
+          "tokyo_hub_link": true,
+          "published_neighbor_links": 3,
+          "hub_discovery_link": true,
+          "horizontal_overflow": false,
+          "sitemap": "New property URL and Tokyo hub lastmod validated in committed XML; no public XML-fetch claim."
+        }
+      }
     },
     {
       "date_bangkok": "2026-10-25",
