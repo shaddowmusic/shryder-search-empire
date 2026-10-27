@@ -249,7 +249,7 @@
       "path": "cities/tokyo/record-stores/index.html",
       "city": "Tokyo",
       "target_query": "tokyo record stores",
-      "status": "pending"
+      "status": "deployed"
     }
   ],
   "next_cities": [

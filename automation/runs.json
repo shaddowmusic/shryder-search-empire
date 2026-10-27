@@ -77,17 +77,37 @@
         "Include Kameari to serve art-led record discovery without pretending it belongs in a compact Shibuya route.",
         "Omit prices, current stock, fixed hours, guaranteed listening access, tax treatment and pressing-value claims because they are volatile or item-specific."
       ],
-      "commit_sha": null,
-      "status": "pending",
+      "commit_sha": "cd350e028d30b43c91f937b3ae4485c1403379e4",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py against complete current repository snapshot plus edits",
         "editorial": "Draft separates broad selection, used discovery, genre specialists and an art-led warehouse; no ranking, firsthand shopping claim or stock guarantee.",
         "responsive": "Established CSS plus local breakpoints: four route summaries become two columns below 900px and one below 760px; four store cards become one column below 760px; the global sound grid stacks and CTA buttons become full-width below 760px.",
         "music": "Prepublication YouTube check loaded Shryder Season with the expected title and 15-second player.",
-        "visual_preview": "pending deployment"
+        "visual_preview": "Live page reviewed at 1348px: property marker, large hero, two-button CTA, Tokyo Vinyl wordmark and music-first module render in the established design; document scrollWidth equals clientWidth. Mobile stacking was separately reviewed in CSS."
       },
       "maintenance": "Pattaya dated-event entries checked against 27 October: the March festival remains labeled ended; 31 October, 27-28 November, 3-7 December and 11-13 December remain future. No event page or factual-review date changed.",
-      "deployment": null
+      "deployment": {
+        "workflow_run_id": 40433963475,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/40433963475",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-10-27 01:41:55 UTC",
+        "public_checks": {
+          "title": "Tokyo Record Stores: Choose the Right Dig | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/tokyo/record-stores/",
+          "property_marker": true,
+          "store_cards": 4,
+          "music_embed": "https://www.youtube-nocookie.com/embed/Z68yCwcvCOk?rel=0",
+          "embed_player": "Expected Shryder Season title and Shaddow - Topic channel rendered",
+          "direct_telegram_ctas": 2,
+          "tokyo_hub_link": true,
+          "published_neighbor_links": 3,
+          "hub_discovery_link": true,
+          "horizontal_overflow": false,
+          "sitemap": "New property URL and Tokyo hub lastmod validated in committed XML; no public XML-fetch claim."
+        }
+      }
     },
     {
       "date_bangkok": "2026-10-26",
