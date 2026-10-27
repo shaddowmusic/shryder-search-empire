@@ -2,6 +2,94 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-10-27",
+      "city": "Tokyo",
+      "property_number": 4,
+      "target_query": "tokyo record stores",
+      "path": "cities/tokyo/record-stores/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/tokyo/record-stores/",
+      "research_sources": [
+        {
+          "url": "https://tower.jp/store/kanto/Shibuya",
+          "checked_at": "2026-10-27",
+          "supported_facts": [
+            "Tower Records publishes a dedicated official page for its Shibuya store",
+            "Current access information identifies the Hachiko-side Shibuya location"
+          ]
+        },
+        {
+          "url": "https://cdfront.tower.jp/company/pressrelease/2026/09/03",
+          "checked_at": "2026-10-27",
+          "supported_facts": [
+            "Tower Records identifies Tower Vinyl Shibuya as its sixth-floor analog-record specialist",
+            "The current release confirms continued operation in 2026 and refers to analog, cassette and used-record activity without making future stock guarantees"
+          ]
+        },
+        {
+          "url": "https://www.hmv.co.jp/en/store/SHU/",
+          "checked_at": "2026-10-27",
+          "supported_facts": [
+            "HMV describes its Udagawacho Shibuya branch as a two-floor used analog-record and CD specialist",
+            "Official store copy describes overseas buying, rare records, classics, Japanese music and record-related goods"
+          ]
+        },
+        {
+          "url": "https://diskunion.net/shop/area_list_shinjuku",
+          "checked_at": "2026-10-27",
+          "supported_facts": [
+            "Disk Union's official Shinjuku directory separates multiple stores and floors by genre and format",
+            "Listed specialisms include jazz, soul and dance music, metal, rock records, classical, Japanese popular music, anime and game music, Latin and Brazilian music, punk, and independent or alternative rock"
+          ]
+        },
+        {
+          "url": "https://diskunion.net/shop/shinjuku_jazz",
+          "checked_at": "2026-10-27",
+          "supported_facts": [
+            "The official Shinjuku Jazz shop page confirms a dedicated jazz specialist carrying new and used CDs and records",
+            "The specialist page reinforces the guide's instruction to choose a specific branch rather than treating Disk Union as one store"
+          ]
+        },
+        {
+          "url": "https://www.gotokyo.org/en/new-and-now/new-and-trending/250526/topics.html",
+          "checked_at": "2026-10-27",
+          "supported_facts": [
+            "GO TOKYO places Vinyl Delivery Service inside SKWAT Kameari Art Centre alongside books, design and a cafe",
+            "The official guide reports about 8,000 in-store records, genre-spanning buying connected to London and Tokyo, and some displayed records available only online"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Z68yCwcvCOk",
+          "checked_at": "2026-10-27",
+          "supported_facts": [
+            "The live YouTube page loaded the verified Shryder Season title and 15-second player",
+            "The page frames the track as a planning soundtrack and disclaims a Tokyo recording, vinyl release, store event or retailer partnership"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Fresh global English Google autocomplete research returned 98 suggestions from the exact seed 'tokyo record stores', including 'tokyo vinyl record stores', 'record stores in tokyo japan', 'tokyo record shopping', 'tokyo record store guide', district refinements for Shibuya, Shinjuku and Shimokitazawa, and genre refinements for jazz, hip-hop, electronic, house, punk and metal. Guest access returned keyword text only, so no search-volume claim is made.",
+        "distinctiveness": "The Tokyo nightlife hub chooses a district for an evening, and the jazz guide chooses a performance room. This property plans a daytime or early-evening physical-media search by store format, genre specialism and district, making it a separate visitor task rather than a renamed nightlife list."
+      },
+      "research_decisions": [
+        "Build a route chooser around four shopping formats instead of publishing an unverifiable best-store ranking.",
+        "Keep Tower Vinyl and HMV record shop separate because they answer broad-selection and used-discovery intents even though both are in Shibuya.",
+        "Treat Disk Union Shinjuku as a specialist network and direct visitors to choose the exact branch before travel.",
+        "Include Kameari to serve art-led record discovery without pretending it belongs in a compact Shibuya route.",
+        "Omit prices, current stock, fixed hours, guaranteed listening access, tax treatment and pressing-value claims because they are volatile or item-specific."
+      ],
+      "commit_sha": null,
+      "status": "pending",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py against complete current repository snapshot plus edits",
+        "editorial": "Draft separates broad selection, used discovery, genre specialists and an art-led warehouse; no ranking, firsthand shopping claim or stock guarantee.",
+        "responsive": "Established CSS plus local breakpoints: four route summaries become two columns below 900px and one below 760px; four store cards become one column below 760px; the global sound grid stacks and CTA buttons become full-width below 760px.",
+        "music": "Prepublication YouTube check loaded Shryder Season with the expected title and 15-second player.",
+        "visual_preview": "pending deployment"
+      },
+      "maintenance": "Pattaya dated-event entries checked against 27 October: the March festival remains labeled ended; 31 October, 27-28 November, 3-7 December and 11-13 December remain future. No event page or factual-review date changed.",
+      "deployment": null
+    },
+    {
       "date_bangkok": "2026-10-26",
       "city": "Tokyo",
       "property_number": 3,
