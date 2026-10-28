@@ -256,7 +256,7 @@
       "path": "cities/tokyo/listening-bars/index.html",
       "city": "Tokyo",
       "target_query": "tokyo listening bars",
-      "status": "validated"
+      "status": "deployed"
     }
   ],
   "next_cities": [
