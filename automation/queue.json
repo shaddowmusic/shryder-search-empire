@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "properties": [
     {
       "path": "cities/pattaya/beach-clubs/index.html",
@@ -250,6 +250,13 @@
       "city": "Tokyo",
       "target_query": "tokyo record stores",
       "status": "deployed"
+    },
+    {
+      "property_number": 5,
+      "path": "cities/tokyo/listening-bars/index.html",
+      "city": "Tokyo",
+      "target_query": "tokyo listening bars",
+      "status": "validated"
     }
   ],
   "next_cities": [
