@@ -2,6 +2,93 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-10-29",
+      "city": "Seoul",
+      "property_number": 1,
+      "target_query": "seoul nightlife guide",
+      "path": "cities/seoul/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/seoul/",
+      "research_sources": [
+        {
+          "url": "https://english.visitseoul.net/nature/Nighttime-Adventures-in-Seoul/ENP000032",
+          "checked_at": "2026-10-29",
+          "supported_facts": [
+            "Visit Seoul's current Hongdae guide describes the district as a nighttime expression of Korean pop and indie culture",
+            "The official guide supports a music, art and street-culture route rather than a generic club ranking"
+          ]
+        },
+        {
+          "url": "https://english.visitseoul.net/area/Itaewon/ENP002077",
+          "checked_at": "2026-10-29",
+          "supported_facts": [
+            "Visit Seoul characterizes Itaewon as a cosmopolitan area with internationally oriented restaurants and nightlife",
+            "The official page identifies a varied mix including pubs, wine bars, hip-hop clubs, salsa clubs, lounges and cafes"
+          ]
+        },
+        {
+          "url": "https://english.visitseoul.net/area/Euljiro-Nogari-Alley/ENPf8bj59",
+          "checked_at": "2026-10-29",
+          "supported_facts": [
+            "Visit Seoul traces Euljiro Nogari Alley's established drinking culture around dried pollack and beer",
+            "The official listing supports a social food-and-drink alley intent distinct from a club or performance room"
+          ]
+        },
+        {
+          "url": "https://english.visitseoul.net/editorspicks/2026-seoulnight/ENN3bjkpz",
+          "checked_at": "2026-10-29",
+          "supported_facts": [
+            "Visit Seoul's guide published 29 September and edited 7 October 2026 links illuminated heritage, Gwanghwamun, Ikseondong, Cheonggyecheon and Dongdaemun Design Plaza",
+            "The current guide supports an after-dark culture route while labeling seasonal programming and venue hours as date-specific"
+          ]
+        },
+        {
+          "url": "https://english.seoul.go.kr/service/movement/public-transportation/2-subway/",
+          "checked_at": "2026-10-29",
+          "supported_facts": [
+            "Seoul Metropolitan Government publishes official subway and late-night N-bus guidance",
+            "The city source supports checking the current route rather than promising one universal final-train time"
+          ]
+        },
+        {
+          "url": "https://english.visitseoul.net/safety/183",
+          "checked_at": "2026-10-29",
+          "supported_facts": [
+            "Visit Seoul publishes basic traveler precautions and official emergency contacts",
+            "The guide uses those precautions without making a universal safety guarantee"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Z68yCwcvCOk",
+          "checked_at": "2026-10-29",
+          "supported_facts": [
+            "Live YouTube verification is required for the expected Shryder Season title and 15-second player before publication",
+            "The page frames the track as a planning soundtrack and disclaims a Seoul recording, local set or venue partnership"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Fresh global English Google autocomplete research returned 38 suggestions from the exact seed 'seoul nightlife guide', including 'guide to seoul nightlife', 'where to party in seoul', 'seoul nightlife neighborhoods', 'seoul nightlife for foreigners', 'where to go in seoul at night', 'seoul nightlife clubs' and 'seoul nightlife bars'. Guest access returned keyword text only, so no search-volume claim is made.",
+        "distinctiveness": "This is the first Seoul property and a researched city hub. It chooses among music and street culture, international bar formats, an established beer alley and a public after-dark culture route instead of copying Tokyo's district names or publishing a venue ranking."
+      },
+      "research_decisions": [
+        "Begin Seoul with a route-selection hub because the query evidence centers neighborhoods, where to go at night, bars and clubs.",
+        "Use four different evening intents supported by current official tourism or city-government sources rather than a best-nightlife list.",
+        "Exclude fixed venue prices, universal entry rules, guaranteed safety and one final-train time because they are volatile or context-specific.",
+        "Link the Seoul hub from the root discovery page and connect it to published Tokyo, Bangkok and Pattaya guides."
+      ],
+      "commit_sha": null,
+      "status": "validated",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py against complete current repository snapshot plus edits",
+        "editorial": "Draft separates four genuine visitor intents and relies on official Seoul sources; no ranking, firsthand visit, venue partnership or schedule guarantee.",
+        "responsive": "Established CSS plus local breakpoints: the four-route summary becomes two columns below 900px and one below 760px; four district cards become one column below 760px; global sound grid and CTAs use existing mobile rules.",
+        "music": "Prepublication live YouTube page loaded Shryder Season with the expected title, Shaddowmusic official artist channel and a 3:53 player.",
+        "visual_preview": "Pending local or live browser review."
+      },
+      "maintenance": "Pattaya dated-event entries checked against 29 October: the March festival remains labeled ended; 31 October, 27-28 November, 3-7 December and 11-13 December remain future. No event page or factual-review date changed.",
+      "recovery": "Before new production, repaired the corrupted automation/runs.json on current main from the preserved complete checkout and verified the restored repository with scripts/validate_factory.py. Repair commit: fb8cd993cdceeeba224f5e485938dee548a333d6."
+    },
+    {
       "date_bangkok": "2026-10-28",
       "city": "Tokyo",
       "property_number": 5,
