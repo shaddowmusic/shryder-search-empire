@@ -263,7 +263,7 @@
       "path": "cities/seoul/index.html",
       "city": "Seoul",
       "target_query": "seoul nightlife guide",
-      "status": "validated"
+      "status": "deployed"
     }
   ],
   "next_cities": [

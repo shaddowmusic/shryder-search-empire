@@ -76,16 +76,35 @@
         "Exclude fixed venue prices, universal entry rules, guaranteed safety and one final-train time because they are volatile or context-specific.",
         "Link the Seoul hub from the root discovery page and connect it to published Tokyo, Bangkok and Pattaya guides."
       ],
-      "commit_sha": null,
-      "status": "validated",
+      "commit_sha": "9496206c2eb6d8974fb5a0bbf7d489f5dc998034",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py against complete current repository snapshot plus edits",
         "editorial": "Draft separates four genuine visitor intents and relies on official Seoul sources; no ranking, firsthand visit, venue partnership or schedule guarantee.",
         "responsive": "Established CSS plus local breakpoints: the four-route summary becomes two columns below 900px and one below 760px; four district cards become one column below 760px; global sound grid and CTAs use existing mobile rules.",
         "music": "Prepublication live YouTube page loaded Shryder Season with the expected title, Shaddowmusic official artist channel and a 3:53 player.",
-        "visual_preview": "Pending local or live browser review."
+        "visual_preview": "Live page reviewed at 1348px: property marker, large Seoul hero, two-button CTA and music-first module render in the established design; document scrollWidth equals the 1348px client area. CSS separately stacks the four route summaries and district cards for mobile."
       },
       "maintenance": "Pattaya dated-event entries checked against 29 October: the March festival remains labeled ended; 31 October, 27-28 November, 3-7 December and 11-13 December remain future. No event page or factual-review date changed.",
+      "deployment": {
+        "workflow_run_id": 40802965179,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/40802965179",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-10-29 01:52:26 UTC",
+        "public_checks": {
+          "title": "Seoul Nightlife Guide: Choose the Right District | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/seoul/",
+          "property_marker": true,
+          "district_cards": 4,
+          "music_embed": true,
+          "direct_telegram_ctas": 2,
+          "published_neighbor_links": 3,
+          "single_h1": true,
+          "horizontal_overflow": false,
+          "root_discovery_link": true
+        }
+      },
       "recovery": "Before new production, repaired the corrupted automation/runs.json on current main from the preserved complete checkout and verified the restored repository with scripts/validate_factory.py. Repair commit: fb8cd993cdceeeba224f5e485938dee548a333d6."
     },
     {
