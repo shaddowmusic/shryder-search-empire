@@ -2,6 +2,84 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-10-30",
+      "city": "Seoul",
+      "property_number": 2,
+      "target_query": "seoul jazz clubs",
+      "path": "cities/seoul/jazz-clubs/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/seoul/jazz-clubs/",
+      "research_sources": [
+        {
+          "url": "https://www.clubevans.com/",
+          "checked_at": "2026-10-30",
+          "supported_facts": [
+            "Club Evans publishes a first-party live schedule, venue address and contact route",
+            "The current operator site supports treating Evans as a concert-led room rather than a generic nightlife stop"
+          ]
+        },
+        {
+          "url": "https://english.visitseoul.net/eat/Evans/ENP001142",
+          "checked_at": "2026-10-30",
+          "supported_facts": [
+            "Visit Seoul identifies Evans as one of the established clubs in the Hongdae area",
+            "The tourism listing describes changing performers and a concert format alongside drinks"
+          ]
+        },
+        {
+          "url": "https://chunnyun.com/",
+          "checked_at": "2026-10-30",
+          "supported_facts": [
+            "Chunnyun's first-party site traces the club to 1996 and locates the current main room in Nakwon-dong",
+            "The operator publishes dated performers, ensembles and reservation routes, supporting a calendar-first choice"
+          ]
+        },
+        {
+          "url": "https://english.visitseoul.net/area/JazzStory/ENPuhyzcz",
+          "checked_at": "2026-10-30",
+          "supported_facts": [
+            "Visit Seoul's listing published and edited 6 July 2026 describes Jazz Story as closer to a listening house than a conventional live cafe",
+            "The official tourism source places the room in Seongbuk-dong and supports an intimate listening intent"
+          ]
+        },
+        {
+          "url": "https://english.visitseoul.net/area/Dido-Jazz-Lounge/ENP040935",
+          "checked_at": "2026-10-30",
+          "supported_facts": [
+            "Visit Seoul describes Dido as a cultural space combining live jazz, food and wine",
+            "The listing points visitors to the venue's own channel for current performance lineups"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Z68yCwcvCOk",
+          "checked_at": "2026-10-30",
+          "supported_facts": [
+            "Live YouTube verification is required for the expected Shryder Season title and player before publication",
+            "The guide frames the track as a planning soundtrack and disclaims a Seoul recording, jazz-club performance or venue partnership"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Fresh global English Google autocomplete research returned 45 suggestions from the exact seed 'seoul jazz clubs', including 'best jazz clubs in seoul', 'seoul jazz bar', 'seoul jazz cafe', 'seoul jazz scene', 'seoul jazz wine bar', 'jazz clubs in seoul korea', 'jazz bars in seoul' and 'seoul jazz live'. Guest access returned keyword text only, so no search-volume claim is made.",
+        "distinctiveness": "The Seoul hub chooses a nightlife district. This property chooses a live jazz room by program, atmosphere and table commitment, serving a separate listening-planning task without duplicating the Tokyo or Bangkok venue sets."
+      },
+      "research_decisions": [
+        "Publish Seoul jazz clubs as Property #2 because the query family shows clear room, bar, cafe, scene, wine-bar and live-performance intent aligned with Shaddow's tenor-sax identity.",
+        "Compare Club Evans, Chunnyun, Jazz Story and Dido Jazz Lounge because current first-party or official Seoul tourism sources support four distinct visitor formats.",
+        "Exclude fixed prices, guaranteed admission, permanent lineups, universal reservation rules and a subjective best-room ranking because those claims are volatile or unsupported.",
+        "Update the Seoul hub and connect the page to published Seoul, Tokyo and Bangkok guides."
+      ],
+      "commit_sha": null,
+      "status": "validated",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py against complete current repository snapshot plus edits",
+        "editorial": "Draft separates four genuine listening formats and uses first-party or official tourism sources; no ranking, firsthand visit, fixed lineup or venue partnership claim.",
+        "responsive": "Established CSS plus local breakpoints: the four-room grid becomes one column below 760px; the comparison remains horizontally scrollable; global sound grid and CTAs use existing mobile rules.",
+        "music": "Prepublication live YouTube page loaded Shryder Season with the expected title, Shaddowmusic official artist channel and the verified video URL.",
+        "visual_preview": "Pending local or live browser review."
+      },
+      "maintenance": "Pattaya dated-event entries checked against 30 October: the March festival remains labeled ended; 31 October, 27-28 November, 3-7 December and 11-13 December remain future. No event page or factual-review date changed."
+    },
+    {
       "date_bangkok": "2026-10-29",
       "city": "Seoul",
       "property_number": 1,
