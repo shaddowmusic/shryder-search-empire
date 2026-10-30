@@ -68,16 +68,35 @@
         "Exclude fixed prices, guaranteed admission, permanent lineups, universal reservation rules and a subjective best-room ranking because those claims are volatile or unsupported.",
         "Update the Seoul hub and connect the page to published Seoul, Tokyo and Bangkok guides."
       ],
-      "commit_sha": null,
-      "status": "validated",
+      "commit_sha": "fa0b60fa299b5e8ef617deed2c7d8ee56234e5c2",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py against complete current repository snapshot plus edits",
         "editorial": "Draft separates four genuine listening formats and uses first-party or official tourism sources; no ranking, firsthand visit, fixed lineup or venue partnership claim.",
         "responsive": "Established CSS plus local breakpoints: the four-room grid becomes one column below 760px; the comparison remains horizontally scrollable; global sound grid and CTAs use existing mobile rules.",
         "music": "Prepublication live YouTube page loaded Shryder Season with the expected title, Shaddowmusic official artist channel and the verified video URL.",
-        "visual_preview": "Pending local or live browser review."
+        "visual_preview": "Live page reviewed at 1348px: property marker, large Seoul Jazz hero, two-button CTA and music-first module render in the established design; document scrollWidth equals the 1348px client area. CSS separately stacks the four room cards for mobile and keeps the comparison table horizontally scrollable."
       },
-      "maintenance": "Pattaya dated-event entries checked against 30 October: the March festival remains labeled ended; 31 October, 27-28 November, 3-7 December and 11-13 December remain future. No event page or factual-review date changed."
+      "maintenance": "Pattaya dated-event entries checked against 30 October: the March festival remains labeled ended; 31 October, 27-28 November, 3-7 December and 11-13 December remain future. No event page or factual-review date changed.",
+      "deployment": {
+        "workflow_run_id": 40984408387,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/40984408387",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-10-30 01:12:41 UTC",
+        "public_checks": {
+          "title": "Seoul Jazz Clubs: Choose the Right Live Room | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/seoul/jazz-clubs/",
+          "property_marker": true,
+          "room_cards": 4,
+          "music_embed": true,
+          "direct_telegram_ctas": 2,
+          "published_neighbor_links": 3,
+          "single_h1": true,
+          "horizontal_overflow": false,
+          "hub_discovery_link": true
+        }
+      }
     },
     {
       "date_bangkok": "2026-10-29",

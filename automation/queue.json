@@ -270,7 +270,7 @@
       "path": "cities/seoul/jazz-clubs/index.html",
       "city": "Seoul",
       "target_query": "seoul jazz clubs",
-      "status": "validated"
+      "status": "deployed"
     }
   ],
   "next_cities": [
