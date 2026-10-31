@@ -52,17 +52,35 @@
         "Exclude rankings, fixed prices, stock guarantees, permanent opening times, guaranteed demonstrations, firsthand reviews and retailer affiliation claims because they are volatile or unsupported.",
         "Update the Seoul hub and connect the page to published Seoul jazz, Tokyo record-store and wider Seoul guides."
       ],
-      "commit_sha": null,
-      "status": "validated",
+      "commit_sha": "fa755a349ec1ca15f237bff8f6310b4127b12f16",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py against the complete current repository snapshot plus edits; git diff --check and JSON parsing also pass.",
         "editorial": "Draft separates three current first-party retail formats and three districts; no ranking, firsthand visit, live-stock promise, fixed price or partnership claim.",
         "responsive": "Established CSS plus local breakpoints: the three-store grid becomes one column below 900px; the comparison remains horizontally scrollable; global sound grid and CTAs use existing mobile rules.",
         "music": "Prepublication live YouTube page loaded the expected Shryder Season title, Shaddowmusic channel, canonical video URL and no unavailable marker.",
-        "visual_preview": "No local browser executable was available before publication; the full candidate HTML and responsive CSS were reviewed directly. Live visual and overflow checks remain required after Pages deployment."
+        "visual_preview": "Live page reviewed at 1348px: property marker, large Seoul record-store hero, two-button CTA and established dark-gold design render cleanly; document scrollWidth equals the 1348px client area. CSS separately stacks all three store cards below 900px and keeps the comparison table horizontally scrollable."
       },
       "maintenance": "Pattaya dated-event entries checked against 31 October: the Bikini Beach Race is current today and not treated as past; the March festival remains labeled ended; 27-28 November, 3-7 December and 11-13 December remain future. No event page or factual-review date changed.",
-      "deployment": null
+      "deployment": {
+        "workflow_run_id": 41155507951,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/41155507951",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-10-31 01:29:26 UTC",
+        "public_checks": {
+          "title": "Seoul Record Stores: Choose the Right Dig | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/seoul/record-stores/",
+          "property_marker": true,
+          "store_cards": 3,
+          "music_embed": true,
+          "direct_telegram_ctas": 2,
+          "published_neighbor_links": 3,
+          "single_h1": true,
+          "horizontal_overflow": false,
+          "hub_discovery_link": true
+        }
+      }
     },
     {
       "date_bangkok": "2026-10-30",

@@ -277,7 +277,7 @@
       "path": "cities/seoul/record-stores/index.html",
       "city": "Seoul",
       "target_query": "seoul record stores",
-      "status": "validated"
+      "status": "deployed"
     }
   ],
   "next_cities": [
