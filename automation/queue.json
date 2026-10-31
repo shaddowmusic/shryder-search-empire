@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "properties": [
     {
       "path": "cities/pattaya/beach-clubs/index.html",
@@ -271,6 +271,13 @@
       "city": "Seoul",
       "target_query": "seoul jazz clubs",
       "status": "deployed"
+    },
+    {
+      "property_number": 3,
+      "path": "cities/seoul/record-stores/index.html",
+      "city": "Seoul",
+      "target_query": "seoul record stores",
+      "status": "validated"
     }
   ],
   "next_cities": [

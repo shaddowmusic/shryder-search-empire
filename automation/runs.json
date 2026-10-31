@@ -2,6 +2,69 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-10-31",
+      "city": "Seoul",
+      "property_number": 3,
+      "target_query": "seoul record stores",
+      "path": "cities/seoul/record-stores/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/seoul/record-stores/",
+      "research_sources": [
+        {
+          "url": "https://www.gimbabrecords.com/",
+          "checked_at": "2026-10-31",
+          "supported_facts": [
+            "Gimbab Records publishes a current vinyl catalog divided across Korean music, pop and rock, electronic and dance, R&B, soul and funk, hip-hop, jazz and blues, reggae, soundtracks and additional genres",
+            "The retailer publishes its physical shop address on the third floor in Donggyo-dong, Mapo-gu"
+          ]
+        },
+        {
+          "url": "https://cliquerecords.kr/",
+          "checked_at": "2026-10-31",
+          "supported_facts": [
+            "Clique Records separates vinyl, tape/CD, merchandise, book and gift-card categories on its current first-party shop",
+            "The retailer publishes a third-floor address on Euljiro 12-gil in Jung-gu"
+          ]
+        },
+        {
+          "url": "https://welcomerecords.kr/",
+          "checked_at": "2026-10-31",
+          "supported_facts": [
+            "Welcome Records separates music, equipment and vinyl-care categories on its current first-party shop",
+            "The retailer publishes a fifth-floor address off Apgujeong-ro in Gangnam-gu"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Z68yCwcvCOk",
+          "checked_at": "2026-10-31",
+          "supported_facts": [
+            "Live YouTube verification is required for the expected Shryder Season title and player before publication",
+            "The guide frames the track as a planning soundtrack and disclaims a Seoul recording, physical release, store event or retailer partnership"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Fresh global English Google suggestion research returned 60 keyword strings from the exact seed 'seoul record stores', including 'best record stores in seoul', 'seoul vinyl record stores', 'record stores seoul korea', 'second hand record stores seoul', 'seoul record shop', 'vinyl record stores in seoul', 'record stores myeongdong', 'seoul music stores' and 'seoul vinyl stores'. Guest access returned keyword text only, so no search-volume claim is made.",
+        "distinctiveness": "The Seoul hub chooses a nightlife district and Property #2 chooses a jazz performance room. This property solves a separate retail-planning task by matching catalog, physical format and playback-care intent to three current stores and three different districts."
+      },
+      "research_decisions": [
+        "Publish Seoul record stores as Property #3 because fresh suggestions show store, shop, vinyl, used, location and music-store intent while the concept remains naturally aligned with the SHRYDER music world.",
+        "Compare Gimbab Records, Clique Records and Welcome Records because current first-party pages support three genuinely different shopping missions without relying on unverifiable listicles.",
+        "Exclude rankings, fixed prices, stock guarantees, permanent opening times, guaranteed demonstrations, firsthand reviews and retailer affiliation claims because they are volatile or unsupported.",
+        "Update the Seoul hub and connect the page to published Seoul jazz, Tokyo record-store and wider Seoul guides."
+      ],
+      "commit_sha": null,
+      "status": "validated",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py against the complete current repository snapshot plus edits; git diff --check and JSON parsing also pass.",
+        "editorial": "Draft separates three current first-party retail formats and three districts; no ranking, firsthand visit, live-stock promise, fixed price or partnership claim.",
+        "responsive": "Established CSS plus local breakpoints: the three-store grid becomes one column below 900px; the comparison remains horizontally scrollable; global sound grid and CTAs use existing mobile rules.",
+        "music": "Prepublication live YouTube page loaded the expected Shryder Season title, Shaddowmusic channel, canonical video URL and no unavailable marker.",
+        "visual_preview": "No local browser executable was available before publication; the full candidate HTML and responsive CSS were reviewed directly. Live visual and overflow checks remain required after Pages deployment."
+      },
+      "maintenance": "Pattaya dated-event entries checked against 31 October: the Bikini Beach Race is current today and not treated as past; the March festival remains labeled ended; 27-28 November, 3-7 December and 11-13 December remain future. No event page or factual-review date changed.",
+      "deployment": null
+    },
+    {
       "date_bangkok": "2026-10-30",
       "city": "Seoul",
       "property_number": 2,
