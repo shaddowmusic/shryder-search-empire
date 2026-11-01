@@ -76,17 +76,36 @@
         "Exclude best-club rankings, fixed prices, guaranteed admission, permanent opening hours and universal dress rules because they are volatile or venue-specific.",
         "Update the root discovery hub, preserve published city neighbors and link official visitor and RTA planning guidance."
       ],
-      "commit_sha": null,
-      "status": "validated",
+      "commit_sha": "536a6767cae70d93c942c8e5960ff2aa60a7ada8",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py against the complete current repository snapshot plus edits; git diff --check and JSON parsing also pass.",
         "editorial": "Draft separates four official-source district formats and includes Dubai-specific visitor guidance; no ranking, firsthand visit, venue partnership or schedule guarantee.",
         "responsive": "Established CSS plus local breakpoints: the four-route summary becomes two columns below 900px and one below 760px; district cards become one column below 760px; global sound grid and CTAs use existing mobile rules.",
         "music": "Prepublication live YouTube page loaded the expected Shryder Season title, Shaddowmusic channel, canonical video URL and no unavailable marker.",
-        "visual_preview": "No local browser executable was available before publication; the full candidate HTML and responsive CSS were reviewed directly. Live visual and overflow checks remain required after Pages deployment."
+        "visual_preview": "Live page reviewed after successful deployment: the property marker, hero, music-first module, four district routes and CTAs render in the established design; browser DOM confirmed one H1 and no document-level horizontal overflow. CSS separately stacks the route summary below 900px and district cards below 760px."
       },
       "maintenance": "Pattaya dated-event entries checked against 1 November: the 31 October Bikini Beach Race is now labeled past; the March festival remains labeled ended; 27-28 November, 3-7 December and 11-13 December remain future. The durable events guide and sitemap lastmod were updated without deleting the expired entry.",
-      "deployment": null
+      "deployment": {
+        "workflow_run_id": 41262241284,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/41262241284",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-11-01 01:44:29 UTC",
+        "public_checks": {
+          "title": "Dubai Nightlife Guide: Choose the Right Night | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/dubai/",
+          "property_marker": true,
+          "district_cards": 4,
+          "music_embed": true,
+          "direct_telegram_ctas": 2,
+          "published_neighbor_links": 3,
+          "single_h1": true,
+          "horizontal_overflow": false,
+          "root_discovery_link": true,
+          "pattaya_race_expired": true
+        }
+      }
     },
     {
       "date_bangkok": "2026-10-31",
