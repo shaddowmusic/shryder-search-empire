@@ -2,6 +2,93 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-11-01",
+      "city": "Dubai",
+      "property_number": 1,
+      "target_query": "dubai nightlife guide",
+      "path": "cities/dubai/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/dubai/",
+      "research_sources": [
+        {
+          "url": "https://www.visitdubai.com/en/explore-dubai/dubai-neighbourhoods/dubai-marina",
+          "checked_at": "2026-11-01",
+          "supported_facts": [
+            "Visit Dubai describes Dubai Marina as a waterside district with a Marina Walk, restaurants, yachts and an evening lounge scene",
+            "The official guide supports a waterfront route while directing visitors to current operator details for individual experiences"
+          ]
+        },
+        {
+          "url": "https://www.visitdubai.com/explore-dubai/dubai-neighbourhoods/jumeirah-beach-residence",
+          "checked_at": "2026-11-01",
+          "supported_facts": [
+            "Visit Dubai treats Jumeirah Beach Residence as a distinct self-contained district between the Arabian Gulf and Dubai Marina",
+            "The current guide supports a beachside promenade and dining route and notes that evenings and weekends can be busy"
+          ]
+        },
+        {
+          "url": "https://www.visitdubai.com/en/explore-dubai/dubai-neighbourhoods/difc",
+          "checked_at": "2026-11-01",
+          "supported_facts": [
+            "Visit Dubai describes DIFC as a commercial and creative hub with galleries, cultural events, destination dining and late-night lounge formats",
+            "The official district guide supports an art-led dinner and lounge intent rather than a generic club ranking"
+          ]
+        },
+        {
+          "url": "https://www.visitdubai.com/explore-dubai/dubai-neighbourhoods/downtown-dubai",
+          "checked_at": "2026-11-01",
+          "supported_facts": [
+            "Visit Dubai's current Downtown guide connects Burj Khalifa, promenades, Dubai Opera, sky-high dining and rooftop formats",
+            "The official guide supports a skyline attraction and performance-culture night distinct from a club-only query"
+          ]
+        },
+        {
+          "url": "https://www.visitdubai.com/plan-your-trip/practical-information",
+          "checked_at": "2026-11-01",
+          "supported_facts": [
+            "Visit Dubai publishes current practical guidance for dress, licensed alcohol service and visitor conduct",
+            "The official guidance states that alcohol is served to people aged 21 and over in licensed establishments and that disorderly conduct and drink driving are not acceptable"
+          ]
+        },
+        {
+          "url": "https://rta.ae/wps/portal/rta/ae/home/journey-planner",
+          "checked_at": "2026-11-01",
+          "supported_facts": [
+            "Dubai Roads and Transport Authority provides an official date-and-time journey planner across public transport modes",
+            "The guide links the planner instead of asserting one universal final-service time"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Z68yCwcvCOk",
+          "checked_at": "2026-11-01",
+          "supported_facts": [
+            "Live YouTube verification is required for the expected Shryder Season title and player before publication",
+            "The guide frames the track as a planning soundtrack and disclaims a Dubai recording, local performance, venue event or tourism partnership"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Fresh global English Google suggestion research returned 37 keyword strings from the exact seed 'dubai nightlife guide', including 'is there nightlife in dubai', 'can you go clubbing in dubai', 'dubai nightlife attractions', 'dubai nightlife attire', 'what is nightlife like in dubai', 'dubai nightlife hotels', 'dubai nightlife hours', 'nightlife dubai jbr', 'music dubai night' and 'dubai nightlife pub'. Guest access returned keyword text only, so no search-volume claim is made.",
+        "distinctiveness": "This is the first Dubai property and a researched city hub. It chooses among waterfront movement, beachside promenade dining, an art-led dinner district and skyline performance culture rather than copying another city's neighborhoods or publishing a volatile best-clubs ranking."
+      },
+      "research_decisions": [
+        "Begin Dubai with a route-selection hub because the query family spans clubbing, attractions, attire, hotels, hours, music and JBR rather than one single venue type.",
+        "Compare Dubai Marina, JBR, DIFC and Downtown using current official Visit Dubai district guidance so each route serves a different visitor intent.",
+        "Exclude best-club rankings, fixed prices, guaranteed admission, permanent opening hours and universal dress rules because they are volatile or venue-specific.",
+        "Update the root discovery hub, preserve published city neighbors and link official visitor and RTA planning guidance."
+      ],
+      "commit_sha": null,
+      "status": "validated",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py against the complete current repository snapshot plus edits; git diff --check and JSON parsing also pass.",
+        "editorial": "Draft separates four official-source district formats and includes Dubai-specific visitor guidance; no ranking, firsthand visit, venue partnership or schedule guarantee.",
+        "responsive": "Established CSS plus local breakpoints: the four-route summary becomes two columns below 900px and one below 760px; district cards become one column below 760px; global sound grid and CTAs use existing mobile rules.",
+        "music": "Prepublication live YouTube page loaded the expected Shryder Season title, Shaddowmusic channel, canonical video URL and no unavailable marker.",
+        "visual_preview": "No local browser executable was available before publication; the full candidate HTML and responsive CSS were reviewed directly. Live visual and overflow checks remain required after Pages deployment."
+      },
+      "maintenance": "Pattaya dated-event entries checked against 1 November: the 31 October Bikini Beach Race is now labeled past; the March festival remains labeled ended; 27-28 November, 3-7 December and 11-13 December remain future. The durable events guide and sitemap lastmod were updated without deleting the expired entry.",
+      "deployment": null
+    },
+    {
       "date_bangkok": "2026-10-31",
       "city": "Seoul",
       "property_number": 3,
