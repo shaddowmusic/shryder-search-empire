@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "properties": [
     {
       "path": "cities/pattaya/beach-clubs/index.html",
@@ -285,6 +285,13 @@
       "city": "Dubai",
       "target_query": "dubai nightlife guide",
       "status": "deployed"
+    },
+    {
+      "property_number": 2,
+      "path": "cities/dubai/rooftop-bars/index.html",
+      "city": "Dubai",
+      "target_query": "dubai rooftop bars",
+      "status": "validated"
     }
   ],
   "next_cities": [

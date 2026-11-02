@@ -2,6 +2,101 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-11-02",
+      "city": "Dubai",
+      "property_number": 2,
+      "target_query": "dubai rooftop bars",
+      "path": "cities/dubai/rooftop-bars/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/dubai/rooftop-bars/",
+      "research_sources": [
+        {
+          "url": "https://www.level43skylounge.com/",
+          "checked_at": "2026-11-02",
+          "supported_facts": [
+            "Level 43's current official site places the open-air rooftop 43 floors above Sheikh Zayed Road with panoramic skyline and Arabian Gulf views",
+            "The venue publishes current reservation, dress and age guidance and recommends advance booking for popular periods"
+          ]
+        },
+        {
+          "url": "https://dxb.celavi.com/skybar",
+          "checked_at": "2026-11-02",
+          "supported_facts": [
+            "CÉ LA VI Dubai currently operates a rooftop SkyBar at Address Sky View with a Burj Khalifa backdrop, Asian-fusion bites and DJ-led late-night energy",
+            "The first-party site separates the Restaurant, SkyBar and Club Lounge, supporting a dinner-to-nightlife planning route"
+          ]
+        },
+        {
+          "url": "https://aboveeleven.com/dubai/",
+          "checked_at": "2026-11-02",
+          "supported_facts": [
+            "Above Eleven's current first-party page describes a Palm Jumeirah rooftop restaurant and bar centered on Nikkei food, Pisco cocktails and panoramic views",
+            "The venue publishes reservation, dress and age guidance and describes resident-DJ energy building after sunset"
+          ]
+        },
+        {
+          "url": "https://www.babalshams.com/dining/anwa",
+          "checked_at": "2026-11-02",
+          "supported_facts": [
+            "Bab Al Shams currently presents Anwā as a desert rooftop lounge with crafted drinks, Pan-Asian bites and open views where the desert meets the sky",
+            "Its location supports a deliberate destination-sunset route distinct from central Dubai skyline bars"
+          ]
+        },
+        {
+          "url": "https://www.visitdubai.com/articles/dubais-best-rooftop-lounges-with-unmissable-views",
+          "checked_at": "2026-11-02",
+          "supported_facts": [
+            "Visit Dubai's current rooftop guide supports materially different view and atmosphere intents across central, Palm, Marina and desert venues",
+            "The tourism guide is used for city context rather than a copied ranking or price claim"
+          ]
+        },
+        {
+          "url": "https://www.visitdubai.com/plan-your-trip/practical-information",
+          "checked_at": "2026-11-02",
+          "supported_facts": [
+            "Visit Dubai states that alcohol is served to people aged 21 and over in licensed establishments such as hotels and bars",
+            "The official guidance supports directing visitors to current venue rules and responsible conduct rather than universal assumptions"
+          ]
+        },
+        {
+          "url": "https://www.rta.ae/wps/portal/rta/ae/public-transport/journeyplanner",
+          "checked_at": "2026-11-02",
+          "supported_facts": [
+            "Dubai Roads and Transport Authority provides a date-and-time journey planner for current public transport options",
+            "The page links the planner instead of asserting one permanent final-service time"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Z68yCwcvCOk",
+          "checked_at": "2026-11-02",
+          "supported_facts": [
+            "Live YouTube verification loaded the expected Shryder Season title, canonical video URL, Shaddow - Topic channel metadata and no unavailable marker",
+            "The guide identifies the music as a planning soundtrack and makes no Dubai recording, performance, venue or tourism-partnership claim"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Fresh UAE English Google suggestion research returned 134 keyword strings from the exact seed 'dubai rooftop bars'. The first page included 'best dubai rooftop bars', 'downtown dubai rooftop bars', 'dubai rooftop bars with a view', 'rooftop bars dubai marina', 'rooftop bars jbr dubai', 'rooftop bars and restaurants dubai', 'highest bar in dubai', 'rooftop bars business bay dubai', 'rooftop bars dubai difc', 'hotels with rooftop bars dubai' and 'rooftop bar dubai menu'. Guest access returned keyword text only, so no search-volume claim is made.",
+        "distinctiveness": "Dubai Property #1 chooses among four nightlife districts. Property #2 solves a narrower venue-format task by matching the desired view and commitment to four current rooftops: central panorama, Downtown dinner-to-club energy, Palm Nikkei dining, or a desert sunset destination."
+      },
+      "research_decisions": [
+        "Publish Dubai rooftop bars as Property #2 because fresh suggestions show strong view, district, restaurant, hotel, price and highest-bar modifiers distinct from the general nightlife hub.",
+        "Compare Level 43, CÉ LA VI, Above Eleven and Anwā because current first-party sources support four genuinely different view and night formats.",
+        "Exclude universal best claims, fixed prices, permanent hours, guaranteed views, admission promises and firsthand reviews because they are volatile or unsupported.",
+        "Update the Dubai hub and sitemap, while connecting to the published Bangkok rooftop and Tokyo nightlife guides."
+      ],
+      "commit_sha": null,
+      "status": "validated",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py against the complete current repository snapshot plus edits; git diff --check and JSON parsing also pass.",
+        "editorial": "Draft separates four first-party-supported rooftop formats and explicitly avoids a generic ranking, firsthand visit, fixed price or admission promise.",
+        "responsive": "Established CSS plus local rules: the four venue cards become one column below 760px and the comparison remains locally horizontally scrollable.",
+        "music": "Prepublication live YouTube page loaded the expected Shryder Season title, canonical video URL, Shaddow - Topic channel metadata and no unavailable marker.",
+        "visual_preview": "No local browser executable was available before publication; the full candidate HTML and responsive CSS were reviewed directly. Live visual and overflow checks remain required after Pages deployment."
+      },
+      "maintenance": "Pattaya dated-event labels checked against 2 November: the 31 October Bikini Beach Race is marked past, the March music festival is marked ended, and the 27-28 November, 3-7 December and 11-13 December entries remain future. No event-page edit or factual-review date change was required.",
+      "deployment": null
+    },
+    {
       "date_bangkok": "2026-11-01",
       "city": "Dubai",
       "property_number": 1,
