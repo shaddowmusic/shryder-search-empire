@@ -298,7 +298,7 @@
       "path": "cities/dubai/luxury-hotels/index.html",
       "city": "Dubai",
       "target_query": "dubai luxury hotels",
-      "status": "validated"
+      "status": "deployed"
     }
   ],
   "next_cities": [

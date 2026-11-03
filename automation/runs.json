@@ -84,17 +84,35 @@
         "Exclude Burj Al Arab from the bookable comparison because Jumeirah announced an approximately 18-month phased restoration beginning in 2026; retain a current-status note and direct readers to Jumeirah.",
         "Exclude universal best claims, fixed prices, guaranteed inclusions, availability promises and firsthand reviews; update the Dubai hub and sitemap and link three published neighboring guides."
       ],
-      "commit_sha": null,
-      "status": "validated",
+      "commit_sha": "39602e47b7c3c1961285aeac4633aad6f61184de",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py against the complete current repository snapshot plus edits; git diff --check, JSON parsing and custom HTML structure checks also pass.",
         "editorial": "Draft separates four first-party-supported hotel formats and explicitly avoids a generic ranking, firsthand stay, fixed price, guaranteed inclusion or bookability promise.",
         "responsive": "Established CSS plus local rules: four hotel cards become one column below 760px and the comparison remains locally horizontally scrollable.",
         "music": "Prepublication live YouTube page loaded the expected Shryder Season title, canonical video URL, Shaddow - Topic channel metadata and no unavailable marker.",
-        "visual_preview": "Full candidate HTML and responsive rules reviewed before publication; live visual review remains pending deployment."
+        "visual_preview": "Live page reviewed at 1348px after successful deployment: the property marker, large hotel-choice hero, two-button CTA, music-first module and comparison render cleanly in the established design; document scrollWidth equals the 1348px client area. CSS separately stacks the four hotel cards below 760px and keeps the comparison table locally scrollable."
       },
       "maintenance": "Pattaya dated-event labels checked against 3 November: the 31 October Bikini Beach Race remains marked past, the March music festival remains marked ended, and the 27-28 November, 3-7 December and 11-13 December entries remain future. No event-page edit or factual-review date change was required.",
-      "deployment": null
+      "deployment": {
+        "workflow_run_id": 41561346837,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/41561346837",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-11-03 01:42:28 UTC",
+        "public_checks": {
+          "title": "Dubai Luxury Hotels: Choose the Right Stay | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/dubai/luxury-hotels/",
+          "property_marker": true,
+          "hotel_cards": 4,
+          "music_embed": true,
+          "direct_telegram_ctas": 2,
+          "published_neighbor_links": 3,
+          "single_h1": true,
+          "horizontal_overflow": false,
+          "hub_discovery_link": true
+        }
+      }
     },
     {
       "date_bangkok": "2026-11-02",
