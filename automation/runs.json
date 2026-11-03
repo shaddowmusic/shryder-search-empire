@@ -2,6 +2,101 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-11-03",
+      "city": "Dubai",
+      "property_number": 3,
+      "target_query": "dubai luxury hotels",
+      "path": "cities/dubai/luxury-hotels/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/dubai/luxury-hotels/",
+      "research_sources": [
+        {
+          "url": "https://www.atlantis.com/dubai/atlantis-the-royal",
+          "checked_at": "2026-11-03",
+          "supported_facts": [
+            "Atlantis The Royal's current first-party page presents rooms, pools, beach, dining, wellness, waterpark access and after-dark experiences as an integrated Palm Jumeirah resort",
+            "The resort format supports a destination-stay comparison without claiming every experience is included in every booking"
+          ]
+        },
+        {
+          "url": "https://www.armanihotels.com/en/hotels/armani-hotel-dubai",
+          "checked_at": "2026-11-03",
+          "supported_facts": [
+            "Armani Hotel Dubai's current first-party page places the hotel from the concourse through the 39th floor of Burj Khalifa",
+            "The page describes 160 rooms and suites shaped by Giorgio Armani's design and a Downtown setting near Dubai Mall and Dubai Fountain"
+          ]
+        },
+        {
+          "url": "https://www.mandarinoriental.com/en/dubai/jumeira-beach",
+          "checked_at": "2026-11-03",
+          "supported_facts": [
+            "Mandarin Oriental's current first-party page describes its Jumeira property as a seafront urban resort overlooking the Arabian Gulf and Dubai skyline",
+            "Its Jumeira Beach Road setting supports an urban-beach format that remains close to Downtown"
+          ]
+        },
+        {
+          "url": "https://www.marriott.com/en-us/hotels/dxbam-al-maha-a-luxury-collection-desert-resort-and-spa-dubai/overview/",
+          "checked_at": "2026-11-03",
+          "supported_facts": [
+            "Marriott's current first-party page places Al Maha inside the Dubai Desert Conservation Reserve",
+            "The resort publishes 42 private-pool villas and guided nature and heritage experiences, supporting a destination desert-retreat format"
+          ]
+        },
+        {
+          "url": "https://www.visitdubai.com/en/plan-your-trip/places-to-stay/hotel-directory",
+          "checked_at": "2026-11-03",
+          "supported_facts": [
+            "Visit Dubai's current official hotel directory separates luxury, beach and desert accommodation contexts",
+            "The directory supports trip-format planning without supplying a copied ranking or fixed price"
+          ]
+        },
+        {
+          "url": "https://mediahub.jumeirah.com/jumeirah-burj-al-arab-to-undergo-phased-restoration-programme-to-preserve-the-legacy-of-the-icon/?lang=eng",
+          "checked_at": "2026-11-03",
+          "supported_facts": [
+            "Jumeirah's announcement dated 15 April 2026 states that Burj Al Arab would undergo an approximately 18-month phased restoration",
+            "The current restoration status supports excluding Burj Al Arab from this page's bookable comparison and directing readers to reconfirm with Jumeirah"
+          ]
+        },
+        {
+          "url": "https://www.rta.ae/wps/portal/rta/ae/public-transport/journeyplanner",
+          "checked_at": "2026-11-03",
+          "supported_facts": [
+            "Dubai Roads and Transport Authority provides a current date-and-time journey planner",
+            "The guide links the planner instead of asserting a permanent travel time"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Z68yCwcvCOk",
+          "checked_at": "2026-11-03",
+          "supported_facts": [
+            "Live YouTube verification loaded the expected Shryder Season title, canonical video URL, Shaddow - Topic channel metadata and no unavailable marker",
+            "The guide identifies the music as a planning soundtrack and makes no Dubai hotel, recording, performance, endorsement or tourism-partnership claim"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Fresh UAE English Google suggestion research returned 372 keyword strings from the exact seed 'dubai luxury hotels'. The first 60 included 'best dubai luxury hotels', 'downtown dubai luxury hotels', 'dubai luxury hotels 7 star', 'dubai luxury hotels 5 star', 'dubai luxury hotels on the beach', 'dubai luxury hotels jumeirah', 'best luxury hotels in dubai for couples', 'dubai luxury hotels and resorts', 'dubai luxury hotel booking', 'dubai luxury hotel burj al arab', 'dubai luxury beach hotels', 'best luxury family hotels dubai', 'luxury hotels in dubai near burj khalifa' and 'best luxury hotels on the palm dubai'. Guest access returned keyword text only, so no search-volume claim is made.",
+        "distinctiveness": "Dubai Properties #1 and #2 choose among nightlife districts and rooftop formats. Property #3 solves a different lodging decision by comparing four current trip shapes: Palm destination resort, Downtown design address, urban beachfront retreat and a private desert-reserve stay."
+      },
+      "research_decisions": [
+        "Publish Dubai luxury hotels as Property #3 because current search suggestions show strong beach, Downtown, Palm, Burj Khalifa, couple, family, resort and booking modifiers distinct from the existing nightlife pages.",
+        "Compare Atlantis The Royal, Armani Hotel Dubai, Mandarin Oriental Jumeira and Al Maha because current first-party sources support four genuinely different trip formats.",
+        "Exclude Burj Al Arab from the bookable comparison because Jumeirah announced an approximately 18-month phased restoration beginning in 2026; retain a current-status note and direct readers to Jumeirah.",
+        "Exclude universal best claims, fixed prices, guaranteed inclusions, availability promises and firsthand reviews; update the Dubai hub and sitemap and link three published neighboring guides."
+      ],
+      "commit_sha": null,
+      "status": "validated",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py against the complete current repository snapshot plus edits; git diff --check, JSON parsing and custom HTML structure checks also pass.",
+        "editorial": "Draft separates four first-party-supported hotel formats and explicitly avoids a generic ranking, firsthand stay, fixed price, guaranteed inclusion or bookability promise.",
+        "responsive": "Established CSS plus local rules: four hotel cards become one column below 760px and the comparison remains locally horizontally scrollable.",
+        "music": "Prepublication live YouTube page loaded the expected Shryder Season title, canonical video URL, Shaddow - Topic channel metadata and no unavailable marker.",
+        "visual_preview": "Full candidate HTML and responsive rules reviewed before publication; live visual review remains pending deployment."
+      },
+      "maintenance": "Pattaya dated-event labels checked against 3 November: the 31 October Bikini Beach Race remains marked past, the March music festival remains marked ended, and the 27-28 November, 3-7 December and 11-13 December entries remain future. No event-page edit or factual-review date change was required.",
+      "deployment": null
+    },
+    {
       "date_bangkok": "2026-11-02",
       "city": "Dubai",
       "property_number": 2,
