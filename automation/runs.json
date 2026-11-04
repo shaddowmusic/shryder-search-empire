@@ -2,6 +2,93 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-11-04",
+      "city": "Dubai",
+      "property_number": 4,
+      "target_query": "dubai beach clubs",
+      "path": "cities/dubai/beach-clubs/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/dubai/beach-clubs/",
+      "research_sources": [
+        {
+          "url": "https://www.driftbeachdubai.com/",
+          "checked_at": "2026-11-04",
+          "supported_facts": [
+            "DRIFT's current first-party page places its pool, beach, restaurant and Sea Lounge at One&Only Royal Mirage and describes a polished adults-only concept",
+            "The venue publishes specific age conditions and separate reservation routes for pool-and-beach and restaurant formats"
+          ]
+        },
+        {
+          "url": "https://www.riva-beach.com/",
+          "checked_at": "2026-11-04",
+          "supported_facts": [
+            "Riva's current first-party page describes a family-friendly Palm Jumeirah beach club with pool-and-beach access and beachfront dining",
+            "The venue publishes separate current adult and child access terms and identifies its location at The Shoreline Palm, Building 8"
+          ]
+        },
+        {
+          "url": "https://bchclb.com/",
+          "checked_at": "2026-11-04",
+          "supported_facts": [
+            "BCH:CLB's current first-party page centers curated music, poolside leisure, Mediterranean food, private cabanas and entertainment",
+            "The venue publishes an active dated weekly event calendar and separates pool, restaurant and terrace formats"
+          ]
+        },
+        {
+          "url": "https://www.surfclubdubai.com/contact-us",
+          "checked_at": "2026-11-04",
+          "supported_facts": [
+            "Surf Club's current first-party page places the venue at West Beach on Palm Jumeirah and describes a vibrant refined beachfront setting",
+            "The venue supports sunbed reservations, private gatherings and group bookings and publishes a direct reservation route"
+          ]
+        },
+        {
+          "url": "https://www.visitdubai.com/en/articles/sun-and-sand-seekers-guide",
+          "checked_at": "2026-11-04",
+          "supported_facts": [
+            "Visit Dubai's current official guide distinguishes relaxing, adults-only, family-oriented and party-focused beach-club formats",
+            "The tourism guide specifically supports DRIFT as adults-only and Riva as family oriented while noting that access and day-pass models vary"
+          ]
+        },
+        {
+          "url": "https://www.rta.ae/wps/portal/rta/ae/public-transport/journeyplanner",
+          "checked_at": "2026-11-04",
+          "supported_facts": [
+            "Dubai Roads and Transport Authority provides a current date-and-time journey planner across metro, bus, tram and marine modes",
+            "The guide links the live planner instead of asserting a permanent transfer or final-service time"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Z68yCwcvCOk",
+          "checked_at": "2026-11-04",
+          "supported_facts": [
+            "Live YouTube verification loaded the expected Shryder Season title, canonical video URL, Shaddow - Topic channel metadata, a six-second playable asset and no unavailable marker",
+            "The guide identifies the music as a planning soundtrack and makes no Dubai recording, beach-club performance, venue-event or tourism-partnership claim"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Fresh UAE English Google suggestion research returned 397 keyword strings from the exact seed 'dubai beach clubs'. The first 80 included 'best dubai beach clubs', 'west beach dubai beach clubs', 'ladies day dubai beach clubs', 'palm dubai beach clubs', 'dubai beach clubs and prices', 'dubai beach club access', 'dubai beach club all inclusive', 'dubai beach club age limit', 'affordable dubai beach clubs', 'beach clubs in dubai that allow kids', 'best beach clubs in dubai for adults', 'best beach clubs in dubai for families', 'best party beach clubs dubai', 'dubai beach club booking', 'dubai beach club dress code', 'chilled beach clubs dubai' and 'dubai beach clubs day pass'. Guest access returned keyword text only, so no search-volume claim is made.",
+        "distinctiveness": "Dubai Properties #1-#3 choose nightlife districts, rooftop formats and luxury-hotel trip shapes. Property #4 solves a separate day-access decision by comparing adults-oriented calm, a family beach retreat, a music-led pool party and a social Palm West Beach route."
+      },
+      "research_decisions": [
+        "Publish Dubai beach clubs as Property #4 because fresh suggestions show strong access, day-pass, family, adults-only, party, booking, price and dress-code modifiers distinct from the existing Dubai pages.",
+        "Compare DRIFT, Riva, BCH:CLB and Surf Club because current first-party pages support four materially different beach-day formats.",
+        "Exclude fixed prices, minimum spends, permanent weekly schedules, guaranteed entry, seating, credit, weather access and firsthand reviews because these are volatile or booking-specific.",
+        "Update the Dubai hub and sitemap and connect the page to the published Dubai nightlife, rooftop-bar and luxury-hotel guides."
+      ],
+      "commit_sha": null,
+      "status": "validated",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py against the complete current repository snapshot plus edits; git diff --check, JSON parsing and custom HTML structure checks also pass.",
+        "editorial": "Draft separates four first-party-supported beach-day formats and explicitly avoids a generic ranking, firsthand visit, fixed price, guaranteed access or event promise.",
+        "responsive": "Established CSS plus local rules: four beach-club cards become one column below 760px and the comparison remains locally horizontally scrollable.",
+        "music": "Prepublication live YouTube page loaded the expected Shryder Season title, canonical video URL, Shaddow - Topic channel metadata, a six-second playable asset and no unavailable marker.",
+        "visual_preview": "Full candidate HTML and responsive rules reviewed before publication; live visual review remains pending deployment."
+      },
+      "maintenance": "Pattaya dated-event labels checked against 4 November: the 31 October Bikini Beach Race remains marked past, the March music festival remains marked ended, and the 27-28 November, 3-7 December and 11-13 December entries remain future. No event-page edit or factual-review date change was required.",
+      "deployment": null
+    },
+    {
       "date_bangkok": "2026-11-03",
       "city": "Dubai",
       "property_number": 3,
