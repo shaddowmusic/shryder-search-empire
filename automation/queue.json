@@ -305,7 +305,7 @@
       "path": "cities/dubai/beach-clubs/index.html",
       "city": "Dubai",
       "target_query": "dubai beach clubs",
-      "status": "validated"
+      "status": "deployed"
     }
   ],
   "next_cities": [

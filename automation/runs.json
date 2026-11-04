@@ -76,17 +76,35 @@
         "Exclude fixed prices, minimum spends, permanent weekly schedules, guaranteed entry, seating, credit, weather access and firsthand reviews because these are volatile or booking-specific.",
         "Update the Dubai hub and sitemap and connect the page to the published Dubai nightlife, rooftop-bar and luxury-hotel guides."
       ],
-      "commit_sha": null,
-      "status": "validated",
+      "commit_sha": "006155a14ac4c5c5bb395ce81808d53b9ee80b98",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py against the complete current repository snapshot plus edits; git diff --check, JSON parsing and custom HTML structure checks also pass.",
         "editorial": "Draft separates four first-party-supported beach-day formats and explicitly avoids a generic ranking, firsthand visit, fixed price, guaranteed access or event promise.",
         "responsive": "Established CSS plus local rules: four beach-club cards become one column below 760px and the comparison remains locally horizontally scrollable.",
         "music": "Prepublication live YouTube page loaded the expected Shryder Season title, canonical video URL, Shaddow - Topic channel metadata, a six-second playable asset and no unavailable marker.",
-        "visual_preview": "Full candidate HTML and responsive rules reviewed before publication; live visual review remains pending deployment."
+        "visual_preview": "Live page reviewed at 1348px after successful deployment: the property marker, large beach-day hero, two-button CTA, music-first module and four venue comparisons render cleanly in the established design; document scrollWidth equals the 1348px client area. CSS separately stacks the four beach-club cards below 760px and keeps the comparison table locally scrollable."
       },
       "maintenance": "Pattaya dated-event labels checked against 4 November: the 31 October Bikini Beach Race remains marked past, the March music festival remains marked ended, and the 27-28 November, 3-7 December and 11-13 December entries remain future. No event-page edit or factual-review date change was required.",
-      "deployment": null
+      "deployment": {
+        "workflow_run_id": 41756492883,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/41756492883",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-11-04 01:50:52 UTC",
+        "public_checks": {
+          "title": "Dubai Beach Clubs: Choose the Right Day | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/dubai/beach-clubs/",
+          "property_marker": true,
+          "beach_club_cards": 4,
+          "music_embed": true,
+          "direct_telegram_ctas": 2,
+          "published_neighbor_links": 3,
+          "single_h1": true,
+          "horizontal_overflow": false,
+          "hub_discovery_link": true
+        }
+      }
     },
     {
       "date_bangkok": "2026-11-03",
