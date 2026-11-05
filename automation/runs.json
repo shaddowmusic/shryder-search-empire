@@ -2,6 +2,85 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-11-05",
+      "city": "Lisbon",
+      "property_number": 1,
+      "target_query": "lisbon nightlife guide",
+      "path": "cities/lisbon/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/lisbon/",
+      "research_sources": [
+        {
+          "url": "https://www.visitlisboa.com/en/regions/lisboa-centro?page=8",
+          "checked_at": "2026-11-05",
+          "supported_facts": [
+            "Turismo de Lisboa describes Bairro Alto as a charismatic bohemian neighbourhood with restaurants, bars and a distinctive street atmosphere",
+            "The same official central-Lisbon guide distinguishes Bairro Alto social streets, Cais do Sodré dance floors and Alfama fado houses as different night formats"
+          ]
+        },
+        {
+          "url": "https://www.visitlisboa.com/en/places/cais-do-sodre",
+          "checked_at": "2026-11-05",
+          "supported_facts": [
+            "Turismo de Lisboa connects Cais do Sodré with Mercado da Ribeira, Pink Street, bars, restaurants and artistic character",
+            "The official page identifies Cais do Sodré as a transport hub with metro, train and boat connections without guaranteeing late-night service"
+          ]
+        },
+        {
+          "url": "https://www.visitlisboa.com/en/lisbon-stories/1-rota-do-fado/pois",
+          "checked_at": "2026-11-05",
+          "supported_facts": [
+            "Turismo de Lisboa's Fado Route connects traditional fado neighbourhoods, fado houses and places central to the music's history",
+            "The route supports a distinct seated listening and cultural-night intent rather than a generic bar or club route"
+          ]
+        },
+        {
+          "url": "https://www.visitlisboa.com/en/lisbon-stories/15-route-du-tage/pois",
+          "checked_at": "2026-11-05",
+          "supported_facts": [
+            "Turismo de Lisboa places Alcântara's dock area below the 25 de Abril Bridge around a yacht marina",
+            "The official route says former warehouses became cosmopolitan bars and restaurants and describes a lively evening atmosphere"
+          ]
+        },
+        {
+          "url": "https://www.metrolisboa.pt/en/travel/timetables-and-frequency/",
+          "checked_at": "2026-11-05",
+          "supported_facts": [
+            "Lisbon Metro currently publishes normal daily operating hours from 6:30 a.m. to 1:00 a.m., including weekends and public holidays",
+            "The official page publishes line-specific frequencies and a live line-status path, so the guide directs readers to recheck rather than promise a return"
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Z68yCwcvCOk",
+          "checked_at": "2026-11-05",
+          "supported_facts": [
+            "YouTube's live oEmbed endpoint returned the expected Shryder Season title and Shaddow - Topic author metadata",
+            "The guide identifies the track as a planning soundtrack and makes no Lisbon recording, local-performance, venue-event or tourism-partnership claim"
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Fresh Portugal English Google suggestion research returned 332 keyword strings from the seed 'lisbon nightlife'. The first 100 included 'bairro alto lisbon nightlife', 'pink street lisbon nightlife', 'lisbon nightlife area', 'alfama lisbon nightlife', 'cais do sodre lisbon nightlife', 'best area to stay in lisbon for nightlife', 'lisbon nightlife dress code', 'lisbon nightlife during the week', 'lisbon fado bars', 'where is the nightlife in lisbon' and 'lisbon nightlife guide'. Guest access returned keyword text only, so no search-volume claim is made.",
+        "distinctiveness": "Lisbon is a new city hub. Property #1 solves the broad area-choice intent with four official-source routes: compact Bairro Alto bars, Cais do Sodré food-to-dance movement, fado-led listening in historic neighbourhoods and an Alcântara waterfront evening."
+      },
+      "research_decisions": [
+        "Begin Lisbon with a nightlife route chooser because fresh suggestions show strong district, area, Pink Street, Bairro Alto, Cais do Sodré, Alfama, fado, day-of-week and transport intent.",
+        "Use four route formats supported by Turismo de Lisboa instead of copying a volatile venue ranking or substituting Lisbon names into another city template.",
+        "Omit fixed prices, guaranteed entry, permanent venue schedules, universal dress rules and firsthand reviews; send readers to current operator programmes and the official Metro timetable.",
+        "Add Lisbon to the main discovery page and sitemap and connect it to the published Dubai, Tokyo and Seoul nightlife hubs."
+      ],
+      "commit_sha": null,
+      "status": "validated",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py against the complete current repository snapshot plus edits; git diff --check, JSON parsing and custom HTML structure checks also pass.",
+        "editorial": "Draft separates four official-source night formats and explicitly avoids a generic ranking, firsthand visit, fixed price or guaranteed programme claim.",
+        "responsive": "Established CSS plus local rules: the four route summaries become two columns below 900px and all route cards become one column below 760px.",
+        "music": "Prepublication YouTube oEmbed verification returned the expected Shryder Season title and Shaddow - Topic author metadata.",
+        "visual_preview": "Full candidate HTML and responsive rules reviewed before publication; live visual review remains pending deployment."
+      },
+      "maintenance": "Pattaya event labels checked against 5 November: the 31 October Bikini Beach Race remains marked past, the March music festival remains marked ended, and the 27-28 November, 3-7 December and 11-13 December entries remain future. No event-page edit or factual-review date change was required.",
+      "deployment": null
+    },
+    {
       "date_bangkok": "2026-11-04",
       "city": "Dubai",
       "property_number": 4,

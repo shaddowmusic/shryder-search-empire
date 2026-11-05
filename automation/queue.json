@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "properties": [
     {
       "path": "cities/pattaya/beach-clubs/index.html",
@@ -306,6 +306,13 @@
       "city": "Dubai",
       "target_query": "dubai beach clubs",
       "status": "deployed"
+    },
+    {
+      "property_number": 1,
+      "path": "cities/lisbon/index.html",
+      "city": "Lisbon",
+      "target_query": "lisbon nightlife guide",
+      "status": "validated"
     }
   ],
   "next_cities": [
