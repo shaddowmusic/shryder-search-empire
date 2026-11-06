@@ -312,7 +312,7 @@
       "path": "cities/lisbon/index.html",
       "city": "Lisbon",
       "target_query": "lisbon nightlife guide",
-      "status": "validated"
+      "status": "deployed"
     }
   ],
   "next_cities": [

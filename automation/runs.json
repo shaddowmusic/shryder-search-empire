@@ -68,17 +68,35 @@
         "Omit fixed prices, guaranteed entry, permanent venue schedules, universal dress rules and firsthand reviews; send readers to current operator programmes and the official Metro timetable.",
         "Add Lisbon to the main discovery page and sitemap and connect it to the published Dubai, Tokyo and Seoul nightlife hubs."
       ],
-      "commit_sha": null,
-      "status": "validated",
+      "commit_sha": "de38e57619a4b2204b514ce62cbf75c9ec21aabe",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py against the complete current repository snapshot plus edits; git diff --check, JSON parsing and custom HTML structure checks also pass.",
         "editorial": "Draft separates four official-source night formats and explicitly avoids a generic ranking, firsthand visit, fixed price or guaranteed programme claim.",
         "responsive": "Established CSS plus local rules: the four route summaries become two columns below 900px and all route cards become one column below 760px.",
         "music": "Prepublication YouTube oEmbed verification returned the expected Shryder Season title and Shaddow - Topic author metadata.",
-        "visual_preview": "Full candidate HTML and responsive rules reviewed before publication; live visual review remains pending deployment."
+        "visual_preview": "Live page reviewed at 1348px after successful deployment: the Lisbon property marker, large route-choice hero, two-button CTA, music-first module and four district cards render cleanly in the established design; document scrollWidth equals the 1348px client area. CSS separately reduces the route summary to two columns below 900px and stacks all route cards below 760px."
       },
       "maintenance": "Pattaya event labels checked against 5 November: the 31 October Bikini Beach Race remains marked past, the March music festival remains marked ended, and the 27-28 November, 3-7 December and 11-13 December entries remain future. No event-page edit or factual-review date change was required.",
-      "deployment": null
+      "deployment": {
+        "workflow_run_id": 41948169848,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/41948169848",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-11-05 01:24:39 UTC",
+        "public_checks": {
+          "title": "Lisbon Nightlife Guide: Choose the Right Night | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/lisbon/",
+          "property_marker": true,
+          "district_cards": 4,
+          "music_embed": true,
+          "direct_telegram_ctas": 2,
+          "published_neighbor_links": 3,
+          "single_h1": true,
+          "horizontal_overflow": false,
+          "home_discovery_link": true
+        }
+      }
     },
     {
       "date_bangkok": "2026-11-04",
