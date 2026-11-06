@@ -2,6 +2,71 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-11-06",
+      "city": "Lisbon",
+      "property_number": 2,
+      "target_query": "lisbon fado shows",
+      "path": "cities/lisbon/fado-shows/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/lisbon/fado-shows/",
+      "research_sources": [
+        {
+          "url": "https://fadoinchiado.com/about-us",
+          "checked_at": "2026-11-06",
+          "supported_facts": [
+            "The promoter identifies Fado in Chiado as a ticketed live show on Rua da Misericórdia and lists a 50-minute duration."
+          ]
+        },
+        {
+          "url": "https://www.fadoefado.com/",
+          "checked_at": "2026-11-06",
+          "supported_facts": [
+            "Fado & Fado offers concert-only bookings in Baixa and Sé, with songs introduced in Portuguese and English."
+          ]
+        },
+        {
+          "url": "https://www.clubedefado.pt/en/booking/",
+          "checked_at": "2026-11-06",
+          "supported_facts": [
+            "Clube de Fado in Alfama describes a dinner format that includes fado and separately lists a later à la carte format."
+          ]
+        },
+        {
+          "url": "https://mesadefrades.pt/",
+          "checked_at": "2026-11-06",
+          "supported_facts": [
+            "Mesa de Frades describes a dinner-and-fado experience in a former chapel."
+          ]
+        },
+        {
+          "url": "https://www.museudofado.pt/en/visit",
+          "checked_at": "2026-11-06",
+          "supported_facts": [
+            "Museu do Fado publishes separate museum admission and visit information."
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=Z68yCwcvCOk&format=json",
+          "checked_at": "2026-11-06",
+          "supported_facts": [
+            "YouTube oEmbed returned Shryder Season, Shaddow - Topic."
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Free English Google autocomplete for 'lisbon fado shows' returned 61 suggestions including 'fado show lisbon no dinner', 'lisbon fado show with dinner', 'what time do fado shows start in lisbon' and 'where to listen to fado in lisbon'. No search volume claimed.",
+        "distinctiveness": "The Lisbon nightlife hub helps choose a district and type of night; this page compares concert and dinner bookings, room formats and listening etiquette."
+      },
+      "commit_sha": null,
+      "status": "deployment_pending",
+      "qa": {
+        "validator": "PASS: complete checkout factory validator and git diff --check (publication gated on both).",
+        "responsive": "Shared sound and venue grids stack below 760px; full HTML and CSS reviewed. No pre-publication browser preview available.",
+        "music": "YouTube oEmbed verified title and artist."
+      },
+      "maintenance": "Reconciled Lisbon Property #1 and verified its public page against the committed file. Pattaya: 31 October race and March festival already past; listed November and December events have not elapsed.",
+      "deployment": null
+    },
+    {
       "date_bangkok": "2026-11-05",
       "city": "Lisbon",
       "property_number": 1,

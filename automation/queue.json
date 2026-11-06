@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "properties": [
     {
       "path": "cities/pattaya/beach-clubs/index.html",
@@ -313,6 +313,13 @@
       "city": "Lisbon",
       "target_query": "lisbon nightlife guide",
       "status": "deployed"
+    },
+    {
+      "property_number": 2,
+      "path": "cities/lisbon/fado-shows/index.html",
+      "city": "Lisbon",
+      "target_query": "lisbon fado shows",
+      "status": "deployment_pending"
     }
   ],
   "next_cities": [
