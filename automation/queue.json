@@ -319,7 +319,7 @@
       "path": "cities/lisbon/fado-shows/index.html",
       "city": "Lisbon",
       "target_query": "lisbon fado shows",
-      "status": "deployment_pending"
+      "status": "deployed"
     }
   ],
   "next_cities": [

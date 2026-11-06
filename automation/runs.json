@@ -56,15 +56,30 @@
         "evidence": "Free English Google autocomplete for 'lisbon fado shows' returned 61 suggestions including 'fado show lisbon no dinner', 'lisbon fado show with dinner', 'what time do fado shows start in lisbon' and 'where to listen to fado in lisbon'. No search volume claimed.",
         "distinctiveness": "The Lisbon nightlife hub helps choose a district and type of night; this page compares concert and dinner bookings, room formats and listening etiquette."
       },
-      "commit_sha": null,
-      "status": "deployment_pending",
+      "commit_sha": "a6675e741f32ef85a867ba07a9ece86f7fd50471",
+      "status": "deployed",
       "qa": {
         "validator": "PASS: complete checkout factory validator and git diff --check (publication gated on both).",
         "responsive": "Shared sound and venue grids stack below 760px; full HTML and CSS reviewed. No pre-publication browser preview available.",
         "music": "YouTube oEmbed verified title and artist."
       },
       "maintenance": "Reconciled Lisbon Property #1 and verified its public page against the committed file. Pattaya: 31 October race and March festival already past; listed November and December events have not elapsed.",
-      "deployment": null
+      "deployment": {
+        "workflow_run_id": 42147106324,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/42147106324",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-11-06T01:58:22Z",
+        "public_checks": {
+          "title": "Lisbon Fado Shows: Concert or Dinner? | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/lisbon/fado-shows/",
+          "property_marker": true,
+          "music_embed": "Z68yCwcvCOk",
+          "direct_telegram_ctas": 2,
+          "hub_discovery_link": true,
+          "method": "HTTP success and byte-for-byte match to validated candidate for both page and hub after Pages deploy succeeded."
+        }
+      }
     },
     {
       "date_bangkok": "2026-11-05",
