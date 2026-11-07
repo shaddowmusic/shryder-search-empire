@@ -2,6 +2,64 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-11-07",
+      "city": "Lisbon",
+      "property_number": 3,
+      "target_query": "lisbon jazz clubs",
+      "path": "cities/lisbon/jazz-clubs/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/lisbon/jazz-clubs/",
+      "research_sources": [
+        {
+          "url": "https://linktr.ee/tavolajazzclub",
+          "checked_at": "2026-11-07",
+          "supported_facts": [
+            "Távola’s own link page lists live jazz, Rua Coronel Bento Roma 16, a booking link and a separate concert agenda."
+          ]
+        },
+        {
+          "url": "https://hcp.pt/event-type/clube/",
+          "checked_at": "2026-11-07",
+          "supported_facts": [
+            "Hot Clube's programme assigns locations to individual shows, including Teatro Variedades and MACAM; its listings can also include jams and events outside Lisbon."
+          ]
+        },
+        {
+          "url": "https://www.obomomaueovilao.pt/",
+          "checked_at": "2026-11-07",
+          "supported_facts": [
+            "The venue lists jazz among several genres and distinguishes live music from DJ sets."
+          ]
+        },
+        {
+          "url": "https://www.obomomaueovilao.pt/curadoria",
+          "checked_at": "2026-11-07",
+          "supported_facts": [
+            "The venue publishes Rua do Alecrim 21 as its address."
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=Z68yCwcvCOk&format=json",
+          "checked_at": "2026-11-07",
+          "supported_facts": [
+            "YouTube oEmbed returned Shryder Season by Shaddow - Topic."
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Free English Google autocomplete returned 43 suggestions for 'lisbon jazz clubs'; relevant strings included 'best jazz clubs in lisbon', 'jazz clubs in lisbon portugal' and 'lisbon jazz jam session'. Raw suggestions contained irrelevant strings; no volume claimed.",
+        "distinctiveness": "Jazz-specific selection by dedicated room, multi-venue promoter and mixed bar calendar; addresses the difference between attending a concert and asking to join a jam. Does not repeat the district or fado booking guides."
+      },
+      "commit_sha": null,
+      "status": "deployment_pending",
+      "qa": {
+        "validator": "Publication gated on complete-checkout factory validator and git diff --check.",
+        "responsive": "Reviewed full HTML and shared responsive CSS: sound and venue grids stack below 760px. No local browser executable available.",
+        "music": "Verified title and artist via live YouTube oEmbed."
+      },
+      "maintenance": "Prior Lisbon fado page matched the live HTML. Pattaya events reviewed against 7 November: 31 October race and March festival already past; listed November and December events have not elapsed.",
+      "deployment": null
+    },
+    {
       "date_bangkok": "2026-11-06",
       "city": "Lisbon",
       "property_number": 2,
