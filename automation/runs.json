@@ -49,15 +49,31 @@
         "evidence": "Free English Google autocomplete returned 43 suggestions for 'lisbon jazz clubs'; relevant strings included 'best jazz clubs in lisbon', 'jazz clubs in lisbon portugal' and 'lisbon jazz jam session'. Raw suggestions contained irrelevant strings; no volume claimed.",
         "distinctiveness": "Jazz-specific selection by dedicated room, multi-venue promoter and mixed bar calendar; addresses the difference between attending a concert and asking to join a jam. Does not repeat the district or fado booking guides."
       },
-      "commit_sha": null,
-      "status": "deployment_pending",
+      "commit_sha": "c4f846b6ba237e9ee1b380cd352be161f6da8de4",
+      "status": "deployed",
       "qa": {
-        "validator": "Publication gated on complete-checkout factory validator and git diff --check.",
+        "validator": "PASS: python3 scripts/validate_factory.py against the complete checkout; git diff --check passed.",
         "responsive": "Reviewed full HTML and shared responsive CSS: sound and venue grids stack below 760px. No local browser executable available.",
         "music": "Verified title and artist via live YouTube oEmbed."
       },
       "maintenance": "Prior Lisbon fado page matched the live HTML. Pattaya events reviewed against 7 November: 31 October race and March festival already past; listed November and December events have not elapsed.",
-      "deployment": null
+      "deployment": {
+        "workflow_run_id": 42327078457,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/42327078457",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-11-07T02:02:11Z",
+        "public_checks": {
+          "title": "Lisbon Jazz Clubs: Where to Hear Live Jazz | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/lisbon/jazz-clubs/",
+          "property_marker": true,
+          "music_embed": "Z68yCwcvCOk",
+          "direct_telegram_ctas": 2,
+          "hub_discovery_link": true,
+          "sitemap": true,
+          "method": "HTTP success and byte-for-byte match to validated candidate, Lisbon hub and sitemap after Pages workflow success."
+        }
+      }
     },
     {
       "date_bangkok": "2026-11-06",

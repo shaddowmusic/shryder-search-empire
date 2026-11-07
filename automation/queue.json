@@ -326,7 +326,7 @@
       "path": "cities/lisbon/jazz-clubs/index.html",
       "city": "Lisbon",
       "target_query": "lisbon jazz clubs",
-      "status": "deployment_pending"
+      "status": "deployed"
     }
   ],
   "next_cities": [
