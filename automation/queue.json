@@ -333,7 +333,7 @@
       "path": "cities/lisbon/record-stores/index.html",
       "city": "Lisbon",
       "target_query": "lisbon record stores",
-      "status": "deployment_pending"
+      "status": "deployed"
     }
   ],
   "next_cities": [
