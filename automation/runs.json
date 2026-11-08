@@ -2,6 +2,79 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-11-08",
+      "city": "Lisbon",
+      "property_number": 4,
+      "target_query": "lisbon record stores",
+      "path": "cities/lisbon/record-stores/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/lisbon/record-stores/",
+      "research_sources": [
+        {
+          "url": "https://www.flur.pt/pt/pages/about-us",
+          "checked_at": "2026-11-08",
+          "supported_facts": [
+            "Flur describes an independent record store in Arroios Market stocking independent and alternative music alongside classics; its owners have links to Príncipe and Holuzam."
+          ]
+        },
+        {
+          "url": "https://www.flur.pt/pt/pages/info-contacts",
+          "checked_at": "2026-11-08",
+          "supported_facts": [
+            "Flur's official address is Mercado de Arroios, shops 28/29, Rua Ângela Pinto."
+          ]
+        },
+        {
+          "url": "https://www.louielouie.biz/",
+          "checked_at": "2026-11-08",
+          "supported_facts": [
+            "Louie Louie's official catalogue offers new and used records and genre filters including jazz/blues, Portuguese music, hip-hop and electronic music."
+          ]
+        },
+        {
+          "url": "https://www.louielouie.biz/contactos.php",
+          "checked_at": "2026-11-08",
+          "supported_facts": [
+            "Louie Louie lists Escadinhas do Santo Espírito da Pedreira 3 near Rua Nova do Almada and Baixa-Chiado; it publishes a contact route for collection sales."
+          ]
+        },
+        {
+          "url": "https://shop.carpetandsnares.com/legal",
+          "checked_at": "2026-11-08",
+          "supported_facts": [
+            "Operator terms list Rua da Misericórdia 14, Piso S/L, Loja 28 and advise confirming sleeve grades because of a catalogue grading issue. Retrieved through search; direct fetching restricted."
+          ]
+        },
+        {
+          "url": "https://shop.carpetandsnares.com/release/1776501606/matisa-occaso-ep",
+          "checked_at": "2026-11-08",
+          "supported_facts": [
+            "An operator catalogue listing identifies a vinyl 12-inch release and tech-house/acid-house categories; used as evidence of an electronic catalogue, not stock availability."
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=Z68yCwcvCOk&format=json",
+          "checked_at": "2026-11-08",
+          "supported_facts": [
+            "Live YouTube oEmbed returned Shryder Season by Shaddow - Topic."
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Free English Google autocomplete returned 34 suggestions for 'lisbon record stores', including 'vinyl record stores lisbon', 'jazz record store lisbon', 'lisbon record shop' and 'record stores in lisbon portugal'. Irrelevant suggestions were excluded; no volume claimed.",
+        "distinctiveness": "Physical music shopping, pressing/condition checks and current addresses, not live performance or nightlife routing. Flur's operator page corrects outdated waterfront directions."
+      },
+      "commit_sha": null,
+      "status": "deployment_pending",
+      "qa": {
+        "validator": "Publication gated on complete-checkout factory validator and git diff --check.",
+        "responsive": "Full candidate HTML and established CSS reviewed; sound and venue grids stack below 760px. No local browser executable available.",
+        "music": "Live YouTube oEmbed verified the expected title and artist.",
+        "editorial": "Three useful shopping formats. No fixed prices, stock, hours, firsthand visit or Shaddow-stock claim. Carpet & Snares direct page fetch restricted; first-party legal and catalogue evidence retrieved via search."
+      },
+      "maintenance": "Prior Lisbon jazz page matched live HTML. Pattaya dated entries checked against 8 November: race and March festival marked past; November and December events not yet elapsed.",
+      "deployment": null
+    },
+    {
       "date_bangkok": "2026-11-07",
       "city": "Lisbon",
       "property_number": 3,
