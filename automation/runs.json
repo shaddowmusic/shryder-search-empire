@@ -63,16 +63,32 @@
         "evidence": "Free English Google autocomplete returned 129 suggestions for 'lisbon rooftop bars', including hotel rooftops, sunset, DJ, city centre, dining and views. No volume claimed; irrelevant suggestions excluded.",
         "distinctiveness": "Rooftop access and seating decision: walk-in Sky Bar versus reservable dining versus historic-quarter wine terrace. Separate from district, fado, jazz and record-shopping pages."
       },
-      "commit_sha": null,
-      "status": "deployment_pending",
+      "commit_sha": "ae36e56179fbb5eac0a0842eb7e2ac5dd37c5773",
+      "status": "deployed",
       "qa": {
-        "validator": "Publication gated on complete-checkout factory validator and git diff --check.",
+        "validator": "PASS: python3 scripts/validate_factory.py against the complete checkout; git diff --check passed.",
         "responsive": "Full candidate HTML and shared CSS reviewed; sound and venue grids stack below 760px. No local browser executable available.",
         "music": "Live YouTube oEmbed verified title and artist.",
         "editorial": "Three operator-supported formats with a precise SEEN booking distinction. Limão deferred as a winter drinks recommendation because H10 explicitly warns of seasonal bar closure. No fixed prices or guaranteed availability."
       },
       "maintenance": "Prior Lisbon record-store page matched live HTML. Pattaya race and March festival remain past; 27-28 November and December entries have not elapsed as of 9 November.",
-      "deployment": null
+      "deployment": {
+        "workflow_run_id": 42546660378,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/42546660378",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-11-09T01:39:29Z",
+        "public_checks": {
+          "title": "Lisbon Rooftop Bars: Walk In or Book a Table? | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/lisbon/rooftop-bars/",
+          "property_marker": true,
+          "music_embed": "Z68yCwcvCOk",
+          "direct_telegram_ctas": 2,
+          "hub_discovery_link": true,
+          "sitemap": true,
+          "method": "HTTP success and byte-for-byte match to validated page, Lisbon hub and sitemap after Pages workflow success."
+        }
+      }
     },
     {
       "date_bangkok": "2026-11-08",

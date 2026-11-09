@@ -340,7 +340,7 @@
       "path": "cities/lisbon/rooftop-bars/index.html",
       "city": "Lisbon",
       "target_query": "lisbon rooftop bars",
-      "status": "deployment_pending"
+      "status": "deployed"
     }
   ],
   "next_cities": [
