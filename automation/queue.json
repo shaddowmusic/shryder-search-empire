@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "properties": [
     {
       "path": "cities/pattaya/beach-clubs/index.html",
@@ -334,6 +334,13 @@
       "city": "Lisbon",
       "target_query": "lisbon record stores",
       "status": "deployed"
+    },
+    {
+      "property_number": 5,
+      "path": "cities/lisbon/rooftop-bars/index.html",
+      "city": "Lisbon",
+      "target_query": "lisbon rooftop bars",
+      "status": "deployment_pending"
     }
   ],
   "next_cities": [

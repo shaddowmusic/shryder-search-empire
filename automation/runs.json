@@ -2,6 +2,79 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-11-09",
+      "city": "Lisbon",
+      "property_number": 5,
+      "target_query": "lisbon rooftop bars",
+      "path": "cities/lisbon/rooftop-bars/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/lisbon/rooftop-bars/",
+      "research_sources": [
+        {
+          "url": "https://seenlx.com/info-reservations/",
+          "checked_at": "2026-11-09",
+          "supported_facts": [
+            "The operator distinguishes walk-in Sky Bar drinks from reservable restaurant/deck areas at Tivoli Avenida Liberdade, Avenida da Liberdade 185."
+          ]
+        },
+        {
+          "url": "https://www.tivolihotels.com/en/tivoli-avenida-liberdade-lisboa/restaurants/sky-bar",
+          "checked_at": "2026-11-09",
+          "supported_facts": [
+            "The hotel describes panoramic views, cocktails, all-day dining and DJ-led atmosphere at SEEN Sky Bar."
+          ]
+        },
+        {
+          "url": "https://www.altishotels.com/en/altis-avenida-hotel/restaurants-bars/",
+          "checked_at": "2026-11-09",
+          "supported_facts": [
+            "Rossio Gastrobar is on the Altis Avenida rooftop, with views of Rossio Square, castle and river; sharing dishes and cocktails form its dining offer."
+          ]
+        },
+        {
+          "url": "https://www.memmohotels.com/alfama/",
+          "checked_at": "2026-11-09",
+          "supported_facts": [
+            "The hotel presents the Wine Bar & Terrace overlooking Alfama rooftops and the Tagus."
+          ]
+        },
+        {
+          "url": "https://www.memmohotels.com/alfama/faq",
+          "checked_at": "2026-11-09",
+          "supported_facts": [
+            "The operator publishes Travessa das Merceeiras 27 and recommends contacting the terrace directly for table reservations."
+          ]
+        },
+        {
+          "url": "https://www.h10hotels.com/en/lisbon-hotels/h10-duque-de-loule/restaurants",
+          "checked_at": "2026-11-09",
+          "supported_facts": [
+            "H10 warns that Limão's bar closes for winter while terrace access can remain subject to private events or other restrictions; this supports a seasonal caution, not a service promise."
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=Z68yCwcvCOk&format=json",
+          "checked_at": "2026-11-09",
+          "supported_facts": [
+            "Live YouTube oEmbed returned Shryder Season by Shaddow - Topic."
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Free English Google autocomplete returned 129 suggestions for 'lisbon rooftop bars', including hotel rooftops, sunset, DJ, city centre, dining and views. No volume claimed; irrelevant suggestions excluded.",
+        "distinctiveness": "Rooftop access and seating decision: walk-in Sky Bar versus reservable dining versus historic-quarter wine terrace. Separate from district, fado, jazz and record-shopping pages."
+      },
+      "commit_sha": null,
+      "status": "deployment_pending",
+      "qa": {
+        "validator": "Publication gated on complete-checkout factory validator and git diff --check.",
+        "responsive": "Full candidate HTML and shared CSS reviewed; sound and venue grids stack below 760px. No local browser executable available.",
+        "music": "Live YouTube oEmbed verified title and artist.",
+        "editorial": "Three operator-supported formats with a precise SEEN booking distinction. Limão deferred as a winter drinks recommendation because H10 explicitly warns of seasonal bar closure. No fixed prices or guaranteed availability."
+      },
+      "maintenance": "Prior Lisbon record-store page matched live HTML. Pattaya race and March festival remain past; 27-28 November and December entries have not elapsed as of 9 November.",
+      "deployment": null
+    },
+    {
       "date_bangkok": "2026-11-08",
       "city": "Lisbon",
       "property_number": 4,
