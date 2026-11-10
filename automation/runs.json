@@ -77,16 +77,34 @@
         "evidence": "Free Google autocomplete returned 172 suggestions with pool, city-centre, boutique and district modifiers; official sources support three contrasting stay settings.",
         "distinctiveness": "Hotel booking by location, room contract and seasonal facilities; unlike the existing rooftop drinks and nightlife route guides. Selection is Lisbon-specific."
       },
-      "commit_sha": null,
-      "status": "deployment_pending",
+      "commit_sha": "c5fc3054015ec07d2e9884532a26257eadb64e63",
+      "status": "deployed",
       "qa": {
-        "validator": "PASS: python3 scripts/validate_factory.py and git diff --check required before publication.",
+        "validator": "PASS: python3 scripts/validate_factory.py and git diff --check on complete current checkout.",
         "music": "Live YouTube oEmbed verified Shryder Season, Shaddow - Topic.",
         "editorial": "Official operator/tourism facts checked separately. Guidance labeled editorial inference; no rates, ranking, guaranteed amenities, firsthand stay or affiliation.",
-        "responsive": "Full candidate HTML and shared responsive CSS reviewed; cards stack below 760px; comparison table scrolls locally. Browser preview unverified: managed sites-preview rejected the repository because it has no dev script or Sites hosting manifest. Existing GitHub-only hosting preserved."
+        "responsive": "Full candidate HTML and shared responsive CSS reviewed; cards stack below 760px; comparison table scrolls locally. Browser preview unverified: managed sites-preview rejected the repository because it has no dev script or Sites hosting manifest. Existing GitHub-only hosting preserved.",
+        "visual_preview": "Live desktop hero, navigation, CTAs and hotel comparison visually reviewed without visible overflow; YouTube player loaded and identified Shryder Season / Shaddow - Topic. Prepublication managed preview unavailable for GitHub-only configuration; mobile responsive CSS reviewed, not browser-emulated."
       },
       "maintenance": "Reconciled all state and recursive tree: no pending production or existing 10 November page. Latest rooftop page matched live byte-for-byte. Pattaya event expiry reviewed: October race and March music festival already marked past; no other listed date has expired. Existing factual-review dates preserved. Pattaya #18 remains deferred.",
-      "deployment": null
+      "deployment": {
+        "workflow_run_id": 42740249058,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/42740249058",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-11-10T02:07:30Z",
+        "public_checks": {
+          "http_status": 200,
+          "title": "Lisbon Luxury Hotels: City Centre, Gardens or Spa? | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/lisbon/luxury-hotels/",
+          "property_marker": true,
+          "music_embed": "Z68yCwcvCOk",
+          "direct_telegram_ctas": 2,
+          "hub_discovery_link": true,
+          "sitemap": true,
+          "method": "HTTP success and byte-for-byte match to validated page, Lisbon hub and sitemap after Pages workflow success; live desktop browser review."
+        }
+      }
     },
     {
       "date_bangkok": "2026-11-09",

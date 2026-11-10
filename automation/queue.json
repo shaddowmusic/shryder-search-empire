@@ -347,7 +347,7 @@
       "path": "cities/lisbon/luxury-hotels/index.html",
       "city": "Lisbon",
       "target_query": "lisbon luxury hotels",
-      "status": "deployment_pending"
+      "status": "deployed"
     }
   ],
   "next_cities": [
