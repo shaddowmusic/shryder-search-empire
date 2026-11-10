@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "properties": [
     {
       "path": "cities/pattaya/beach-clubs/index.html",
@@ -341,6 +341,13 @@
       "city": "Lisbon",
       "target_query": "lisbon rooftop bars",
       "status": "deployed"
+    },
+    {
+      "property_number": 6,
+      "path": "cities/lisbon/luxury-hotels/index.html",
+      "city": "Lisbon",
+      "target_query": "lisbon luxury hotels",
+      "status": "deployment_pending"
     }
   ],
   "next_cities": [

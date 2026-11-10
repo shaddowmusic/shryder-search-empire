@@ -2,6 +2,93 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-11-10",
+      "city": "Lisbon",
+      "property_number": 6,
+      "target_query": "lisbon luxury hotels",
+      "path": "cities/lisbon/luxury-hotels/index.html",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/lisbon/luxury-hotels/",
+      "research_sources": [
+        {
+          "url": "https://www.bairroaltohotel.com/en/neighbourhood/",
+          "checked_at": "2026-11-10",
+          "supported_facts": [
+            "Between Chiado and Bairro Alto at Praça Luís de Camões; surrounding restaurants, bars and cultural stops."
+          ]
+        },
+        {
+          "url": "https://www.bairroaltohotel.com/en/",
+          "checked_at": "2026-11-10",
+          "supported_facts": [
+            "Luxury boutique hotel; city and Tagus view terrace; wellness centre."
+          ]
+        },
+        {
+          "url": "https://www.visitportugal.com/en/content/hotel-olissippo-lapa-palace",
+          "checked_at": "2026-11-10",
+          "supported_facts": [
+            "Hilltop palace in diplomatic quarter, subtropical garden."
+          ]
+        },
+        {
+          "url": "https://www.olissippohotels.com/en/olissippo-lapa-palace/services-amenities-lapa-palace/",
+          "checked_at": "2026-11-10",
+          "supported_facts": [
+            "Palace and Garden wings; indoor and outdoor pools, spa."
+          ]
+        },
+        {
+          "url": "https://www.olissippohotels.com/en/olissippo-lapa-palace/spa-pools-lapa-palace/",
+          "checked_at": "2026-11-10",
+          "supported_facts": [
+            "Outdoor heating and full poolside services described May–September; heated indoor pool year-round subject to restrictions. Ambiguous free-treatment statement deliberately not repeated."
+          ]
+        },
+        {
+          "url": "https://www.fourseasons.com/lisbon/",
+          "checked_at": "2026-11-10",
+          "supported_facts": [
+            "Hotel beside Eduardo VII Park."
+          ]
+        },
+        {
+          "url": "https://www.fourseasons.com/lisbon/services-and-amenities/",
+          "checked_at": "2026-11-10",
+          "supported_facts": [
+            "Heated indoor lap pool, Ritz Spa, rooftop running track, fitness facilities; outdoor pool listed open May–September."
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=Z68yCwcvCOk&format=json",
+          "checked_at": "2026-11-10",
+          "supported_facts": [
+            "HTTP success identifies Shryder Season by Shaddow - Topic."
+          ]
+        },
+        {
+          "url": "https://keywordtool.io/",
+          "checked_at": "2026-11-10",
+          "supported_facts": [
+            "Connected free Google guest tool returned 172 suggestions for lisbon luxury hotels, sampled: lisbon luxury hotels with pool; luxury hotels in lisbon city centre; luxury hotels in bairro alto lisbon; luxury hotels in chiado lisbon. No cached metrics and no volume claimed."
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Free Google autocomplete returned 172 suggestions with pool, city-centre, boutique and district modifiers; official sources support three contrasting stay settings.",
+        "distinctiveness": "Hotel booking by location, room contract and seasonal facilities; unlike the existing rooftop drinks and nightlife route guides. Selection is Lisbon-specific."
+      },
+      "commit_sha": null,
+      "status": "deployment_pending",
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py and git diff --check required before publication.",
+        "music": "Live YouTube oEmbed verified Shryder Season, Shaddow - Topic.",
+        "editorial": "Official operator/tourism facts checked separately. Guidance labeled editorial inference; no rates, ranking, guaranteed amenities, firsthand stay or affiliation.",
+        "responsive": "Full candidate HTML and shared responsive CSS reviewed; cards stack below 760px; comparison table scrolls locally. Browser preview unverified: managed sites-preview rejected the repository because it has no dev script or Sites hosting manifest. Existing GitHub-only hosting preserved."
+      },
+      "maintenance": "Reconciled all state and recursive tree: no pending production or existing 10 November page. Latest rooftop page matched live byte-for-byte. Pattaya event expiry reviewed: October race and March music festival already marked past; no other listed date has expired. Existing factual-review dates preserved. Pattaya #18 remains deferred.",
+      "deployment": null
+    },
+    {
       "date_bangkok": "2026-11-09",
       "city": "Lisbon",
       "property_number": 5,
