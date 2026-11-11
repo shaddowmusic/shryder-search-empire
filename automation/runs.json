@@ -7,7 +7,7 @@
       "path": "cities/rio-de-janeiro/index.html",
       "city": "Rio de Janeiro",
       "target_query": "rio de janeiro nightlife",
-      "status": "deployment_pending",
+      "status": "deployed",
       "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/rio-de-janeiro/",
       "research_sources": [
         {
@@ -85,15 +85,33 @@
         "evidence": "English Google guest autocomplete surfaced neighborhood modifiers including Lapa and Copacabana; search results and Riotur distinguish Lapa music and Pedra do Sal samba. No volume inferred.",
         "distinctiveness": "Rio-specific booking and participation choices: ticketed multi-room samba house, heritage outdoor roda and assigned-seat Copacabana set. This hub is a format chooser, not a ranking or a complete venue directory."
       },
-      "commit_sha": null,
+      "commit_sha": "58b5fde1f26f8da4e9d8415f0849ec270fd0c672",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py and git diff --check on the complete checkout.",
         "music": "Rechecked YouTube oEmbed for Shryder Season by Shaddow - Topic; retained existing verified ID.",
         "editorial": "Official tourism, operator and transit sources cross-checked; no schedule, price, access guarantee, firsthand visit or partnership claimed.",
-        "responsive": "Full HTML and CSS source-reviewed: existing sound and card grids collapse below 760px, 16:9 embed, wrapping actions and link text. Managed prepublication visual preview unavailable without a dev script or Sites hosting manifest; GitHub Pages setup preserved."
+        "responsive": "Full HTML and CSS source-reviewed: existing sound and card grids collapse below 760px, 16:9 embed, wrapping actions and link text. Managed prepublication visual preview unavailable without a dev script or Sites hosting manifest; GitHub Pages setup preserved.",
+        "visual_preview": "Public desktop hero, navigation and CTA visually checked; accessibility tree included all three route cards and confirmed embedded YouTube player with Play video. Mobile layout source-reviewed."
       },
       "maintenance": "Compared latest Lisbon deployment and live discovery/neighbor pages to current main. No pending or same-date property. Reviewed Pattaya expiry: October race and March festival already past; no additional listed event expired. Pattaya #18 remains deferred.",
-      "deployment": null
+      "deployment": {
+        "workflow_run_id": 42942705131,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/42942705131",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-11-11T02:04:50Z",
+        "public_checks": {
+          "http_status": 200,
+          "title": "Rio de Janeiro Nightlife Guide: Samba Circles & Live Shows | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/rio-de-janeiro/",
+          "property_marker": true,
+          "music_embed": "Z68yCwcvCOk",
+          "direct_telegram_ctas": 2,
+          "hub_discovery_link": true,
+          "sitemap": true,
+          "method": "After workflow success at the exact production SHA, the public guide, homepage and sitemap matched the validated files byte-for-byte. Desktop browser confirmed visible content, Telegram destinations and YouTube player."
+        }
+      }
     },
     {
       "date_bangkok": "2026-11-10",
