@@ -2,6 +2,100 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-11-11",
+      "property_number": 1,
+      "path": "cities/rio-de-janeiro/index.html",
+      "city": "Rio de Janeiro",
+      "target_query": "rio de janeiro nightlife",
+      "status": "deployment_pending",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/rio-de-janeiro/",
+      "research_sources": [
+        {
+          "url": "https://riotur.rio/en/que_fazer/rio-nightlife/",
+          "checked_at": "2026-11-11",
+          "supported_facts": [
+            "Lapa is a Rio nightlife district with bars and live music."
+          ]
+        },
+        {
+          "url": "https://www.rioscenarium.com.br/",
+          "checked_at": "2026-11-11",
+          "supported_facts": [
+            "Rua do Lavradio location; separate ticketed programming and daytime samba-and-feijoada listings."
+          ]
+        },
+        {
+          "url": "https://www.rioscenarium.com.br/rio-scenarium",
+          "checked_at": "2026-11-11",
+          "supported_facts": [
+            "Operator describes multiple rooms and programming across samba, choro and other Brazilian genres."
+          ]
+        },
+        {
+          "url": "https://riotur.rio/evento/pedra-do-sal/",
+          "checked_at": "2026-11-11",
+          "supported_facts": [
+            "Pedra do Sal roda in the historic Pequena África area."
+          ]
+        },
+        {
+          "url": "https://riotur.rio/que_fazer/pequena-africa/",
+          "checked_at": "2026-11-11",
+          "supported_facts": [
+            "Pedra do Sal is tied to samba and Afro-Brazilian heritage; outdoor site is part of the Pequena África route."
+          ]
+        },
+        {
+          "url": "https://bluenoterio.com.br/",
+          "checked_at": "2026-11-11",
+          "supported_facts": [
+            "Official dated shows and Avenida Atlântica, Copacabana address."
+          ]
+        },
+        {
+          "url": "https://bluenoterio.com.br/informacoes/",
+          "checked_at": "2026-11-11",
+          "supported_facts": [
+            "Assigned seats, food and drink service, separate show sessions and programming across jazz, MPB and bossa nova."
+          ]
+        },
+        {
+          "url": "https://www.metrorio.com.br/fale-conosco/atendimento-ao-usuario",
+          "checked_at": "2026-11-11",
+          "supported_facts": [
+            "Operator provides operating guidance and points passengers to individual stations for access hours."
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=Z68yCwcvCOk&format=json",
+          "checked_at": "2026-11-11",
+          "supported_facts": [
+            "YouTube identifies Shryder Season by Shaddow - Topic."
+          ]
+        },
+        {
+          "url": "https://keywordtool.io/",
+          "checked_at": "2026-11-11",
+          "supported_facts": [
+            "Free English Google keyword suggestions for rio de janeiro nightlife include Lapa, Copacabana, Botafogo, Leblon and area modifiers; no cached metrics returned or used."
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "English Google guest autocomplete surfaced neighborhood modifiers including Lapa and Copacabana; search results and Riotur distinguish Lapa music and Pedra do Sal samba. No volume inferred.",
+        "distinctiveness": "Rio-specific booking and participation choices: ticketed multi-room samba house, heritage outdoor roda and assigned-seat Copacabana set. This hub is a format chooser, not a ranking or a complete venue directory."
+      },
+      "commit_sha": null,
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py and git diff --check on the complete checkout.",
+        "music": "Rechecked YouTube oEmbed for Shryder Season by Shaddow - Topic; retained existing verified ID.",
+        "editorial": "Official tourism, operator and transit sources cross-checked; no schedule, price, access guarantee, firsthand visit or partnership claimed.",
+        "responsive": "Full HTML and CSS source-reviewed: existing sound and card grids collapse below 760px, 16:9 embed, wrapping actions and link text. Managed prepublication visual preview unavailable without a dev script or Sites hosting manifest; GitHub Pages setup preserved."
+      },
+      "maintenance": "Compared latest Lisbon deployment and live discovery/neighbor pages to current main. No pending or same-date property. Reviewed Pattaya expiry: October race and March festival already past; no additional listed event expired. Pattaya #18 remains deferred.",
+      "deployment": null
+    },
+    {
       "date_bangkok": "2026-11-10",
       "city": "Lisbon",
       "property_number": 6,

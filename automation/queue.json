@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "properties": [
     {
       "path": "cities/pattaya/beach-clubs/index.html",
@@ -348,6 +348,13 @@
       "city": "Lisbon",
       "target_query": "lisbon luxury hotels",
       "status": "deployed"
+    },
+    {
+      "property_number": 1,
+      "path": "cities/rio-de-janeiro/index.html",
+      "city": "Rio de Janeiro",
+      "target_query": "rio de janeiro nightlife",
+      "status": "deployment_pending"
     }
   ],
   "next_cities": [
