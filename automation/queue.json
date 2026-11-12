@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "properties": [
     {
       "path": "cities/pattaya/beach-clubs/index.html",
@@ -355,6 +355,13 @@
       "city": "Rio de Janeiro",
       "target_query": "rio de janeiro nightlife",
       "status": "deployed"
+    },
+    {
+      "property_number": 2,
+      "path": "cities/rio-de-janeiro/live-samba/index.html",
+      "city": "Rio de Janeiro",
+      "target_query": "live samba rio de janeiro",
+      "status": "deployment_pending"
     }
   ],
   "next_cities": [

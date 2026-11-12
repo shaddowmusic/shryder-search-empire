@@ -2,6 +2,100 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-11-12",
+      "property_number": 2,
+      "path": "cities/rio-de-janeiro/live-samba/index.html",
+      "city": "Rio de Janeiro",
+      "target_query": "live samba rio de janeiro",
+      "status": "deployment_pending",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/rio-de-janeiro/live-samba/",
+      "research_sources": [
+        {
+          "url": "https://riotur.rio/evento/samba-do-trabalhador-2/",
+          "checked_at": "2026-11-12",
+          "supported_facts": [
+            "Riotur identifies the named roda at Renascença Clube."
+          ]
+        },
+        {
+          "url": "https://renascencaclube.org.br/",
+          "checked_at": "2026-11-12",
+          "supported_facts": [
+            "Club lists Rua Barão de São Francisco, 54, Andaraí and provides direct contact."
+          ]
+        },
+        {
+          "url": "https://renascencaclube.org.br/album-de-fotos-2026/",
+          "checked_at": "2026-11-12",
+          "supported_facts": [
+            "Documents multiple past Samba do Trabalhador editions; not used as a schedule."
+          ]
+        },
+        {
+          "url": "https://becodorato.com.br/sobre-o-beco/",
+          "checked_at": "2026-11-12",
+          "supported_facts": [
+            "Operator identifies samba bar, snacks, drinks and Rua Joaquim Silva, 11, Lapa."
+          ]
+        },
+        {
+          "url": "https://becodorato.com.br/agenda/",
+          "checked_at": "2026-11-12",
+          "supported_facts": [
+            "Venue publishes an image-based agenda."
+          ]
+        },
+        {
+          "url": "https://salgueiro.com.br/",
+          "checked_at": "2026-11-12",
+          "supported_facts": [
+            "Samba school lists quadra at Rua Silva Teles, 104, Andaraí and publishes official announcements."
+          ]
+        },
+        {
+          "url": "https://riotur.rio/evento/ensaio-de-comunidade-do-salgueiro/",
+          "checked_at": "2026-11-12",
+          "supported_facts": [
+            "Past rehearsal illustrates bateria and community participation; no future date inferred."
+          ]
+        },
+        {
+          "url": "https://salgueiro.com.br/2026/08/15/feijoada-do-salgueiro-ganha-edicao-especial-dedicada-ao-pagode-dos-anos-90/",
+          "checked_at": "2026-11-12",
+          "supported_facts": [
+            "School's archived 16 August 2026 feijoada paired a meal-centered event with billed music; not advertised as upcoming."
+          ]
+        },
+        {
+          "url": "https://keywordtool.io/",
+          "checked_at": "2026-11-12",
+          "supported_facts": [
+            "Free English Google suggestions returned live samba music rio de janeiro, live samba show rio de janeiro, samba shows in rio de janeiro and samba schools in rio de janeiro; no volume used."
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=Z68yCwcvCOk&format=json",
+          "checked_at": "2026-11-12",
+          "supported_facts": [
+            "Verified Shryder Season by Shaddow - Topic."
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Free Google suggestions and search results distinguish live samba venues, show bookings and samba schools.",
+        "distinctiveness": "All three examples are new to the Rio cluster. Dedicated samba guide decodes bill and admission terms, unlike the broad nightlife hub’s three music formats."
+      },
+      "commit_sha": null,
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py and git diff --check.",
+        "music": "Verified the existing Shaddow track via YouTube oEmbed.",
+        "editorial": "Compared operator, municipal tourism and school sources; omitted prices, hours and recurrence promises, and did not list archived events as bookable.",
+        "responsive": "Full candidate and shared CSS source-reviewed: single-column grids at 760px or less; fluid 16:9 video and wrapping links/CTAs. Managed prepublication visual preview unavailable without a dev script or hosting manifest; no hosting changes made."
+      },
+      "maintenance": "Existing Rio hub and both neighbors matched live; target returned HTTP 404 before publishing. No same-date or pending property. No additional Pattaya dates expired; #18 remains deferred.",
+      "deployment": null
+    },
+    {
       "date_bangkok": "2026-11-11",
       "property_number": 1,
       "path": "cities/rio-de-janeiro/index.html",
