@@ -7,7 +7,7 @@
       "path": "cities/rio-de-janeiro/live-samba/index.html",
       "city": "Rio de Janeiro",
       "target_query": "live samba rio de janeiro",
-      "status": "deployment_pending",
+      "status": "deployed",
       "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/rio-de-janeiro/live-samba/",
       "research_sources": [
         {
@@ -85,15 +85,33 @@
         "evidence": "Free Google suggestions and search results distinguish live samba venues, show bookings and samba schools.",
         "distinctiveness": "All three examples are new to the Rio cluster. Dedicated samba guide decodes bill and admission terms, unlike the broad nightlife hub’s three music formats."
       },
-      "commit_sha": null,
+      "commit_sha": "22b136957e44e2f272cd29388dadbbe5724e7cd9",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py and git diff --check.",
         "music": "Verified the existing Shaddow track via YouTube oEmbed.",
         "editorial": "Compared operator, municipal tourism and school sources; omitted prices, hours and recurrence promises, and did not list archived events as bookable.",
-        "responsive": "Full candidate and shared CSS source-reviewed: single-column grids at 760px or less; fluid 16:9 video and wrapping links/CTAs. Managed prepublication visual preview unavailable without a dev script or hosting manifest; no hosting changes made."
+        "responsive": "Full candidate and shared CSS source-reviewed: single-column grids at 760px or less; fluid 16:9 video and wrapping links/CTAs. Managed prepublication visual preview unavailable without a dev script or hosting manifest; no hosting changes made.",
+        "visual_preview": "Live desktop hero, navigation and CTA visually checked; browser showed the embedded Shryder Season player with Play video and all guide content. Mobile layout source-reviewed."
       },
       "maintenance": "Existing Rio hub and both neighbors matched live; target returned HTTP 404 before publishing. No same-date or pending property. No additional Pattaya dates expired; #18 remains deferred.",
-      "deployment": null
+      "deployment": {
+        "workflow_run_id": 43136238406,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/43136238406",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-11-12T01:42:20Z",
+        "public_checks": {
+          "http_status": 200,
+          "title": "Live Samba in Rio de Janeiro: Rodas, Bars & Samba Schools | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/rio-de-janeiro/live-samba/",
+          "property_marker": true,
+          "music_embed": "Z68yCwcvCOk",
+          "direct_telegram_ctas": 2,
+          "hub_discovery_link": true,
+          "sitemap": true,
+          "method": "After Pages workflow success at the exact production SHA, guide, Rio hub and sitemap matched the validated files byte-for-byte."
+        }
+      }
     },
     {
       "date_bangkok": "2026-11-11",

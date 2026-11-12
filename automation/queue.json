@@ -361,7 +361,7 @@
       "path": "cities/rio-de-janeiro/live-samba/index.html",
       "city": "Rio de Janeiro",
       "target_query": "live samba rio de janeiro",
-      "status": "deployment_pending"
+      "status": "deployed"
     }
   ],
   "next_cities": [
