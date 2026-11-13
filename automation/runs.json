@@ -2,6 +2,100 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-11-13",
+      "property_number": 3,
+      "path": "cities/rio-de-janeiro/luxury-hotels/index.html",
+      "city": "Rio de Janeiro",
+      "target_query": "rio de janeiro luxury hotels",
+      "status": "deployment_pending",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/rio-de-janeiro/luxury-hotels/",
+      "research_sources": [
+        {
+          "url": "https://www.belmond.com/en/hotels/south-america/brazil/copacabana-palace-rio-de-janeiro",
+          "checked_at": "2026-11-13",
+          "supported_facts": [
+            "Operator describes property and amenities; one indexed rendition carried Pool Wing renovation notice, fresh rendition did not. No claim about reopening or current availability."
+          ]
+        },
+        {
+          "url": "https://www.belmond.com/en/hotels/south-america/brazil/copacabana-palace-rio-de-janeiro/location",
+          "checked_at": "2026-11-13",
+          "supported_facts": [
+            "Avenida Atlântica 1702 on Copacabana Beach."
+          ]
+        },
+        {
+          "url": "https://www.belmond.com/en/booking/select-accommodation?filterRoomCategory=CITY%2COCNVW&productId=COP",
+          "checked_at": "2026-11-13",
+          "supported_facts": [
+            "Separates full and partial ocean views and identifies room wings."
+          ]
+        },
+        {
+          "url": "https://fasano.com.br/en/hotel/fasano-rio-de-janeiro/",
+          "checked_at": "2026-11-13",
+          "supported_facts": [
+            "Ipanema waterfront; Starck design inspired by bossa nova era; infinity pool and guest-only eighth-floor Pool Bar."
+          ]
+        },
+        {
+          "url": "https://fasano.com.br/en/hotel/fasano-rio-de-janeiro/?acomodacoes=",
+          "checked_at": "2026-11-13",
+          "supported_facts": [
+            "Lists specific oceanfront suites and balcony details; not generalized across rooms."
+          ]
+        },
+        {
+          "url": "https://mgallery.accor.com/en/hotels/A1X5.html",
+          "checked_at": "2026-11-13",
+          "supported_facts": [
+            "Former coffee estate at Rua Almirante Alexandrino 660, Santa Teresa."
+          ]
+        },
+        {
+          "url": "https://mgallery.accor.com/en/hotels/A1X5/wellness.html",
+          "checked_at": "2026-11-13",
+          "supported_facts": [
+            "Outdoor pool framed by gardens."
+          ]
+        },
+        {
+          "url": "https://mgallery.accor.com/en/hotels/A1X5/rooms.html",
+          "checked_at": "2026-11-13",
+          "supported_facts": [
+            "Room inventory includes Santa Teresa or garden views."
+          ]
+        },
+        {
+          "url": "https://keywordtool.io/",
+          "checked_at": "2026-11-13",
+          "supported_facts": [
+            "Free English suggestions included Ipanema, beachfront, and boutique luxury hotel variants; no volume used."
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=Z68yCwcvCOk&format=json",
+          "checked_at": "2026-11-13",
+          "supported_facts": [
+            "Verified Shryder Season by Shaddow - Topic."
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Free Google suggestions differentiate beachfront, Ipanema and boutique hotel needs.",
+        "distinctiveness": "Compares specific stay bases and bookable room/facility differences, not the Rio nightlife or samba choice. Copacabana wing, Ipanema guest rooftop and Santa Teresa hillside logistics drive the comparison."
+      },
+      "commit_sha": null,
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py and git diff --check.",
+        "editorial": "Direct operator facts; no unverified reopening date, rates, view guarantees, first-hand claims or partnership.",
+        "music": "Shaddow track and creator verified via YouTube oEmbed.",
+        "responsive": "Full candidate HTML and shared CSS source-reviewed. Single-column stay cards, fluid embed, breakpoint stacking and wrap-safe links. Managed prepublication visual preview unavailable for GitHub-only checkout without preview configuration."
+      },
+      "maintenance": "Prior Rio pages and Lisbon hotel neighbor matched live. New URL returned 404 before publication, with no same-date or pending property. No new Pattaya event expired.",
+      "deployment": null
+    },
+    {
       "date_bangkok": "2026-11-12",
       "property_number": 2,
       "path": "cities/rio-de-janeiro/live-samba/index.html",
