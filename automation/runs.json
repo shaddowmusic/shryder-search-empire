@@ -7,7 +7,7 @@
       "path": "cities/rio-de-janeiro/luxury-hotels/index.html",
       "city": "Rio de Janeiro",
       "target_query": "rio de janeiro luxury hotels",
-      "status": "deployment_pending",
+      "status": "deployed",
       "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/rio-de-janeiro/luxury-hotels/",
       "research_sources": [
         {
@@ -85,15 +85,33 @@
         "evidence": "Free Google suggestions differentiate beachfront, Ipanema and boutique hotel needs.",
         "distinctiveness": "Compares specific stay bases and bookable room/facility differences, not the Rio nightlife or samba choice. Copacabana wing, Ipanema guest rooftop and Santa Teresa hillside logistics drive the comparison."
       },
-      "commit_sha": null,
+      "commit_sha": "9088acaf03f6d48b2ba2e68a788498f5390cdc0f",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py and git diff --check.",
         "editorial": "Direct operator facts; no unverified reopening date, rates, view guarantees, first-hand claims or partnership.",
         "music": "Shaddow track and creator verified via YouTube oEmbed.",
-        "responsive": "Full candidate HTML and shared CSS source-reviewed. Single-column stay cards, fluid embed, breakpoint stacking and wrap-safe links. Managed prepublication visual preview unavailable for GitHub-only checkout without preview configuration."
+        "responsive": "Full candidate HTML and shared CSS source-reviewed. Single-column stay cards, fluid embed, breakpoint stacking and wrap-safe links. Managed prepublication visual preview unavailable for GitHub-only checkout without preview configuration.",
+        "visual_preview": "Desktop hero, navigation, and CTA visually checked; browser confirmed the Shaddow embed loaded with Play control. Mobile layout source-reviewed."
       },
       "maintenance": "Prior Rio pages and Lisbon hotel neighbor matched live. New URL returned 404 before publication, with no same-date or pending property. No new Pattaya event expired.",
-      "deployment": null
+      "deployment": {
+        "workflow_run_id": 43347891371,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/43347891371",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-11-13T01:52:01Z",
+        "public_checks": {
+          "http_status": 200,
+          "title": "Rio de Janeiro Luxury Hotels: Copacabana, Ipanema or Santa Teresa? | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/rio-de-janeiro/luxury-hotels/",
+          "property_marker": true,
+          "music_embed": "Z68yCwcvCOk",
+          "direct_telegram_ctas": 2,
+          "hub_discovery_link": true,
+          "sitemap": true,
+          "method": "Exact production SHA succeeded on Pages and live page, hub and sitemap matched validated bytes."
+        }
+      }
     },
     {
       "date_bangkok": "2026-11-12",

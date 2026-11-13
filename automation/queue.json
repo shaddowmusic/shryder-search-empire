@@ -368,7 +368,7 @@
       "path": "cities/rio-de-janeiro/luxury-hotels/index.html",
       "city": "Rio de Janeiro",
       "target_query": "rio de janeiro luxury hotels",
-      "status": "deployment_pending"
+      "status": "deployed"
     }
   ],
   "next_cities": [
