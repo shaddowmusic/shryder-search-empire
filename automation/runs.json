@@ -7,7 +7,7 @@
       "path": "cities/rio-de-janeiro/sunset-spots/index.html",
       "city": "Rio de Janeiro",
       "target_query": "rio de janeiro sunset spots",
-      "status": "deployment_pending",
+      "status": "deployed",
       "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/rio-de-janeiro/sunset-spots/",
       "research_sources": [
         {
@@ -64,15 +64,33 @@
         "evidence": "English Google suggestions distinguish sunset locations, beaches and date-specific timing.",
         "distinctiveness": "Venue-independent daylight itinerary compares terrain, transport, tickets and fallback planning. Existing Rio pages answer music-night and hotel-choice intent."
       },
-      "commit_sha": null,
+      "commit_sha": "bc90cff233cff99740a7b18fd8d12265d3b2421e",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py and git diff --check.",
         "editorial": "Official source facts checked separately; omitted fixed access hours, prices, DJ lineups and sunset guarantees.",
         "music": "Shaddow track verified through YouTube oEmbed.",
-        "responsive": "Full candidate and shared CSS reviewed: wrapping CTA/link text, fluid 16:9 embed, stacks at 760px. Managed prepublication visual preview unavailable for GitHub-only checkout."
+        "responsive": "Full candidate and shared CSS reviewed: wrapping CTA/link text, fluid 16:9 embed, stacks at 760px. Managed prepublication visual preview unavailable for GitHub-only checkout.",
+        "visual_preview": "Live desktop hero, navigation and CTA visually checked; browser showed all guide sections and the loaded Shaddow player. Mobile layout source-reviewed."
       },
       "maintenance": "Existing Rio hub, hotels and live samba matched live. No pending or same-date property. Pattaya event rows checked for expiry; no change required.",
-      "deployment": null
+      "deployment": {
+        "workflow_run_id": 43541976126,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/43541976126",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-11-14T01:41:21Z",
+        "public_checks": {
+          "http_status": 200,
+          "title": "Rio de Janeiro Sunset Spots: Arpoador, Urca or Sugarloaf? | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/rio-de-janeiro/sunset-spots/",
+          "property_marker": true,
+          "music_embed": "Z68yCwcvCOk",
+          "direct_telegram_ctas": 2,
+          "hub_discovery_link": true,
+          "sitemap": true,
+          "method": "Exact production SHA succeeded on Pages; live guide, Rio hub and sitemap matched validated bytes."
+        }
+      }
     },
     {
       "date_bangkok": "2026-11-13",

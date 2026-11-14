@@ -375,7 +375,7 @@
       "path": "cities/rio-de-janeiro/sunset-spots/index.html",
       "city": "Rio de Janeiro",
       "target_query": "rio de janeiro sunset spots",
-      "status": "deployment_pending"
+      "status": "deployed"
     }
   ],
   "next_cities": [
