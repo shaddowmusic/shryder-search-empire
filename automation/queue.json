@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "properties": [
     {
       "path": "cities/pattaya/beach-clubs/index.html",
@@ -369,6 +369,13 @@
       "city": "Rio de Janeiro",
       "target_query": "rio de janeiro luxury hotels",
       "status": "deployed"
+    },
+    {
+      "property_number": 4,
+      "path": "cities/rio-de-janeiro/sunset-spots/index.html",
+      "city": "Rio de Janeiro",
+      "target_query": "rio de janeiro sunset spots",
+      "status": "deployment_pending"
     }
   ],
   "next_cities": [

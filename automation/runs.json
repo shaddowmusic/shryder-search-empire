@@ -2,6 +2,79 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-11-14",
+      "property_number": 4,
+      "path": "cities/rio-de-janeiro/sunset-spots/index.html",
+      "city": "Rio de Janeiro",
+      "target_query": "rio de janeiro sunset spots",
+      "status": "deployment_pending",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/rio-de-janeiro/sunset-spots/",
+      "research_sources": [
+        {
+          "url": "https://riotur.rio/que_fazer/arpoador/",
+          "checked_at": "2026-11-14",
+          "supported_facts": [
+            "Tourism authority identifies the rock at Arpoador as a sea-view sunset spot on the Ipanema side."
+          ]
+        },
+        {
+          "url": "https://en.prefeitura.rio/cidade/primeiro-dia-de-operacao-especial-no-arpoador-recolhe-mais-de-2-toneladas-de-lixo/",
+          "checked_at": "2026-11-14",
+          "supported_facts": [
+            "City announced park-like nighttime access controls for Pedra do Arpoador in January 2026; no current cutoff inferred."
+          ]
+        },
+        {
+          "url": "https://riotur.rio/que_fazer/mureta-da-urca/",
+          "checked_at": "2026-11-14",
+          "supported_facts": [
+            "Waterfront wall overlooks Guanabara Bay; nearby bars serve snacks."
+          ]
+        },
+        {
+          "url": "https://www.bondinho.com.br/ingresso-bondinho",
+          "checked_at": "2026-11-14",
+          "supported_facts": [
+            "Standard ticket covers Praia Vermelha–Morro da Urca and Morro da Urca–Sugarloaf."
+          ]
+        },
+        {
+          "url": "https://bondinho.com.br/pt/o-parque",
+          "checked_at": "2026-11-14",
+          "supported_facts": [
+            "Operator describes viewpoint and sunset programming; no DJ schedule or hours reproduced."
+          ]
+        },
+        {
+          "url": "https://keywordtool.io/",
+          "checked_at": "2026-11-14",
+          "supported_facts": [
+            "Free English Google suggestions include best sunset spots in Rio de Janeiro, Rio de Janeiro sunset beach and sunset times; no volume used."
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=Z68yCwcvCOk&format=json",
+          "checked_at": "2026-11-14",
+          "supported_facts": [
+            "Identified Shryder Season by Shaddow - Topic."
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "English Google suggestions distinguish sunset locations, beaches and date-specific timing.",
+        "distinctiveness": "Venue-independent daylight itinerary compares terrain, transport, tickets and fallback planning. Existing Rio pages answer music-night and hotel-choice intent."
+      },
+      "commit_sha": null,
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py and git diff --check.",
+        "editorial": "Official source facts checked separately; omitted fixed access hours, prices, DJ lineups and sunset guarantees.",
+        "music": "Shaddow track verified through YouTube oEmbed.",
+        "responsive": "Full candidate and shared CSS reviewed: wrapping CTA/link text, fluid 16:9 embed, stacks at 760px. Managed prepublication visual preview unavailable for GitHub-only checkout."
+      },
+      "maintenance": "Existing Rio hub, hotels and live samba matched live. No pending or same-date property. Pattaya event rows checked for expiry; no change required.",
+      "deployment": null
+    },
+    {
       "date_bangkok": "2026-11-13",
       "property_number": 3,
       "path": "cities/rio-de-janeiro/luxury-hotels/index.html",
