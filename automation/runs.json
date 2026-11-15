@@ -7,7 +7,7 @@
       "path": "cities/rio-de-janeiro/record-stores/index.html",
       "city": "Rio de Janeiro",
       "target_query": "rio de janeiro record stores",
-      "status": "deployment_pending",
+      "status": "deployed",
       "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/rio-de-janeiro/record-stores/",
       "research_sources": [
         {
@@ -57,15 +57,33 @@
         "evidence": "Free English Google suggestions support a physical record-shop query, not a concert or artist query; no volume used.",
         "distinctiveness": "Single-neighborhood two-stop itinerary contrasts a Brazilian music specialist with a used books and records shop; adds Portuguese counter phrases and edition checks. Existing Rio pages cover nightlife, samba shows, hotels and sunset viewpoints."
       },
-      "commit_sha": null,
+      "commit_sha": "f2465fc734e8596dadb69cdaccf71dd76ba28a07",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py and git diff --check.",
         "editorial": "Operator descriptions checked separately from the search-intent evidence. No prices, opening hours, specific stock or firsthand claims.",
         "music": "Shryder Season verified as Shaddow - Topic via YouTube oEmbed.",
-        "responsive": "Full candidate HTML and shared responsive CSS reviewed, including 760px stacking, wrapping link text and the fluid 16:9 player. Prepublication visual preview unavailable: GitHub checkout has no managed preview configuration; local Chromium could not open its process socket."
+        "responsive": "Full candidate HTML and shared responsive CSS reviewed, including 760px stacking, wrapping link text and the fluid 16:9 player. Prepublication visual preview unavailable: GitHub checkout has no managed preview configuration; local Chromium could not open its process socket.",
+        "visual_preview": "Live desktop hero, navigation and CTA visually checked in Chrome. The Shaddow player loaded and exposed its Play video control. Mobile layout source-reviewed."
       },
       "maintenance": "Rio hub, sunset and live samba matched live; target URL returned 404 before publishing. No pending or same-date property. Pattaya event rows checked; no expiry change needed.",
-      "deployment": null
+      "deployment": {
+        "workflow_run_id": 43665597102,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/43665597102",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-11-15T01:59:55Z",
+        "public_checks": {
+          "http_status": 200,
+          "title": "Rio de Janeiro Record Stores: A Botafogo Vinyl Route | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/rio-de-janeiro/record-stores/",
+          "property_marker": true,
+          "music_embed": "Z68yCwcvCOk",
+          "direct_telegram_ctas": 2,
+          "hub_discovery_link": true,
+          "sitemap": true,
+          "method": "Exact production SHA succeeded on Pages; live guide, Rio hub and sitemap matched validated bytes."
+        }
+      }
     },
     {
       "date_bangkok": "2026-11-14",
