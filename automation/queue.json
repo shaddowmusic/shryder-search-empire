@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "properties": [
     {
       "path": "cities/pattaya/beach-clubs/index.html",
@@ -376,6 +376,13 @@
       "city": "Rio de Janeiro",
       "target_query": "rio de janeiro sunset spots",
       "status": "deployed"
+    },
+    {
+      "property_number": 5,
+      "path": "cities/rio-de-janeiro/record-stores/index.html",
+      "city": "Rio de Janeiro",
+      "target_query": "rio de janeiro record stores",
+      "status": "deployment_pending"
     }
   ],
   "next_cities": [

@@ -2,6 +2,72 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-11-15",
+      "property_number": 5,
+      "path": "cities/rio-de-janeiro/record-stores/index.html",
+      "city": "Rio de Janeiro",
+      "target_query": "rio de janeiro record stores",
+      "status": "deployment_pending",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/rio-de-janeiro/record-stores/",
+      "research_sources": [
+        {
+          "url": "https://www.youtube.com/channel/UCwck2KOyuXmqXiu4W1UDDHQ",
+          "checked_at": "2026-11-15",
+          "supported_facts": [
+            "Tropicália Discos describes its focus on Brazilian music discovery and its LP and CD shop."
+          ]
+        },
+        {
+          "url": "https://vejario.abril.com.br/cidade/dua-lipa-indicou-loja-vinis-botafogo-pontos-imperdiveis/",
+          "checked_at": "2026-11-15",
+          "supported_facts": [
+            "Corroborates the Tropicália Discos storefront at Rua Sorocaba 122, Botafogo; no hours, stock or celebrity claims used."
+          ]
+        },
+        {
+          "url": "https://www.baratosdaribeiro.com.br/",
+          "checked_at": "2026-11-15",
+          "supported_facts": [
+            "Operator places its used bookstore and record shop at Rua 19 de Fevereiro 90, near Botafogo metro, and says it buys, sells and exchanges vinyl."
+          ]
+        },
+        {
+          "url": "https://www.baratosdaribeiro.com.br/nosso-acervo/",
+          "checked_at": "2026-11-15",
+          "supported_facts": [
+            "Operator lists bossa nova, samba, tropicalismo and other styles among vinyl catalogue examples; this is not title-level inventory."
+          ]
+        },
+        {
+          "url": "https://keywordtool.io/",
+          "checked_at": "2026-11-15",
+          "supported_facts": [
+            "Free English Google keyword suggestions included rio de janeiro record stores, best record stores in rio de janeiro, rio record stores and rio record shop. No search-volume metric was available."
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=Z68yCwcvCOk&format=json",
+          "checked_at": "2026-11-15",
+          "supported_facts": [
+            "YouTube oEmbed returned Shryder Season by Shaddow - Topic."
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Free English Google suggestions support a physical record-shop query, not a concert or artist query; no volume used.",
+        "distinctiveness": "Single-neighborhood two-stop itinerary contrasts a Brazilian music specialist with a used books and records shop; adds Portuguese counter phrases and edition checks. Existing Rio pages cover nightlife, samba shows, hotels and sunset viewpoints."
+      },
+      "commit_sha": null,
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py and git diff --check.",
+        "editorial": "Operator descriptions checked separately from the search-intent evidence. No prices, opening hours, specific stock or firsthand claims.",
+        "music": "Shryder Season verified as Shaddow - Topic via YouTube oEmbed.",
+        "responsive": "Full candidate HTML and shared responsive CSS reviewed, including 760px stacking, wrapping link text and the fluid 16:9 player. Prepublication visual preview unavailable: GitHub checkout has no managed preview configuration; local Chromium could not open its process socket."
+      },
+      "maintenance": "Rio hub, sunset and live samba matched live; target URL returned 404 before publishing. No pending or same-date property. Pattaya event rows checked; no expiry change needed.",
+      "deployment": null
+    },
+    {
       "date_bangkok": "2026-11-14",
       "property_number": 4,
       "path": "cities/rio-de-janeiro/sunset-spots/index.html",
