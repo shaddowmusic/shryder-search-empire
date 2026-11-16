@@ -2,6 +2,79 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-11-16",
+      "property_number": 6,
+      "path": "cities/rio-de-janeiro/jazz-clubs/index.html",
+      "city": "Rio de Janeiro",
+      "target_query": "rio de janeiro jazz clubs",
+      "status": "deployment_pending",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/rio-de-janeiro/jazz-clubs/",
+      "research_sources": [
+        {
+          "url": "https://bluenoterio.com.br/informacoes/",
+          "checked_at": "2026-11-16",
+          "supported_facts": [
+            "Operator describes marked seats, food and drink service during sets, mixed genres and multiple shows on some nights."
+          ]
+        },
+        {
+          "url": "https://bluenoterio.com.br/contato/",
+          "checked_at": "2026-11-16",
+          "supported_facts": [
+            "Operator confirms the Copacabana address on Avenida Atlântica."
+          ]
+        },
+        {
+          "url": "https://becodasgarrafas.com.br/principal/contato/",
+          "checked_at": "2026-11-16",
+          "supported_facts": [
+            "Operator gives Rua Duvivier 37 and documents the venue’s place in the development of samba-jazz."
+          ]
+        },
+        {
+          "url": "https://becodasgarrafas.com.br/principal/events/",
+          "checked_at": "2026-11-16",
+          "supported_facts": [
+            "Dated program identifies Little Club and Bottle’s Bar separately; individual dates and prices not reproduced."
+          ]
+        },
+        {
+          "url": "https://becodasgarrafas.com.br/event/alafia-jazz-club-08-set/",
+          "checked_at": "2026-11-16",
+          "supported_facts": [
+            "Archived Little Club listing illustrates explicitly billed jazz blended with Brazilian music, not a recurring time or an upcoming event."
+          ]
+        },
+        {
+          "url": "https://keywordtool.io/",
+          "checked_at": "2026-11-16",
+          "supported_facts": [
+            "Guest Google suggestions included rio de janeiro jazz clubs, rio de janeiro jazz bar, blue note jazz club rio de janeiro and agenda jazz rio de janeiro. No search volume available or used."
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=Z68yCwcvCOk&format=json",
+          "checked_at": "2026-11-16",
+          "supported_facts": [
+            "YouTube oEmbed identified Shryder Season by Shaddow - Topic."
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Free Google suggestions separate venue search (jazz clubs, jazz bar, Blue Note) and local calendar intent (agenda jazz) from festival and song searches.",
+        "distinctiveness": "Copacabana show-selection guide distinguishes Blue Note's seat/session choice from Beco's two rooms and explains how to read an instrumental or samba-jazz bill. The hub compares nightlife formats; the samba guide covers rodas, samba bars and school events."
+      },
+      "commit_sha": null,
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py and git diff --check.",
+        "editorial": "Venue contacts, room names, dated program examples, brand fit and neighboring guides checked separately; no dates, prices or blanket access claims reproduced.",
+        "music": "Shryder Season identified as Shaddow - Topic via YouTube oEmbed.",
+        "responsive": "Full HTML and shared CSS reviewed; mobile grids and CTAs stack at 760px, player is fluid 16:9. Prepublication render unavailable for the GitHub-only checkout."
+      },
+      "maintenance": "Latest Rio guide, hub and live samba matched live; target returned 404. No committed or pending run for 16 November. Pattaya's October entry already archived; remaining calendar dates not expired.",
+      "deployment": null
+    },
+    {
       "date_bangkok": "2026-11-15",
       "property_number": 5,
       "path": "cities/rio-de-janeiro/record-stores/index.html",
