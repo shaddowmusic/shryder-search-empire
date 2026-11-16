@@ -389,7 +389,7 @@
       "path": "cities/rio-de-janeiro/jazz-clubs/index.html",
       "city": "Rio de Janeiro",
       "target_query": "rio de janeiro jazz clubs",
-      "status": "deployment_pending"
+      "status": "deployed"
     }
   ],
   "next_cities": [

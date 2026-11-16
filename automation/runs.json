@@ -7,7 +7,7 @@
       "path": "cities/rio-de-janeiro/jazz-clubs/index.html",
       "city": "Rio de Janeiro",
       "target_query": "rio de janeiro jazz clubs",
-      "status": "deployment_pending",
+      "status": "deployed",
       "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/rio-de-janeiro/jazz-clubs/",
       "research_sources": [
         {
@@ -64,15 +64,33 @@
         "evidence": "Free Google suggestions separate venue search (jazz clubs, jazz bar, Blue Note) and local calendar intent (agenda jazz) from festival and song searches.",
         "distinctiveness": "Copacabana show-selection guide distinguishes Blue Note's seat/session choice from Beco's two rooms and explains how to read an instrumental or samba-jazz bill. The hub compares nightlife formats; the samba guide covers rodas, samba bars and school events."
       },
-      "commit_sha": null,
+      "commit_sha": "23f4a772bb08b2228932c2b31c43a9b9b7b49b66",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py and git diff --check.",
         "editorial": "Venue contacts, room names, dated program examples, brand fit and neighboring guides checked separately; no dates, prices or blanket access claims reproduced.",
         "music": "Shryder Season identified as Shaddow - Topic via YouTube oEmbed.",
-        "responsive": "Full HTML and shared CSS reviewed; mobile grids and CTAs stack at 760px, player is fluid 16:9. Prepublication render unavailable for the GitHub-only checkout."
+        "responsive": "Full HTML and shared CSS reviewed; mobile grids and CTAs stack at 760px, player is fluid 16:9. Prepublication render unavailable for the GitHub-only checkout.",
+        "visual_preview": "Live desktop hero, navigation and CTA visually checked; the full guide and loaded Shaddow player were present in Chrome. Mobile layout source-reviewed."
       },
       "maintenance": "Latest Rio guide, hub and live samba matched live; target returned 404. No committed or pending run for 16 November. Pattaya's October entry already archived; remaining calendar dates not expired.",
-      "deployment": null
+      "deployment": {
+        "workflow_run_id": 43785864833,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/43785864833",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-11-16T01:23:16Z",
+        "public_checks": {
+          "http_status": 200,
+          "title": "Rio de Janeiro Jazz Clubs: Find Your Copacabana Set | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/rio-de-janeiro/jazz-clubs/",
+          "property_marker": true,
+          "music_embed": "Z68yCwcvCOk",
+          "direct_telegram_ctas": 2,
+          "hub_discovery_link": true,
+          "sitemap": true,
+          "method": "Exact production SHA succeeded on Pages; live guide, Rio hub and sitemap matched validated bytes."
+        }
+      }
     },
     {
       "date_bangkok": "2026-11-15",
