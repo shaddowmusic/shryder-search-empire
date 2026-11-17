@@ -2,6 +2,93 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-11-17",
+      "property_number": 1,
+      "path": "cities/miami/index.html",
+      "city": "Miami",
+      "target_query": "miami live music",
+      "status": "deployment_pending",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/miami/",
+      "research_sources": [
+        {
+          "url": "https://ballandchainmiami.com/events",
+          "checked_at": "2026-11-17",
+          "supported_facts": [
+            "Venue lists the Calle Ocho address, live salsa and different event formats; show-specific ticket and admission rules are linked, not reproduced."
+          ]
+        },
+        {
+          "url": "https://www.lagniappehouse.com/",
+          "checked_at": "2026-11-17",
+          "supported_facts": [
+            "Operator lists 3425 NE 2nd Avenue, live music and a no-reservations policy."
+          ]
+        },
+        {
+          "url": "https://www.lagniappehouse.com/music-schedule.html",
+          "checked_at": "2026-11-17",
+          "supported_facts": [
+            "Operator’s dated music schedule includes act descriptions spanning styles."
+          ]
+        },
+        {
+          "url": "https://miamibeachbandshell.com/",
+          "checked_at": "2026-11-17",
+          "supported_facts": [
+            "Official Bandshell calendar lists concerts and other programming."
+          ]
+        },
+        {
+          "url": "https://miamibeachbandshell.com/visit/",
+          "checked_at": "2026-11-17",
+          "supported_facts": [
+            "Operator lists 7275 Collins Avenue in the North Beach area of Miami Beach."
+          ]
+        },
+        {
+          "url": "https://miamibeachbandshell.com/faqs/",
+          "checked_at": "2026-11-17",
+          "supported_facts": [
+            "Canopy-covered open-air venue; seating and entry depend on event format; FAQ publishes bag and weather guidance."
+          ]
+        },
+        {
+          "url": "https://www.miamiandbeaches.com/events/concerts-music-events",
+          "checked_at": "2026-11-17",
+          "supported_facts": [
+            "Destination tourism authority distinguishes Calle Ocho salsa from Miami Beach concerts and offers event discovery."
+          ]
+        },
+        {
+          "url": "https://keywordtool.io/",
+          "checked_at": "2026-11-17",
+          "supported_facts": [
+            "Free English Google suggestions included miami live music, little havana miami live music, miami live music tonight, south beach miami live music and wynwood miami live music. No volume used."
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=Z68yCwcvCOk&format=json",
+          "checked_at": "2026-11-17",
+          "supported_facts": [
+            "YouTube oEmbed identified Shryder Season by Shaddow - Topic."
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Google suggestions and the destination tourism result show both neighborhood-level and date-level live music discovery, not just dance-club intent.",
+        "distinctiveness": "New Miami hub compares live salsa, a venue that does not reserve tables and an open-air ticketed concert; makes the mainland versus Miami Beach distinction useful before booking. No other Miami page in the checkout or live."
+      },
+      "commit_sha": null,
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py and git diff --check.",
+        "editorial": "First-party venue facts checked separately from search suggestions. No recurring act, fixed hours, pricing, imagery or firsthand claims.",
+        "music": "Shryder Season by Shaddow - Topic verified with oEmbed.",
+        "responsive": "Reviewed full HTML and shared CSS: 760px single-column venues, sound and conversion grids, stacked buttons and fluid 16:9 embed. Prepublication render unavailable on the GitHub-only checkout."
+      },
+      "maintenance": "Previous Rio jazz guide, Rio hub and site root matched live. No pending or same-day property; Miami URL returned 404 before publishing. Pattaya October event already marked past; remaining entries not expired.",
+      "deployment": null
+    },
+    {
       "date_bangkok": "2026-11-16",
       "property_number": 6,
       "path": "cities/rio-de-janeiro/jazz-clubs/index.html",
