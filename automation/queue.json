@@ -396,7 +396,7 @@
       "path": "cities/miami/index.html",
       "city": "Miami",
       "target_query": "miami live music",
-      "status": "deployment_pending"
+      "status": "deployed"
     }
   ],
   "next_cities": [

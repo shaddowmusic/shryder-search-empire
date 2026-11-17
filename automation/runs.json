@@ -7,7 +7,7 @@
       "path": "cities/miami/index.html",
       "city": "Miami",
       "target_query": "miami live music",
-      "status": "deployment_pending",
+      "status": "deployed",
       "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/miami/",
       "research_sources": [
         {
@@ -78,15 +78,33 @@
         "evidence": "Google suggestions and the destination tourism result show both neighborhood-level and date-level live music discovery, not just dance-club intent.",
         "distinctiveness": "New Miami hub compares live salsa, a venue that does not reserve tables and an open-air ticketed concert; makes the mainland versus Miami Beach distinction useful before booking. No other Miami page in the checkout or live."
       },
-      "commit_sha": null,
+      "commit_sha": "14cc3012f395beba79cdf68a949d16f52ba0f910",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py and git diff --check.",
         "editorial": "First-party venue facts checked separately from search suggestions. No recurring act, fixed hours, pricing, imagery or firsthand claims.",
         "music": "Shryder Season by Shaddow - Topic verified with oEmbed.",
-        "responsive": "Reviewed full HTML and shared CSS: 760px single-column venues, sound and conversion grids, stacked buttons and fluid 16:9 embed. Prepublication render unavailable on the GitHub-only checkout."
+        "responsive": "Reviewed full HTML and shared CSS: 760px single-column venues, sound and conversion grids, stacked buttons and fluid 16:9 embed. Prepublication render unavailable on the GitHub-only checkout.",
+        "visual_preview": "Live desktop hero, navigation and CTA visually checked; Chrome exposed the loaded Shaddow player's Play video control. Mobile layout source-reviewed."
       },
       "maintenance": "Previous Rio jazz guide, Rio hub and site root matched live. No pending or same-day property; Miami URL returned 404 before publishing. Pattaya October event already marked past; remaining entries not expired.",
-      "deployment": null
+      "deployment": {
+        "workflow_run_id": 43998030440,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/43998030440",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-11-17T01:46:52Z",
+        "public_checks": {
+          "http_status": 200,
+          "title": "Miami Live Music: Salsa, Walk-In Sets & Beach Concerts | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/miami/",
+          "property_marker": true,
+          "music_embed": "Z68yCwcvCOk",
+          "direct_telegram_ctas": 2,
+          "hub_discovery_link": true,
+          "sitemap": true,
+          "method": "Exact production SHA succeeded on Pages; live Miami hub, root directory and sitemap matched validated bytes."
+        }
+      }
     },
     {
       "date_bangkok": "2026-11-16",
