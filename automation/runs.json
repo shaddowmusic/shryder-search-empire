@@ -7,7 +7,7 @@
       "path": "cities/miami/luxury-hotels/index.html",
       "city": "Miami",
       "target_query": "miami luxury hotels",
-      "status": "deployment_pending",
+      "status": "deployed",
       "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/miami/luxury-hotels/",
       "research_sources": [
         {
@@ -57,15 +57,33 @@
         "evidence": "Google suggestions separate beach and mainland district accommodation choices. Operator facts support comparing suite view categories, theater bookings and a mainland resort base.",
         "distinctiveness": "Accommodation selection and room-category checks, not another live-music venue list. Miami's existing hub answers where to hear a show; this guide answers where to base a stay."
       },
-      "commit_sha": null,
+      "commit_sha": "f30f4547c646aaa4095e0690e60aad63a298847e",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py and git diff --check.",
         "editorial": "Operator facts reviewed independently of search suggestions. Omitted rates, fixed schedules, ratings, inventory, images and firsthand claims.",
         "music": "Shryder Season by Shaddow - Topic verified with YouTube oEmbed.",
-        "responsive": "Full HTML and shared responsive CSS reviewed: single-column cards, sound and conversion at 760px, wrapping links and fluid 16:9 player. Managed prepublication render unavailable for GitHub-only checkout."
+        "responsive": "Full HTML and shared responsive CSS reviewed: single-column cards, sound and conversion at 760px, wrapping links and fluid 16:9 player. Managed prepublication render unavailable for GitHub-only checkout.",
+        "visual_preview": "Live desktop hero, navigation and CTA visually checked. Full guide and loaded Shaddow player with Play video control present in Chrome; mobile source-reviewed."
       },
       "maintenance": "Miami hub and two published neighbor guides matched live; target returned 404. No pending or same-day property. Pattaya October event already marked past; other calendar dates have not expired.",
-      "deployment": null
+      "deployment": {
+        "workflow_run_id": 44215762140,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/44215762140",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-11-18T01:26:43Z",
+        "public_checks": {
+          "http_status": 200,
+          "title": "Miami Luxury Hotels: Beach Suites, Shows or Coral Gables | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/miami/luxury-hotels/",
+          "property_marker": true,
+          "music_embed": "Z68yCwcvCOk",
+          "direct_telegram_ctas": 2,
+          "hub_discovery_link": true,
+          "sitemap": true,
+          "method": "Exact production SHA succeeded on Pages; live guide, Miami hub and sitemap matched validated bytes."
+        }
+      }
     },
     {
       "date_bangkok": "2026-11-17",

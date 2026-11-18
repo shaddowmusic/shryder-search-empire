@@ -403,7 +403,7 @@
       "path": "cities/miami/luxury-hotels/index.html",
       "city": "Miami",
       "target_query": "miami luxury hotels",
-      "status": "deployment_pending"
+      "status": "deployed"
     }
   ],
   "next_cities": [
