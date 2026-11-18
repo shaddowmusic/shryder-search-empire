@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "properties": [
     {
       "path": "cities/pattaya/beach-clubs/index.html",
@@ -397,6 +397,13 @@
       "city": "Miami",
       "target_query": "miami live music",
       "status": "deployed"
+    },
+    {
+      "property_number": 2,
+      "path": "cities/miami/luxury-hotels/index.html",
+      "city": "Miami",
+      "target_query": "miami luxury hotels",
+      "status": "deployment_pending"
     }
   ],
   "next_cities": [

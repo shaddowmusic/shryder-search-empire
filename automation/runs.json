@@ -2,6 +2,72 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-11-18",
+      "property_number": 2,
+      "path": "cities/miami/luxury-hotels/index.html",
+      "city": "Miami",
+      "target_query": "miami luxury hotels",
+      "status": "deployment_pending",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/miami/luxury-hotels/",
+      "research_sources": [
+        {
+          "url": "https://www.thesetaihotel.com/faqs",
+          "checked_at": "2026-11-18",
+          "supported_facts": [
+            "Operator distinguishes Art Deco Suites from Ocean Suites and describes the three pools and first-come daybeds."
+          ]
+        },
+        {
+          "url": "https://www.faena.com/miami-beach/accommodations",
+          "checked_at": "2026-11-18",
+          "supported_facts": [
+            "Operator distinguishes Bay View, Partial Ocean View and Oceanfront room categories."
+          ]
+        },
+        {
+          "url": "https://www.faena.com/miami-beach/dining/faena-theater",
+          "checked_at": "2026-11-18",
+          "supported_facts": [
+            "Operator publishes theater and jazz programming. No dates or ticket prices reproduced."
+          ]
+        },
+        {
+          "url": "https://biltmorehotel.com/",
+          "checked_at": "2026-11-18",
+          "supported_facts": [
+            "Coral Gables operator describes its pool, cabanas/daybeds and 18-hole golf course."
+          ]
+        },
+        {
+          "url": "https://keywordtool.io/",
+          "checked_at": "2026-11-18",
+          "supported_facts": [
+            "Free English Google suggestions included miami luxury hotels, miami luxury hotels on the beach, south beach miami luxury hotels, downtown miami luxury hotels and brickell miami luxury hotels. No volume available or used."
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=Z68yCwcvCOk&format=json",
+          "checked_at": "2026-11-18",
+          "supported_facts": [
+            "YouTube oEmbed identified Shryder Season by Shaddow - Topic."
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Google suggestions separate beach and mainland district accommodation choices. Operator facts support comparing suite view categories, theater bookings and a mainland resort base.",
+        "distinctiveness": "Accommodation selection and room-category checks, not another live-music venue list. Miami's existing hub answers where to hear a show; this guide answers where to base a stay."
+      },
+      "commit_sha": null,
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py and git diff --check.",
+        "editorial": "Operator facts reviewed independently of search suggestions. Omitted rates, fixed schedules, ratings, inventory, images and firsthand claims.",
+        "music": "Shryder Season by Shaddow - Topic verified with YouTube oEmbed.",
+        "responsive": "Full HTML and shared responsive CSS reviewed: single-column cards, sound and conversion at 760px, wrapping links and fluid 16:9 player. Managed prepublication render unavailable for GitHub-only checkout."
+      },
+      "maintenance": "Miami hub and two published neighbor guides matched live; target returned 404. No pending or same-day property. Pattaya October event already marked past; other calendar dates have not expired.",
+      "deployment": null
+    },
+    {
       "date_bangkok": "2026-11-17",
       "property_number": 1,
       "path": "cities/miami/index.html",
