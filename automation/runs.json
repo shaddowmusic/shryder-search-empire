@@ -2,6 +2,72 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-11-19",
+      "property_number": 3,
+      "path": "cities/miami/record-stores/index.html",
+      "city": "Miami",
+      "target_query": "miami record stores",
+      "status": "deployment_pending",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/miami/record-stores/",
+      "research_sources": [
+        {
+          "url": "https://www.sweatrecordsmiami.com/service/faq/",
+          "checked_at": "2026-11-19",
+          "supported_facts": [
+            "Operator gives Little Haiti address, distinguishes new web inventory from used in-store/Discogs, and explains local pickup processing."
+          ]
+        },
+        {
+          "url": "https://www.techniquerecords.com/",
+          "checked_at": "2026-11-19",
+          "supported_facts": [
+            "Operator gives 880 NE 79th Street address and separate new, used/rare and preorder sections; no stock counts or hours reproduced."
+          ]
+        },
+        {
+          "url": "https://www.luckyrecordsmiami.com/contact",
+          "checked_at": "2026-11-19",
+          "supported_facts": [
+            "Operator gives Wynwood address and collection-buying process, condition expectations and genre interests. Buying interests are not represented as available stock."
+          ]
+        },
+        {
+          "url": "https://www.luckyrecordsmiami.com/",
+          "checked_at": "2026-11-19",
+          "supported_facts": [
+            "Operator independently confirms 143 NW 23rd Street."
+          ]
+        },
+        {
+          "url": "https://keywordtool.io/",
+          "checked_at": "2026-11-19",
+          "supported_facts": [
+            "Free English Google suggestions included miami record stores, used record stores miami, vinyl record stores miami, record stores miami beach and record stores downtown miami. No volume returned or used."
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=Z68yCwcvCOk&format=json",
+          "checked_at": "2026-11-19",
+          "supported_facts": [
+            "YouTube oEmbed identified Shryder Season by Shaddow - Topic."
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Free Google suggestions separate new/used vinyl shopping and Miami Beach versus mainland searches. Store FAQs establish different purchasing and collection-evaluation paths.",
+        "distinctiveness": "Daytime music-shopping and collection inquiry guide with operator-specific online inventory distinctions; not a repeat of the live-show hub or hotel guide."
+      },
+      "commit_sha": null,
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py and git diff --check.",
+        "editorial": "Operator facts checked separately from search suggestions; omitted inventory counts, hours, prices, offers, images and firsthand claims.",
+        "music": "Shryder Season by Shaddow - Topic verified with YouTube oEmbed.",
+        "responsive": "Full HTML and shared CSS reviewed: cards, sound and conversion stack at 760px; wrapping links and fluid 16:9 player. Managed prepublication render unavailable for the GitHub-only checkout."
+      },
+      "maintenance": "Miami hub, luxury hotels and Lisbon record stores matched live; target returned 404. No same-day or pending property. Pattaya's expired October entry already marked past; other calendar dates remain future.",
+      "deployment": null
+    },
+    {
       "date_bangkok": "2026-11-18",
       "property_number": 2,
       "path": "cities/miami/luxury-hotels/index.html",

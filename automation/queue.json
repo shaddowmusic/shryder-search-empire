@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "properties": [
     {
       "path": "cities/pattaya/beach-clubs/index.html",
@@ -404,6 +404,13 @@
       "city": "Miami",
       "target_query": "miami luxury hotels",
       "status": "deployed"
+    },
+    {
+      "property_number": 3,
+      "path": "cities/miami/record-stores/index.html",
+      "city": "Miami",
+      "target_query": "miami record stores",
+      "status": "deployment_pending"
     }
   ],
   "next_cities": [
