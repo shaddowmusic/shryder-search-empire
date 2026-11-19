@@ -7,7 +7,7 @@
       "path": "cities/miami/record-stores/index.html",
       "city": "Miami",
       "target_query": "miami record stores",
-      "status": "deployment_pending",
+      "status": "deployed",
       "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/miami/record-stores/",
       "research_sources": [
         {
@@ -57,15 +57,33 @@
         "evidence": "Free Google suggestions separate new/used vinyl shopping and Miami Beach versus mainland searches. Store FAQs establish different purchasing and collection-evaluation paths.",
         "distinctiveness": "Daytime music-shopping and collection inquiry guide with operator-specific online inventory distinctions; not a repeat of the live-show hub or hotel guide."
       },
-      "commit_sha": null,
+      "commit_sha": "b9411a47bd8a6a8231d4d62efced49c3ed87f5c2",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py and git diff --check.",
         "editorial": "Operator facts checked separately from search suggestions; omitted inventory counts, hours, prices, offers, images and firsthand claims.",
         "music": "Shryder Season by Shaddow - Topic verified with YouTube oEmbed.",
-        "responsive": "Full HTML and shared CSS reviewed: cards, sound and conversion stack at 760px; wrapping links and fluid 16:9 player. Managed prepublication render unavailable for the GitHub-only checkout."
+        "responsive": "Full HTML and shared CSS reviewed: cards, sound and conversion stack at 760px; wrapping links and fluid 16:9 player. Managed prepublication render unavailable for the GitHub-only checkout.",
+        "visual_preview": "Live desktop hero, navigation and CTA visually checked. Full guide and loaded Shaddow player with Play video control present in Chrome; mobile source-reviewed."
       },
       "maintenance": "Miami hub, luxury hotels and Lisbon record stores matched live; target returned 404. No same-day or pending property. Pattaya's expired October entry already marked past; other calendar dates remain future.",
-      "deployment": null
+      "deployment": {
+        "workflow_run_id": 44439765807,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/44439765807",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-11-19T01:50:23Z",
+        "public_checks": {
+          "http_status": 200,
+          "title": "Miami Record Stores: New Vinyl, Used Finds and Selling | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/miami/record-stores/",
+          "property_marker": true,
+          "music_embed": "Z68yCwcvCOk",
+          "direct_telegram_ctas": 2,
+          "hub_discovery_link": true,
+          "sitemap": true,
+          "method": "Exact production SHA succeeded on Pages; live guide, Miami hub and sitemap matched validated bytes."
+        }
+      }
     },
     {
       "date_bangkok": "2026-11-18",
