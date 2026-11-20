@@ -2,6 +2,72 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-11-20",
+      "property_number": 4,
+      "path": "cities/miami/rooftop-bars/index.html",
+      "city": "Miami",
+      "target_query": "miami rooftop bars",
+      "status": "deployment_pending",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/miami/rooftop-bars/",
+      "research_sources": [
+        {
+          "url": "https://www.easthotels.com/en/miami/restaurants-and-bars/sugar/",
+          "checked_at": "2026-11-20",
+          "supported_facts": [
+            "Operator describes Brickell rooftop garden, 40th floor, views, sharing plates, DJ sets and time-dependent age/physical-ID and dress policies. No fixed hours or policy cutoff copied."
+          ]
+        },
+        {
+          "url": "https://rosaskyrooftop.com/faqs/",
+          "checked_at": "2026-11-20",
+          "supported_facts": [
+            "Operator distinguishes bar versus table minimum-spend policies, timed reservations, deposits/cancellation and physical-ID requirements. No dollar amounts or timing cutoffs copied."
+          ]
+        },
+        {
+          "url": "https://www.1hotels.com/south-beach/taste/watr-at-the-rooftop",
+          "checked_at": "2026-11-20",
+          "supported_facts": [
+            "Operator describes South Beach ocean-view rooftop dining, Japanese-influenced menu, restaurant reservations and evening attire."
+          ]
+        },
+        {
+          "url": "https://www.1hotels.com/south-beach/do/pools-and-beaches",
+          "checked_at": "2026-11-20",
+          "supported_facts": [
+            "Operator lists rooftop pool and cabana reservations separately from restaurant dining."
+          ]
+        },
+        {
+          "url": "https://keywordtool.io/",
+          "checked_at": "2026-11-20",
+          "supported_facts": [
+            "Free English Google suggestions included miami rooftop bars, brickell miami rooftop bars, downtown miami rooftop bars, miami rooftop bars with a view and south beach miami rooftop bars. No volume available or used."
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=Z68yCwcvCOk&format=json",
+          "checked_at": "2026-11-20",
+          "supported_facts": [
+            "YouTube oEmbed identified Shryder Season by Shaddow - Topic."
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Google suggestions distinguish Brickell, downtown and South Beach rooftop/view intent; official policies support useful seating and access comparisons.",
+        "distinctiveness": "A skyline-drinks versus ocean-dining decision with bar/table and pool-access distinctions. Existing Miami pages cover live performances, overnight accommodation and record shopping."
+      },
+      "commit_sha": null,
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py and git diff --check.",
+        "editorial": "First-party venue facts reviewed separately from keyword evidence. No prices, permanent cutoffs, sunset guarantee, imagery or firsthand claims.",
+        "music": "Shryder Season by Shaddow - Topic reverified with YouTube oEmbed.",
+        "responsive": "Full candidate HTML and shared responsive CSS reviewed: cards, sound and conversion stack at 760px; links wrap, fluid 16:9 embed. Prepublication managed render unavailable for GitHub-only checkout."
+      },
+      "maintenance": "Miami hub, record stores and hotels matched live; target returned 404. No pending or same-day property. Pattaya October entry already past; remaining dated entries not expired.",
+      "deployment": null
+    },
+    {
       "date_bangkok": "2026-11-19",
       "property_number": 3,
       "path": "cities/miami/record-stores/index.html",
