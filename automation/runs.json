@@ -7,7 +7,7 @@
       "path": "cities/miami/rooftop-bars/index.html",
       "city": "Miami",
       "target_query": "miami rooftop bars",
-      "status": "deployment_pending",
+      "status": "deployed",
       "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/miami/rooftop-bars/",
       "research_sources": [
         {
@@ -57,15 +57,33 @@
         "evidence": "Google suggestions distinguish Brickell, downtown and South Beach rooftop/view intent; official policies support useful seating and access comparisons.",
         "distinctiveness": "A skyline-drinks versus ocean-dining decision with bar/table and pool-access distinctions. Existing Miami pages cover live performances, overnight accommodation and record shopping."
       },
-      "commit_sha": null,
+      "commit_sha": "12d73680cb3be69bdc4a53e0cf92e76bf8e1e36b",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py and git diff --check.",
         "editorial": "First-party venue facts reviewed separately from keyword evidence. No prices, permanent cutoffs, sunset guarantee, imagery or firsthand claims.",
         "music": "Shryder Season by Shaddow - Topic reverified with YouTube oEmbed.",
-        "responsive": "Full candidate HTML and shared responsive CSS reviewed: cards, sound and conversion stack at 760px; links wrap, fluid 16:9 embed. Prepublication managed render unavailable for GitHub-only checkout."
+        "responsive": "Full candidate HTML and shared responsive CSS reviewed: cards, sound and conversion stack at 760px; links wrap, fluid 16:9 embed. Prepublication managed render unavailable for GitHub-only checkout.",
+        "visual_preview": "Live desktop hero, navigation and CTA visually checked. Full guide and loaded Shaddow player with Play video control present in Chrome; mobile source-reviewed."
       },
       "maintenance": "Miami hub, record stores and hotels matched live; target returned 404. No pending or same-day property. Pattaya October entry already past; remaining dated entries not expired.",
-      "deployment": null
+      "deployment": {
+        "workflow_run_id": 44654940191,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/44654940191",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-11-20T01:38:34Z",
+        "public_checks": {
+          "http_status": 200,
+          "title": "Miami Rooftop Bars: Brickell Skyline or South Beach? | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/miami/rooftop-bars/",
+          "property_marker": true,
+          "music_embed": "Z68yCwcvCOk",
+          "direct_telegram_ctas": 2,
+          "hub_discovery_link": true,
+          "sitemap": true,
+          "method": "Exact production SHA succeeded on Pages; live guide, Miami hub and sitemap matched validated bytes."
+        }
+      }
     },
     {
       "date_bangkok": "2026-11-19",

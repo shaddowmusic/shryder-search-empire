@@ -417,7 +417,7 @@
       "path": "cities/miami/rooftop-bars/index.html",
       "city": "Miami",
       "target_query": "miami rooftop bars",
-      "status": "deployment_pending"
+      "status": "deployed"
     }
   ],
   "next_cities": [
