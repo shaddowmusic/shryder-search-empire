@@ -7,7 +7,7 @@
       "path": "cities/miami/beach-clubs/index.html",
       "city": "Miami",
       "target_query": "miami beach clubs",
-      "status": "deployment_pending",
+      "status": "deployed",
       "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/miami/beach-clubs/",
       "research_sources": [
         {
@@ -71,15 +71,33 @@
         "evidence": "Free autocomplete confirms Miami/South Beach beach-club intent; official operators support distinct booking-product comparisons. No search-volume claim.",
         "distinctiveness": "Daytime beach-bed, bayfront-area and beach-chair-plus-dining decisions, not the live-show, overnight-hotel, record-shopping or skyline-dining intent of existing Miami guides."
       },
-      "commit_sha": null,
+      "commit_sha": "3be68c8988b318405dc3bf0820d57151a6da85cf",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py and staged git diff --check.",
         "editorial": "Primary sources checked independently; no fixed prices, schedules, safety/swimming guarantees, fabricated imagery or firsthand claims. Restaurant booking distinguished from access packages.",
         "music": "YouTube oEmbed reverified Shryder Season by Shaddow - Topic.",
-        "responsive": "Full HTML and shared CSS reviewed; cards and sound stack at 760px, fluid 16:9 iframe and wrapped links. Prepublication rendered QA unavailable: sites-preview start reported no dev script or static manifest; status stopped. No hosting changes made."
+        "responsive": "Full HTML and shared CSS reviewed; cards and sound stack at 760px, fluid 16:9 iframe and wrapped links. Prepublication rendered QA unavailable: sites-preview start reported no dev script or static manifest; status stopped. No hosting changes made.",
+        "visual_preview": "Live desktop hero, music section and three-column comparison visually reviewed. Shaddow player loaded with Play video control; full guide and direct CTAs visible in accessibility tree. Mobile layout source-reviewed, not rendered."
       },
       "maintenance": "No pending or same-day runs in current main. Latest rooftop guide and Miami hub matched public bytes. Target absence checked before creation. Pattaya October entries already past; remaining dates have not expired.",
-      "deployment": null
+      "deployment": {
+        "workflow_run_id": 44848454464,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/44848454464",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-11-21T01:10:45Z",
+        "public_checks": {
+          "http_status": 200,
+          "title": "Miami Beach Clubs: Beach Beds, Bay Views & Dining | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/miami/beach-clubs/",
+          "property_marker": true,
+          "music_embed": "Z68yCwcvCOk",
+          "direct_telegram_ctas": 2,
+          "hub_discovery_link": true,
+          "sitemap": true,
+          "method": "Exact production SHA succeeded on Pages; guide, Miami hub and sitemap matched validated bytes. Live desktop and loaded player reviewed."
+        }
+      }
     },
     {
       "date_bangkok": "2026-11-20",

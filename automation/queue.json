@@ -7,7 +7,7 @@
       "path": "cities/miami/beach-clubs/index.html",
       "city": "Miami",
       "target_query": "miami beach clubs",
-      "status": "deployment_pending"
+      "status": "deployed"
     },
     {
       "path": "cities/pattaya/beach-clubs/index.html",
