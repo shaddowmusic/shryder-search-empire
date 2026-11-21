@@ -2,6 +2,86 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-11-21",
+      "property_number": 5,
+      "path": "cities/miami/beach-clubs/index.html",
+      "city": "Miami",
+      "target_query": "miami beach clubs",
+      "status": "deployment_pending",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/miami/beach-clubs/",
+      "research_sources": [
+        {
+          "url": "https://nikkibeach.com/miami-beach/",
+          "checked_at": "2026-11-21",
+          "supported_facts": [
+            "Official South of Fifth location at 1 Ocean Drive; beachfront lounging, restaurant and bar."
+          ]
+        },
+        {
+          "url": "https://nikkibeach.com/miami-beach/reservation-door-policy/",
+          "checked_at": "2026-11-21",
+          "supported_facts": [
+            "Bed area 21+ with physical ID; accompanied children allowed in restaurant; dress and discretionary entry policies."
+          ]
+        },
+        {
+          "url": "https://joiabeachmiami.com/",
+          "checked_at": "2026-11-21",
+          "supported_facts": [
+            "Separate Beach, Lounge and Restaurant reservations; chairs and cabanas with water access; clothing rules distinguish restaurant from beach/lounge."
+          ]
+        },
+        {
+          "url": "https://joiabeachmiami.com/contact/",
+          "checked_at": "2026-11-21",
+          "supported_facts": [
+            "Jungle Island/Watson Island address and Biscayne Bay setting."
+          ]
+        },
+        {
+          "url": "https://www.1hotels.com/south-beach/offers/tala-beach-experience",
+          "checked_at": "2026-11-21",
+          "supported_facts": [
+            "Beach chair and umbrella plus Tala restaurant food/beverage credit; per-guest passes, same-day restaurant-only credit, tax/service collected on site."
+          ]
+        },
+        {
+          "url": "https://www.1hotels.com/south-beach/taste/tala-beach",
+          "checked_at": "2026-11-21",
+          "supported_facts": [
+            "Beachside restaurant and outdoor retreat with table reservations, shared plates and entertainment."
+          ]
+        },
+        {
+          "url": "https://keywordtool.io/",
+          "checked_at": "2026-11-21",
+          "supported_facts": [
+            "Free Google English worldwide suggestions included miami beach clubs, best miami beach clubs and south beach miami beach clubs; no cached volumes available or used."
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=Z68yCwcvCOk&format=json",
+          "checked_at": "2026-11-21",
+          "supported_facts": [
+            "Live YouTube oEmbed returned Shryder Season by Shaddow - Topic."
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Free autocomplete confirms Miami/South Beach beach-club intent; official operators support distinct booking-product comparisons. No search-volume claim.",
+        "distinctiveness": "Daytime beach-bed, bayfront-area and beach-chair-plus-dining decisions, not the live-show, overnight-hotel, record-shopping or skyline-dining intent of existing Miami guides."
+      },
+      "commit_sha": null,
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py and staged git diff --check.",
+        "editorial": "Primary sources checked independently; no fixed prices, schedules, safety/swimming guarantees, fabricated imagery or firsthand claims. Restaurant booking distinguished from access packages.",
+        "music": "YouTube oEmbed reverified Shryder Season by Shaddow - Topic.",
+        "responsive": "Full HTML and shared CSS reviewed; cards and sound stack at 760px, fluid 16:9 iframe and wrapped links. Prepublication rendered QA unavailable: sites-preview start reported no dev script or static manifest; status stopped. No hosting changes made."
+      },
+      "maintenance": "No pending or same-day runs in current main. Latest rooftop guide and Miami hub matched public bytes. Target absence checked before creation. Pattaya October entries already past; remaining dates have not expired.",
+      "deployment": null
+    },
+    {
       "date_bangkok": "2026-11-20",
       "property_number": 4,
       "path": "cities/miami/rooftop-bars/index.html",
