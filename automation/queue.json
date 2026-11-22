@@ -1,7 +1,14 @@
 {
   "version": 1,
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "properties": [
+    {
+      "property_number": 1,
+      "path": "cities/ibiza/index.html",
+      "city": "Ibiza",
+      "target_query": "ibiza winter nightlife",
+      "status": "deployment_pending"
+    },
     {
       "property_number": 5,
       "path": "cities/miami/beach-clubs/index.html",
