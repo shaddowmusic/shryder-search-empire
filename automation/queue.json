@@ -7,7 +7,7 @@
       "path": "cities/ibiza/index.html",
       "city": "Ibiza",
       "target_query": "ibiza winter nightlife",
-      "status": "deployment_pending"
+      "status": "deployed"
     },
     {
       "property_number": 5,

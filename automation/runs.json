@@ -7,7 +7,7 @@
       "path": "cities/ibiza/index.html",
       "city": "Ibiza",
       "target_query": "ibiza winter nightlife",
-      "status": "deployment_pending",
+      "status": "deployed",
       "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/ibiza/",
       "research_sources": [
         {
@@ -64,15 +64,33 @@
         "evidence": "Free query suggestions plus current first-party winter programming qualify the next requested aligned territory, Ibiza.",
         "distinctiveness": "Ibiza's first hub addresses off-season date verification, café versus theatre booking, and Town versus Sant Carles club logistics. It is not a summer-superclub list or a city-name substitution."
       },
-      "commit_sha": null,
+      "commit_sha": "1e6d433d993d1697a535012f76cbb82a3f9fde02",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py and staged git diff --check.",
         "editorial": "Official sources checked separately from query evidence; conflicting hours/admission snippets omitted. No prices, transport timetables, all-winter opening guarantees or firsthand claims. Ibiza correctly typed as Place, not the whole island as City.",
         "music": "Shryder Season by Shaddow - Topic reverified via live YouTube oEmbed.",
-        "responsive": "Full candidate HTML and shared CSS reviewed: two-column cards and music grid stack at 760px, fluid 16:9 player, wrapped links and full-width mobile buttons. Prepublication render unavailable: sites-preview start reports no dev script/static manifest; status stopped. No alternative host or application changes made."
+        "responsive": "Full candidate HTML and shared CSS reviewed: two-column cards and music grid stack at 760px, fluid 16:9 player, wrapped links and full-width mobile buttons. Prepublication render unavailable: sites-preview start reports no dev script/static manifest; status stopped. No alternative host or application changes made.",
+        "visual_preview": "Live desktop hero, soundtrack and two-column comparison visually checked in Chrome. Shaddow player loaded with Play video control; full guide and direct CTAs present in accessibility tree. Mobile layout source-reviewed, not rendered."
       },
       "maintenance": "Current main has no pending or same-day property. Latest Miami guide and root matched live; new Ibiza URL returned 404. Pattaya past entries already archived; remaining November/December dates have not expired. JDM deferral preserved.",
-      "deployment": null
+      "deployment": {
+        "workflow_run_id": 44973569503,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/44973569503",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-11-22T01:54:58Z",
+        "public_checks": {
+          "http_status": 200,
+          "title": "Ibiza Winter Nightlife: Live Music or a Club Date? | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/ibiza/",
+          "property_marker": true,
+          "music_embed": "Z68yCwcvCOk",
+          "direct_telegram_ctas": 2,
+          "hub_discovery_link": true,
+          "sitemap": true,
+          "method": "Exact production SHA succeeded on Pages; Ibiza guide, root discovery hub and sitemap matched validated bytes. Live desktop and loaded Shaddow player reviewed."
+        }
+      }
     },
     {
       "date_bangkok": "2026-11-21",
