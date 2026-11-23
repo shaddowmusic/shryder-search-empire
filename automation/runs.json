@@ -7,7 +7,7 @@
       "path": "cities/ibiza/luxury-hotels/index.html",
       "city": "Ibiza",
       "target_query": "ibiza town luxury hotels",
-      "status": "deployment_pending",
+      "status": "deployed",
       "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/ibiza/luxury-hotels/",
       "research_sources": [
         {
@@ -57,15 +57,33 @@
         "evidence": "Free query suggestions support a focused Ibiza Town/Old Town luxury-stay comparison; operator room and seasonal-access distinctions supply practical decision value.",
         "distinctiveness": "Overnight room selection, balcony usability, outlook, seasonal guest policies and urban versus resort expectations. Separate from the existing Ibiza hub's winter event-format and location decisions."
       },
-      "commit_sha": null,
+      "commit_sha": "e2f3735a48d27e55ffbb11276e54984b6fd86077",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py and staged git diff --check.",
         "editorial": "Two focused town stays, not islandwide rankings. Primary sources independently checked; conflicting room sizes omitted. No live prices, tax figures, review ratings, accommodation availability or firsthand claims.",
         "music": "Shryder Season by Shaddow - Topic reverified using live YouTube oEmbed.",
-        "responsive": "Full candidate HTML and shared responsive CSS reviewed: cards, music and conversion stack at 760px; fluid 16:9 embed, wrapping links and full-width mobile buttons. Prepublication rendered preview unavailable: no dev script/static manifest; sites-preview status stopped. Existing hosting unchanged."
+        "responsive": "Full candidate HTML and shared responsive CSS reviewed: cards, music and conversion stack at 760px; fluid 16:9 embed, wrapping links and full-width mobile buttons. Prepublication rendered preview unavailable: no dev script/static manifest; sites-preview status stopped. Existing hosting unchanged.",
+        "visual_preview": "Live desktop hero, soundtrack and two-column hotel comparison visually reviewed in Chrome. Shaddow player loaded with Play video control; full content and two direct Telegram CTAs visible in accessibility tree. Mobile layout source-reviewed, not rendered."
       },
       "maintenance": "No pending or same-day run in main; Ibiza hub matched public bytes and new target returned 404. Prior deployed paths reconciled with tree; Pattaya expired October entry already marked past and remaining dates not expired. JDM deferral retained.",
-      "deployment": null
+      "deployment": {
+        "workflow_run_id": 45097324554,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/45097324554",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-11-23T01:57:17Z",
+        "public_checks": {
+          "http_status": 200,
+          "title": "Ibiza Town Luxury Hotels: Rooms, Views & Seasonal Access | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/ibiza/luxury-hotels/",
+          "property_marker": true,
+          "music_embed": "Z68yCwcvCOk",
+          "direct_telegram_ctas": 2,
+          "hub_discovery_link": true,
+          "sitemap": true,
+          "method": "Exact production SHA succeeded on Pages; guide, Ibiza hub and sitemap matched validated bytes. Live desktop and loaded Shaddow player reviewed."
+        }
+      }
     },
     {
       "date_bangkok": "2026-11-22",
