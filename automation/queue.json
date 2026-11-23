@@ -1,7 +1,14 @@
 {
   "version": 1,
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "properties": [
+    {
+      "property_number": 2,
+      "path": "cities/ibiza/luxury-hotels/index.html",
+      "city": "Ibiza",
+      "target_query": "ibiza town luxury hotels",
+      "status": "deployment_pending"
+    },
     {
       "property_number": 1,
       "path": "cities/ibiza/index.html",

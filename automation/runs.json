@@ -2,6 +2,72 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-11-23",
+      "property_number": 2,
+      "path": "cities/ibiza/luxury-hotels/index.html",
+      "city": "Ibiza",
+      "target_query": "ibiza town luxury hotels",
+      "status": "deployment_pending",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/ibiza/luxury-hotels/",
+      "research_sources": [
+        {
+          "url": "https://www.experimentalgroup.com/ibiza/montesol-experimental",
+          "checked_at": "2026-11-23",
+          "supported_facts": [
+            "Operator describes year-round historic boutique hotel in central Ibiza Town, 1933 building, named room categories and Vara de Rey room outlook. No star-rating or room-size comparison added."
+          ]
+        },
+        {
+          "url": "https://www.experimentalgroup.com/ibiza/montesol-experimental/faq",
+          "checked_at": "2026-11-23",
+          "supported_facts": [
+            "Official FAQ says balcony guest access not permitted; breakfast/rate and occupancy details vary. Room-size figures disagree with landing page, so all sizes omitted."
+          ]
+        },
+        {
+          "url": "https://www.standardhotels.com/ibiza/properties/ibiza",
+          "checked_at": "2026-11-23",
+          "supported_facts": [
+            "Urban hotel with courtyard-facing Standard King and street-facing Deluxe King categories; Jara and UP dining spaces."
+          ]
+        },
+        {
+          "url": "https://www.standardhotels.com/ibiza/properties/ibiza/faqs",
+          "checked_at": "2026-11-23",
+          "supported_facts": [
+            "UP is summer-seasonal, rooftop pool for hotel guests, summer adults-only policy changes in off-season; not a beachfront hotel. No exact season dates or numeric charges copied."
+          ]
+        },
+        {
+          "url": "https://keywordtool.io/",
+          "checked_at": "2026-11-23",
+          "supported_facts": [
+            "Free English worldwide Google suggestions included ibiza town luxury hotels, luxury hotels ibiza old town and best luxury hotels in ibiza town; no cached metrics available or used."
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=Z68yCwcvCOk&format=json",
+          "checked_at": "2026-11-23",
+          "supported_facts": [
+            "Live YouTube oEmbed returned Shryder Season by Shaddow - Topic."
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Free query suggestions support a focused Ibiza Town/Old Town luxury-stay comparison; operator room and seasonal-access distinctions supply practical decision value.",
+        "distinctiveness": "Overnight room selection, balcony usability, outlook, seasonal guest policies and urban versus resort expectations. Separate from the existing Ibiza hub's winter event-format and location decisions."
+      },
+      "commit_sha": null,
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py and staged git diff --check.",
+        "editorial": "Two focused town stays, not islandwide rankings. Primary sources independently checked; conflicting room sizes omitted. No live prices, tax figures, review ratings, accommodation availability or firsthand claims.",
+        "music": "Shryder Season by Shaddow - Topic reverified using live YouTube oEmbed.",
+        "responsive": "Full candidate HTML and shared responsive CSS reviewed: cards, music and conversion stack at 760px; fluid 16:9 embed, wrapping links and full-width mobile buttons. Prepublication rendered preview unavailable: no dev script/static manifest; sites-preview status stopped. Existing hosting unchanged."
+      },
+      "maintenance": "No pending or same-day run in main; Ibiza hub matched public bytes and new target returned 404. Prior deployed paths reconciled with tree; Pattaya expired October entry already marked past and remaining dates not expired. JDM deferral retained.",
+      "deployment": null
+    },
+    {
       "date_bangkok": "2026-11-22",
       "property_number": 1,
       "path": "cities/ibiza/index.html",
