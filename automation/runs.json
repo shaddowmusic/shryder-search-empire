@@ -2,6 +2,72 @@
   "version": 1,
   "runs": [
     {
+      "date_bangkok": "2026-11-24",
+      "property_number": 3,
+      "path": "cities/ibiza/sunset-spots/index.html",
+      "city": "Ibiza",
+      "target_query": "ibiza sunset spots",
+      "status": "deployment_pending",
+      "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/ibiza/sunset-spots/",
+      "research_sources": [
+        {
+          "url": "https://visit.santantoni.net/en/what-to-do/places-of-interest/ses-variades/",
+          "checked_at": "2026-11-24",
+          "supported_facts": [
+            "Municipal tourism describes coastal pedestrian route toward Es Caló des Moro, benches/rest areas and nearby restaurant terraces."
+          ]
+        },
+        {
+          "url": "https://www.santjosep.net/en/sunset-platges-de-comte/",
+          "checked_at": "2026-11-24",
+          "supported_facts": [
+            "Official municipal article supports group of coves and sunset landscape with des Bosc, sa Conillera and s’Espartar. Historical article used for stable geography only."
+          ]
+        },
+        {
+          "url": "https://www.santjosep.net/en/what-to-see/beaches/platges-de-comte/",
+          "checked_at": "2026-11-24",
+          "supported_facts": [
+            "First-party indexed page states marked paths and summer-season transport/services. Direct retrieval returned verification challenge, so no live service availability asserted; separate municipal sunset article read successfully."
+          ]
+        },
+        {
+          "url": "https://illesbalears.travel/es/ibiza/cala-benirras",
+          "checked_at": "2026-11-24",
+          "supported_facts": [
+            "Balearic tourism identifies northern coarse-sand cove beneath hills, fishermen’s huts and Es Cap Bernat. Performance references not treated as current scheduling evidence."
+          ]
+        },
+        {
+          "url": "https://keywordtool.io/",
+          "checked_at": "2026-11-24",
+          "supported_facts": [
+            "Free English worldwide Google autocomplete for ibiza sunset returned ibiza sunset and cafe del mar ibiza sunset, supporting scenic/musical sunset intent. No cached metrics available or volume claim used."
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=Z68yCwcvCOk&format=json",
+          "checked_at": "2026-11-24",
+          "supported_facts": [
+            "Live YouTube oEmbed returned Shryder Season by Shaddow - Topic."
+          ]
+        }
+      ],
+      "search_intent": {
+        "evidence": "Free sunset-related query evidence and municipal/regional tourism sources support three distinct visitor settings.",
+        "distinctiveness": "A promenade versus west-coast islets versus northern-cove choice with access and return planning. Distinct from winter nightlife programming and overnight hotel selection; not a beach-club ranking or city-name substitution."
+      },
+      "commit_sha": null,
+      "qa": {
+        "validator": "PASS: python3 scripts/validate_factory.py and staged git diff --check.",
+        "editorial": "Official tourism geography and setting reviewed separately from query evidence. No drum-session schedule, sunset alignment/time, live business opening, transport schedule, imagery or firsthand claims. Exposed cliffs and unofficial paths not recommended.",
+        "music": "Shryder Season by Shaddow - Topic reverified with live YouTube oEmbed.",
+        "responsive": "Full candidate HTML and responsive CSS reviewed: cards/music/conversion stack at 760px, fluid 16:9 player, wrapping links and full-width buttons. Prepublication rendered preview unavailable: no dev script/static manifest; status stopped. Existing hosting unchanged."
+      },
+      "maintenance": "No pending or same-day run on current main. Ibiza hub and prior hotels matched live; target returned 404. Pattaya October entry already archived, remaining November/December entries not expired. JDM deferral preserved.",
+      "deployment": null
+    },
+    {
       "date_bangkok": "2026-11-23",
       "property_number": 2,
       "path": "cities/ibiza/luxury-hotels/index.html",

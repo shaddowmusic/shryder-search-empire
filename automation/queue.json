@@ -1,7 +1,14 @@
 {
   "version": 1,
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "properties": [
+    {
+      "property_number": 3,
+      "path": "cities/ibiza/sunset-spots/index.html",
+      "city": "Ibiza",
+      "target_query": "ibiza sunset spots",
+      "status": "deployment_pending"
+    },
     {
       "property_number": 2,
       "path": "cities/ibiza/luxury-hotels/index.html",
