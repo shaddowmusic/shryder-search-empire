@@ -7,7 +7,7 @@
       "path": "cities/ibiza/sunset-spots/index.html",
       "city": "Ibiza",
       "target_query": "ibiza sunset spots",
-      "status": "deployment_pending",
+      "status": "deployed",
       "url": "https://shaddowmusic.github.io/shryder-search-empire/cities/ibiza/sunset-spots/",
       "research_sources": [
         {
@@ -57,15 +57,33 @@
         "evidence": "Free sunset-related query evidence and municipal/regional tourism sources support three distinct visitor settings.",
         "distinctiveness": "A promenade versus west-coast islets versus northern-cove choice with access and return planning. Distinct from winter nightlife programming and overnight hotel selection; not a beach-club ranking or city-name substitution."
       },
-      "commit_sha": null,
+      "commit_sha": "a47649ebed1cc66e0ee9d2d2e85f15f9304712c5",
       "qa": {
         "validator": "PASS: python3 scripts/validate_factory.py and staged git diff --check.",
         "editorial": "Official tourism geography and setting reviewed separately from query evidence. No drum-session schedule, sunset alignment/time, live business opening, transport schedule, imagery or firsthand claims. Exposed cliffs and unofficial paths not recommended.",
         "music": "Shryder Season by Shaddow - Topic reverified with live YouTube oEmbed.",
-        "responsive": "Full candidate HTML and responsive CSS reviewed: cards/music/conversion stack at 760px, fluid 16:9 player, wrapping links and full-width buttons. Prepublication rendered preview unavailable: no dev script/static manifest; status stopped. Existing hosting unchanged."
+        "responsive": "Full candidate HTML and responsive CSS reviewed: cards/music/conversion stack at 760px, fluid 16:9 player, wrapping links and full-width buttons. Prepublication rendered preview unavailable: no dev script/static manifest; status stopped. Existing hosting unchanged.",
+        "visual_preview": "Live desktop hero, soundtrack and three-column sunset comparison visually reviewed in Chrome. Shaddow player loaded with Play video control; complete content and direct Telegram CTAs present in accessibility tree. Mobile layout source-reviewed, not rendered."
       },
       "maintenance": "No pending or same-day run on current main. Ibiza hub and prior hotels matched live; target returned 404. Pattaya October entry already archived, remaining November/December entries not expired. JDM deferral preserved.",
-      "deployment": null
+      "deployment": {
+        "workflow_run_id": 45306800700,
+        "workflow_url": "https://github.com/shaddowmusic/shryder-search-empire/actions/runs/45306800700",
+        "status": "completed",
+        "conclusion": "success",
+        "verified_at": "2026-11-24T01:41:53Z",
+        "public_checks": {
+          "http_status": 200,
+          "title": "Ibiza Sunset Spots: Promenade, Islets or Northern Cove? | SHRYDER",
+          "canonical": "https://shaddowmusic.github.io/shryder-search-empire/cities/ibiza/sunset-spots/",
+          "property_marker": true,
+          "music_embed": "Z68yCwcvCOk",
+          "direct_telegram_ctas": 2,
+          "hub_discovery_link": true,
+          "sitemap": true,
+          "method": "Exact production SHA succeeded on Pages; guide, Ibiza hub and sitemap matched validated bytes. Live desktop and loaded Shaddow player reviewed."
+        }
+      }
     },
     {
       "date_bangkok": "2026-11-23",
