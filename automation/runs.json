@@ -5260,5 +5260,64 @@
         }
       }
     }
+  ],
+  "blocked_attempts": [
+    {
+      "date_bangkok": "2026-11-26",
+      "checked_at": "2026-11-26T01:07:28Z",
+      "status": "blocked_before_build",
+      "city": "Ibiza",
+      "candidate_property_number": 4,
+      "target_query": "ibiza hippy markets",
+      "candidate_path": "cities/ibiza/hippy-markets/index.html",
+      "candidate_url": "https://shaddowmusic.github.io/shryder-search-empire/cities/ibiza/hippy-markets/",
+      "base_main_sha": "147d71c26d4d1200695d3646bfd883d2d2cca2ae",
+      "new_property_committed": false,
+      "blocker": "Execution environment disconnected mid-run. exec-server recovery timed out after 45s; safe retry returned: No usable execution environment is available. Browser capability also withdrawn. Required complete-checkout python3 scripts/validate_factory.py and candidate layout review cannot run. No page, hub, sitemap or queue edits published.",
+      "reconciliation": "Read current main FACTORY.md, queue.json, runs.json and recursive tree; no committed/deployment_pending run or same-day property existed. Current main confirmed via GitHub ref after disconnection. Inspected Ibiza hub, shared stylesheet and sitemap. Live prior-page/music/target-404 and maintenance shell checks were attempted but process failed to start; results are unverified, not successful.",
+      "research_sources": [
+        {
+          "url": "https://lasdalias.es/en/markets",
+          "checked_at": "2026-11-26",
+          "supported_facts": [
+            "Operator describes Sant Carles market and summer June–September night market.",
+            "November weekend hours appear, but page also links a 2024 download and has inconsistent January guidance. Do not assert an unqualified year-round schedule or January dates; recheck dated calendar before publication."
+          ]
+        },
+        {
+          "url": "https://www.hippymarket.info/en/market/",
+          "checked_at": "2026-11-26",
+          "supported_facts": [
+            "Operator describes Wednesday April–October market on FERGUS Style Punta Arabi hotel grounds, with crafts, jewellery, fashion, music and food. No November opening claim supported."
+          ]
+        },
+        {
+          "url": "https://www.hippymarket.info/en/contact/",
+          "checked_at": "2026-11-26",
+          "supported_facts": [
+            "Operator places market in Es Canar, Santa Eularia des Riu. Transport timings not adopted."
+          ]
+        }
+      ],
+      "search_intent": {
+        "seed": "ibiza hippy markets",
+        "source": "Keyword Tool guest / Google / Global / English",
+        "checked_at": "2026-11-26",
+        "suggestions": [
+          "ibiza hippy markets",
+          "what days are the hippy markets in ibiza",
+          "best hippy markets ibiza",
+          "hippy markets ibiza saturday",
+          "hippy markets ibiza sunday"
+        ],
+        "metrics": "Keyword text only; no cached metrics. No volume or competition claim.",
+        "distinctiveness": "Market shopping: choose day and season, Sant Carles versus Es Canar, shopping versus separate club tickets. Distinct from current winter-nightlife hub, hotels and sunset guides."
+      },
+      "music": {
+        "candidate": "https://www.youtube.com/watch?v=Z68yCwcvCOk",
+        "verification": "Not completed in this attempt; recheck oEmbed before build."
+      },
+      "resume": "Restore usable execution environment; reread current main and cap/pending state. Recheck current operator calendars and music, then build same candidate if still qualified. Run required validator with complete edited checkout before any new-page publication. Existing site left unchanged."
+    }
   ]
 }
